@@ -90,6 +90,7 @@ h2 {
 /* line 74 */
 img.madborder {
   border: 2px solid #ededed;
+  background-size: cover
 }
 
 /* line 77 */
