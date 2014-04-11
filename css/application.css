@@ -1,447 +1,450 @@
 /* line 1 */
 body {
-    font-family: Helvetica, Verdana;
-    padding-top: 20px;
+  font-family: Helvetica, Verdana;
+  padding-top: 20px;
 }
 
 /* line 6 */
 p {
-    text-indent: 0px;
-    padding-bottom: 15px;
+  text-indent: 0px;
+  padding-bottom: 15px;
 }
 
 /* line 9 */
 p + p {
-    text-indent: 0;
+  text-indent: 0;
 }
 
 /* line 11 */
 h2 {
-    font-family: courier;
+  font-family: courier;
 }
 
 /* line 14 */
 .sidenav {
-    border-right: 1px dotted #999999;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
+  border-right: 1px dotted #999999;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 /* line 21 */
 .sidenav .sidenav-background {
-    position: fixed;
-    top: 30%;
-    bottom: 0;
-    left: 0;
+  position: fixed;
+  top: 30%;
+  bottom: 0;
+  left: 0;
 }
 /* line 27 */
 .sidenav .sidenav-content {
-    color: #444444;
-    padding-top: 20px;
-    padding-left: 40px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
+  color: #444444;
+  padding-top: 20px;
+  padding-left: 40px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 /* line 36 */
 .sidenav .sidenav-content a {
-    text-decoration: none;
-    font-weight: normal;
+  text-decoration: none;
+  font-weight: normal;
 }
 /* line 39 */
 .sidenav .sidenav-content a:hover {
-    text-decoration: underline;
-    color: #999999;
+  text-decoration: underline;
+  color: #999999;
 }
 /* line 43 */
 .sidenav .sidenav-content ul {
-    font-family: courier;
-    list-style-type: none;
-    padding-left: 10px;
+  font-family: courier;
+  list-style-type: none;
+  padding-left: 10px;
 }
 /* line 48 */
 .sidenav .sidenav-content .stop {
-    position: fixed;
-    bottom: 30px;
-    left: 165px;
-    color: #aaaaaa;
-    bottom: 20px;
+  position: fixed;
+  bottom: 30px;
+  left: 165px;
+  color: #aaaaaa;
+  bottom: 20px;
 }
 /* line 55 */
 .sidenav .sidenav-content .stop a {
-    font-weight: normal;
-    cursor: pointer;
+  font-weight: normal;
+  cursor: pointer;
 }
 /* line 59 */
 .sidenav .sidenav-content .stop a:hover {
-    color: orange;
+  color: orange;
 }
 
 /* line 65 */
 .header .navelm {
-    margin-top: 70px;
-    display: block;
-    float: left;
-    margin-left: -10px;
+  margin-top: 70px;
+  display: block;
+  float: left;
+  margin-left: -10px;
 }
 
 /* line 74 */
 img.madborder {
-    border: 2px solid #ededed;
+  border: 2px solid #ededed;
+}
+
+img.clickPic{
+    float:left;
     background-size: cover;
     width: 200px;
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;    
+    background-position: 50% 50%;
 }
-
 /* line 77 */
 a {
-    color: #222222;
-    font-weight: bold;
-    text-decoration: none;
+  color: #222222;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* line 82 */
 a:hover {
-    color: #d48941;
-    text-decoration: underline;
+  color: #d48941;
+  text-decoration: underline;
 }
 
 /* line 89 */
 .hidden {
-    display: none;
+  display: none;
 }
 
 /* line 92 */
 .speaking {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #dddddd;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
 }
 /* line 97 */
 .speaking .when {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 /* line 99 */
 .speaking .what {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #7462a1;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #7462a1;
 }
 /* line 103 */
 .speaking .where {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 /* line 105 */
 .speaking .where a {
-    font-weight: normal;
-    color: #999999;
+  font-weight: normal;
+  color: #999999;
 }
 /* line 108 */
 .speaking .video {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* line 110 */
 .pub {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #aaaaaa;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaaaaa;
 }
 
 /* line 114 */
 .pub_header {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* line 116 */
 .pub_authors {
-    color: #666666;
-    padding-top: 10px;
+  color: #666666;
+  padding-top: 10px;
 }
 
 /* line 119 */
 .pub_abstract_content {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 /* line 121 */
 ul.people {
-    list-style: none;
+  list-style: none;
 }
 /* line 123 */
 ul.people padding {
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 /* line 128 */
 ul.people margin {
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 /* line 134 */
 ul.people li padding {
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 /* line 139 */
 ul.people li margin {
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 /* line 145 */
 ul.people .project p {
-    margin-bottom: 5px;
-    font-size: 0.9em;
-    text-align: center;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  text-align: center;
 }
 
 /* line 150 */
 .dv {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 /* line 153 */
 .dv .proj_caption {
-    font-weight: bold;
-    margin-top: 10px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 /* line 156 */
 .dv img {
-    width: 94%;
+  width: 94%;
 }
 
 /* line 161 */
 .os .proj_caption {
-    margin-bottom: 30px;
-    padding: 10px;
-    background-color: #ededed;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #ededed;
 }
 /* line 166 */
 .os .proj_caption .links {
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid #dddddd;
-    display: inline-block;
-    width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #dddddd;
+  display: inline-block;
+  width: 100%;
 }
 /* line 173 */
 .os .proj_caption .links .link {
-    display: inline-block;
-    float: left;
-    margin-right: 10px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
 }
 /* line 178 */
 .os .proj_caption .links .link a {
-    color: #555555;
+  color: #555555;
 }
 /* line 180 */
 .os .proj_caption .links .link a:hover {
-    color: #e6ac5c;
+  color: #e6ac5c;
 }
 
 /* line 183 */
 ul.artlist {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    list-style: none;
-    margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  list-style: none;
+  margin-bottom: 10px;
 }
 /* line 194 */
 ul.artlist li {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    display: block;
-    float: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: block;
+  float: left;
 }
 /* line 205 */
 ul.artlist li img {
-    border: 2px solid #ededed;
+  border: 2px solid #ededed;
 }
 /* line 207 */
 ul.artlist li.arthumb {
-    margin-right: 6px;
-    width: 214px;
+  margin-right: 6px;
+  width: 214px;
 }
 /* line 210 */
 ul.artlist li.arthumb div.imgCaption, ul.artlist li.arthumb div.imgSize {
-    padding: 5px;
-    padding-top: 2px;
+  padding: 5px;
+  padding-top: 2px;
 }
 
 /* line 215 */
 table.news td {
-    border-bottom: 1px solid #dddddd;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* line 220 */
 #collection-chooser {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /* line 223 */
 ul.collection-list {
-    list-style-type: none;
-    padding: 0px;
-    margin-bottom: 10px;
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 10px;
 }
 /* line 227 */
 ul.collection-list li {
-    display: block;
-    float: left;
-    padding: 6px;
-    margin-right: 30px;
-    cursor: pointer;
-    font-family: courier;
-    font-weight: normal;
+  display: block;
+  float: left;
+  padding: 6px;
+  margin-right: 30px;
+  cursor: pointer;
+  font-family: courier;
+  font-weight: normal;
 }
 /* line 235 */
 ul.collection-list li:hover a {
-    color: #e6ac5c;
+  color: #e6ac5c;
 }
 /* line 237 */
 ul.collection-list .selected a {
-    color: #c4c4c4;
+  color: #c4c4c4;
 }
 
 /* line 240 */
 .gallery {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 /* line 242 */
 ul.thumbs {
-    clear: both;
-    margin: 0;
-    padding: 0;
-    padding-top: 5px;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
 }
 /* line 247 */
 ul.thumbs li {
-    float: left;
-    list-style: none;
-    padding: 0;
-    margin: 5px 10px 5px 0;
+  float: left;
+  list-style: none;
+  padding: 0;
+  margin: 5px 10px 5px 0;
 }
 /* line 252 */
 ul.thumbs li img {
-    border: 2px solid #ededed;
+  border: 2px solid #ededed;
 }
 
 /* line 255 */
 .slideshow {
-    text-align: center;
-    padding-top: 15px;
+  text-align: center;
+  padding-top: 15px;
 }
 /* line 258 */
 .slideshow img {
-    vertical-align: middle;
-    border: 5px solid #ededed;
+  vertical-align: middle;
+  border: 5px solid #ededed;
 }
 
 /* line 262 */
 div.controls {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #eeeeee;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
 }
 /* line 265 */
 div.controls a {
-    padding: 5px;
-    text-decoration: none;
-    color: #777777;
+  padding: 5px;
+  text-decoration: none;
+  color: #777777;
 }
 /* line 269 */
 div.controls a:hover {
-    color: #222222;
+  color: #222222;
 }
 
 /* line 272 */
 div.ss-controls {
-    float: left;
+  float: left;
 }
 
 /* line 275 */
 div.nav-controls {
-    float: right;
+  float: right;
 }
 
 /* line 278 */
 div.pagination.top {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #eeeeee;
-    height: 18px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+  height: 18px;
 }
 
 /* line 283 */
 div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
-    display: block;
-    float: left;
-    margin-right: 2px;
-    color: #777777;
+  display: block;
+  float: left;
+  margin-right: 2px;
+  color: #777777;
 }
 
 /* line 289 */
 div.pagination a:hover {
-    color: #222222;
+  color: #222222;
 }
 
 /* line 292 */
 div.pagination span.current {
-    font-weight: bold;
-    color: orange;
+  font-weight: bold;
+  color: orange;
 }
 
 /* line 296 */
 div.pagination span.ellipsis {
-    border: none;
-    padding: 5px 0 3px 2px;
+  border: none;
+  padding: 5px 0 3px 2px;
 }
 
 /* line 300 */
 .caption {
-    text-align: center;
-    padding-top: 10px;
-    color: #222222;
+  text-align: center;
+  padding-top: 10px;
+  color: #222222;
 }
 /* line 304 */
 .caption .caption-contents {
-    text-align: left;
+  text-align: left;
 }
 /* line 306 */
 .caption .caption-contents span.name {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #222222;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #222222;
 }
 /* line 310 */
 .caption .caption-contents span.sub {
-    padding-top: 10px;
-    font-size: 0.9em;
-    line-height: 0.8em;
-    color: #555555;
+  padding-top: 10px;
+  font-size: 0.9em;
+  line-height: 0.8em;
+  color: #555555;
 }
