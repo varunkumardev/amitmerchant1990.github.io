@@ -6,7 +6,7 @@ permalink: /projects/
 
 ### [Markdownify](https://github.com/amitmerchant1990/electron-markdownify)
 
-> A minimal Markdown editor desktop app based on Electron.
+> A minimal Markdown editor desktop app built on top of [Electron](http://electron.atom.io/).
 
 ### [jQuery URL ColorUP](https://github.com/amitmerchant1990/urlcolorup)
 
