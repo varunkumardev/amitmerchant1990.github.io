@@ -15,3 +15,7 @@ permalink: /projects/
 ### [NotesApp](https://play.google.com/store/apps/details?id=com.amitmerchant.notesapp)
 
 > A note taking app built specifically for [Android](https://www.android.com) platform.
+
+### [Aurora Syntax Theme](https://github.com/amitmerchant1990/aurora-syntax) for [Atom](https://atom.io)
+
+> A syntax theme for [Atom](https://atom.io) based on [Aurora](https://en.wikipedia.org/wiki/Aurora) colors.
