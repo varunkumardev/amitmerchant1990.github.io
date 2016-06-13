@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello there! Thank you for stopping by here. I'm Amit. I'm a Computer engineer by study and a software developer by profession with focus on creating web Apps which makes sense.
+Hello there! Thank you for stopping by here. I'm Amit, a software engineer residing in Gujarat, India, with focus on creating apps for web as well as mobile devices.
 
 I love exploring new technologies and playing around with them. I have started my web development journey building web apps using PHP and JavaScript. I have used variety of MVC frameworks likes of [CakePHP](http://cakephp.org) to build dynamic web apps. In recent times, my interest shift towards JavaScript and more specifically toward server-side JavaScript. So, I've started to try my hands-on [Node.js](https://nodejs.org/en). Apart from Node.js, I'm also hacking into [Electron](https://electron.atom.io).
 
