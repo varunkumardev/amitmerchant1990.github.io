@@ -7,7 +7,7 @@ Have you ever wanted to develop desktop apps while being a true web developer wi
 
 ## What is Electron?
 
-From official [Electron](http://electron.atom.io/)'s site, "Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application."
+From official [Electron](http://electron.atom.io/)'s site, _**"Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application."**_
 
 _Sweet_. Isn't it? You may be wondering which hard parts?! Electron basically makes it easy to implement automatic updates, native menus and APIs, App Crash Reporting, Debugging of your app a lot easier which you won't find in many similar solutions available in the market. Such as [nw.js](http://nwjs.io/) And when any project is backed by GitHub, you can use it with your eyes closed.
 
