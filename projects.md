@@ -3,6 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+This are some of the projects I've worked on in my spare time.
 
 ### [Markdownify](https://github.com/amitmerchant1990/electron-markdownify)
 
