@@ -104,4 +104,6 @@ Putting all above bits and pieces at correct place, our Notepad app is now ready
 
 You can check the whole [codebase](https://github.com/amitmerchant1990/notepad) or checkout the [demo](https://www.amitmerchant.com/notepad/).
 
+Found any typo or want to contribute? Help us improve our documentation by forking and sending your fixes and suggestions. [Improve this Page!](https://github.com/amitmerchant1990/amitmerchant1990.github.io/blob/master/_posts/2016-11-15-Building-Simple-Offline-Notepad-Using-Service-Worker.md)
+
 _Thanks for reading!_
