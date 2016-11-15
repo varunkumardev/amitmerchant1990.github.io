@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Building simple offline-capable Notepad app using ServiceWorker
+title: Building a simple offline-capable Notepad app using ServiceWorker
 ---
 
 Today, We are going to build a progressive Notepad app which can be very well be used in offline mode, be responsive on all available devices and which saves the content locally on device. So, the core functionality of this Notepad here is to make it work offline. To fulfill this requirement, we'll use [ServiceWorkers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers) which I'm going to cover next.
 
-### Foreward
+# Foreward
 
 ## What is a ServiceWorker?
 
@@ -19,7 +19,7 @@ _A Progressive Web App uses modern web capabilities to deliver an app-like user 
 
 - This mean a progressive web app should be responsive, connection-independent, app-like, fresh, installable and so forth. So, to make our Notepad a progressive web app, we need to include all above features. Let's get started.
 
-## Building the Notepad
+# Building the Notepad
 
 Let's start by creating a folder called Notepad in your favorite local server and add following files into it:
 
@@ -27,8 +27,35 @@ Let's start by creating a folder called Notepad in your favorite local server an
 `sw.js` - This where we'll write our ServiceWorker logic
 `manifest.json` - The manifest enables your web app to have a more native-like presence on the user's homescreen. It allows the app to be launched in full-screen mode (without a URL bar being present), provides control over the screen orientation and in recent versions of Chrome on Android supports defining a [Splash Screen](https://developers.google.com/web/updates/2015/10/splashscreen?hl=en) and [theme color](https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android?hl=en) for the address bar. It is also used to define a set of icons by size and density used for the aforementioned Splash screen and homescreen icon.
 
-Let's add some content into `index.html`:
+Now, first thing we will do is register a ServiceWorker when our app hits the browser for the first time. Create a folder called `js` and add file `app.js` into it and add the following code in that file.
+
+<script src="https://gist.github.com/amitmerchant1990/47533b3422bce2d50437d12fba705858.js"></script>
+
+The above code will try to check if the current browser supports `ServiceWorker` and if yes, it will register one. Notice, we have passed a file called `sw.js` in the register function which we haven't created yet.
+
+Create a file called `sw.js` in the root and add the following content into it.
+
+<script src="https://gist.github.com/amitmerchant1990/4d5bb62b795b10cb593e8b585ae8a1a5.js"></script>
+
+Notice, If you want to import any external script in the Service Worker, you can do it using importScripts() . In this example we'll be using the [cache-polyfill](https://github.com/coonsta/cache-polyfill) since the support for cache is limited.
+
+Now, We need to cache all files that we want to be cached the first time ServiceWorker registerd. In order to do this, we'll add the following content after `var CACHE_VERSION = 'app-v10';`:
+
+```javascript
+var CACHE_FILES = [
+    '/',
+    'index.html',
+    'js/app.js',
+    'css/style.css',
+    'favicon.ico',
+    'manifest.json'
+];
+```
+
+Now, let's add some content into `index.html`:
 
 <script src="https://gist.github.com/amitmerchant1990/e2d6fb2d92327fec9c7de85122a8137a.js"></script>
+
+So, as you can see here
 
 _That's all folks!_
