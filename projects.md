@@ -9,6 +9,10 @@ This are some of the projects I've worked on in my spare time.
 
 > A minimal Markdown editor desktop app built on top of [Electron](http://electron.atom.io/).
 
+### [Correo](https://github.com/amitmerchant1990/correo)
+
+> A menubar/taskbar Gmail App for Windows and macOS
+
 ### [jQuery URL ColorUP](https://github.com/amitmerchant1990/urlcolorup)
 
 > A jQuery plugin that allows it to automatically highlight URLs in textareas like those on Twitter.
