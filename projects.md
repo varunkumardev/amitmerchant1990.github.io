@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 This are some of the projects I've worked on in my spare time.
 
-### [Markdownify](https://github.com/amitmerchant1990/electron-markdownify)
+### 📔 [Markdownify](https://github.com/amitmerchant1990/electron-markdownify)
 
 > A minimal Markdown editor desktop app built on top of [Electron](http://electron.atom.io/).
 
