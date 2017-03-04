@@ -293,7 +293,13 @@ body:after {
     content: '';
 }
 
+@font-face {
+    font-family: aramisi;
+    src: url(fonts/aramisi.ttf);
+}
+
 .post h1{
+  font-family: 'aramisi';
   text-align: center;
 }
 
