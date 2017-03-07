@@ -12,6 +12,8 @@ I love exploring new technologies and playing around with them. I have started m
 
 I'm currently working at [Maven Agency](http://www.mavenagency.co.za). In my spare time, I love to contribute to the open source community by creating [tools](https://github.com/amitmerchant1990) which can be helpful to others, doing [photography & sketching](https://www.instagram.com/amit_merchant/) in my spare time, listening to some music which ranges from rock to sufi, going around with my beautiful wife and friends.
 
+This blog has been setup using [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com). I have used [jekyll-now](https://github.com/barryclark/jekyll-now) to quickly set it up on GitHub Pages without setting up a local environment. You can find the code of the same over [here](https://github.com/amitmerchant1990/amitmerchant1990.github.io).
+
 ### Contact me at
 
 [amit.d.merchant@gmail.com](mailto:amit.d.merchant@gmail.com)
