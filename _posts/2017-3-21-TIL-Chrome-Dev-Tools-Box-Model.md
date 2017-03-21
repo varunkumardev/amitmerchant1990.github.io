@@ -7,7 +7,7 @@ We all know how good is Chrome Dev Tools when it comes to the web debugging capa
 
 One such feature which I've discovered today is "Box Model". So, what is it exactly?
 
-_"It's a feature provided by Chrome Dev Tools which show us the visual respresentation of an element on the HTML page including margins, paddings and borders relative to the other elements."_
+_"It's a feature provided by Chrome Dev Tools which show us the visual representation of an element on the HTML page including margins, paddings and borders relative to the other elements."_
 
 ![Box Model](https://raw.githubusercontent.com/amitmerchant1990/amitmerchant1990.github.io/master/images/box-model.JPG)
 
@@ -23,6 +23,6 @@ In above image, as you can see, an element have 5px padding at every side, 1px o
 
 ![Box Model Gif](https://raw.githubusercontent.com/amitmerchant1990/amitmerchant1990.github.io/master/images/box-model.gif)
 
-This comes really handy when we want to see the actual behavious of paddings and margins across the elements rather than just changing them in the CSS randomly.
+This comes really handy when we want to see the actual behaviour of paddings and margins across the elements rather than just changing them in the CSS randomly.
 
 
