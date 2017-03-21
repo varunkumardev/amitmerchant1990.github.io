@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL : Using Box Model of Chrome Dev Tools
+title: TIL - Using Box Model of Chrome Dev Tools
 ---
 
 We all know how good is Chrome Dev Tools when it comes to the web debugging capabilities. There are number of features in the Dev Tools which are very useful but we are unaware of.
