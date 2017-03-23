@@ -11,6 +11,8 @@ _"It's a feature provided by Chrome Dev Tools which show us the visual represent
 
 ![Box Model](https://raw.githubusercontent.com/amitmerchant1990/amitmerchant1990.github.io/master/images/box-model.JPG)
 
+You probably have seen this many times during your daily debugging but did not give it a try cause maybe you were not fully aware about it or just skipped it as it was.
+
 Basically it shows us the following things about the particular element: 
 
 ![Box Model Described](https://raw.githubusercontent.com/amitmerchant1990/amitmerchant1990.github.io/master/images/box-model-described.jpg)
@@ -23,6 +25,6 @@ In above image, as you can see, an element have 5px padding at every side, 1px o
 
 ![Box Model Gif](https://raw.githubusercontent.com/amitmerchant1990/amitmerchant1990.github.io/master/images/box-model.gif)
 
-This comes really handy when we want to see the actual behaviour of paddings and margins across the elements rather than just changing them in the CSS randomly.
+This comes really handy when we want to see the actual behaviour of paddings and margins across the elements rather than just changing them in the CSS randomly. But it's unfortunate that it's very less used tool amongst others even though it gives us more precise representation of elements. So, let's try to use it more from now on.
 
 
