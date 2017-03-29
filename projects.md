@@ -18,6 +18,12 @@ These are some of the projects I've worked on in my spare time.
 > A [pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) app for your menubar/tray.
 <hr>
 
+![](https://raw.githubusercontent.com/amitmerchant1990/test/master/notesapp.png)
+### 🗒 [NotesApp](https://play.google.com/store/apps/details?id=com.amitmerchant.notesapp)
+
+> A note taking app built specifically for [Android](https://www.android.com) platform.
+<hr>
+
 ### 💌 [Correo](https://github.com/amitmerchant1990/correo)
 
 > A menubar/taskbar Gmail App for Windows and macOS
@@ -26,11 +32,6 @@ These are some of the projects I've worked on in my spare time.
 ### 🔗 [jQuery URL ColorUP](https://github.com/amitmerchant1990/urlcolorup)
 
 > A jQuery plugin that allows it to automatically highlight URLs in textareas like those on Twitter.
-<hr>
-
-### 🗒 [NotesApp](https://play.google.com/store/apps/details?id=com.amitmerchant.notesapp)
-
-> A note taking app built specifically for [Android](https://www.android.com) platform.
 <hr>
 
 ### 🌈 [Aurora Syntax Theme](https://github.com/amitmerchant1990/aurora-syntax) for [Atom](https://atom.io)
