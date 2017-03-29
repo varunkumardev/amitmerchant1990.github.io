@@ -10,6 +10,7 @@ These are some of the projects I've worked on in my spare time.
 
 > A minimal Markdown editor desktop app built on top of [Electron](http://electron.atom.io/).
 
+![](https://raw.githubusercontent.com/amitmerchant1990/pomolectron/master/res/pomodoro.PNG)
 ### 🍅 [Pomolectron](https://github.com/amitmerchant1990/pomolectron)
 
 > A [pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) app for your menubar/tray.
