@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+description: Projects
 ---
 These are some of the projects I've worked on in my spare time.
 ====
