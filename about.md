@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Allo! Allo! Thank you for stopping by here. I'm Amit, a software engineer residing in Gujarat, India, with focus on creating apps for web as well as mobile devices.
+Allo! Allo! Thank you for stopping by here. I'm Amit, a software engineer residing in Surat, Gujarat, India, with a focus on creating apps for web as well as mobile devices.
 
 I obtained my undergraduate degree from the [Sarvajanik College Of Engineering & Technology, Surat](http://scet.ac.in) (Computer Science and Engineering, 2011).
 
