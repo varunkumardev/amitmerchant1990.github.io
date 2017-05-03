@@ -24,14 +24,14 @@ permalink: /work/
 
     <div class="cd-timeline-content">
       <h2>Maven Agency</h2>
-      <p>Software Engineers</p>
+      <p>Software Engineer</p>
       <span class="cd-date">Feb '16 - Mar '17</span>
     </div> <!-- cd-timeline-content -->
   </div> <!-- cd-timeline-block -->
 
   <div class="cd-timeline-block">
     <div class="cd-timeline-img cd-picture">
-      <img src="images/crest.png" alt="Picture">
+      <img src="/images/crest.png" alt="Picture">
     </div> <!-- cd-timeline-img -->
 
     <div class="cd-timeline-content">
@@ -43,7 +43,7 @@ permalink: /work/
 
   <div class="cd-timeline-block">
     <div class="cd-timeline-img cd-location">
-      <img src="images/narola.png" alt="Location">
+      <img src="/images/narola.png" alt="Location">
     </div> <!-- cd-timeline-img -->
 
     <div class="cd-timeline-content">
