@@ -11,7 +11,7 @@ permalink: /work/
     </div> <!-- cd-timeline-img -->
 
     <div class="cd-timeline-content">
-      <h2>UNOApp</h2>
+      <h2><a href="http://www.unoapp.com/">UNOApp</a></h2>
       <p>Software Developer</p>
       <span class="cd-date">April '17 - Present</span>
     </div> <!-- cd-timeline-content -->
