@@ -11,7 +11,7 @@ permalink: /work/
     </div> <!-- cd-timeline-img -->
 
     <div class="cd-timeline-content">
-      <h2><a href="http://www.unoapp.com/">UNOApp</a></h2>
+      <h2><a href="http://www.unoapp.com/" target="_blank">UNOApp</a></h2>
       <p>Software Developer</p>
       <span class="cd-date">April '17 - Present</span>
     </div> <!-- cd-timeline-content -->
@@ -23,7 +23,7 @@ permalink: /work/
     </div> <!-- cd-timeline-img -->
 
     <div class="cd-timeline-content">
-      <h2>Maven Agency</h2>
+      <h2><a href="http://www.mavenagency.co.za/" target="_blank">Maven Agency</a></h2>
       <p>Software Engineer</p>
       <span class="cd-date">Feb '16 - Mar '17</span>
     </div> <!-- cd-timeline-content -->
@@ -35,7 +35,7 @@ permalink: /work/
     </div> <!-- cd-timeline-img -->
 
     <div class="cd-timeline-content">
-      <h2>Crest Infosystems</h2>
+      <h2><a href="http://www.crestinfosystems.com/" target="_blank">Crest Infosystems</a></h2>
       <p>Software Developer</p>
       <span class="cd-date">Mar '14 - Jan '16</span>
     </div> <!-- cd-timeline-content -->
@@ -47,7 +47,7 @@ permalink: /work/
     </div> <!-- cd-timeline-img -->
 
     <div class="cd-timeline-content">
-    <h2>Narola</h2>
+    <h2><a href="http://www.narolainfotech.com/" target="_blank">Narola</a>/h2>
     <p>Junior Software Developer</p>
     <span class="cd-date">July '11 - Mar '14</span>
     </div> <!-- cd-timeline-content -->
