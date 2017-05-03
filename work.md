@@ -47,7 +47,7 @@ permalink: /work/
     </div> <!-- cd-timeline-img -->
 
     <div class="cd-timeline-content">
-    <h2><a href="http://www.narolainfotech.com/" target="_blank">Narola</a>/h2>
+    <h2><a href="http://www.narolainfotech.com/" target="_blank">Narola</a></h2>
     <p>Junior Software Developer</p>
     <span class="cd-date">July '11 - Mar '14</span>
     </div> <!-- cd-timeline-content -->
