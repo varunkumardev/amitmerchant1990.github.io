@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Laravel Eager Loading : load() Vs. with()
+title: Laravel Eager Loading - load() Vs. with()
 ---
 
 Today, while working with one of my projects(which is built on top Laravel) I bumped into the situation where I needed to get associated model's data for one of the models. So here, I had two approaches in Laravel to accomplish this which are basically called Eager Loading:
@@ -39,7 +39,7 @@ $users = User::all();
 which runs:
 
 ```sql
-    select * from `users`
+select * from `users`
 ```
 And later, if we decide(based on some condition) that we need the related comments for all these users, we can eager load them after the fact:
 
@@ -51,7 +51,7 @@ if($someCondition){
 which runs the 2nd query:
 
 ```sql
-    select * from `comments` where `comments`.`user_id` in (1, 2, 3, 4, 5)
+select * from `comments` where `comments`.`user_id` in (1, 2, 3, 4, 5)
 ```
 
 And we end up with the same result, just split into two steps. Again, we can call $users->comments->first()->body to get to the related model for any item.
