@@ -98,3 +98,5 @@ Accessors and Mutators are really great functionalities provided by Laravel to g
 Hope you enjoy this article.
 
 Happy coding!
+
+> Send a pull request [here](https://github.com/amitmerchant1990/amitmerchant1990.github.io/edit/master/_posts/2017-8-23-Laravel-Accessors-And-Mutators.md) if you find any typo or need any correction.
