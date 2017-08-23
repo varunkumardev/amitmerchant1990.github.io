@@ -3,6 +3,8 @@ layout: post
 title: Laravel - Accessors & Mutators
 ---
 
+Accessors and mutators allow you to format Eloquent attribute values when you retrieve or set them on model instances. I'll explain how you can you use them into your app.
+
 ## Accessors
 
 There comes a time when we need some database fields to be fetched with some modifications without making changes after processing the query. So, for example I have a `DateTime` field called `reporting_date` into my table say `inventory`. And now, while fetching the records from this particular table I want only date from this particular field removing the time. 
@@ -42,6 +44,7 @@ As you can see, I have defined a `getReportingDateAttribute()` function on `Inve
 Here, the original value of the column is passed to the accessor, allowing you to manipulate and return the value. To access the value of the accessor, you may simply access the `reporting_date` attribute on a model instance:
 
 ```php
+<?php
 $inventory = App\Inventory::find(5);
 
 $reportingDate = $inventory->reporting_date; //2017-08-14
@@ -79,6 +82,7 @@ class Order extends Model
 Here, The mutator will receive the value that is being set on the attribute, allowing you to manipulate the value and set the manipulated value on the Eloquent model's internal `$attributes` property. So, for example, if we attempt to set the `tax` attribute to 15:
 
 ```php
+<?php
 $order = App\Order::find(10);
 
 $order->tax = 15;
