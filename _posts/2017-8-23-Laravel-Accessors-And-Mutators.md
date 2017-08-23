@@ -52,7 +52,7 @@ $reportingDate = $inventory->reporting_date; //2017-08-14
 
 ## Mutators
 
-Similar to an Accessor, a Mutator can be used to modify the value of particular field before saving it into the database everytine an insert or an update query gets executed.
+Similar to an Accessor, a Mutator can be used to modify the value of particular field before saving it into the database everytime an insert or an update query gets executed.
 
 So for example, if I want `tax` field of table `orders` to be saved before saving into the database with some calculations, I'll define a Mutator for the same like below
 
