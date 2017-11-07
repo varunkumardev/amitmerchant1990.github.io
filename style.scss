@@ -303,6 +303,11 @@ body:after {
     src: url(fonts/EBGaramond-Regular.ttf);
 }
 
+@font-face {
+    font-family: FuturaPTLight;
+    src: url(fonts/FuturaPTLight.otf);
+}
+
 #bar {
     background: url(images/galaxy.jpg);
     height: 7px;
@@ -316,7 +321,7 @@ body:after {
 }
 
 .post h1{
-  font-family: 'EBGaramond', serif;
+  font-family: 'FuturaPTLight';
   text-align: center;
   font-weight: 400;
   font-style: italic;
