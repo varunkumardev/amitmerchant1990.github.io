@@ -22,7 +22,7 @@ html {
 body {
 	background: $white;
   /*font: 18px/1.4 $helvetica;*/
-  font-family: 'Roboto', sans-serif;
+  font-family: 'FuturaPTLight';
   color: #555;
   font-size: 17px;
   line-height: 1.7;
@@ -321,14 +321,12 @@ body:after {
 }
 
 .post h1{
-  font-family: 'FuturaPTLight';
+  font-family: 'EBGaramond', serif;
   text-align: center;
   font-weight: 400;
-  font-style: italic;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
-  text-shadow: 2px 2px 0 white, 3px 3px 0 #ddd;
 }
 
 .page h1{
