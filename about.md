@@ -14,6 +14,10 @@ I'm currently working at [UNOApp](http://www.unoapp.com). In my spare time, I lo
 
 This blog has been setup using [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com). I have used [jekyll-now](https://github.com/barryclark/jekyll-now) to quickly set it up on GitHub Pages without setting up a local environment. You can find the code of the same over [here](https://github.com/amitmerchant1990/amitmerchant1990.github.io).
 
+<a href="https://stackoverflow.com/users/1485183/amit-merchant">
+<img src="https://stackoverflow.com/users/flair/1485183.png" width="208" height="58" alt="profile for Amit Merchant at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Amit Merchant at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
+
 ### Contact me at
 
 [amit.d.merchant@gmail.com](mailto:amit.d.merchant@gmail.com)
