@@ -16,6 +16,6 @@ This blog has been setup using [Jekyll](http://jekyllrb.com) and [GitHub Pages](
 
 ### Contact me at
 
-[amit.d.merchant@gmail.com](mailto:amit.d.merchant@gmail.com)
+amit.d.merchant at gmail dot com
 
 **_See you around and happy browsing!_**
