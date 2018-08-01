@@ -482,7 +482,7 @@ Modules - reusable parts of our design
 .chip {
     display: inline-block;
     height: 32px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
     color: rgba(0,0,0,.6);
     line-height: 32px;
@@ -495,6 +495,11 @@ Modules - reusable parts of our design
 
 .yellow.lighten-2 {
     background-color: #fff176!important;
+}
+
+#gh-latest{
+    font-size: 16px;
+    text-align: center;		
 }
 
 .text-link {
