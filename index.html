@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<div id="gh-latest"></div>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -20,3 +21,25 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+<script>
+    var xmlhttp = new XMLHttpRequest();
+    var userMetaURL = "https://api.github.com/users/amitmerchant1990/events";
+    xmlhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        var userMeta = JSON.parse(this.responseText);
+
+        var commitURL = userMeta[0].payload.commits[0].url.replace('api.', '').replace('repos/', '').replace('commits', 'commit');
+        var projectURL = userMeta[0].repo.url.replace('api.', '').replace('repos/', '');
+        var commitMessage = userMeta[0].payload.commits[0].message;
+        var projectName = userMeta[0].repo.name;
+        var commitDate = new Date(userMeta[0].created_at).toDateString();
+
+        var ghLatestActivity = '<a class="chip yellow lighten-2">Latest commit</a>"' + '<a class="text-link" href="' + commitURL + '"' + '>' + commitMessage + '</a>' + '" at ' + '<a class="text-link" href="' + projectURL + '"' + '>' + projectName + '</a>' + ' on ' + commitDate + '.';
+
+        document.getElementById("gh-latest").innerHTML = ghLatestActivity;
+      }
+    };
+    xmlhttp.open("GET", userMetaURL, true);
+    xmlhttp.send();
+  </script>
