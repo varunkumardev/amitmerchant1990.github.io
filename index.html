@@ -30,7 +30,7 @@ layout: default
         var userMeta = JSON.parse(this.responseText);
 
         for(let i = 0; i < userMeta.length; i++){
-          if(userMeta[0].type == 'PushEvent'){
+          if(userMeta[i].type == 'PushEvent'){
             var commitURL = userMeta[i].payload.commits[i].url.replace('api.', '').replace('repos/', '').replace('commits', 'commit');
             var projectURL = userMeta[i].repo.url.replace('api.', '').replace('repos/', '');
             var commitMessage = userMeta[i].payload.commits[i].message;
