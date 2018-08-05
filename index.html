@@ -29,15 +29,20 @@ layout: default
       if (this.readyState == 4 && this.status == 200) {
         var userMeta = JSON.parse(this.responseText);
 
-        var commitURL = userMeta[0].payload.commits[0].url.replace('api.', '').replace('repos/', '').replace('commits', 'commit');
-        var projectURL = userMeta[0].repo.url.replace('api.', '').replace('repos/', '');
-        var commitMessage = userMeta[0].payload.commits[0].message;
-        var projectName = userMeta[0].repo.name;
-        var commitDate = new Date(userMeta[0].created_at).toDateString();
+        for(let i = 0; i < userMeta.length; i++){
+          if(userMeta[0].type == 'PushEvent'){
+            var commitURL = userMeta[i].payload.commits[i].url.replace('api.', '').replace('repos/', '').replace('commits', 'commit');
+            var projectURL = userMeta[i].repo.url.replace('api.', '').replace('repos/', '');
+            var commitMessage = userMeta[i].payload.commits[i].message;
+            var projectName = userMeta[i].repo.name;
+            var commitDate = new Date(userMeta[i].created_at).toDateString();
 
-        var ghLatestActivity = '<a class="chip yellow lighten-2">Latest commit</a>"' + '<a class="text-link" href="' + commitURL + '"' + '>' + commitMessage + '</a>' + '" at ' + '<a class="text-link" href="' + projectURL + '"' + '>' + projectName + '</a>' + ' on ' + commitDate + '.';
+            var ghLatestActivity = '<a class="chip yellow lighten-2">Latest commit</a>"' + '<a class="text-link" href="' + commitURL + '"' + '>' + commitMessage + '</a>' + '" at ' + '<a class="text-link" href="' + projectURL + '"' + '>' + projectName + '</a>' + ' on ' + commitDate + '.';
 
-        document.getElementById("gh-latest").innerHTML = ghLatestActivity;
+            document.getElementById("gh-latest").innerHTML = ghLatestActivity;
+            break;
+          }
+        }
       }
     };
     xmlhttp.open("GET", userMetaURL, true);
