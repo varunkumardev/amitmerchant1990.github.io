@@ -31,9 +31,9 @@ layout: default
 
         for(let i = 0; i < userMeta.length; i++){
           if(userMeta[i].type == 'PushEvent'){
-            var commitURL = userMeta[i].payload.commits[i].url.replace('api.', '').replace('repos/', '').replace('commits', 'commit');
+            var commitURL = userMeta[i].payload.commits[0].url.replace('api.', '').replace('repos/', '').replace('commits', 'commit');
             var projectURL = userMeta[i].repo.url.replace('api.', '').replace('repos/', '');
-            var commitMessage = userMeta[i].payload.commits[i].message;
+            var commitMessage = userMeta[i].payload.commits[0].message;
             var projectName = userMeta[i].repo.name;
             var commitDate = new Date(userMeta[i].created_at).toDateString();
 
