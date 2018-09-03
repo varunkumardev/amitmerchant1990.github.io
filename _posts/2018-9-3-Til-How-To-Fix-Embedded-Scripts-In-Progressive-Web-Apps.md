@@ -9,7 +9,7 @@ I've faced one such issue in one of my PWA [Notepad](https://notepad.js.org). So
 
 > CodeFund's and some other external scripts were failing when the ServiceWorkers are enabled and throws below error in the console
 
-![](images/service-worker-error.png)
+![](/images/service-worker-error.png)
 
 And here's the code I've used to implement ServiceWorker
 
