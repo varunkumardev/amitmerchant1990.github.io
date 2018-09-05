@@ -14,21 +14,21 @@ This can be accomplished by specifying `repositories` you can get packages from 
         "php": ">=7.0",
         "myname/mylibname": "dev"
     },
-
     "repositories":[
-    {
-        "type":"package",
-        "package":{
-            "name":"myname/mylibname",
-            "version": "dev",
-            "source":{
-                "type":"git",
-                "url":"git@bitbucket.org:myname/mylibname.git",
-                "reference":"dev"
+        {
+            "type":"package",
+            "package":{
+                "name":"myname/mylibname",
+                "version": "dev",
+                "source":{
+                    "type":"git",
+                    "url":"git@bitbucket.org:myname/mylibname.git",
+                    "reference":"dev"
+                }
             }
         }
-    }
-]}
+    ]
+}
 ```
 
 As shown above, By default composer will look up the packagist repository. If you define a different one in the json file this local one(`"git@bitbucket.org:myname/mylibname.git"`) will be searched first before falling back to the public repo. 
