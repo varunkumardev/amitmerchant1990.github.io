@@ -31,7 +31,7 @@ This can be accomplished by specifying `repositories` you can get packages from 
 }
 ```
 
-As shown above, By default composer will look up the packagist repository. If you define a different one in the json file this local one(`"git@bitbucket.org:myname/mylibname.git"`) will be searched first before falling back to the public repo. 
+As shown above, By default composer will look up the packagist repository. If you define a different one in the json file this local one (`"git@bitbucket.org:myname/mylibname.git"`) will be searched first before falling back to the public repo. 
 
 Now, run `composer update` and check the `vendor` folder. The dependency should have been installed in project and ready to use.
 
