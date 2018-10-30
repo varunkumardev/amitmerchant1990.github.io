@@ -36,7 +36,6 @@ $data = [
     [2, 'Bar']
 ]
 
-
 foreach ($data as [$id, $name]) {
     // logic here with $id and $name
 }
