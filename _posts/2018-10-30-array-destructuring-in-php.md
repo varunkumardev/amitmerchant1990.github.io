@@ -22,13 +22,13 @@ PHP >=7.1 has introduced [associative array destructuring](http://php.net/manual
 list($dog, $cat, $cow) = $animals;
 ```
 
-But from version 7.1, you can achieve it using shorhand array syntax([]):
+But from version 7.1, you can just use shorhand array syntax([]) to achieve the same:
 
 ```php
 [$dog, $cat, $cow] = $animals;
 ```
 
-As you can see, it's just more cleaner and expressive now just like ES6. Another area where you can use Array destructuring is in loops.
+As you can see, it's just more cleaner and expressive now, just like ES6. Another area where you can use Array destructuring is in loops.
 
 ```php
 $data = [
@@ -51,4 +51,4 @@ foreach ($data as ['uid' => $id, 'fname' => $name]) {
 
 ## Wrapping up
 
-Although, we have 'list()' already, utilizing the shorthand array syntax for destructuring is just more cleaner and makes more sense.
+Although, we have 'list()' already, utilizing the shorthand array syntax for destructuring is just more cleaner way and makes more sense.
