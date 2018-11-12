@@ -516,16 +516,16 @@ Modules - reusable parts of our design
 
 #carbonads {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: block;
+  display: inline-block;
   overflow: hidden;
-  margin-bottom: 20px;
-  max-width: var(--width);
+  max-width: 270px;
   border-radius: 4px;
   text-align: center;
   box-shadow: 0 0 0 1px hsla(0, 0%, 0%, .1);
   background-color: hsl(0, 0%, 98%);
   font-size: var(--font-size);
   line-height: 1.5;
+  width: 100%;
 }
 
 #carbonads a {
@@ -553,14 +553,19 @@ Modules - reusable parts of our design
 .carbon-img img {
   display: block;
   margin: 0 auto;
-  max-width: var(--width) !important;
+  max-width: 130px !important;
   width: var(--width);
   height: auto;
+  float: left;
+  margin: 0;
 }
 
 .carbon-text {
   display: block;
   padding: 0 1em 8px;
+  max-width: 138px;
+  float: left;
+  text-align: left;
 }
 
 .carbon-poweredby {
