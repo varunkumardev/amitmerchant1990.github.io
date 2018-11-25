@@ -13,7 +13,7 @@ A year later, I've got the domain name called [notepad.js.org](https://notepad.j
 
 ![](/images/aug2016-aug2017.png)
 
-As you can see the image above, the webapp have very less users back in 2017. i.e. the period between Aug 2016 to Aug 2017 because it has just launched and the search rank of the site was pretty low. But then one day magic happened.
+As you can see the image above from [Google Analytics](https://analytics.google.com/analytics/web/), the webapp have very less users back in 2017. i.e. the period between Aug 2016 to Aug 2017 because it has just launched and the search rank of the site was pretty low. But then one day magic happened.
 
 ![](/images/Apr-2018.png)
 
