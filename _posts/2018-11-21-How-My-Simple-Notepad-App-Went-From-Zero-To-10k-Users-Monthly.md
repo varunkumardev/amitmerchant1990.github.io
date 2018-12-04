@@ -17,7 +17,7 @@ As you can see the image above from [Google Analytics](https://analytics.google.
 
 ![](/images/Apr-2018.png)
 
-You see that spike? It was around 11th April, 2018. I'm still not sure what has sparked that much of traffic onto my site but it was huge. It had attracted around 1.2k users in a single day. And that has greatly benefitted the app go up in ranking across search engines. From this point onwards, the webapp has started getting a significant amount of traffic everyday.
+You see that spike? It was around 11th April, 2018. I'm still not sure what has sparked that much of traffic onto my site but it was huge but I suppose it was all happened because of the SEO optimizations. It had attracted around 1.2k users in a single day. And that has greatly benefitted the app go up in ranking across search engines. From this point onwards, the webapp has started getting a significant amount of traffic everyday.
 
 ![](/images/July-2018.png)
 
