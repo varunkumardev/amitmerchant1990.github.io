@@ -1,0 +1,1 @@
+Let's talk about Jekyll today. Jekyll is a blog aware, static website generator which is perfect for personal, project and organization sites. I've been using Jekyll for this blog for quite sometime now. Three years to be exact. And the best thing about Jekyll is that you can host it on GitHub pages for free without compromising the speed.
