@@ -5,15 +5,17 @@ title: 5 must have things for your Jekyll powered blog
 
 Let's talk about Jekyll today. [Jekyll](https://jekyllrb.com/) is a blog aware, static website generator which is perfect for personal, project and organization sites. I've been using Jekyll for this blog for quite sometime now. Three years to be exact. And the best thing about Jekyll is that you can host it on [GitHub Pages](https://pages.github.com/) for free without compromising the speed or any other factors likewise.
 
-Today, I'm going to list 5 things that I'm using on my blog which are helpful if you want to be pro in blogging using Jekyll or you're just starting with it.
+Today, I'm going to list 5 things that I'm using on this blog which are helpful if you want to be pro in blogging using Jekyll or you're just starting with it.
 
 ## [Jekyll Now](https://github.com/barryclark/jekyll-now)
 
 > [Jekyll Now](https://github.com/barryclark/jekyll-now) makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
 
-The usual process to setup a blog using Jekyll is quite cumbersome. By usual proceess, I meant the setup of the Jekyll in local can take up your time initially. Because it's ruby based. So, you have to first install Ruby in your machine and then you can proceed with the actual installation. But jekyll-now eliminates this hassle of setting up the things. You just need to fork this repository and host it on the GitHub Pages. Yes, it's that simple! In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+The usual process to setup a blog using Jekyll is quite cumbersome. By usual proceess, I meant the setup of the Jekyll in local can take up your time initially. Because it's ruby based. So, you have to first install Ruby, rvm/rbenv, ruby gems in your machine and then you can proceed with the actual installation of Jekyll. But `jekyll-now` eliminates this hassle of setting up the things. You just need to fork this repository and host it on the GitHub Pages. Yes, it's that simple! In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
 
 ![](/images/jekyll-now-theme-screenshot.jpg)
+
+I'm using `jekyll-now` on [this blog](https://github.com/amitmerchant1990/amitmerchant1990.github.io) and have customized it to my liking. I'm pretty much happy with it so far.
 
 ## [An RSS Feed](https://github.com/jekyll/jekyll-feed)
 
@@ -70,4 +72,4 @@ Moreover, they recently introduced [Reactions](https://blog.disqus.com/reactions
 
 ## Conclusion
 
-These were the some of the things which I think are really great for any newbie blogger who have just started blogging with Jekyll. These have benefitted me greatly and I hope it will help others as well. And with that said, this post comes to an end. Until next time, stay tuned!
+These were some of the things which I think are _must-have_ for any newbie blogger who have just started blogging with Jekyll. These have benefitted me greatly and I hope it will help others as well. And with that said, this post comes to an end. Until next time, stay tuned!
