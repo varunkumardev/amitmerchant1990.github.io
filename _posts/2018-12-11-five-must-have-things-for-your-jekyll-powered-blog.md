@@ -5,7 +5,7 @@ title: 5 must have things for your Jekyll powered blog
 
 Let's talk about Jekyll today. [Jekyll](https://jekyllrb.com/) is a blog aware, static website generator which is perfect for personal, project and organization sites. I've been using Jekyll for this blog for quite sometime now. Three years to be exact. And the best thing about Jekyll is that you can host it on [GitHub Pages](https://pages.github.com/) for free without compromising the speed or any other factors likewise.
 
-Today, I'm goind to list 5 things that I'm using on my blog which are helpful if you want to be pro in blogging using Jekyll or you're just starting with it.
+Today, I'm going to list 5 things that I'm using on my blog which are helpful if you want to be pro in blogging using Jekyll or you're just starting with it.
 
 ## [Jekyll Now](https://github.com/barryclark/jekyll-now)
 
@@ -66,7 +66,7 @@ plugins:
 
 Jekyll doesn't provide support to have comments on posts natively. You need to use external service to integrate to your blog. In my case, I'm using [Disqus](https://disqus.com/) on my blog. It has been really great so far for me and it has blended with my design of the blog. So, you'll never feel that you're using some third party service. 
 
-Moreover, they recently introduced [Reaction](https://blog.disqus.com/reactions-a-new-way-for-readers-to-engage) which adds Raction emojis(similar to that of Facebook) to your posts which can be really engaging to the readers of your blog. You can find the example of it on this post only! Just scroll down to the end and take a look. I think it's amazing way to get to know how your audience feels about your content.
+Moreover, they recently introduced [Reactions](https://blog.disqus.com/reactions-a-new-way-for-readers-to-engage) which adds Raction emojis(similar to that of Facebook) to your posts which can be really engaging to the readers of your blog. You can find the example of it on this post only! Just scroll down to the end and take a look. I think it's amazing way to get to know how your audience feels about your content.
 
 ## Conclusion
 
