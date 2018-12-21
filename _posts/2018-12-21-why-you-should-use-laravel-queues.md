@@ -92,8 +92,9 @@ class SendEmail extends Mailable
 }
 ```
 
+## Create a queue job
 
-After this, we'll need to generate a queue job class for sending the register email. We'll use following command that will create queue job file with Queueable.
+After this, we'll need to generate a queue job class for sending the register email. We'll use following artisan command that will create queue job file with Queueable.
 
 ```bash
 php artisan make:job SendRegisterEmail
