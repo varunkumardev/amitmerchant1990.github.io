@@ -216,4 +216,4 @@ public function handle()
 
 ## Conclusion
 
-There are a lot of things you can achieve using Artisan commands. As shown in the above tutorial, you can automate things like sending email with just one command. The possibilities endless. Let me know if you need any corrections in the article or you can send me a PR by modifying this file.
+There are a lot of things you can achieve using Artisan commands. As shown in the above tutorial, you can automate things like sending email with just one command. The possibilities endless. Let me know if you need any corrections in the article or you can send me a pull request by modifying [this file](https://github.com/amitmerchant1990/amitmerchant1990.github.io/blob/master/_posts/2019-01-09-build-your-own-laravel-artisan-commands-for-your-project.md).
