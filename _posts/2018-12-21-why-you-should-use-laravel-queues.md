@@ -56,17 +56,14 @@ That should create a blank email template at `app/Mail/SendEmail.php`, as shown 
 ```php
 namespace App\Mail;
 
-
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-
 class SendEmail extends Mailable
 {
     use Queueable, SerializesModels;
-
 
     /**
      * Create a new message instance.
@@ -78,7 +75,6 @@ class SendEmail extends Mailable
 
 
     }
-
 
     /**
      * Build the message.
@@ -107,7 +103,6 @@ This command will create a `SendRegisterEmail.php` file under "Jobs" directory.
 ```php
 namespace App\Jobs;
 
-
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
@@ -116,14 +111,11 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use App\Mail\SendEmail;
 use Mail;
 
-
 class SendRegisterEmail implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
-
     protected $user;
-
 
     /**
      * Create a new job instance.
@@ -134,7 +126,6 @@ class SendRegisterEmail implements ShouldQueue
     {
         $this->user = $user;
     }
-
 
     /**
      * Execute the job.
@@ -154,7 +145,6 @@ Now, we can utilize this job to send an email when user registers. For this, let
 ```php
 Route::get('email-test', function(){
 	$user['email'] = 'test@test.com';
-
 
     dispatch(new App\Jobs\SendRegisterEmail($user));
 });
