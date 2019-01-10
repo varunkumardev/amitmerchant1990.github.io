@@ -15,7 +15,7 @@ $ php artisan list
 
 ## Writing your own Laravel commads
 
-Laravel is providing alomost all the commands which you'll require in your development workflow, which is great. But if you want you also can create your own customized Artisan commands in Laravel as per your project needs. 
+Laravel is providing almost all the commands which you'll require in your development workflow, which is great. But if you want, you can also create your own customized Artisan commands in Laravel as per your project needs. 
 
 Let's take an example where you need to send a new year email to all your users on the new year day. You can utilize a custom Artisan command in this case. First of all, we’ll create a mailable class which will be used to send emails. The mailable class is responsible for sending emails using a mailer that’s configured in the `config/mail.php` file. In fact, Laravel already provides an artisan command that allows us to create a base template.
 
@@ -24,7 +24,6 @@ $ php artisan make:mail SendEmail
 ```
 
 That should create a blank email template at `app/Mail/SendEmail.php`, as shown in the following snippet.
-
 
 ```php
 namespace App\Mail;
@@ -61,7 +60,7 @@ class SendEmail extends Mailable
 }
 ```
 
-Now, we'll generate an Artisan command that will be used to send an email to all the users of the `User` collection. For that, you need to use the `make:command` Artisan command. This command will create a new command class in the app/Console/Commands directory. The generated command will include the default set of properties and methods that are present on all commands:
+Now, we'll generate an Artisan command that will be used to send an email to all the users of the `User` collection. For that, you need to use the `make:command` Artisan command. This command will create a new command class in the `app/Console/Commands` directory. The generated command will include the default set of properties and methods that are present on all commands:
 
 ```bash
 php artisan make:command SendNewYearEmail
