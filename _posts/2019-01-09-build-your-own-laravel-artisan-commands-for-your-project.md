@@ -115,7 +115,7 @@ class SendNewYearEmail extends Command
 }
 ```
 
-Here, `$signature` and `$description` properties of the class be used when displaying your command on the list screen. The `handle` method will be called when your command is executed. You may place your command logic in this method.
+Here, `$signature` and `$description` properties of the class will be used when displaying your command on the list screen. The `handle` method will be called when your command is executed. You may place your command logic in this method.
 
 Next, register the command in the `app/Console/Kernel.php` file:
 
