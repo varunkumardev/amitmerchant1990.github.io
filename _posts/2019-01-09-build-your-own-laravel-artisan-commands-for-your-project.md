@@ -15,7 +15,7 @@ $ php artisan list
 
 ## Writing your own Laravel commads
 
-Laravel is providing alomost all the commands which you'll require in your development workflow, which is great. But if you want you also can create your own customized Artisan commands in Laravel as per your project needs. 
+Laravel is providing almost all the commands which you'll require in your development workflow, which is great. But if you want, you can also create your own customized Artisan commands in Laravel as per your project needs. 
 
 Let's take an example where you need to send a new year email to all your users on the new year day. You can utilize a custom Artisan command in this case. First of all, we’ll create a mailable class which will be used to send emails. The mailable class is responsible for sending emails using a mailer that’s configured in the `config/mail.php` file. In fact, Laravel already provides an artisan command that allows us to create a base template.
 
@@ -24,7 +24,6 @@ $ php artisan make:mail SendEmail
 ```
 
 That should create a blank email template at `app/Mail/SendEmail.php`, as shown in the following snippet.
-
 
 ```php
 namespace App\Mail;
@@ -61,7 +60,7 @@ class SendEmail extends Mailable
 }
 ```
 
-Now, we'll generate an Artisan command that will be used to send an email to all the users of the `User` collection. For that, you need to use the `make:command` Artisan command. This command will create a new command class in the app/Console/Commands directory. The generated command will include the default set of properties and methods that are present on all commands:
+Now, we'll generate an Artisan command that will be used to send an email to all the users of the `User` collection. For that, you need to use the `make:command` Artisan command. This command will create a new command class in the `app/Console/Commands` directory. The generated command will include the default set of properties and methods that are present on all commands:
 
 ```bash
 php artisan make:command SendNewYearEmail
@@ -116,7 +115,7 @@ class SendNewYearEmail extends Command
 }
 ```
 
-Here, `$signature` and `$description` properties of the class be used when displaying your command on the list screen. The `handle` method will be called when your command is executed. You may place your command logic in this method.
+Here, `$signature` and `$description` properties of the class will be used when displaying your command on the list screen. The `handle` method will be called when your command is executed. You may place your command logic in this method.
 
 Next, register the command in the `app/Console/Kernel.php` file:
 
@@ -216,4 +215,4 @@ public function handle()
 
 ## Conclusion
 
-There are a lot of things you can achieve using Artisan commands. As shown in the above tutorial, you can automate things like sending email with just one command. The possibilities endless. Let me know if you need any corrections in the article or you can send me a PR by modifying [this file](https://github.com/amitmerchant1990/amitmerchant1990.github.io/blob/master/_posts/2019-01-09-build-your-own-laravel-artisan-commands-for-your-project.md).
+There are a lot of things you can achieve using Artisan commands. As shown in the above tutorial, you can automate things like sending email with just one command. The possibilities are endless. Let me know if you need any corrections or improvements in the article in comments below or you can just send me a PR by modifying [this file](https://github.com/amitmerchant1990/amitmerchant1990.github.io/blob/master/_posts/2019-01-09-build-your-own-laravel-artisan-commands-for-your-project.md).
