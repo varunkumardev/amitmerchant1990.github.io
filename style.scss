@@ -584,6 +584,20 @@ Modules - reusable parts of our design
   line-height: 0;
 }
 
+.post-tags {
+  text-align: center;
+  line-height: 35px;
+}
+
+.post-tags a {
+  font-size: 14.5px;
+  padding: 2px 13px;
+  border: none;
+  background-color: #4CAF50;
+  border-radius: 50px;
+  color: #fff;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 759px) {
   #carbonads {
     float: none;

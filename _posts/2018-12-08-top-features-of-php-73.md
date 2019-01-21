@@ -2,6 +2,7 @@
 layout: post
 title: Top fetaures of PHP 7.3
 image: /images/notepad-cover.jpg
+categories: PHP
 ---
 
 PHP development team has just released [PHP 7.3](https://php.net/archive/2018.php#id2018-12-06-1) with general availability. This release brings general improvements along with some new features. Even though this is a stable release, the team hasn't provided concrete migration guide if you want to migrate from the older PHP versions. Maybe they will release those on a later date.

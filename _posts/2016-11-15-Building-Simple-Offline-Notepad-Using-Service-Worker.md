@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building a simple offline-capable Notepad app using ServiceWorker
+categories: [JavaScript, PWA]
 ---
 
 Today, We are going to build a progressive Notepad app which can very well be used in offline mode, be responsive on all available devices and which saves the content locally on device. So, the core functionality of this Notepad here is to make it work offline. To fulfill this requirement, we'll use [ServiceWorkers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers) which I'm going to cover next.

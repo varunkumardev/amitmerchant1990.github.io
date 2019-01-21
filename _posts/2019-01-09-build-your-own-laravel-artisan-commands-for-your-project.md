@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Build your own Laravel artisan commands for your project
+categories: [PHP, Laravel]
 ---
 
 When working on a project, there comes a time when you need to automate certain tasks. In such cases, it is better to use a CLI tool which can be run from the command prompt because using a web APIs for certain tasks is cumbersome. 

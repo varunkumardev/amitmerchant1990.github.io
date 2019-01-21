@@ -2,6 +2,7 @@
 layout: post
 title: My favorite VS Code themes for September 2018
 image: /images/post-banner.jpg
+categories: [VS Code, Themes]
 ---
 
 [VS Code](https://code.visualstudio.com) is no doubt the favorite code editor of developers these days. Colour themes let you modify the colours in Visual Studio Code's user interface to suit your preferences and work environment. Today, I'm going to show you my favorite themes which I've tried out so far and compiled down the best among them. 

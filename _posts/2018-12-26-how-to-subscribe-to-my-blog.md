@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to subscribe at amitmerchant.com
+categories: Miscellaneous
 ---
 
 There are basically three ways using which you can get the latest updates from my blog: RSS, Newsletter or Twitter.

@@ -2,6 +2,7 @@
 layout: post
 title: My current setup (2018 edition)
 image: /images/setup-2108.jpg
+categories: Misc
 ---
 
 Today's the day when I'm finally going to write about the current setup of things that I used to get my work done. This will include what software, hardware, accessories I'm using on daily basis at home/work. 

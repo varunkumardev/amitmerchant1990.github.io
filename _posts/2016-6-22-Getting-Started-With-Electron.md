@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting started with Electron
+categories: [JavaScript, Electron]
 ---
 
 Have you ever wanted to develop desktop apps while being a true web developer without even caring about the native architecture or the language most of the applications build for different platforms likes of Windows, macOS or Linux? Or you just wanted to get started with building desktop apps? Isn't it great if you are able to build desktop apps using the technologies you already knows i.e. HTML, JavaScript and CSS? I was in the same urge to dive into world of desktop apps. So, I have been stuck on to [GitHub](https://github.com)'s [Electron](http://electron.atom.io/) lately.

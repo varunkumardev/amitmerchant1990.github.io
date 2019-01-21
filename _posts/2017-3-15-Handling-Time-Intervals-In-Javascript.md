@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Handling time intervals in JavaScript
+categories: JavaScript
 ---
 
 While working on an [Electron](electron.atom.io) app [Pomolectron](https://github.com/amitmerchant1990/pomolectron), I needed to handle different time intervals through [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) function of JavaScript. 

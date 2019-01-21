@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using private repositories as a composer package in PHP
+categories: [PHP, Git]
 ---
 
 [Composer](https://getcomposer.org) is the goto method of adding dependencies in modern PHP application. You search for a library for a concerned functionality and you'll probably find the one in the large database of the [Pacakgist](https://packagist.org). But there comes a time where you'd want to use a library which is private and should be only available to you. Well, the good news is, you can achieve this using this trick.

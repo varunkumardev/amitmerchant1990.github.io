@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 5 must have things for your Jekyll powered blog
+categories: Jekyll
 ---
 
 Let's talk about Jekyll today. [Jekyll](https://jekyllrb.com/) is a blog aware, static website generator which is perfect for personal, project and organization sites. I've been using Jekyll for this blog for quite sometime now. Three years to be exact. And the best thing about Jekyll is that you can host it on [GitHub Pages](https://pages.github.com/) for free without compromising the speed or any other factors likewise.

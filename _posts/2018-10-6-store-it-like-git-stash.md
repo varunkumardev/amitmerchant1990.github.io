@@ -2,6 +2,7 @@
 layout: post
 title: Store it like git stash
 image: /images/git-stash.jpg
+categories: Git
 ---
 
 If you have ever worked with [Git](https://git-scm.com/), you probably have encountered the following situation. i.e. You've two branches, let's say `feature-1` and `feature-2`, for two different features respectively. You have worked on the the first branch `feature-1`, completed all the related tasks and committed and pushed all the outstanding changes on that branch. So, the `feature-1` branch is now clean.

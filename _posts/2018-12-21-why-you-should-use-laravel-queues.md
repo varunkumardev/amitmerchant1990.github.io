@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why you should use Laravel Queues
+categories: [PHP, Laravel]
 ---
 
 There comes times when you wouldn't want your end users staring at white screens or that intimidating loaders for a long time. For instance when user registers to your site, you must have configured your website to send a welcome email or a confirmation email upon registering. So, that operation should be snappy and for that purpose you'd actually want to reduce the amount of time your app takes while sending the email to the user. [Laravel Queues](https://laravel.com/docs/5.7/queues) comes to the recue for achieving such kind of time consuming tasks.

@@ -2,6 +2,7 @@
 layout: post
 title: How my simple notepad app went from zero to 10k users monthly
 image: /images/notepad-cover.jpg
+categories: Miscellaneous
 ---
 
 This is the story of how my simple looking(but functional) [Notepad app](https://notepad.js.org/) went from zero users to almost 10k monthly users without any sort of marketing and advertising. I'll mention various aspects which have helped in increasing the growth of this app and some other things in between.

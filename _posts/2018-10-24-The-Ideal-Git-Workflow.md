@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The ideal Git workflow
+categories: Git
 ---
 
 Today, I'm going to discuss about Git workflow that we're using at our projects which involves a team of several developers. [Git](https://git-scm.com/) is no doubt a great version control system but if you don't use it efficiently, things can get messy easily. For instance, if there are 10 people working on the same codebase and each of them work on the same branch, it would be really difficult to keep the branch's state clean. So, here's a workflow which we follow in all our projects. The workflow is could work great for big teams but small teams can also get benefited from it equally.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TIL - How to fix embedded scripts in Progressive Web Apps
+categories: [PWA, JavaScript]
 ---
 
 [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) are great when you need to achieve things like offline capabilities, push notifications, background-sync and to give your website an overall app-like experience. While, the PWAs are great at implementing all of the above things and are the obvious choice, there are certain things which can be broken when you use [ServiceWorker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)(which are the building blocks of any PWA) to make your webaite a PWA. 

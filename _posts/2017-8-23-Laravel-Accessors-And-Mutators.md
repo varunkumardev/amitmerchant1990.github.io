@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Laravel - Accessors & Mutators
+categories: [PHP, Laravel]
 ---
 
 Accessors and mutators allow you to format Eloquent attribute values when you retrieve or set them on model instances. I'll explain how you can you use them into your app.
