@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Best VS Code themes - January 2019
+categories: [VS Code, Themes]
 ---
 
 Editor themes are like wallpapers. You get bored of the current one and want to try out something new every now and then. You'll think you'd settle down to one but that won't happen (at least in my case). 
