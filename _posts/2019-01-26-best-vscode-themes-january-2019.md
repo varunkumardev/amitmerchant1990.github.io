@@ -6,7 +6,7 @@ categories: [VS Code, Themes]
 
 Editor themes are like wallpapers. You get bored of the current one and want to try out something new every now and then. You'll think you'd settle down to one but that won't happen (at least in my case). 
 
-You know trying out new themes is one activity I enjoy a lot outside of coding. I've done a compilation of some of the themes I've tried out [last year](http://127.0.0.1:4000/My-Favorite-VS-Code-Themes-September-2018/). It's new year, new compilation. Let's get started. 
+You know trying out new themes is one activity I enjoy a lot outside of coding. I've done a compilation of some of the themes I've tried out [last year](https://www.amitmerchant.com/My-Favorite-VS-Code-Themes-September-2018/). It's new year, new compilation. Let's get started. 
 
 ## [Raijū](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.raiju)
 
