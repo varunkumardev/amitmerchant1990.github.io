@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Best VS Code themes - January 2019
-description: In this article, I'm discussing about all the best VS Code theme I've tried out since the beginning of 2019. Most of them are dark ones but at the same time I've also listed down some of the white themes which I liked. Enjoy!
+description: In this article, I'm discussing about all the best VS Code themes I've tried out since the beginning of 2019. Most of them are dark ones but at the same time I've also listed down some of the white themes which I liked. Enjoy!
 categories: [VS Code, Themes]
 ---
 
