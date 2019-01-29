@@ -13,6 +13,9 @@ Both accomplish the same end results—eager loading a related model onto the fi
 
 "Eager" here means that we're associating all the related models for a particular result set using just one query, as opposed to having to run n queries, where n is the number of items in the initial set.
 
+{:.you-may-like}
+> You may also like: [Build your own Laravel artisan commands for your project](https://www.amitmerchant.com/build-your-own-laravel-artisan-commands-for-your-project/)
+
 ## Eager loading using `with()`
 
 If we eager load using with(), for example:

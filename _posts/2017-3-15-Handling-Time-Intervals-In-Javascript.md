@@ -13,6 +13,9 @@ I basically needed to implement three timers in my app:
 
 I could think of two ways to implement countdown timer for all three cases. One, to implement different timers by using three different `setInterval()`. Second, finding another way to utilize the same `setInterval()` for all three timers.
 
+{:.you-may-like}
+> You may also like: [Building a simple offline-capable Notepad app using ServiceWorker](/Building-Simple-Offline-Notepad-Using-Service-Worker/)
+
 # Solution
 
 So, I've tried my hands on the second approach. I can use the same `setInterval()` for all three timers by assigning it to a variable like below,

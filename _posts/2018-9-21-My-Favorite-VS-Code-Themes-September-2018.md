@@ -7,6 +7,9 @@ categories: [VS Code, Themes]
 
 [VS Code](https://code.visualstudio.com) is no doubt the favorite code editor of developers these days. Colour themes let you modify the colours in Visual Studio Code's user interface to suit your preferences and work environment. Today, I'm going to show you my favorite themes which I've tried out so far and compiled down the best among them. 
 
+{:.you-may-like}
+> You may also like: [Best VS Code themes - January 2019](/best-vscode-themes-january-2019/)
+
 ## [Andromeda](https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda)
 
 This partiuclar theme is one hell of a gem. If you're a sucker of dark themes, I'm sure you'll love this one. A very subtle amount of colors, easy on eyes and supporting most languages. Definitely, check it out.
@@ -47,4 +50,4 @@ That's all about my favorite VS code themes for the month of September 2018.
 
 ## Related
 
-#### [Best VS Code themes - January 2019](/best-vscode-themes-january-2019/)
+### [Best VS Code themes - January 2019](/best-vscode-themes-january-2019/)
