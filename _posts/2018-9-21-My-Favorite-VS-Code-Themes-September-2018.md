@@ -44,3 +44,7 @@ Mirage is a blue theme with pastel tones with shades of purple.
 ![](/images/mirage.png)
 
 That's all about my favorite VS code themes for the month of September 2018.
+
+## Related
+
+#### [Best VS Code themes - January 2019](/best-vscode-themes-january-2019/)
