@@ -2,6 +2,7 @@
 layout: post
 title: Laravel Eager Loading - load() Vs. with()
 categories: [PHP, Laravel]
+last_modified_at: 2019-01-29
 ---
 
 Today, while working with one of my projects(which is built on top Laravel) I bumped into the situation where I needed to get associated model's data for one of the models. So here, I had two approaches in Laravel to accomplish this which are basically called Eager Loading:
