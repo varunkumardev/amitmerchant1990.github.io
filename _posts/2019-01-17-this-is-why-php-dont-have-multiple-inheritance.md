@@ -13,7 +13,7 @@ There is a very logical reason why PHP don't support multiple inheritance. To le
 
 Take this for example by assuming PHP is supporting multiple inheritance.
 
-![](/images/diamond-problem.png)
+![Diamond Problem in inheritance](/images/diamond-problem.png)
 
 Let’s say `SuperClass` is an abstract class declaring some method and `ClassA`, `ClassB` are concrete classes.
 
