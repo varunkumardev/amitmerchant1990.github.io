@@ -1,6 +1,7 @@
 ---
 layout: post
 title: This is why PHP don't have multiple inheritance
+description: In this article, I will discuss about why PHP don't support multiple inheritance and how it has resolved this issue by allowing classes to implement multiple interfaces.
 categories: [PHP, Laravel]
 ---
 
