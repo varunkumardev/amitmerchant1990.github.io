@@ -10,16 +10,16 @@ Today, while working with one of my projects(which is built on top Laravel) I bu
   - [with()](https://laravel.com/docs/5.2/eloquent-relationships#eager-loading)
   - [load()](https://laravel.com/docs/5.2/eloquent-relationships#lazy-eager-loading)
 
-Both accomplish the same end results—eager loading a related model onto the first. In fact, they both run exactly the same two queries. The key difference is that with() eager loads the related model up front, immediately after the initial query (all(), first(), or find(x), for example); when using load(), you run the initial query first, and then eager load the relation at some later point.
+Both accomplish the same end results—eager loading a related model onto the first. In fact, they both run exactly the same two queries. The key difference is that `with()` eager loads the related model up front, immediately after the initial query (`all()`, `first()`, or `find(x)`, for example); when using `load()`, you run the initial query first, and then eager load the relation at some later point.
 
-"Eager" here means that we're associating all the related models for a particular result set using just one query, as opposed to having to run n queries, where n is the number of items in the initial set.
+"Eager" here means that we're associating all the related models for a particular result set using just one query, as opposed to having to run `n` queries, where `n` is the number of items in the initial set.
 
 {:.you-may-like}
 > You may also like: [Build your own Laravel artisan commands for your project](https://www.amitmerchant.com/build-your-own-laravel-artisan-commands-for-your-project/)
 
 ## Eager loading using `with()`
 
-If we eager load using with(), for example:
+If we eager load using `with()`, for example:
 
 ```php
 $users = User::with('comments')->get();
@@ -59,7 +59,7 @@ which runs the 2nd query:
 select * from `comments` where `comments`.`user_id` in (1, 2, 3, 4, 5)
 ```
 
-And we end up with the same result, just split into two steps. Again, we can call $users->comments->first()->body to get to the related model for any item.
+And we end up with the same result, just split into two steps. Again, we can call `$users->comments->first()->body` to get to the related model for any item.
 
 ## Conclusion
 
