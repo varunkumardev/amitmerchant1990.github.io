@@ -5,13 +5,15 @@ title: 10 Packages to make your Laravel development experience awesome.
 
 ## [laravel-backup](https://github.com/spatie/laravel-backup)
 
-This Laravel package [creates a backup of your application](creates a backup of your application). The backup is a zip file that contains all files in the directories you specify along with a dump of your database. The backup can be stored on [any of the filesystems you have configured in Laravel 5].
+This Laravel package [creates a backup of your application](https://docs.spatie.be/laravel-backup/v6/taking-backups/overview). The backup is a zip file that contains all files in the directories you specify along with a dump of your database. The backup can be stored on [any of the filesystems you have configured in Laravel 5](http://laravel.com/docs/filesystem).
 
-Once installed taking a backup of your files and databases is very easy. Just issue this artisan command:
+Once installed, taking a backup of your files and databases is very easy. You just need to issue this artisan command:
 
 ```bash
 php artisan backup:run
 ```
+
+This package requires PHP 7 and Laravel 5.7 or higher.
 
 ## [laravel-mailbox](https://github.com/beyondcode/laravel-mailbox)
 
@@ -85,7 +87,7 @@ And run the migrations:
 php artisan migrate
 ```
 
-## [https://github.com/plank/laravel-mediable](laravel-mediable)
+## [laravel-mediable](https://github.com/plank/laravel-mediable)
 
 Laravel-Mediable is a package for easily uploading and attaching media files to models with Laravel 5. 
 
@@ -127,3 +129,37 @@ composer require plank/laravel-mediable
 
 This package provides a fluent interface to build menus of any size in your Laravel application.
 
+All classes provide a human readable, fluent interface (no array configuration). Additionally, you can opt for a more verbose and flexible syntax, or for convenience methods that cover most use cases.
+
+```php
+Menu::new()
+    ->add(Link::to('/', 'Home'))
+    ->add(Link::to('/about', 'About'))
+    ->add(Link::to('/contact', 'Contact'))
+    ->add(Html::empty())
+    ->render();
+
+// Or just...
+Menu::new()
+    ->link('/', 'Home')
+    ->link('/about', 'About')
+    ->link('/contact', 'Contact')
+    ->empty()
+```
+
+Above will output following HTML:
+
+```html
+<ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li></li>
+</ul>
+```
+
+You can install the package via composer:
+
+```bash
+$ composer require spatie/laravel-menu
+```
