@@ -76,18 +76,50 @@ You can install the package via composer:
 composer require spatie/laravel-sitemap
 ```
 
-## [laravel-confirm-email](https://github.com/beyondcode/laravel-confirm-email)
+## [laravel-opcache](https://github.com/appstract/laravel-opcache)
 
-This package adds a `confirmed_at` and `confirmation_code` field to your users table. Publish the migration and the configuration file using.
+[PHP OPCache](http://php.net/manual/en/book.opcache.php) can [make youe Laravel app Fly](https://medium.com/appstract/make-your-laravel-app-fly-with-php-opcache-9948db2a5f93). This package, by Appstract, contains some useful Artisan commands to work with PHP OPcache. The package requires Laravel 5.5 or newer. For older Laravel versions (5.1 or newer), you can use version 1.3.0 of this package.
+
+To use this package, you need to login to your server/vm and run one of the commands.
+
+Clear OPcache:
 
 ```bash
-php artisan vendor:publish --provider=BeyondCode\EmailConfirmation\EmailConfirmationServiceProvider
+php artisan opcache:clear
 ```
 
-And run the migrations:
+Show OPcache config:
 
 ```bash
-php artisan migrate
+php artisan opcache:config
+```
+
+Show OPcache status:
+
+```bash
+php artisan opcache:status
+```
+
+Pre-compile your application code:
+
+```bash
+php artisan opcache:optimize
+```
+
+Use the pacakge programatically:
+
+```php
+use Appstract\Opcache\OpcacheFacade as OPcache;
+
+...
+
+OPcache::clear();
+```
+
+You can install the package via Composer:
+
+```bash
+composer require appstract/laravel-opcache
 ```
 
 ## [laravel-mediable](https://github.com/plank/laravel-mediable)
@@ -171,7 +203,4 @@ The in-depth documentation for this package can be found here: https://docs.spat
 
 ## Conclusion
 
-I sincerly grateful to developers to come up with such packages and making my life easier and I hope it will be helpful to you as well. I'll add more such awesome pacakges here in this article time-to-time whenever I come across one. Until next time, stay tuned!
-
-
-
+I'm sincerly grateful to developers to come up with such packages and making my life easier and I hope it will be helpful to you as well. I'll add more such awesome pacakges here in this article time-to-time whenever I come across one. Until next time, stay tuned!
