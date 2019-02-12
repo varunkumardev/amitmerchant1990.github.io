@@ -78,7 +78,7 @@ composer require spatie/laravel-sitemap
 
 ## [laravel-opcache](https://github.com/appstract/laravel-opcache)
 
-[PHP OPCache](http://php.net/manual/en/book.opcache.php) can [make youe Laravel app Fly](https://medium.com/appstract/make-your-laravel-app-fly-with-php-opcache-9948db2a5f93). This package, by Appstract, contains some useful Artisan commands to work with PHP OPcache. The package requires Laravel 5.5 or newer. For older Laravel versions (5.1 or newer), you can use version 1.3.0 of this package.
+[PHP OPCache](http://php.net/manual/en/book.opcache.php) can [make your Laravel app Fly](https://medium.com/appstract/make-your-laravel-app-fly-with-php-opcache-9948db2a5f93). This package, by Appstract, contains some useful Artisan commands to work with PHP OPcache. The package requires Laravel 5.5 or newer. For older Laravel versions (5.1 or newer), you can use version 1.3.0 of this package.
 
 To use this package, you need to login to your server/vm and run one of the commands.
 
