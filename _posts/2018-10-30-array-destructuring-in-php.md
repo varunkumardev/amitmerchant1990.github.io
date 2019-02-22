@@ -31,7 +31,7 @@ But from version 7.1, you can just use shorhand array syntax([]) to achieve the 
 
 As you can see, it's just more cleaner and expressive now, just like ES6. Another area where you can use Array destructuring is in loops.
 
-```php
+```php{2-3}
 $data = [
     [1, 'Foo'],
     [2, 'Bar']
