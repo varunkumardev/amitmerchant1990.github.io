@@ -296,6 +296,7 @@ nav {
     font-size: 22px;
     font-style: italic;
     background-color: #ede1ff;
+    border-radius: 5px;
   }
 
   .you-may-like{
@@ -305,7 +306,8 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
-    background-color: #ddffb5;;
+    background: linear-gradient(to right,#ffeaf1,#f9e2fd);
+    border-radius: 5px;
   }
 
   .comments {
