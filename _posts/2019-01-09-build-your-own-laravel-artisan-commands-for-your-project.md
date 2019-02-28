@@ -14,6 +14,9 @@ Laravel Artisan ships with the commands which can be useful to generate models, 
 $ php artisan list
 ```
 
+{:.you-may-like}
+> You may also like: [Packages to make your Laravel development experience awesome.](/make-laravel-development-experience-awesome-with-this-packages/)
+
 ## Writing your own Laravel commads
 
 Laravel is providing almost all the commands which you'll require in your development workflow, which is great. But if you want, you can also create your own customized Artisan commands in Laravel as per your project needs. 
