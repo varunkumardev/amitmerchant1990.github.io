@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chrome 73 now supports installing PWAs as a native app
+title: Chrome 73 now supports installing PWAs as a native app on macOS
 categories: [PWA, macOS, Usability]
 ---
 
