@@ -4,7 +4,7 @@ title: The tech I'm using
 image: /images/setup-2108.jpg
 ---
 
-Today's the day when I'm finally going to write about the current setup of things that I used to get my work done. This will include what software, hardware, accessories I'm using on daily basis at home/work. 
+This is the write up about the current collection of things that I'm using to get my work done. This will include what software, hardware, accessories I'm using on daily basis at home/work. 
 
 ## Hardware
 
