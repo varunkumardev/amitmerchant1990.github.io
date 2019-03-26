@@ -23,7 +23,7 @@ class Post extends Model
     protected $appends = ['is_admin'];
 
     /**
-     * Get the administrator flag for the user.
+     * Get the administrator flag for the post.
      *
      * @return bool
      */
