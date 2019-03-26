@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Returning dynamic attributes for models on-the-fly in Laravel
+title: Fetching dynamic attributes for models on-the-fly in Laravel
 categories: [Laravel]
 ---
 
