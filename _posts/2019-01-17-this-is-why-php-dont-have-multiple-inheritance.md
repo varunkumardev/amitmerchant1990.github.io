@@ -2,7 +2,7 @@
 layout: post
 title: This is why PHP don't have multiple inheritance
 description: In this article, I will discuss about why PHP don't support multiple inheritance and how it has resolved this issue by allowing classes to implement multiple interfaces.
-categories: [PHP, Laravel]
+categories: [PHP]
 ---
 
 PHP has evolved greatly as a language over years. From a simple functional scripting language which initially started by Rasmus Lerdorf as his hobby project to supporting [object oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) features PHP has come a long way. Although, PHP has been implementing and improving features of object oriented programming in its every release, there is this one feature which is missing and I've always wondered why it is not there in PHP all these years. Yes, I'm talking about [multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance).

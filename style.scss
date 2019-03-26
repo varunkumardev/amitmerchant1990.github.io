@@ -199,6 +199,35 @@ p > img {
   }
 }
 
+.masthead-menu {
+  border-bottom: 1px solid $lightGray;
+  background: #5a356e;
+  border-radius: 4px;
+
+  a {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  a:hover{
+    color: #ece1ff;
+  }
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.nav-menu {
+  margin-top: 0 !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-align: center !important;
+  float: none !important;
+}
+
 .site-avatar {
   float: left;
   width: 70px;

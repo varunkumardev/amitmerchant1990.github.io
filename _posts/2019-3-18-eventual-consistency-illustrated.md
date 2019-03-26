@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Eventual consistency illustrated!
-categories: [Misc]
+categories: [Miscellaneous]
 ---
 
 Hilariously enough, [eventual consistency](https://en.wikipedia.org/wiki/Eventual_consistency) illustrated.
