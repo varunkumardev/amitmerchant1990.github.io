@@ -38,6 +38,9 @@ Notice here that, you need to add the attribute name to the `appends` property o
 
 Once the attribute has been added to the appends list, it will be included in both the model's array and JSON representations. 
 
+{:.you-may-like}
+> You may also like: [Packages to make your Laravel development experience awesome.](/make-laravel-development-experience-awesome-with-this-packages/)
+
 ## Fetching dynamic attributes on run time
 
 You can use the `append` method on model instance to append attributes on-the-fly.
