@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /uses/
 title: The tech I'm using
 image: /images/setup-2108.jpg
 ---
