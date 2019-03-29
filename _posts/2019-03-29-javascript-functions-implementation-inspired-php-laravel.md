@@ -96,6 +96,7 @@ array_chunk([1,2,3,4,5,6,7,8,9], 4);
 ## `array_collapse()`
 
 > Collapses a collection of arrays into a single, flat array
+
 ```js
 
 function array_collapse(...arrays){
