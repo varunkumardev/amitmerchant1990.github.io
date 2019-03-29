@@ -392,4 +392,8 @@ similar_text("Hello World","Hello Peter");
 // 6
 ```
 
+## In closing
+
+I'm in no way claiming these functions to be efficient then the existing correponding native JavaScript functions. I just tried to challenge myself if I can write my own implementation or not and it was a fun little exercise. I hope you learned a thing or two just like I learned while implementing them.
+
 
