@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Laravel Route Model Bindings - Implicit Vs. Expilicit Binding
+title: Laravel Route Model Bindings - Implicit Vs. Explicit Binding
 categories: [Laravel]
 ---
 
