@@ -48,6 +48,7 @@ class Post
 
 But with the introduction of typed properties, you'll no longer require additional methods just to ensure the type-safety of properties. This means writing less code and more performance gain. The above code would be reduced to this without loosing type-safety of the properties:
 
+
 ```php
 class Post 
 {    
