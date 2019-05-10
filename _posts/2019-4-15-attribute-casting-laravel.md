@@ -54,7 +54,7 @@ As you can see, here the `$casts` property is an array where the key is the name
 
 ## Array & JSON Casting
 
-Addionally, if your table consist a column which stores serialized JSON string and you want that particular column to be automatically deserialize the attribute to a PHP array when you access it on your Eloquent model, you should use `array` cast. You can do it like this.
+Additionally, if your table consist a column which stores serialized JSON string and you want that particular column to be automatically deserialize the attribute to a PHP array when you access it on your Eloquent model, you should use `array` cast. You can do it like this.
 
 ```php
 <?php
