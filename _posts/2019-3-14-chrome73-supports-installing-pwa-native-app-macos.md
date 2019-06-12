@@ -8,6 +8,9 @@ It's not long ago that Google Chrome team had released the support for intalling
 
 As you can read [here](https://developers.google.com/web/updates/2019/03/nic73), starting from Chrome 73, you can now install the PWAs from Chrome's context menu and with that, it is been now supported on all major desktop platform, i.e. macOS, Windows, Linux and Chrome OS.
 
+{:.you-may-like}
+> You may also like: [Building a simple offline-capable Notepad app using ServiceWorker](/Building-Simple-Offline-Notepad-Using-Service-Worker/)
+
 ## Install PWA on macOS with Chrome
 
 If you want to install a Progressive Web App, you will need to visit a website that offers one. For instance, you can visit one of my webapp https://resume-nation.github.io which is also a PWA. Once the webapp gets loaded, click on the 'Menu' where you will find `Install Resume Nation...` option.

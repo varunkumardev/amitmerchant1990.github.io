@@ -47,7 +47,7 @@ private function getAdminUsers()
 
 Here, Calling the create() method on `$this->userCollectionFactory` [factory](https://devdocs.magento.com/guides/v2.0/extension-dev-guide/factories.html) gives you an instance of its specific class and in turn returns the admin users. 
 
-On thing to not here is, When you reference a factory in a class constructor, Magento’s [object manager](https://devdocs.magento.com/guides/v2.0/extension-dev-guide/object-manager.html) generates the factory class if it does not exist. So, in order to see above code in action I needed to use following command which will re-generate classes factories:
+One thing to note here is, When you reference a factory in a class constructor, Magento’s [object manager](https://devdocs.magento.com/guides/v2.0/extension-dev-guide/object-manager.html) generates the factory class if it does not exist. So, in order to see above code in action I needed to use following command which will re-generate classes factories:
 
 ```bash
 $ php bin/magento s:d:c
