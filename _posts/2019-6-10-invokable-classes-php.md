@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Invokable classes in PHP
+title: A closer look at Invokable classes in PHP
 categories: [PHP]
 ---
 
@@ -29,6 +29,9 @@ echo sparkles($bob); // flutterfairy dust
 ```
 
 As you can see, class `Butterfly` is an invocalble class which can be callable by any function. In this case, we've passed the object of the class `Butterfly` directly to the `sparkle` method as an argument which is of type `Callable`. And this when `_invoke` method will be called.
+
+{:.you-may-like}
+> You may also like: [This is why PHP don't have multiple inheritance](/this-is-why-php-dont-have-multiple-inheritance/)
 
 ## Usecases for Invokalble classes
 

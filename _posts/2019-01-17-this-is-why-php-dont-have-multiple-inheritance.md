@@ -58,6 +58,9 @@ class ClassC extends ClassA, ClassB
 
 As you can see from the code, on calling the method `greet()` using object `ClassC`, it's impossible for the compiler to decide whether it has to call ClassA’s `greet()` or ClassB’s `greet()` method. So, this is to avoid such complications, PHP does not support multiple inheritance.
 
+{:.you-may-like}
+> You may also like: [A closer look at Invokable classes in PHP](/invokable-classes-php/)
+
 ## Mitigation of Diamond problem in PHP
 
 To mitigate such situation, PHP allow classes to implement multiple [protocols](https://en.wikipedia.org/wiki/Protocol_(object-oriented_programming)), called [interfaces](http://php.net/manual/en/language.oop5.interfaces.php). Interfaces define methods but do not provide concrete implementations. Interfaces are like abstract base classes that specify method signatures without implementing any behavior. 
