@@ -10,7 +10,7 @@ PHP does not allow the passing of function pointers like other languages. Functi
 
 ## How to create an Invokable class
 
-An invokable class can be created by implementing a `__invoke` magic method into it. Below is a simple example of an invocable class.
+An invokable class can be created by implementing a `__invoke` magic method into it. Below is a simple example of an invokable class.
 
 ```php
 function sparkles(Callable $func) {
@@ -28,7 +28,7 @@ $bob = new Butterfly();
 echo sparkles($bob); // flutterfairy dust
 ```
 
-As you can see, class `Butterfly` is an invocalble class which can be callable by any function. In this case, we've passed the object of the class `Butterfly` directly to the `sparkle` method as an argument which is of type `Callable`. And this when `_invoke` method will be called.
+As you can see, class `Butterfly` is an invokalble class which can be callable by any function. In this case, we've passed the object of the class `Butterfly` directly to the `sparkle` method as an argument which is of type `Callable`. And this when `_invoke` method will be called.
 
 {:.you-may-like}
 > You may also like: [This is why PHP don't have multiple inheritance](/this-is-why-php-dont-have-multiple-inheritance/)
@@ -104,7 +104,7 @@ usort($arr, new Comparator('weight')); // sort by 'weight'
 
 ## A real world example of Invokables
 
-A practical use of Invokables we can find in Laravel where you can pass the invocable objects to Laravel's [scheduler](https://laravel.com/docs/5.8/scheduling#defining-schedules) like this.
+A practical use of Invokables we can find in Laravel where you can pass the invokable objects to Laravel's [scheduler](https://laravel.com/docs/5.8/scheduling#defining-schedules) like this.
 
 ```php
 <?php
