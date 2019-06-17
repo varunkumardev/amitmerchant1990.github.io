@@ -219,6 +219,6 @@ If you want to use `or` query on model using scopes, you can do this by using a 
 $posts = App\Post::starred()->orWhere->published()->get();
 ```
 
-## Conlusion
+## Conclusion
 
 So the bottomline here is, use "Global Scopes" when you want to apply a monolith of query constraints on the model queries and if you want to utilize smaller chunks of query constraints which can do a specific operation, use "Local Scopes" in that case.
