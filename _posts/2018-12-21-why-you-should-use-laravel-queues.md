@@ -16,6 +16,9 @@ The queue configuration file is stored in `config/queue.php`. In this file you w
 
 Let's take a practical example to learn more about Laravel Queues.
 
+{:.you-may-like}
+> You may also like: [Re-using query constraints in Laravel Eloquent - Global vs. Local scopes](/laravel-eloquent-global-local-scope/)
+
 ## Send an email when user registers
 
 Here in this example, We'll create a queue for sending a welcome email when a user register onto the site. We're going to use `database` queue driver for creating jobs in this case. For this, first of all we need to create a database table which will hold jobs that are going to be created. To generate a migration that creates this table, run the `queue:table` Artisan command. Once the migration has been created, you may migrate your database using the `migrate` command:
