@@ -46,4 +46,4 @@ You can download and install any framework directly from the program without bei
 
 In general, for a year of work, our team had no complaints against the editor. Codelobster IDE works fast, does not hang and allows us to work even with large PHP projects.
 
-You can download Codelobster IDE from the official website here at http://codelobsteride.com.
+You can download Codelobster IDE from the official website here at [http://codelobsteride.com](http://codelobsteride.com).
