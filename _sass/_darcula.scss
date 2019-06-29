@@ -1,8 +1,9 @@
 .highlight {
     background-color: #1e1c3f;
     padding: 7px 7px 7px 10px;
-    overflow: scroll;
+    overflow: auto;
     font-size: 95%;
+    border-radius: 5px;
 }
 
 code {
@@ -11,11 +12,15 @@ code {
     font-weight: normal;
 }
 
+code.highlighter-rouge {
+    background-color: #d4d4f7;
+    font-size: 15px;
+}
+
 .highlighter-rouge { 
     color: #5b5be0;
-    background-color: #d4d4f7;
     padding: 2px 4px;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 16px;
 }
 
