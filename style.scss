@@ -415,7 +415,7 @@ nav {
   border-bottom: 1px solid $lightGray;
 }
 
-.posts > .post:last-child {
+.posts > .post:last-of-type {
   padding-bottom: 1em;
   border-bottom: none;
 }
