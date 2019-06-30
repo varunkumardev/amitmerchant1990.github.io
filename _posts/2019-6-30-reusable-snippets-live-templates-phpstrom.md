@@ -10,7 +10,7 @@ I'm going to talk about one such feature of PHPStrom which I think is underutili
 
 ## Live Templates
 
-Live templates are small code snippets which can be accessed by typing the corresponding template abbreviation and press `Tab`. Keep pressing `Tab` to jump from one variable in the template to the next one. Press `Shift+Tab` to move to the previous variable. 
+Live templates are small code snippets which can be accessed by typing the corresponding template abbreviation and press <kbd>Tab</kbd>. Keep pressing <kbd>Tab</kbd> to jump from one variable in the template to the next one. Press <kbd>Shift</kbd>+<kbd>Tab</kbd> to move to the previous variable. 
 
 In order to create a live template, for instance, if I want to create a error log snippet for Magento 2 I will first need to...
 
@@ -24,7 +24,7 @@ In order to create a live template, for instance, if I want to create a error lo
 |---|---|---|
 | Abbreviation  |  Specify the characters to expand the template | erl  |
 | Description  | Specify an optional description to identify what the template is for  | Error log for Magento2  |
-| Template text  | Specify the body of the template with [variables](https://www.jetbrains.com/help/phpstorm/template-variables.html)  | Code snippet that you wanna use.  |
+| Template text  | Specify the body of the template with [variables](https://www.jetbrains.com/help/phpstorm/template-variables.html)  | Code snippet that you want to use.  |
 
 In my case, I'm going to use following snippet,
 
@@ -43,6 +43,6 @@ The template would look something like below.
 
 * Click **Edit Variables**. In order to keep the value of `$log$` empty, I'll leave the `Default value` field empty and click **OK**.
 
-And now, whenever I type `erl` and press `TAB`, the above code snippet template will appear with the cursor set at the `$log$` as an empty space.
+And now, whenever I type `erl` and press <kbd>Tab</kbd>, the above code snippet template will appear with the cursor set at the `$log$` as an empty space.
 
 If you want to reuse the same template in multiple groups, or you want to create a new template based on another one, you can duplicate an existing template.
