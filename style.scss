@@ -389,7 +389,7 @@ p > img {
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 28px;
   letter-spacing: 1px;
   text-align: left;
@@ -423,11 +423,12 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 18px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: 1px;
+    font-size: 16px;
 
     @include mobile {
       margin: 0 10px;
