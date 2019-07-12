@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Checking if the relationship exists or not in Laravel Eloquoent
+title: Checking if the relationship exists on the model or not in Laravel Eloquoent
 categories: [Laravel]
 ---
 
