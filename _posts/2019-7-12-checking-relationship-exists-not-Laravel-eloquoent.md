@@ -7,7 +7,7 @@ categories: [Laravel]
 If you want to check if the eloquoent model has certain relationship or not while querying upon it, you can do this by two approaches in the Laravel Eloquent.
 
 * By using `has` method to check the existence of the relationship
-* By using `doesntHave` method to check the existence of the relationship
+* By using `doesntHave` method to check the absense of the relationship
 
 We'll take a look at both of the approaches one by one.
 
