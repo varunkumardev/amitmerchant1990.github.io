@@ -52,6 +52,9 @@ dd($checkout->tax) // string("100.85")
 
 As you can see, here the `$casts` property is an array where the key is the name of the attribute being cast and the value is the type you wish to cast the column to. The supported cast types are: `integer`, `real`, `float`, `double`, `decimal`:`<digits>`, `string`, `boolean`, `object`, `array`, `collection`, `date`, `datetime`, and `timestamp`.
 
+{:.you-may-like}
+> You may also like: [Conditional attributes and relationships in Laravel Resources](/conditional-attributes-relationships-laravel-resorces/)
+
 ## Array & JSON Casting
 
 Additionally, if your table consist a column which stores serialized JSON string and you want that particular column to be automatically deserialize the attribute to a PHP array when you access it on your Eloquent model, you should use `array` cast. You can do it like this.
