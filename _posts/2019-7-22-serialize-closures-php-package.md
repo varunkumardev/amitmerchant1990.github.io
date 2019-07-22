@@ -30,11 +30,11 @@ From their documentation here are library's key features:
 * Doesn’t use eval for closure serialization or unserialization
 * Works with any PHP version that has support for closures
 * Supports PHP 7.0 syntax
-* Handles all variables referenced/imported in use() and automatically wraps all referenced/imported closures for proper serialization
+* Handles all variables referenced/imported in `use()` and automatically wraps all referenced/imported closures for proper serialization
 * Handles recursive closures
 * Handles magic constants like `__FILE__`, `__DIR__`, `__LINE__`, `__NAMESPACE__`, `__CLASS__`, `__TRAIT__`, `__METHOD__` and `__FUNCTION__`.
 * Automatically resolves all class names, function names and constant names used inside the closure
-* Track closure’s residing source by using the #trackme directive
+* Track closure’s residing source by using the `#trackme` directive
 * Simple and very fast parser
 * Any error or exception, that might occur when executing an unserialized closure, can be caught and treated properly
 * You can serialize/unserialize any closure unlimited times, even those previously unserialized (this is possible because eval() is not used for unserialization)
