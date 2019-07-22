@@ -4,7 +4,7 @@ title: Serialize Closures in PHP using this neat package
 categories: [Laravel]
 ---
 
-It's widely known that PHP can't serialize [closures](https://www.php.net/manual/en/functions.anonymous.php) directly. If you try to serialize a closure in PHP, you'll get a fatal error. Take below example.
+It's widely known that PHP can't serialize [closures](https://www.php.net/manual/en/functions.anonymous.php) directly. If you try to [serialize](https://www.php.net/manual/en/function.serialize.php) a closure in PHP, it will result in a fatal error. Take below for example.
 
 ```php
 <?php
