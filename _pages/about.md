@@ -16,6 +16,6 @@ I'm currently working at [Seepossible](http://www.seepossible.com). In my spare 
 
 This blog has been setup using [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com). I have used [Reverie](https://github.com/amitmerchant1990/reverie) jekyll theme to quickly set it up on GitHub Pages without setting up a local environment. You can find the source code of the same over [here](https://github.com/amitmerchant1990/amitmerchant1990.github.io).
 
-You can contact me at `amit.d.merchant at gmail dot com`.
+You can contact me at `amit.d.merchant at gmail dot com` if you want to discuss something with me or just want to say "Hi!".
 
 **_See you around and happy browsing!_**
