@@ -293,9 +293,8 @@ p > img {
 
 .masthead-menu {
   border-bottom: 1px solid $lightGray;
-  background: url(images/galaxy.jpg);
   border-radius: 4px;
-  background-size: cover;
+  background-image: linear-gradient(225deg, #ef0088 0%, #6c2fa2 50%, #0071cc 100%);
 
   a {
     color: white;
