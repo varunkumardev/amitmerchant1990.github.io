@@ -14,7 +14,7 @@ I love exploring new technologies and playing around with them. I first wrote co
 
 I'm currently working at [Seepossible](http://www.seepossible.com). In my spare time, I love to contribute to the open source community by creating [tools](https://github.com/amitmerchant1990) which can be helpful to others, doing [photography & sketching](https://www.instagram.com/amit_merchant/) in my spare time, listening to some music which ranges from rock to sufi, going around with my beautiful wife and friends.
 
-This blog has been setup using [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com). I have used [Reverie](https://github.com/amitmerchant1990/reverie) jekyll theme to quickly set it up on GitHub Pages without setting up a local environment. You can find the source code of the same over [here](https://github.com/amitmerchant1990/amitmerchant1990.github.io).
+This blog has been setup using [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com). I have used [Reverie](https://github.com/amitmerchant1990/reverie) jekyll theme to quickly set it up on GitHub Pages without setting up a local environment. You can find the source code of this site over [here](https://github.com/amitmerchant1990/amitmerchant1990.github.io).
 
 You can contact me at `amit.d.merchant at gmail dot com` if you want to discuss something with me or just want to say "Hi!".
 
