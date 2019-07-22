@@ -37,7 +37,7 @@ From their documentation here are library's key features:
 * Track closure’s residing source by using the `#trackme` directive
 * Simple and very fast parser
 * Any error or exception, that might occur when executing an unserialized closure, can be caught and treated properly
-* You can serialize/unserialize any closure unlimited times, even those previously unserialized (this is possible because eval() is not used for unserialization)
+* You can serialize/unserialize any closure unlimited times, even those previously unserialized (this is possible because `eval()` is not used for unserialization)
 * Handles static closures
 * Supports cryptographically signed closures
 * Provides a reflector that can give you information about the serialized closure
