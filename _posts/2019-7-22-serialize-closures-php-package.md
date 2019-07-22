@@ -19,7 +19,7 @@ $result = serialize($func);
 ?>
 ```
 
-There are many ways to overcome this issue. One of which you can write your own implementation by using [_sleep()](http://php.net/manual/en/language.oop5.magic.php#object.sleep) and [_wakeup()](http://php.net/manual/en/language.oop5.magic.php#object.sleep) magic methods along with the use of PHP Reflection in order to serialize anonymous functions. 
+There are many ways to overcome this issue. One of which you can write your own implementation by using [_sleep()](http://php.net/manual/en/language.oop5.magic.php#object.sleep) and [_wakeup()](https://www.php.net/manual/en/language.oop5.magic.php#object.wakeup) magic methods along with the use of PHP Reflection in order to serialize anonymous functions. 
 
 The other and more holistic way is to use some of the readymade PHP packages to accomplish this. [This package](https://github.com/opis/closure) from [Opis](https://opis.io/) is my favorite among all. It's a library that aims to overcome PHP’s limitations regarding closure serialization by providing a wrapper that will make all closures serializable.
 
