@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![](/images/profilesnap.JPG)
+![about-picture](/images/profilesnap.JPG){:.about-picture}
 
 Allo! Allo! Thank you for stopping by here. I'm Amit, a software engineer residing in Surat, Gujarat, India, with a focus on creating apps for web as well as mobile devices.
 
