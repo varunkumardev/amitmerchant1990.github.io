@@ -62,7 +62,7 @@ $serialized = serialize($wrapper);
 
 ## Unserializing closures
 
-Closure unserialization is done using the standard [unserialize](https://www.php.net/manual/en/function.unserialize.php) function. Once the wrapper was unserialized, you can directly invoke the wrapper, or you can extract the serialized closure by calling the getClosure method.
+The package unserialize the closures using the standard [unserialize](https://www.php.net/manual/en/function.unserialize.php) function. Once the wrapper was unserialized, you can directly invoke the wrapper, or you can extract the serialized closure by calling the getClosure method.
 
 ```php
 // Unserialize the closure
