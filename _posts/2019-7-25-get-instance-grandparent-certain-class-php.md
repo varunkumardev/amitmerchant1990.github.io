@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Get grandparent instance of certain class in PHP
+excerpt: Recently, I stumbled upon a scenario where I had to extend a class. I'm going to explain what issue I had faced and what's the role of using the grandparent instance of the class to overcome that issue in this article.
 categories: [PHP]
 ---
 
