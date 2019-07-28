@@ -24,51 +24,55 @@
 
   <body>
     <div id="bar"></div>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <div class="wrapper-container">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }} 
-              <a href="/how-to-subscribe-to-my-blog/" class="btn-subscribe" title="Three ways to subscribe to this blog!">
-                  <svg viewBox="0 0 800 800"><path d="M493 652H392c0-134-111-244-244-244V307c189 0 345 156 345 345zm71 0c0-228-188-416-416-416V132c285 0 520 235 520 520z"></path><circle cx="219" cy="581" r="71"></circle></svg>
-                Subscribe
-              </a>
-            </p> 
-          </div>
+            <div class="site-info">
+              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+              <p class="site-description">{{ site.description }} 
+                <a href="/how-to-subscribe-to-my-blog/" class="btn-subscribe" title="Three ways to subscribe to this blog!">
+                    <svg viewBox="0 0 800 800"><path d="M493 652H392c0-134-111-244-244-244V307c189 0 345 156 345 345zm71 0c0-228-188-416-416-416V132c285 0 520 235 520 520z"></path><circle cx="219" cy="581" r="71"></circle></svg>
+                  Subscribe
+                </a>
+              </p> 
+            </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Articles</a>
-            <a href="{{ site.baseurl }}/search">Search</a>
-            <!--<a href="{{ site.baseurl }}/work">Work</a>-->
-            <a href="{{ site.baseurl }}/projects">Projects</a>
-            <a href="{{ site.baseurl }}/uses">Uses</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-        <header class="masthead-menu clearfix">
-          <nav class="nav-menu">
-            <a href="{{ site.baseurl }}/posts/laravel/">Laravel</a>
-            <a href="{{ site.baseurl }}/posts/php/">PHP</a>
-            <a href="{{ site.baseurl }}/posts/javascript/">JavaScript</a>
-            <a href="{{ site.baseurl }}/posts/git/">Git</a>
-            <a href="{{ site.baseurl }}/posts/miscellaneous/">Misc.</a>
-          </nav>
-        </header>
+            <nav>
+              <a href="{{ site.baseurl }}/">Articles</a>
+              <a href="{{ site.baseurl }}/search">Search</a>
+              <!--<a href="{{ site.baseurl }}/work">Work</a>-->
+              <a href="{{ site.baseurl }}/projects">Projects</a>
+              <a href="{{ site.baseurl }}/uses">Uses</a>
+              <a href="{{ site.baseurl }}/about">About</a>
+            </nav>
+          </header>
+          <header class="masthead-menu clearfix">
+            <nav class="nav-menu">
+              <a href="{{ site.baseurl }}/posts/laravel/">Laravel</a>
+              <a href="{{ site.baseurl }}/posts/php/">PHP</a>
+              <a href="{{ site.baseurl }}/posts/javascript/">JavaScript</a>
+              <a href="{{ site.baseurl }}/posts/git/">Git</a>
+              <a href="{{ site.baseurl }}/posts/miscellaneous/">Misc.</a>
+            </nav>
+          </header>
+        </div>
       </div>
-    </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+          {{ content }}
+        </div>
+      </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            {% include svg-icons.html %}
+          </footer>
+        </div>
       </div>
     </div>
 
