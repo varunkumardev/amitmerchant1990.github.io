@@ -6,8 +6,7 @@ description: Projects & Apps I built.
 image: https://raw.githubusercontent.com/amitmerchant1990/test/master/markdownify-mockup1920-1.jpg
 ---
 
-These are some of the projects I've worked on in my spare time.
-====
+### These are some of the projects I've worked on in my spare time.
 
 ![](https://raw.githubusercontent.com/amitmerchant1990/test/master/markdownify-mockup1920-1.jpg)
 ### [Markdownify](https://github.com/amitmerchant1990/electron-markdownify)
