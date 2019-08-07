@@ -512,6 +512,19 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+
+  a {
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    display: inline-block;
+  }
+	
+}
+
+.wrapper-footer .container {
+    background: #eee;
 }
 
 body:after {
