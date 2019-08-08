@@ -4,7 +4,7 @@ title: Late static binding in PHP - What, How & When
 categories: PHP
 ---
 
-The inheritence tree in PHP quickly gets dirty if you're using mix of `static` and `non-static` methods into your classes and the inheritence gets deeply nested. Take from example here.
+The inheritence tree in PHP quickly gets dirty if you're using mix of `static` and `non-static` methods into your classes and the inheritence is deeply nested. Take from example here.
 
 ```php
 <?php
