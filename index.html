@@ -1,6 +1,37 @@
 ---
 layout: default
+top_articles: 
+  - url: /Laravel-Eager-Loading-Load-Vs-With/
+    title: Laravel Eager Loading - load() Vs. with()
+  - url: /attribute-casting-laravel/
+    title: Attribute casting in Laravel Eloquent
+  - url: /this-is-why-php-dont-have-multiple-inheritance/
+    title: This is why PHP don't have multiple inheritance
+  - url: /why-you-should-use-laravel-queues/
+    title: Why you should use Laravel Queues
+  - url: /array-destructuring-in-php/
+    title: Array destructuring in PHP
+  - url: /Laravel-Accessors-And-Mutators/
+    title: Laravel - Accessors & Mutators
 ---
+
+{% if page.url == "/" %}
+  <h1>Top Articles</h1>
+
+  {% assign j = 0 %}
+  {% for article in page.top_articles %}
+    {% if j == 0 or j == 3 %}
+    <div class="row">
+    {% endif %}
+      <div class="column {{j}}">
+        <a href="{{article.url}}">{{article.title}}</a>
+      </div>
+    {% if j == 2 or j == 5 %}
+    </div>
+    {% endif %}
+    {% assign j = j | plus:1 %}
+  {% endfor %}
+{% endif %}
 
 <div class="posts">
   {% assign i = 0 %}
