@@ -6,6 +6,9 @@ categories: [PHP]
 
 Some of the PHP's core functions are designed in such a way that they do not handle exceptions in a better way. Instead, they just return `false` if there's any error. This makes developers to handle those error themselves. Take the example below.
 
+* TOC
+{:toc}
+
 ```php
 $content = file_get_contents('foobar.json');
 $foobar = json_decode($content);
@@ -39,7 +42,7 @@ $content = file_get_contents('foobar.json');
 $foobar = json_decode($content);
 ```
 
-As you can see, the code is now more readable and robust at the same time. You don't have to handle errors/exception yourself anymore.And that's what this package's main purpose is.
+As you can see, the code is now more readable and robust at the same time. You don't have to handle errors/exception yourself anymore. And that's what this package's main purpose is.
 
 ## Installing Safe PHP
 
@@ -65,7 +68,7 @@ Now, you simply need to run Rector with this command:
 vendor/bin/rector process src/ --config vendor/thecodingmachine/safe/rector-migrate.yml
 ```
 
-**Note:** do not forget to replace "src/" with the path to your source directory.
+**Note:** Do not forget to replace "src/" with the path to your source directory.
 
 An important thing to note here is refactoring done here only performs a "dumb" replacement of functions. It will not modify the way "false" return values are handled. So if your code was already performing error handling, you will have to deal with it manually.
 
