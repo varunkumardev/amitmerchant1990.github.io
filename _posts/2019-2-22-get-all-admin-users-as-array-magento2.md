@@ -6,16 +6,16 @@ categories: [PHP, Magento2]
 
 Today, while working with a project which happens to be bulit on top of [Magento 2](https://devdocs.magento.com/#/individual-contributors), I needed to find a way to get the list all the admin users as an array.
 
-The obvious way to achieve this in Magento 2 is to use the `\Magento\User\Model\ResourceModel\User\Collection` collection using following code
+The obvious way to achieve this in Magento 2 is to use the `\Magento\User\Model\ResourceModel\User\Collection` collection using following code.
 
 ```php
 $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
 $adminUsers = $objectManager->get('\Magento\User\Model\ResourceModel\User\Collection')->toOptionArray();
 ```
 
-But upon debugging, I've found that the `toOptionArray()` is not implemented in this particular collection natively and so I've left with an array with empty value and label in it.
+But upon debugging, I've found that the method `toOptionArray()` is not implemented in this particular collection natively and so I'm left with an array with empty value and label in it.
 
-To overcome this issue, I've tried another approach. In this, I've [injected](https://devdocs.magento.com/guides/v2.0/extension-dev-guide/depend-inj.html) `\Magento\User\Model\ResourceModel\User\CollectionFactory` into the constructor like below
+To overcome this issue, I've tried another approach. In this, I've [injected](https://devdocs.magento.com/guides/v2.0/extension-dev-guide/depend-inj.html) `\Magento\User\Model\ResourceModel\User\CollectionFactory` into the constructor like below.
 
 ```php
 public function __construct(
@@ -27,7 +27,7 @@ public function __construct(
 }
 ```
 
-And then created the following function which returns an array of admin users,
+And then created the following method which returns an array of admin users,
 
 ```php
 private function getAdminUsers()
