@@ -102,9 +102,9 @@ class Car
 
 In the above example, if we don't have the instance of `Vehicle` class,  it can easily be mocked up by using some test data and all methods can be easily tested. This was not possible at all in inheritance as you were heavily dependent on superclass to get the state of instance and execute any method.
 
-## Mitigates PHP's lack of having multiple inheritence
+## Fixes lack of multiple inheritence
 
-With composition, single heritence languages such PHP, can easily overcome the lack of this very feature. Take this example below.
+With composition, single inheritence languages such PHP, can easily overcome the lack of multiple inheritence. Take this example below.
 
 ```php
 <?php
