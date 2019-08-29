@@ -98,7 +98,7 @@ set.delete('baz');
 console.log(set); // Set {'foo', 'bar'}
 ```
 
-## Remove duplicate elements from the array
+### Remove duplicate elements from the array
 
 Because `Set`'s property to store only unique values, this can come in handy to filter out duplicate values from an array.
 
@@ -108,7 +108,7 @@ const numbers = [2,3,4,4,2,3,3,4,4,5,5,6,6,7,5,32,3,4,5];
 console.log([...new Set(numbers)]); // [2, 3, 4, 5, 6, 7, 32]
 ```
 
-## Difference between two arrays
+### Difference between two arrays
 
 This how you can achive difference between two arrays
 
