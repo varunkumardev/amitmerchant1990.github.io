@@ -4,7 +4,7 @@ title: Supercharge array operations using "Set" in JavaScript
 categories: [JavaScript]
 ---
 
-Working with Arrays in JavaScript is sometimes painful as there aren't a lot of native functions/methods available to carry out common operations on arrays. For instance, an operation as simple as removing an element from an array takes a lot of amount of code. Check this.
+Working with [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) in JavaScript is sometimes painful as there aren't a lot of native functions/methods available to carry out common operations on arrays. For instance, an operation as simple as removing an element from an array takes a lot of amount of code. Check this.
 
 ```js
 const array = [1, 6, 7];
