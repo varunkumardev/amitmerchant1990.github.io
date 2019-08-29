@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Supercharge array operations using "Set" in JavaScript
+title: Supercharge array operations using Set in JavaScript
 categories: [JavaScript]
 ---
 
