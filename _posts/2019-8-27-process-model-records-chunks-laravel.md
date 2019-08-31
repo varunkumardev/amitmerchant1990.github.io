@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Process model records in chunks in Laravel
+excerpt: In this tweet, [Freek Van der Herten](https://twitter.com/freekmurze) explains how to process chunk of records from a model instead of loading all of them at a time which can help using less memory. Learn more about it in the article.
 categories: Laravel
 ---
 
