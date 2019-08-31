@@ -36,11 +36,11 @@ person.setFirstName('Jon')
 console.log(person.fullName());    // Jon Merchant
 ```
 
-But as I said earlier "There are always multiple ways of doing things". So, here's a more clear and concise way of achieving the above in EcmScript 5. They are called "getters" and "setters".
+But as I said earlier "There are always multiple ways of doing things". So, here's a more clear and concise way of achieving the above in ECMAScript 6. They are called **"getters"** and **"setters"**.
 
 ## What are "getters" and "setters"?
 
-A getter is a function which gets bound by `get` keyword to an object property which will be invoked autimatically when that property is looked up. Let's rewrite the above example using getter.
+A _getter_ is a function which gets bound by `get` keyword to an object property which will be invoked autimatically when that property is looked up. Let's rewrite the above example using getter.
 
 ```js
 var person = {
@@ -64,7 +64,7 @@ There are few things that you need to consider when working with getters, such a
 
 ### Setters
 
-Similar to getter, a setter is a function which gets bound by `get` keyword to an object property which will be called when there is an attempt to set that property. Here's an example of the same.
+Similar to getter, a _setter_ is a function which gets bound by `get` keyword to an object property which will be called when there is an attempt to set that property. Here's an example of the same.
 
 ```js
 var person = {
@@ -82,7 +82,7 @@ person.firstName = 'Jon';
 console.log(person.fullName);    // Jon Merchant
 ```
 
-Setters can be used to execute a function whenever a specified property is attempted to be changed. Setters are most often used in conjunction with getters to create a type of pseudo-property. It is not possible to simultaneously have a setter on a property that holds an actual value and that's the reason why I've changed the property name to `_firstName` in above example. If you're going to do so, you'll this weird error: `Uncaught RangeError: Maximum call stack size exceeded`.
+Setters can be used to execute a function whenever a specified property is attempted to be changed. Setters are most often used in conjunction with getters to create a type of pseudo-property. It is not possible to simultaneously have a setter on a property that holds an actual value and that's the reason why I've changed the property name to `_firstName` in above example. If you're going to do so, you'll get this weird error: `Uncaught RangeError: Maximum call stack size exceeded`.
 
 Setters can be deleted using `delete` keyword.
 
