@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In-built password hashing and verification in PHP
+title: Built-in password hashing and verification in PHP
 categories: [PHP]
 ---
 
