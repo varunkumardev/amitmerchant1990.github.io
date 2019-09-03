@@ -25,6 +25,10 @@ Apart from this, I own two watches of which one is a fitness tracker called [Mi 
 
 ![](/images/casio-f91w.jpg)
 
+<div style="text-align: center;">
+  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7DK2QJ&placement=notepadjsorg" id="_carbonads_js"></script>
+</div>
+
 ## Software
 
 As I mentioned earlier, I work with Linux to fulfil all my programming related stuff. I mostly work with PHP, JavaScript and ocassionally Java. I use [Git](https://git-scm.com/) to version control all my opensource and personal projects and manage all those on [GitHub](https://github.com/amitmerchant1990). 
