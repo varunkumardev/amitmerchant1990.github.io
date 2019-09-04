@@ -8,7 +8,7 @@ Laravel team has recently released `v6.0` of the framework and with this they ha
 
 ## What is `LazyCollection`?
 
-`LazyCollection` class is like `Illuminate\Support\Collection` class only but with added sugar to it. The class basically utilizes PHP [generators](https://www.php.net/manual/en/language.generators.overview.php) to allow you to work with very large datasets while keeping memory usage low. If you're not aware of generators, you check check out [this article](/deep-dive-into-generators-php/) where I've explained generators in detail. 
+`LazyCollection` class is like `Illuminate\Support\Collection` class only but with added sugar to it. The class basically utilizes PHP [generators](https://www.php.net/manual/en/language.generators.overview.php) to allow you to work with very large datasets while keeping memory usage low. If you're not aware of generators, you can check out [this article](/deep-dive-into-generators-php/) where I've explained generators in detail. 
 
 {:.you-may-like}
 > You may also like: [A deep dive into Generators in PHP](/deep-dive-into-generators-php/)
