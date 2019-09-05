@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to pick topics for tech blogging
+image: https://raw.githubusercontent.com/amitmerchant1990/cdn/master/bulb-min.jpg
 categories: [Miscellaneous]
 ---
 
