@@ -4,7 +4,7 @@ title: Building API endpoints in Magento2 from scratch
 categories: [Magento2]
 ---
 
-Magento is known for its developer-friendly approach for buliding things around its platform. Everything is well-defined and readily available in the framework. This also includes creation of RESTful APIs right within the framework. In this article, I'm going to explain how you can create an API endpoint in Magento 2 and how you can consume or disribute the same.
+[Magento](https://magento.com) is known for its developer-friendly approach for buliding things around its platform. Everything is well-defined and readily available in the framework. This also includes implementing RESTful APIs right within the framework. In this article, I'm going to explain how you can create an API endpoint in Magento 2 and how you can consume or distribute the same.
 
 ## Create a `webapi.xml` file
 
