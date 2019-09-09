@@ -38,8 +38,24 @@ As you can see above, `LazyCollection::make` is where we've written the logic of
 
 ## Using `LazyCollection` on Eloquent models
 
-We can use the query builder's `cursor` on the model instance which basically returns a `LazyCollection` instance. This allows us to still only run a single query against the database but also only keep one Eloquent model loaded 
-in memory at a time. Take below for example.
+We can use the query builder's `cursor` on the model instance which basically returns a `LazyCollection` instance. Let's check the `cursor` method implementation.
+
+```php
+public function cursor()
+{
+    if (is_null($this->columns)) {
+        $this->columns = ['*'];
+    }
+
+    return new LazyCollection(function () {
+        yield from $this->connection->cursor(
+            $this->toSql(), $this->getBindings(), ! $this->useWritePdo
+        );
+    });
+}
+```
+
+As you can see, returning a `LazyCollection` will allow us to treat the result of a cursor the same way as a regular `Collection` instance. This allows us to still only run a single query against the database but also only keep one Eloquent model loaded in memory at a time. Take below for example.
 
 ```php
 $users = App\User::cursor()->filter(function ($user) {
