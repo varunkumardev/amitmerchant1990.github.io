@@ -4,7 +4,7 @@ title: How to utilize Capsule to use Eloquent ORM outside Laravel
 categories: [Laravel]
 ---
 
-If you love the Laravel framework or more specifically it's Eloquent ORM like I do, there's a great chance that you'd like to use this great ORM in non-Laravel PHP apps. And the good news is it's rather easier than you think. Laravel provides a standalone pacakge called Capsule which you can use in your own project. It's a full database toolkit for PHP, providing an expressive query builder, ActiveRecord style ORM, and schema builder. It currently supports MySQL, Postgres, SQL Server, and SQLite.
+If you love the Laravel framework or more specifically its Eloquent ORM like I do, there's a great chance that you'd like to use this great ORM in non-Laravel PHP apps. And the good news is it's rather easier than you think. Laravel provides a standalone pacakge called Capsule which you can use in your own project. It's a full database toolkit for PHP, providing an expressive query builder, ActiveRecord style ORM, and schema builder. It currently supports MySQL, Postgres, SQL Server, and SQLite.
 
 ## Installing Eloquent Capsule
 
