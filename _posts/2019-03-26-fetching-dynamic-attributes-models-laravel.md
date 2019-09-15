@@ -6,7 +6,7 @@ categories: [Laravel]
 
 There exist this neat feature in [Laravel](https://laravel.com) using which you can add attributes in the models that do not have a respective column in your database. 
 
-You can achieve this by first creating an [accessor](https://www.amitmerchant.com/Laravel-Accessors-And-Mutators/) for the attribute you want to returned when casting models to an array or JSON. You can create an accessor like below.
+You can achieve this by first creating an [accessor](https://www.amitmerchant.com/Laravel-Accessors-And-Mutators/) for the attribute you want to be returned when casting models to an array or JSON. You can create an accessor like below.
 
 ```php
 namespace App;
