@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using GitHub as a Content Delivery Network
+image: /cdn/github-cdn.jpeg
 categories: [Miscellaneous]
 ---
 
