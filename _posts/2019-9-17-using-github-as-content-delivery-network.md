@@ -4,7 +4,7 @@ title: Using GitHub as a Content Delivery Network
 categories: [Miscellaneous]
 ---
 
-This is a quick write up on how I've started utilizing [GitHub](https://github.com) as a [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network)(sort of) and how you can do the same.
+This is a quick write up on how I've started utilizing [GitHub](https://github.com) as a [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network)(sort of) and how you can do the same as well.
 
 Usually, CDNs are used to have a content delivered on your website in a fast manner and to save some space on your server from resources such as images, documents etc. I've tried to use GitHub as a CDN for somewhat similar reasons. I'm running this blog on GitHub pages and as you might know GitHub only allows contents under 1 GB per repository. I didn't wanted to utlize my GitHub page's site's storage to store images that I end up using on the blog. So, I've figured out a way.
 
