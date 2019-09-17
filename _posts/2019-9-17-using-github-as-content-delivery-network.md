@@ -20,7 +20,7 @@ This way I can save up the space on my original GitHub pages site which I don't 
 
 ## In closing
 
-GitHub is really a great platform and this is just an another way of utilizing its greatness. I hope this would be useful for someone who is looking for a quick CDN service. :)
+I'm sure many here will find this funny but trust me it's highly functional and one can surely use it as a CDN alternative which they can spin up in minutes. I hope this would be useful for someone who is looking for a quick CDN service. :)
 
 Until next time!
 
