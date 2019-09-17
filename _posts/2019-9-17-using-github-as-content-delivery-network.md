@@ -12,7 +12,7 @@ Usually, CDNs are used to have a content delivered on your website in a fast man
 
 I thought of creating and using an another GitHub repository where I would store all the image resources and which can act as a mean to deliver content on my blog whenever requested. I created a repository named [cdn](https://github.com/amitmerchant1990/cdn) which is actually a bare bone repository. I would add images and resources in here.
 
-Now, as I've configured my GtHub pages site to work with my custom domain, I can easily access any content on this site using URL `https://www.amitmerchant.com/cdn/<resource name in the repos>`. For instance, There's an image called `bulb-min.jpg` exists in the repository which I can access using the following URL: https://www.amitmerchant.com/cdn/bulb-min.jpg
+Now, as I've configured my GtHub pages site to work with my custom domain, I can easily access any content on this site using URL `https://www.amitmerchant.com/cdn/<resource name in the repos>`. For instance, There's an image called `bulb-min.jpg` exists in the repository which I can access using the following URL: [https://www.amitmerchant.com/cdn/bulb-min.jpg](https://www.amitmerchant.com/cdn/bulb-min.jpg)
 
 And there you have it! Your free and instantly available CDN ready to use in few clicks. Easy-peasy! 
  
