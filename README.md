@@ -1,3 +1,5 @@
+<img src="/images/logo.png" width="70" height="70" />
+
 The sourcecode of [amitmerchant.com](https://www.amitmerchant.com)
 ==========================
 
