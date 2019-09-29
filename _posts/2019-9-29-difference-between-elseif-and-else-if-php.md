@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The difference between 'elseif' and 'else if' in PHP
+image: /cdn/else.png
 categories: [PHP]
 ---
 
