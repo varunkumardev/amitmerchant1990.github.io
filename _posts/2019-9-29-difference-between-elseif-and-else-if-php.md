@@ -27,7 +27,7 @@ In the above statement, the `elseif` is one statement by itself. So, it will che
 
 ## Using "else if" in conditionals
 
-On the other hand, We can write a conditional statement involving two or more conditions like below.
+On the other hand, We can write a conditional statement involving two or more conditions using `else if` like below.
 
 ```php
 if ($condition1) {
@@ -59,6 +59,6 @@ For many cases, this might not be an intended behaviour because let's say you ha
 
 ## In closing
 
-If you're following PHP Standard Recommendations, [PSR-2](https://www.php-fig.org/psr/psr-2) is actually [recommeds](https://www.php-fig.org/psr/psr-2/#51-if-elseif-else) using `elseif` instead of `else if` because the side effects I've mentioned above. So, it's a good idea to use the `elseif` in your code whenever possible.
+If you're following PHP Standard Recommendations, [PSR-2](https://www.php-fig.org/psr/psr-2) is actually [recommeds](https://www.php-fig.org/psr/psr-2/#51-if-elseif-else) using `elseif` instead of `else if` because of the side effects I've mentioned above. So, it's a good idea to use the `elseif` in your code whenever possible.
 
 
