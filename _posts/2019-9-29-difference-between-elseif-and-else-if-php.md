@@ -22,7 +22,7 @@ if ($condition1) {
 }
 ```
 
-In the above statement, the `elseif` is one statement by itself. So, it will check the first condition `$condition1`, if that becomes `false`, it will then checks the second condition `$condition2` and if it becomes true, PHP will excute the code in the following code.
+In the above statement, the `elseif` is one statement by itself. So, it will check the first condition `$condition1`, if that becomes `false`, it will then checks the second condition `$condition2` and if it becomes true, PHP will excute the code in the block following the condition.
 
 ## Using "else if" in conditionals
 
