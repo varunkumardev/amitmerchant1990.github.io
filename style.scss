@@ -32,7 +32,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 890px;
   padding: 0 10px;
   width: 100%;
 }
@@ -144,7 +144,7 @@ kbd {
 	    content: "";
 	    display: inline-block;
 	    vertical-align: middle;
-	    width: 46px;
+	    width: 26px;
 	    height: 1px;
 	    background: rgb(192, 211, 218);
 	    margin: 0px 30px;
@@ -464,6 +464,38 @@ form.wj-contact input[type="submit"] {
   }
 }
 
+.flex-div {
+  display: flex;
+  flex-direction: row;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.flex-left {
+  width: 75%; 
+  padding-right: 1.25rem;
+
+  @include mobile {
+    width: 100%; 
+    padding-right: 0;
+  }
+}
+
+.flex-right {
+  width: 25%;
+  @include mobile {
+    width: 100%; 
+  }
+}
+
+.top-articles-link {
+  font-size: 15px;
+  @include mobile {
+    font-size: 16px; 
+  }
+}
 
 @media screen and (min-width: 800px) {
   .row {
@@ -841,6 +873,14 @@ Modules - reusable parts of our design
     border-bottom: 1px dotted #000;
 }
 
+#cf {
+  border: dashed 2px #e6e6e6;
+}
+
+.cf-img-wrapper {
+  padding-bottom: 8px;
+}
+
 //carbon ads
 #carbonads {
   --width: 180px;
@@ -854,7 +894,7 @@ Modules - reusable parts of our design
   max-width: 370px;
   border-radius: 4px;
   text-align: center;
-  border: dashed 1px #e6e6e6;
+  border: dashed 2px #e6e6e6;
   background-color: #f7f2ff;
   font-size: var(--font-size);
   line-height: 1.5;
@@ -880,23 +920,23 @@ Modules - reusable parts of our design
 .carbon-img {
   display: block;
   margin-bottom: 8px;
-  max-width: var(--width);
   line-height: 1;
 
   img {
     display: block;
     margin: 0 auto;
-    max-width: 130px !important;
     width: var(--width);
     height: auto;
     float: left;
     margin: 0;
+    width: 100%;
+    max-width: 100% !important;
   }
 }
 
 .carbon-text {
   display: block;
-  padding: 0 1em 8px;
+  padding: 10px 1em 8px;
   max-width: 238px;
   float: left;
   text-align: left;
@@ -998,11 +1038,18 @@ Modules - reusable parts of our design
   }
 }
 
+.tlelabel {
+  font-size: 15px;
+}
+
+.ads-container {
+  padding: 10px;
+}
+
 .subscribeBtn {
-  width: 30%;
   background-color: hsla(0,0%,100%,.25);
   color: white;
-  padding: 14px 20px;
+  padding: 8px 12px;
   margin: 8px 0;
   border-color: hsla(0,0%,100%,.25);
   border-radius: 4px;
@@ -1024,9 +1071,18 @@ Modules - reusable parts of our design
     color: #fff;
 
     h3 {
-        color: #fff;
-        font-weight: bold;
-    	font-size: 26px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 22px;
+      margin: 5px 0 0px;
+    }
+
+    p{
+      margin: 0;
+
+      &:first-of-type {
+        padding: 10px;
+      }
     }
 }
 
