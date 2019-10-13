@@ -875,6 +875,7 @@ Modules - reusable parts of our design
 
 #cf {
   border: dashed 2px #e6e6e6;
+  border-radius: 6px;
 }
 
 .cf-img-wrapper {
@@ -892,7 +893,7 @@ Modules - reusable parts of our design
   display: inline-block;
   overflow: hidden;
   max-width: 370px;
-  border-radius: 4px;
+  border-radius: 6px;
   text-align: center;
   border: dashed 2px #e6e6e6;
   background-color: #f7f2ff;
@@ -961,7 +962,7 @@ Modules - reusable parts of our design
     padding: 2px 13px;
     border: none;
     background-color: #4CAF50;
-    border-radius: 50px;
+    border-radius: 5px;
     color: #fff;
   }
 }
