@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Union types are coming in PHP 8
+image: /cdn/php-union-types.jpeg
 categories: [PHP]
 ---
 
