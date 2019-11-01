@@ -5,7 +5,7 @@ image: /cdn/php-union-types.jpeg
 categories: [PHP]
 ---
 
-In this article, I'm going to discuss about the union types which are going to come in future versions of PHP through [this RFC](https://github.com/php/php-rfcs/pull/1). To understand why and how are union types important in PHP let's first understand what are union types.
+In this article, I'm going to discuss about the union types which are going to come in future versions of PHP through [this RFC](https://github.com/php/php-rfcs/pull/1). To understand why and how are union types important in PHP, let's first understand what are union types.
 
 ## What are union types?
 
@@ -13,7 +13,7 @@ According to Wikipedia,
 
 > In computer science, a union is a value that may have any of several representations or formats within the same position in memory; that consists of a variable that may hold such a data structure.
 
-So basically, A union type describes a value that can be one of several types. A "union type" accepts values of multiple different types, rather than a single one. Union types are also called as "intersection types". This means if the programming language supports union types, you can declare a variable in multiple types. For instance, there can be function which can accept variable of type "string" or "float" as a parameter.
+So basically, A union type describes a value that can be one of several types. A "union type" accepts values of multiple different types, rather than a single one. This means if the programming language supports union types, you can declare a variable in multiple types. For instance, there can be a function which can accept variable of type "string" or "float" as a parameter.
 
 When it comes to PHP, it already supports two special union types:
 
