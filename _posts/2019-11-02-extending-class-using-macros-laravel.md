@@ -9,7 +9,7 @@ In this article, I'm going to discuss about the feature in Laravel using which y
 
 ## Macroable Classes
 
-Laravel ships with this trait called [Illuminate\Support\Traits\Macroable](https://github.com/laravel/framework/blob/6.x/src/Illuminate/Support/Traits/Macroable.php) whose sole purpose is to make the class the "Macroable" in which it's used. A class is macroable, meaning it allows you to add additional methods to the class in hand at run time. 
+Laravel ships with this trait called [Illuminate\Support\Traits\Macroable](https://github.com/laravel/framework/blob/6.x/src/Illuminate/Support/Traits/Macroable.php) whose sole purpose is to make the class "Macroable" in which it's used. A class is macroable, meaning it allows you to add additional methods to the class in hand at run time. 
 
 So, what this trait do is enable the developers to add additional behaviour to the class without modifying the original class source code. You specifically need to check if the class you want to add behaviour to using this trait or not in order to use macros. Here are a few Laravel classes that uses `Macroable` trait.
 
