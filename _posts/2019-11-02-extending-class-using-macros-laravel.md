@@ -72,7 +72,7 @@ public static function macro($name, $macro)
 }
 ```
 
-Now, when the method gets called on that class, let's say `makeKebab` in our previous example, as the method does not exist in class it will trigger PHP's `__call()` magic method. Here's the imepelmentation of `__call()` magic method in the `Macroable` trait.
+Now, when the method gets called on that class, let's say `makeKebab` in our previous example, as the method is inaccessible in the class, it will trigger PHP's [__call()](https://www.php.net/manual/en/language.oop5.overloading.php#object.call) magic method. Here's the imepelmentation of `__call()` magic method in the `Macroable` trait.
 
 ```php
 public function __call($method, $parameters)
