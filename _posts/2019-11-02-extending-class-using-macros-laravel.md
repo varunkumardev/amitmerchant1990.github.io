@@ -96,5 +96,5 @@ What happens here is, it will first check if the specified method exist in the `
 
 ## In closing
 
-Laravel Macros are great if you want to quickly spin up a repeating logic on Laravel's core classes whenever you find yourself dilemma of reusing your code.
+Laravel Macros are great if you want to quickly spin up a repeating logic on Laravel's core classes whenever you find yourself in the dilemma of reusing your code.
 
