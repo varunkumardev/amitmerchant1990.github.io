@@ -5,7 +5,7 @@ image: /cdn/laravel-macros.jpeg
 categories: [Laravel]
 ---
 
-In this article, I'm going to discuss about the feature in Laravel using which you can extend the functionality of certain Laravel's core classes without even touching the original codebase.
+In this article, I'm going to discuss about the feature in Laravel using which you can extend the functionality of certain Laravel's core classes without even touching the original codebase. Or in other words, adding methods to the class dynamically.
 
 ## Macroable Classes
 
