@@ -10,18 +10,18 @@ Here's how you can accomplish this. First of all, you need to uncomment the line
 
 ```php
 /**
-     * The application's route middleware groups.
-     *
-     * @var array
-     */
-    protected $middlewareGroups = [
-        'web' => [
-            ...
-            \Illuminate\Session\Middleware\AuthenticateSession::class,
-            ...
-        ],
+ * The application's route middleware groups.
+ *
+ * @var array
+ */
+protected $middlewareGroups = [
+    'web' => [
         ...
-    ];
+        \Illuminate\Session\Middleware\AuthenticateSession::class,
+        ...
+    ],
+    ...
+];
 ```
 
 Next, you can use `logoutOtherDevices` method on the `Auth` facade which takes user's password as its only argument. You can collect the password through an input form.
@@ -47,7 +47,7 @@ Now, Let's take a look at the `logoutOtherDevices` method's implementation which
  * @param  string  $password
  * @param  string  $attribute
  * @return bool|null
-*/
+ */
 public function logoutOtherDevices($password, $attribute = 'password')
 {
     if (! $this->user()) {
