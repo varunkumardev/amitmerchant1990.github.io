@@ -3,9 +3,9 @@
 The sourcecode of [amitmerchant.com](https://www.amitmerchant.com)
 ==========================
 
-This is the codebase of my [personal blog](https://www.amitmerchant.com). It's built upon [Jekyll](https://jekyllrb.com/) and using a theme called [Reverie](https://github.com/amitmerchant1990/reverie). I'll try to update it every now and then.
+This is the codebase of my [personal blog](https://www.amitmerchant.com). It's built upon [Jekyll](https://jekyllrb.com/) and using a theme called [Reverie](https://github.com/amitmerchant1990/reverie).
 
-Suggestions are welcomed!
+Suggestions of all kind are welcomed!
 
 **Warning**: This content has my copyright. You are _not_ welcome to copy and use this content on your own website. There's no reason to do so: write your own content.
 
