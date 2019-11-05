@@ -3,7 +3,7 @@
 The sourcecode of [amitmerchant.com](https://www.amitmerchant.com)
 ==========================
 
-This is the codebase of my [personal blog](https://www.amitmerchant.com). It's built upon [Jekyll](https://jekyllrb.com/) and using a theme called [Reverie](https://github.com/amitmerchant1990/reverie).
+This is the codebase of my [personal blog](https://www.amitmerchant.com). It's built upon [Jekyll](https://jekyllrb.com/) and using a theme called [Reverie](https://github.com/amitmerchant1990/reverie). This is where I write about things which I work on day-to-day basis.
 
 Suggestions of all kind are welcomed!
 
