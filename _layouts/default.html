@@ -19,7 +19,6 @@
       if ((host == window.location.host) && (window.location.protocol != "https:"))
           window.location.protocol = "https";
     </script>
-    <script type="text/javascript" src="//m.servedby-buysellads.com/monetization.js" async="async"></script>
   </head>
 
   <body>
@@ -82,24 +81,5 @@
     </div>
 
     {% include analytics.html %}
-
-    <script>
-      (function() {
-        if (typeof _bsa !== 'undefined' && _bsa) {
-          _bsa.init('custom', 'CE7DPK7I', 'placement:amitmerchantcom',
-          {
-            target: '#custom-inline',
-            template: `
-        <a href="##link##" class="native-link">
-          <img src="##image##" style="background-color: ##backgroundColor##" class="native-img">
-          <div class="native-text"><span class="native-company">##company##</span> ##description##</div>
-        </a>
-        <a href="##adViaLink##" class="native-ad">AD</a>
-          `
-              }
-            );
-        }
-      })();
-      </script>
   </body>
 </html>
