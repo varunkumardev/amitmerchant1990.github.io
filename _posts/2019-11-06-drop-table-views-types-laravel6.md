@@ -7,7 +7,7 @@ categories: [Laravel]
 
 If you're looking for a quick way to drop all the tables, their types and views and if you're using Laravel 6.x, you can use this little artisan command called `db:wipe` in order to do the same.
 
-This Pull Request [29620](https://github.com/laravel/framework/pull/29620) by [Anton Komarev](https://github.com/antonkomarev) adds `db:wipe` artisan command which you use like so.
+This Pull Request [#29620](https://github.com/laravel/framework/pull/29620) by [Anton Komarev](https://github.com/antonkomarev) adds `db:wipe` artisan command which you use like so.
 
 ```bash
 $ php artisan db:wipe {--database=} {--drop-views} {--drop-types} {--force}
