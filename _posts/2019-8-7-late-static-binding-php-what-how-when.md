@@ -88,7 +88,7 @@ class Alpha
 {
     public static function printClass() 
     {
-        static::getClassname();
+        var_dump(get_called_class());
     }
 }
 
