@@ -2,6 +2,7 @@
 layout: post
 title: The most easiest and clean way to unset a cookie in PHP
 categories: [PHP]
+image: /cdn/cookie.jpeg
 excerpt: Today, I got to know about a very clean looking and intuitive way of unsetting/deleting a cookie from client's browser using PHP. No "setting the expiry time in past" bullshit.
 ---
 
