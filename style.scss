@@ -189,6 +189,12 @@ p {
    box-sizing: border-box;
    font-size: 18px;
    background-color: #fff3ff;
+
+   &:focus {
+    outline: none;
+    border-color: #5d35a5;
+    box-shadow: inset 0 1px 2px #ddd, 0 0 5px #673AB7;
+   }
  }
 
 .share-box {
@@ -455,26 +461,35 @@ p > img {
 }
 
 // Contact form
+.wj-contact {
+  margin-bottom: 15px;
+}
+
 form.wj-contact input[type="text"], form.wj-contact input[type="email"], form.wj-contact textarea[type="text"] {
   width: 100%;
   vertical-align: middle;
   margin-top: 0.25em;
   margin-bottom: 0.5em;
   padding: 0.75em;
-  font-family: monospace, sans-serif;
   font-weight: lighter;
   border-style: solid;
-  border-color: #444;
+  border-color: #bbb;
   outline-color: #2e83e6;
   border-width: 1px;
   border-radius: 3px;
   transition: box-shadow .2s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #5d35a5;
+    box-shadow: inset 0 1px 2px #ddd, 0 0 5px #673AB7;
+  }
 }
 
 form.wj-contact input[type="submit"] {
   outline: none;
   color: white;
-  background-color: #2e83e6;
+  background-color: #da10fb;
   border-radius: 3px;
   padding: 0.5em;
   margin: 0.25em 0 0 0;
@@ -482,6 +497,8 @@ form.wj-contact input[type="submit"] {
   height: auto;
   cursor: pointer;
   font-size: 16px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  font-weight: bold;
 
   &:hover {
     transform: scale(1.01);
@@ -1045,8 +1062,8 @@ Modules - reusable parts of our design
 
   nav {
     a {
-      font-weight: normal;
-      font-size: 18px;
+      font-weight: bold;
+      font-size: 16px;
 
       @include mobile {
         margin: 0 10px;
@@ -1068,6 +1085,12 @@ Modules - reusable parts of our design
   &::placeholder{
     color: #673AB7
   }
+
+  &:focus {
+    outline: none;
+    border-color: #5d35a5;
+    box-shadow: inset 0 1px 2px #ddd, 0 0 5px #673AB7;
+  }
 }
 
 .tlelabel {
@@ -1080,7 +1103,7 @@ Modules - reusable parts of our design
 }
 
 .subscribeBtn {
-  background-color: #da10fb;
+  background-color: #c60fe4;
   color: white;
   padding: 8px 22px;
   margin: 8px 0;
