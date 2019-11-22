@@ -32,7 +32,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 920px;
+  max-width: 950px;
   padding: 0 10px;
   width: 100%;
 }
@@ -548,7 +548,7 @@ form.wj-contact input[type="submit"] {
   border-radius: 5px;
   background-image: radial-gradient(circle 346px at 0.3% 100%, #3e4ca7 0%, #ea6dff 100.7%);
   text-align: center;
-  box-shadow: 2px 1px 7px 0px #888686;
+  box-shadow: 2px 1px 13px 0px #888686;
 
   a {
     color: #fff;
@@ -1089,6 +1089,7 @@ Modules - reusable parts of our design
   font-size: 11pt;
   border: none;
   box-shadow: 0 2px 2px 0 rgba(0,40,56,.15);
+  font-weight: bold;
 
   &:hover {
     transform: scale(1.05);
@@ -1101,7 +1102,7 @@ Modules - reusable parts of our design
     text-align: center;
     margin: 8px;
     border-radius: 5px;
-    background-image: linear-gradient(180deg, #5409ff, #f3abff);
+    background-image: linear-gradient(180deg, #3800b9, #f3abff);
     color: #fff;
 
     h3 {
