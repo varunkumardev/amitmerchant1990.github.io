@@ -35,5 +35,5 @@ permalink: /search/
             e.initEvent('keyup', true, true, document.defaultView, false, false, false, false, 13, 0);
             element.dispatchEvent(e);
         }
-    }, 100);
+    }, 200);
 </script>
