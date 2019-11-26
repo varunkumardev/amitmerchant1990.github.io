@@ -6,7 +6,7 @@ image: /cdn/dependency-injection-container.jpeg
 excerpt: In this article, I'll talk about Dependency Injection and Dependency Injection Container and why one should use DI Containers.
 ---
 
-If you've worked with some of the modern framework such as Laravel or Symphony, I'm sure you've come across this term called "Dependency Injection". So, what is dependency injection actually?
+If you've worked with some of the modern framework such as [Laravel](https://laravel.com) or [Symfony](https://symfony.com), I'm sure you've come across this term called ["Dependency Injection"](https://en.wikipedia.org/wiki/Dependency_injection). So, what is dependency injection anyway?
 
 > Dependency Injection (DI) is a design pattern used to implement IoC(Inversion of Control). It is rather a technique using which one object supplies the dependencies of another object.
 
