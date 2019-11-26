@@ -10,7 +10,7 @@ Inheritance is the mechanism of basing an object or class upon another object or
 
 On the other hand, Composition is the mechanism to reuse code across classes by containing instances of other classes that implement the desired functionality. A composition establishes a "has-a" relationship between classes. For example "A car has an engine". There are number of reasons which favors the use of composition over inheritance.
 
-## Maintainibility and loose coupling
+## Maintainability and loose coupling
 
 Let's understand both **Inheritance** and **Composition** using an example and analyse why inheritance can prove to be dangerous to implement.
 
