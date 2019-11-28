@@ -95,9 +95,9 @@ Now, it is for the user of the `CustomerPayments` to decide which implementation
 
 > The `CustomerPayments` is no longer tightly coupled to its dependency.
 
-## What is Dependency Injection Container then?
+## What's Dependency Injection Container then?
 
-> DI containers are often software libraries that provides DEpendency Injection functionality and allows automating many of the tasks involved in **Object Composition**, **Interception**, and **Lifetime Management**. DI Containers are also known as Inversion of Control (IoC) Containers.
+> DI containers are often software libraries that provides Dependency Injection functionality and allows automating many of the tasks involved in **Object Composition**, **Interception**, and **Lifetime Management**. DI Containers are also known as Inversion of Control (IoC) Containers.
 
 If you've noticed in the example above that, we were responsible in handling injecting dependencies to classes. A DI container as it's definition suggests helps in reducing this overhead by analyzing a type's constructor, without the need to having to specify each constructor argument manually.
 
