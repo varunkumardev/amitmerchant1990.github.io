@@ -128,7 +128,7 @@ $this->app->bind('App\Http\Controllers\UserController', function ($app) {
 
 ## Method dependency injection
 
-There will a case when you only want to inject the dependency into the certain method. In such scenarios, you can use method dependency injection whereby you inject the object to your class through a setter method instead of the constructor.
+There maybe a case when you only want to inject the dependency into the certain method. In such scenarios, you can use method dependency injection whereby you inject the object to your class through a setter method instead of the constructor.
 
 ```php
 <?php
