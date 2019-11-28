@@ -95,7 +95,7 @@ Now, it is for the user of the `CustomerPayments` to decide which implementation
 
 > The `CustomerPayments` is no longer tightly coupled to its dependency.
 
-## What's Dependency Injection Container then?
+## What's a DI Container then?
 
 > DI containers are often software libraries that provides Dependency Injection functionality and allows automating many of the tasks involved in **Object Composition**, **Interception**, and **Lifetime Management**. DI Containers are also known as Inversion of Control (IoC) Containers.
 
