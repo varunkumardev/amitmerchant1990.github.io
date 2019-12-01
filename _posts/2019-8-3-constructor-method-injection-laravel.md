@@ -38,6 +38,9 @@ In above example, the class `Client` wants to use another service called `UserSe
 
 But the thing is, your business logic may change over the period of time and you might want to use some other service other than `UserService` let's say `UserRepository` in this particular class. What will you do in this case? Replace `UserService`'s instance with `UserRepository`'s instance? Nah, that will make harder to test the class and it's purely baseless to interchange the dependency like this. This where the concept of dependency comes into play.
 
+{:.you-may-like}
+> You may also like: [Dependency Injection vs. Dependency Injection Container in PHP](https://www.amitmerchant.com/dependency-injection-container-php/)
+
 ## Constructor dependency injection
 
 The first type of dependency injection that we're going to learn is "Constructor dependency injection". Let's under it by tweaking the above example.
@@ -125,7 +128,7 @@ $this->app->bind('App\Http\Controllers\UserController', function ($app) {
 
 ## Method dependency injection
 
-There will a case when you only want to inject the dependency into the certain method. In such scenarios, you can use method dependency injection whereby you inject the object to your class through a setter method instead of the constructor.
+There maybe a case when you only want to inject the dependency into the certain method. In such scenarios, you can use method dependency injection whereby you inject the object to your class through a setter method instead of the constructor.
 
 ```php
 <?php

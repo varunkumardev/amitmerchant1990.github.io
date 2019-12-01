@@ -92,7 +92,7 @@ class Comparator {
 }
 ```
 
-A Class object that implements `__invoke` it's a "callable", it can be used in any context that a function could be, so now we can simply instantiate `Comparator` objects and pass them to the usort function:
+A Class object that implements `__invoke` is called a "callable" and it can be used in any context that a function could be, so now we can simply instantiate `Comparator` objects and pass them to the usort function:
 
 ```php
 usort($arr, new Comparator('key')); // sort by 'key'
