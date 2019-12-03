@@ -38,6 +38,9 @@ $car->accelarate(); //Move the car
 
 In above exaple, we've inherited class `Vehicle` into the `Car` class. This makes a very tight coupling between class `Vehicle` and `Car`. If anything gets changed in class `Vehicle`, specifically in `move()` method, class `Car` can break easily as superclass `Vehicle` have no idea of what child classes are uses it for.
 
+{:.you-may-like}
+> You may also like: [A closer look at Invokable classes in PHP](/invokable-classes-php/)
+
 This kind of tight coupling can mitigated using composition. Let's modify above example to see how composition can solve this issue.
 
 ```php

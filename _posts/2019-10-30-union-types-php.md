@@ -17,7 +17,7 @@ So basically, A union type describes a value that can be one of several types. A
 
 When it comes to PHP, it already supports two special union types:
 
-- `Type` or `null`, using the special `?Type` syntax.
+- `Type` or `null`, using [the special](/nullable-types-php71/) `?Type` syntax.
 - `array` or `Traversable`, using the special iterable type.
 
 But as of now, arbitrary union types are not supported by the language. So, programmers tends to use PHPDoc annotations as a workaround.
@@ -60,6 +60,9 @@ class Number {
     }
 }
 ```
+
+{:.you-may-like}
+> You may also like: [Nullable types in PHP 7.1](/nullable-types-php71/)
 
 ## Advantages of using union types
 
