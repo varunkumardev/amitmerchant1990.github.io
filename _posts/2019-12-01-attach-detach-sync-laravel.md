@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Attach, detach and sync many-to-many relationships in Laravel
-image: /cdn/attach-detach-sync-laravel.jpeg
+image: /cdn/attach-detach-sync-laravel.png
 categories: [Laravel]
 ---
 
