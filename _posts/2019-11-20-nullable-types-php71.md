@@ -18,11 +18,11 @@ public function setPrefix(?string $prefix): void
 }
 ```
 
-Noticed `?string` type-hint in the function parameter? This is the thing that had got me. I wondered what this means and why it is useful. So, I needed to find it out. And after a little Googling, I found that this are called as [Nullable types](https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.nullable-types) which are added in PHP 7.1.
+Noticed `?string` type-hint in the function parameter? This is the thing that had got me. I wondered what this means and why it is useful. So, I needed to find it out. And after a little Googling, I found that these are called as [Nullable types](https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.nullable-types) which are added in PHP 7.1.
 
 ## What are Nullable types?
 
-Nullable type simply means when you prepens `?` to the type name while declaring types in the method parameters or for return values, it will be marked as nullable. This signifies that as well as the specified type, NULL can be passed as an argument, or returned as a value, respectively.
+Nullable type simply means when you prepends `?` to the type name while declaring types in the method parameters or for return values, it will be marked as nullable. This signifies that as well as the specified type, NULL can be passed as an argument, or returned as a value, respectively.
 
 So, if you type hint parameter with `?` like below
 
