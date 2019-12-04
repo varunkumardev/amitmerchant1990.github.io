@@ -11,7 +11,7 @@ There exists four types of relationship associated between models/entities. And 
 
 > A relationship betweeen two entities is called as Many to Many when multiple records in a table are associated with multiple records in another table. 
 
-For inatance, let's say we have two entities **Books** and **Authors**. If you carefully observe this relationship, you'll notice that a book can have multiple authors and an author has written multiple books. In this case, you have many books related to many authors. 
+For instance, let's say we have two entities **Books** and **Authors**. If you carefully observe this relationship, you'll notice that a book can have multiple authors and an author has written multiple books. In this case, you have many books related to many authors. 
 
 So, If we want to define a relationship between these two entities we'll need three database tables: `books`, `authors` and a special table called as a "pivot table" `book_author`. The  `book_author` table is derived from the alphabetical order of the related model names, and contains the `book_id` and `author_id` columns.
 
