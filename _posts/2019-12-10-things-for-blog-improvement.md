@@ -15,7 +15,7 @@ The traffic, as you would expect was also very low. 20-30 unique users every day
 
 ## Improved design
 
-In terms of design, I was definite that I would need more [point of action](https://dictionary.cambridge.org/dictionary/english/point-of-action), using which the visitor whould not leave the site right after its one time visit. So, the first thing I did was, I added a header menu which consists of the top topics of this blog. These includes PHP, Laravel, JavaScript and so forth. This is how it looks.
+In terms of design, I was definite that I would need more [call to action](https://en.wikipedia.org/wiki/Call_to_action_(marketing)), using which the visitor whould not leave the site right after its one time visit. So, the first thing I did was, I added a header menu which consists of the top topics of this blog. These includes PHP, Laravel, JavaScript and so forth. This is how it looks.
 
 ![](/images/header-menu.png)
 
