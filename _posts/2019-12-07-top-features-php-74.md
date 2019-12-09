@@ -211,7 +211,7 @@ print_r($numbers);
 //Array([0] => 10 [1] => 20 [2] => 30)
 ```
 
-The entire code now reduced to one line. It's now more readable and clean now.
+The entire code now reduced to one line. It's now more readable and clean now. And as an added bonus, you now don't have to pass the local varible (in above example `$factor`) using `use` explicitly. It'll accessible in the arrow function automatically.
 
 ## In Closing
 
