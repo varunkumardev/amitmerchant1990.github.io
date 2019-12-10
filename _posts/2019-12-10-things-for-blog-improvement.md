@@ -9,7 +9,9 @@ When I started my blog [three years ago](/Hello-World/), I didn't intend to blog
 
 The UI of my blog was also pretty much basic and flat. To give you some perspective, here's how my blog looks like in 2019(on the right side) in comparison to 2018(on the left side).
 
-![](/images/blog-improvements.jpeg)
+| ![](/images/blog-improvements.jpeg) |
+|---|
+| 2019 vs. 2018 |
 
 The traffic, as you would expect was also very low. 20-30 unique users every day. But then one day, I noticed one of my articles related to Laravel's egaer loading has started getting some traction. It was able to get 40-50 unique user everyday alone. That's where it striked to me. I saw an opportunity to build an audience and to write the things people would actually interested in reading. But before continuing to do so, I was certain that the blog needs some improvements in terms of the design and aesthetics apart from writing frquently. So, I've started working towards the same. Here are few things I did to improve the usability and accountability of the blog, incrementally over the past few years. 
 
