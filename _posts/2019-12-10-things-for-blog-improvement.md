@@ -29,7 +29,7 @@ Next, on the article pages, I've added a segment called _"You may also like"_ in
 
 {% include image.html file="you-may-like.png" description="Related articles call-to-action" %}
 
-The last thing I did in terms of design was to make my blog from 1-column layout to 2-column layout. This decision helped me in moving some things such as newsletter box and advertisement to the right of the layout. I've implemented 2-column layout using flexbox. I've made the second column as a separate component which I've used across the entire blog pages.
+The last thing I did in terms of design was to make my blog from 1-column layout to 2-column layout. This decision helped me in moving some things such as newsletter box and advertisement to the right of the layout. {% include pullquote.html quote="I've implemented a 2-column layout using flexbox." %} I've made the second column as a separate component which I've used across the entire blog pages.
 
 All of the above combined with a color scheme and gradients of those colors at places, I've made sure that the blog doesn't feel boring anymore.
 

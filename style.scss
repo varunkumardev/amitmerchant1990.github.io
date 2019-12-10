@@ -546,6 +546,30 @@ form.wj-contact input[type="submit"] {
   margin-top: 10px;
 }
 
+span[data-pullquote] {
+  display: block;
+
+  @include mobile {
+    display: none;
+  }
+  
+  @include tablet {
+    display: none;
+  }
+}
+
+span[data-pullquote]:before {
+  content: attr(data-pullquote);
+  float: right;
+  width: 200px;
+  margin: 0 0 0.5em 30px;
+  padding: 0 -5% 0 0;
+  font-size: 1.3em;
+  font-style: italic;
+  color: #673AB7;
+  text-align: center;
+}
+
 @media screen and (min-width: 800px) {
   .row {
     display: flex;
