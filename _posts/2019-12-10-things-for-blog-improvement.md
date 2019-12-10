@@ -9,9 +9,7 @@ When I started my blog [three years ago](/Hello-World/), I didn't intend to blog
 
 The UI of my blog was also pretty much basic and flat. To give you some perspective, here's how my blog looks like in 2019(on the right side) in comparison to 2018(on the left side).
 
-| ![](/images/blog-improvements.jpeg) |
-|---|
-| 2019 vs. 2018 |
+{% include image.html file="blog-improvements.jpeg" description="My blog in 2019 vs. in 2018" %}
 
 The traffic, as you would expect was also very low. 20-30 unique users every day. But then one day, I noticed one of my articles related to Laravel's egaer loading has started getting some traction. It was able to get 40-50 unique user everyday alone. That's where it striked to me. I saw an opportunity to build an audience and to write the things people would actually interested in reading. But before continuing to do so, I was certain that the blog needs some improvements in terms of the design and aesthetics apart from writing frquently. So, I've started working towards the same. Here are few things I did to improve the usability and accountability of the blog, incrementally over the past few years. 
 
@@ -19,17 +17,17 @@ The traffic, as you would expect was also very low. 20-30 unique users every day
 
 In terms of design, I was definite that I would need more [call to action](https://en.wikipedia.org/wiki/Call_to_action_(marketing)), using which the visitor whould not leave the site right after its one time visit. So, the first thing I did was, I added a header menu which consists of the top topics of this blog. These includes PHP, Laravel, JavaScript and so forth. This is how it looks.
 
-![](/images/header-menu.png)
+{% include image.html file="header-menu.png" description="Header menu of categories" %}
 
 This was an easy decision to make and one I think is very effective as well. It would essentially give the interested user the topic they are interested on a single page.
 
 The other improvement I did in term of design was to add a grid on the home page which have featured articles, the ones which are most popular on the blog. This also serves the purpose of giving idea to the first time visitors what this blog is all about.
 
-![](/images/article-grid.png)
+{% include image.html file="article-grid.png" description="Featured Articles grid using flexbox" %}
 
 Next, on the article pages, I've added a segment called _"You may also like"_ in the middle of the article which basically suggests the target visitor about a related article which they might like. Here's how it looks like.
 
-![](/images/you-may-like.png)
+{% include image.html file="you-may-like.png" description="Related articles call-to-action" %}
 
 The last thing I did in terms of design was to make my blog from 1-column layout to 2-column layout. This decision helped me in moving some things such as newsletter box and advertisement to the right of the layout. I've implemented 2-column layout using flexbox. I've made the second column as a separate component which I've used across the entire blog pages.
 
