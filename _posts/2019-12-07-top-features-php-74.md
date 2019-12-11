@@ -167,13 +167,15 @@ $user = [
     'name' => 'Amit'
 ];
 
-$user['job'] ??= 'Blogger'; 
+$user['job'] = $user['job'] ?? 'Blogger'; 
 
 print_r($user);
 //Array([name] => Amit [job] => Blogger)
 ```
 
-As you can see, it's now matter of just one line when you need to accomplish something like above. Pretty neat, right?
+The null coalescing assignment operator returns its first operand if it exists and is not NULL; otherwise it returns its second operand.
+
+As you can see in the example above, it's now matter of just one line when you need to accomplish something like above. Pretty neat, right?
 
 ## Arrow functions
 
