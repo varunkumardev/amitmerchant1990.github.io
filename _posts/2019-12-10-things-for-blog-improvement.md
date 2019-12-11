@@ -7,6 +7,8 @@ categories: [Miscellaneous]
 
 When I started my blog [three years ago](/Hello-World/), I didn't intend to blog on a regular basis. Back then, I used to write about things which I learn on a day to day basis but that wasn't very often. My frequency of posting an article was 1-2 articles per month.
 
+---
+
 The UI of my blog was also pretty much basic and flat. To give you some perspective, here's how my blog looks like in 2019(on the right side) in comparison to 2018(on the left side).
 
 {% include image.html file="blog-improvements.jpeg" description="My blog in 2019 vs. in 2018" %}
