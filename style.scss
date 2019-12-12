@@ -547,7 +547,17 @@ form.wj-contact input[type="submit"] {
 .suggestion-container {
   margin: 8px;
   padding: 3px;
-  font-size: 13px;
+  font-size: 12px;
+  &:before{
+    content: '💡';
+    height: 24px;
+    margin-top: 15px;
+    position: absolute;
+    width: 24px;
+  }
+  .additional-container{
+    padding-left: 22px;
+  }
 }
 
 hr {
