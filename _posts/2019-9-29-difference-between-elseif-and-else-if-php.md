@@ -55,6 +55,6 @@ if ($condition1) {
 }
 ```
 
-So basically, there's not much difference in using `else if` and `elseif` other than the latter is a "syntactic sugar". However, if you're following PHP Standard Recommendations, [PSR-2](https://www.php-fig.org/psr/psr-2) is actually [recommeds](https://www.php-fig.org/psr/psr-2/#51-if-elseif-else) using `elseif` instead of `else if` as a standard approach. So, it's a rather good idea to use `elseif` in your code whenever possible.
+So basically, there's not much of a difference in using `else if` versus `elseif` other than the latter is a "syntactic sugar". However, if you're following PHP Standard Recommendations, [PSR-2](https://www.php-fig.org/psr/psr-2) is actually [recommeds](https://www.php-fig.org/psr/psr-2/#51-if-elseif-else) using `elseif` instead of `else if` as a standard approach. So, it's a rather good idea to use `elseif` in your code whenever possible.
 
 
