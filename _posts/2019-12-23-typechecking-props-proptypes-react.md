@@ -2,7 +2,7 @@
 layout: post
 title: Type checking props using PropTypes in React
 image: /cdn/type-checking-prop-proptypes.png
-categories: [React]
+categories: [React, JavaScript]
 ---
 
 JavaScript is not a statically typed language. A language is a statically typed if the type of a variable is known at compile-time instead of at run-time. Common examples of statically-typed languages include Java, C, C++, Swift, Kotlin and Scala. 
@@ -77,7 +77,7 @@ ReactDOM.render(
 > **Note**
 >
 > From React v15.5, `PropTypes` comes as a separate [node library](https://www.npmjs.com/package/prop-types) which you can install in your project by `npm install --save prop-types`
-> Which can be consumed like so: 
+> which can be consumed like so: 
 > ```js
 > import PropTypes from 'prop-types';
 > ```
@@ -194,5 +194,8 @@ MyComponent.propTypes = {
   // A value of any data type
   requiredAny: PropTypes.any.isRequired
 };
-
 ```
+
+## Conclusion
+
+Using _propTypes_ really is a best practice when it comes to developing apps using React. However, it's not at all mandatory to use them. A usecase you would consider using propTypes where there are multiple people working on a project and you want some kind of "type" enforcement on your component right from the beginning because you never know how much your component will get changed over the time. You should keep in mind that it would be a real pain to write prop-types for the component a while after it's implemented. So, it would be a better idea to write them alongside the implementation of the components.

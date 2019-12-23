@@ -2,7 +2,7 @@
 layout: post
 title: Automatically bind ES6 class functions in callbacks in React
 image: /cdn/automatically-bind-class-function-react.png
-categories: [React]
+categories: [React, JavaScript]
 ---
 
 When using React component using [ES6 classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), you must have encountered this phenomenon where you have to explicitly bind the class function and then pass it to the even such as `onClick`. For instance, take the following example.
