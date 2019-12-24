@@ -1074,6 +1074,85 @@ Modules - reusable parts of our design
   }
 }
 
+//Donation
+.donation-container{
+  border: 2px solid #985dff;
+  background-color: #f3ecff;
+  border-radius: 5px;
+
+  .donation-box{
+    display: flex;
+    padding: 20px;
+
+    p{
+      font-size: 17px;
+    }
+
+    .donation-logo{
+      margin-right: 2rem;
+
+      img{
+        border-radius: 5px;
+      }
+    }
+
+    .kofi-btn-container{
+      display: inline-block!important;
+      white-space: nowrap;
+      min-width: 160px;
+
+      a.kofi-button {
+        box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+        line-height: 36px!important;
+        min-width: 150px;
+        display: inline-block!important;
+        background-color: #29abe0;
+        padding: 2px 12px !important;
+        text-align: center !important;
+        border-radius: 7px;
+        color: #fff;
+        cursor: pointer;
+        overflow-wrap: break-word;
+        vertical-align: middle;
+        border: 0 none #fff !important;
+        font-family: 'Quicksand',Helvetica,Century Gothic,sans-serif !important;
+        text-decoration: none;
+        text-shadow: none;
+        font-weight: 700!important;
+        font-size: 14px !important;
+
+        span.kofitext {
+          color: #fff !important;
+          letter-spacing: -0.15px!important;
+          text-wrap: none;
+          vertical-align: middle;
+          line-height: 33px !important;
+          padding: 0;
+          text-align: center;
+          text-decoration: none!important;
+          text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
+
+          img.kofiimg {
+            height: 15px!important;
+            width: 22px!important;
+            display: initial!important;
+            vertical-align: middle;
+            height: 13px!important;
+            width: 20px!important;
+            padding-top: 0;
+            padding-bottom: 0;
+            border: none;
+            margin-top: 0;
+            margin-right: 5px;
+            margin-left: 0;
+            margin-bottom: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 759px) {
   #carbonads {
     float: none;
