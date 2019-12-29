@@ -1,18 +1,5 @@
 ---
 layout: default
-top_articles: 
-  - url: /Laravel-Eager-Loading-Load-Vs-With/
-    title: Laravel Eager Loading - load() Vs. with()
-  - url: /attribute-casting-laravel/
-    title: Attribute casting in Laravel Eloquent
-  - url: /this-is-why-php-dont-have-multiple-inheritance/
-    title: This is why PHP don't have multiple inheritance
-  - url: /why-you-should-use-laravel-queues/
-    title: Why you should use Laravel Queues
-  - url: /array-destructuring-in-php/
-    title: Array destructuring in PHP
-  - url: /Laravel-Accessors-And-Mutators/
-    title: Laravel - Accessors & Mutators
 ---
 
 <div class="flex-div">
@@ -21,7 +8,7 @@ top_articles:
       <h1>🎖️ Featured Articles</h1>
 
       {% assign j = 0 %}
-      {% for article in page.top_articles %}
+      {% for article in site.top_articles %}
         {% if j == 0 or j == 3 %}
         <div class="row">
         {% endif %}
