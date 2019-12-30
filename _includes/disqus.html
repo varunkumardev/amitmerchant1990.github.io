@@ -1,17 +1,38 @@
 {% if site.disqus %}
 <div class="comments">
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
+	<div id="disqus_thread">
+		<div id="disqus_empty"></div>
+	</div>
+	<script>
+		function load_disqus( disqus_shortname ) {
+			// Prepare the trigger and target
+			let is_disqus_empty = document.getElementById('disqus_empty'),
+				disqus_target   = document.getElementById('disqus_thread'),
+				disqus_embed    = document.createElement('script'),
+				disqus_hook     = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
 
-	    var disqus_shortname = '{{ site.disqus }}';
+			// Load script asynchronously only when the trigger and target exist
+			if ( disqus_target && is_disqus_empty ) {
+				disqus_embed.type = 'text/javascript';
+				disqus_embed.async = true;
+				disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				disqus_hook.appendChild(disqus_embed);
+				is_disqus_empty.remove();
+			}
+		}
 
-	    (function() {
-	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
+		/*
+		* Load disqus only when the document is scrolled till the top of the
+		* section where comments are supposed to appear.
+		*/
+		window.addEventListener('scroll', function(e) {
+			let currentScroll = document.scrollingElement.scrollTop;
+			let disqus_target = document.getElementById('disqus_thread');
 
+			if ( disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150) ) {
+				load_disqus('{{ site.disqus }}');
+			}
+		}, false);
 	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 {% endif %}
