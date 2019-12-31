@@ -1158,6 +1158,48 @@ Modules - reusable parts of our design
   }
 }
 
+//next-previous links
+.pagination-side.next {
+  background-image: url(/images/chevron-left.svg);
+  left: 7px;
+}
+
+.pagination-side.previous {
+  background-image: url(/images/chevron-right.svg);
+  right: 7px;
+  padding-left: 10px;
+  padding-right: 30px;
+  background-position-x: right;
+}
+
+.pagination-side {
+  position: fixed;
+  display: inline-block;
+  top: 50%;
+  line-height: 40px;
+  margin-top: -20px;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 0 10px 0 30px;
+  width: 10px;
+  height: 40px;
+  overflow: hidden;
+  color: #00000000;
+  border-radius: 15px;
+  font-size: 12px;
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+
+.pagination-side:hover {
+  color: #222;
+  background-color: #f7f7f7;
+  width: auto;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 759px) {
   #carbonads {
     float: none;
