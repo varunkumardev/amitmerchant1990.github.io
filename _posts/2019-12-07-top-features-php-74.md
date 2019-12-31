@@ -15,7 +15,8 @@ PHP 7.4 now supports type declarations for class properties.Take following for e
 
 ```php
 <?php
-class User {
+class User
+{
     public int $id;
     
     public function __construct()
@@ -41,7 +42,8 @@ Let's change the above example a little bit.
 
 ```php
 <?php
-class User {
+class User
+{
     public int $id;
     
     public function __construct()
@@ -64,7 +66,8 @@ This is what typed properties are capable of. Now, developers don't have to writ
 
 ```php
 <?php
-class User {
+class User
+{
     public int $id = '10';
     
     public function __construct()
@@ -87,7 +90,8 @@ But things gets weird if you change the above code a little bit.
 
 ```php
 <?php
-class User {
+class User
+{
     public int $id = 10;
     
     public function __construct()
