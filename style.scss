@@ -593,14 +593,31 @@ span[data-pullquote]:before {
   text-align: center;
 }
 
+.row {
+  a {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    display: block;
+    width: 100%;
+
+    &:hover{
+      transform: scale(1.02);
+    }
+  }
+}
+
 @media screen and (min-width: 800px) {
   .row {
-    display: flex;
+    display: grid;
     flex-direction: row;
     flex-wrap: nowrap;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 12px;
   }
   .column {
     flex: 1;
+    margin: 6px;
   }
   ._25 {
     flex: 2.5;
@@ -616,11 +633,12 @@ span[data-pullquote]:before {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 21px;
+  padding: 18px;
   border-radius: 5px;
   background-image: radial-gradient(circle 346px at 0.3% 100%, #3e4ca7 0%, #ea6dff 100.7%);
   text-align: center;
   box-shadow: 2px 1px 13px 0px #888686;
+  height: 100%;
 
   a {
     color: #fff;

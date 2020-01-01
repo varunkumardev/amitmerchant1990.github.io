@@ -12,9 +12,11 @@ layout: default
         {% if j == 0 or j == 3 %}
         <div class="row">
         {% endif %}
-          <div class="column">
-            <a href="{{article.url}}" class="top-articles-link">{{article.title}}</a>
-          </div>
+          <a href="{{article.url}}" class="top-articles-link" style="display: block;width: 100%; height:100%;">
+            <div class="column">
+              {{article.title}}
+            </div>
+          </a>
         {% if j == 2 or j == 5 %}
         </div>
         {% endif %}
