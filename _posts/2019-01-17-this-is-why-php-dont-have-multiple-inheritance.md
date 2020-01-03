@@ -7,6 +7,8 @@ categories: [PHP]
 
 PHP has evolved greatly as a language over years. From a simple functional scripting language which initially started by Rasmus Lerdorf as his hobby project to supporting [object oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) features PHP has come a long way. Although, PHP has been implementing and improving features of object oriented programming in its every release, there is this one feature which is missing and I've always wondered why it is not there in PHP all these years. Yes, I'm talking about [multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance).
 
+{% include affiliates.html %}
+
 There is a very logical reason why PHP don't support multiple inheritance. To learn about this, we need to go into the roots of this very concept. Multiple inheritance actually suffers from the [Diamond Problem](http://en.wikipedia.org/wiki/Diamond_problem).
 
 > The "diamond problem" (sometimes referred to as the "deadly diamond of death") is an ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C?

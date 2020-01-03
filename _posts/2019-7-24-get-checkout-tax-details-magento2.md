@@ -6,6 +6,8 @@ categories: [Magento2]
 
 Often times comes when you want details related to tax based on the products you currently have anywhere apart from Checkout/Cart page. I'm specifically talking about [Magento 2](https://github.com/magento/magento2) here. For instance, for one of my projects we've a projects page where we use catalog products differently than the Magento's native way and we needed a way to fetch tax details based on the products we have on that page.
 
+{% include affiliates.html %}
+
 So, after some brainstroming and looking into the Magento's core codebase, I've written this little piece which will get you the tax details based on the product's, customer's and address' details.
 
 

@@ -6,6 +6,8 @@ categories: [Laravel]
 
 As backend developers, to make our web application full proof we need to make sure our application is running as efficiently as possible all the time. Otherwise, everyone using your database will suffer from slow performance. API limiting, which is also known as [rate limiting](https://en.wikipedia.org/wiki/Rate_limiting), is an essential component of Internet security, as [DoS attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack) can tank a server with unlimited API requests.
 
+{% include affiliates.html %}
+
 Thankfully, Laravel gets you covered in this aspect. In Laravel, you can achieve rate-limiting using a middleware called `throttle` which comes out of the box in Laravel. You need to assign this `throttle` middleware to the route or group of routes.
 
 The middleware basically accepts two parameters, specifically "number of requests" and "duration of time", which determines the maximum number of requests that can be made in a given number of minutes. 

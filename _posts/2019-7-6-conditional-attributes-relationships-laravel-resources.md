@@ -6,6 +6,8 @@ categories: [Laravel]
 
 When you're building an Laravel application which uses APIs at some point, it's no brainer to use Laravel's [resource classes](https://laravel.com/docs/5.8/eloquent-resources) as it provides the transformation layer that sits between your Eloquent models and the JSON responses that are actually returned to your application's users. 
 
+{% include affiliates.html %}
+
 In this article, I'm specifically going to talk about conditional attributes that can be used only include an attribute in a resource response if a given condition is met. 
 
 So, as you may know each resource contains a `toArray` method which translates your model's attributes into an API friendly array that can be returned to your users like below:

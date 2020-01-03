@@ -35,6 +35,8 @@ $capsule->addConnection([
 ]);
 ```
 
+{% include affiliates.html %}
+
 ### Executing queries
 
 Once the Capsule instance has been registered, you can use it like this.

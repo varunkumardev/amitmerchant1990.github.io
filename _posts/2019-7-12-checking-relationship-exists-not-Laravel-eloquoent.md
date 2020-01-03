@@ -11,6 +11,8 @@ If you want to check if the eloquoent model has certain relationship or not and 
 
 We'll take a look at both of the approaches one by one.
 
+{% include affiliates.html %}
+
 ## Check existence of relationships
 
 Let's say you want to fetch only users which have atleast posted a single photo. You can do this by by passing the name of the relationship to the `has` method on the `User` model.

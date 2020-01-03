@@ -36,6 +36,8 @@ class Post extends Model
 
 Notice here that, you need to add the attribute name to the `appends` property on the model. Also note that, attribute names are typically referenced in `snake case`, even though the accessor is defined using `camel case`.
 
+{% include affiliates.html %}
+
 Once the attribute has been added to the appends list, it will be included in both the model's array and JSON representations. 
 
 {:.you-may-like}
