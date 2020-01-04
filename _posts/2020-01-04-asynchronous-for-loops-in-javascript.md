@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aynchronous for loops in JavaScript
+title: Asynchronous for loops in JavaScript
 image: /cdn/asynchronous-for-loops-in-javascript.png
 categories: [JavaScript]
 ---
