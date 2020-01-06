@@ -65,6 +65,101 @@ As you can see from the code, on calling the method `greet()` using object `Clas
 
 ## Mitigation of Diamond problem in PHP
 
-To mitigate such situation, PHP allow classes to implement multiple [protocols](https://en.wikipedia.org/wiki/Protocol_(object-oriented_programming)), called [interfaces](http://php.net/manual/en/language.oop5.interfaces.php). Interfaces define methods but do not provide concrete implementations. Interfaces are like abstract base classes that specify method signatures without implementing any behavior. 
+One solution to mitigate not having multiple inheritance in PHP is to use traits. Traits are a mechanism for code reuse in single inheritance languages such as PHP which you'd use multiple inheritance for. Basically, traits are like classes except for one fact that you can't initantiate an instance of a trait. That is like utilising class members directly into the class without needing to instantiate or inherit them.
 
-Nevertheless, even when several interfaces declare the same method signature, as soon as that method is implemented (defined) anywhere in the inheritance chain, it overrides any implementation of that method in the chain above it (in its superclasses). Hence, at any given level in the inheritance chain, there can be at most one implementation of any method. Thus, single-inheritance method implementation does not exhibit the Diamond Problem even with multiple-inheritance of interfaces. 
+Below is an example of how you can define a trait and utilize the same in the class.
+
+```php
+trait myTrait 
+{
+    public function whereAmI()
+    {
+        echo __CLASS__;
+    }
+}
+
+class Hello
+{
+    use myTrait;
+}
+
+$a = new Hello;
+$a->whereAmI(); //Hello
+```
+
+Similarly, you can use multiple traits in a single clss comma-separated like this.
+
+```php
+use Hello, World;
+```
+
+You can read further about Traits [here](https://www.php.net/manual/en/language.oop5.traits.php).
+
+Another solution here would be to [use composition](/reasons-use-composition-over-inheritance-php/) while designing your software. Basically, Composition is the mechanism to reuse code across classes by containing instances of other classes that implement the desired functionality. Check below example.
+
+```php
+<?php
+class Vehicle
+{    
+    public function move()
+    {
+        echo "Move the car";
+    }    
+}
+
+class Car
+{
+    private $vehicle;
+
+    public function __construct(Vehicle $vehicle)
+    {
+        $this->vehicle = $vehicle;
+    }
+
+    public function accelarate()
+    {    
+        $this->vehicle->move();    
+    }
+}
+```
+
+As you can see, we've [injected](/dependency-injection-container-php/) `Vehicle` class to the `Car` class through constructor and this way we can access the class members of `Vehilcle` class into the `Car` class. Now, if you want to use to use an another class called `Tyre` in class `Car`, all you have to do is to inject it's instance in the constructor like so.
+
+```php
+<?php
+class Vehicle
+{    
+    public function move()
+    {
+        echo "Move the car";
+    }    
+}
+
+class Tire
+{    
+    public function addAlloys()
+    {
+        echo "Adding alloy wheels...";
+    }    
+}
+
+class Car
+{
+    private $vehicle;
+
+    private $tire;
+
+    public function __construct(Vehicle $vehicle, Tire $tire)
+    {
+        $this->vehicle = $vehicle;
+    }
+
+    public function accelarate()
+    {    
+        $this->vehicle->move();    
+        $this->tire->addAlloys();
+    }
+}
+```
+
+This approach is called as _"Composition over Inheritance"_ in object oriented programming and I've written [a whole article](/reasons-use-composition-over-inheritance-php/) around it.
