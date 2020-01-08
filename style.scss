@@ -808,6 +808,47 @@ footer {
   border-radius: 5px;
 }
 
+.recent-articles {
+  text-align: center;
+  border: 2px solid #c60fe4;
+  border-radius: 5px;
+  margin: 8px;
+
+  h2 {
+    font-size: 16px;
+    background: #c60fe4;
+    margin: 0;
+    color: #fff;
+    padding: 2px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0 15px;
+    
+    li {
+      margin-bottom: 14px;
+
+      p {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      &:not(:last-child)::after{
+        width: 5rem;
+        height: 2px;
+        background: #c88aff;
+        content: " ";
+        display: block;
+        margin: 0px auto;
+        position: relative;
+        top: 7px;
+      }
+    }
+  }
+}
+
 body:after {
     background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
     width: 100%;
@@ -1240,6 +1281,7 @@ Modules - reusable parts of our design
   background-color: #f7f7f7;
   width: auto;
   box-shadow: 2px 2px 4px 0px #d8d8d8;
+  z-index: 999;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 759px) {
