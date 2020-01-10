@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Validating dependent attributes in Laravel request
-image: /cdn/validating-dependent-attributes-laravel request.png
+image: /cdn/validating-dependent-attributes-laravel-request.png
 categories: [Laravel]
 ---
 
