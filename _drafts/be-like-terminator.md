@@ -15,11 +15,11 @@ The terminator is an Android and it works based on the commands that have been a
 
 They are doing so because they are assigned with the commands to pull out the respective tasks and you can see in the movie that how far they go in order to achieve so. They are so focused in accomplishing their task that don't even mind killing people if that can help achieve the end result. 
 
-We can't get to the level of focus these terminors possess but if we can hold of even 30-40% of it, our life would be changed dramatically
+We can't get to the level of focus these terminators possess but if we can hold of even 30-40% of it, our life would be changed dramatically
 
 ## Result Oriented
 
-Because terminator are focused to their end goals, it also makes them result oriented in the process. As the name suggests a "Terminator" would try to gets terminated if its end goal is met.
+Because terminator are focused to their end goals, it also makes them result oriented in the process. As the name suggests a "Terminator" would try to gets itself terminated if its end goal is met.
 
 They would beat the hell out of their opponent irrespective of the fact that their goal is achieved or not and try to get to the goal as close as possible.
 
@@ -33,9 +33,11 @@ For instance, the [Model 101](https://en.wikipedia.org/wiki/Terminator_(characte
 
 Today, people are not so much observant. They stick to their screens so much that they quickly forgets, there's a damn living world around them to interact and talk to. Terminators are great at this skill, I guess.
 
-## Obedient
-
 ## Quick learner
+
+As a machine terminators are quick learners, naturally. For instance, at one point in the movie, Model 101 would talk in its usual "robotic" way. So, John try teaching him a few words in such sentences which would make him sound natural. The terminator leanrs this as a polite student and applies it later in the movie for a similar kind of a dialog. 
+
+He also learns mannerism of humans really quickly. I wish I would be like him, a quick learner, my life would've been a lot smoother. 
 
 ## Funny
 
