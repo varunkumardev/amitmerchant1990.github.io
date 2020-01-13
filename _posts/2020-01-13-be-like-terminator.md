@@ -3,6 +3,7 @@ layout: post
 title: Be like a Terminator
 image: /images/terminator.jpg
 categories: [Life]
+excerpt: My thoughts on why it would be a good idea to be more like a terminator and less like a human.
 ---
 
 ![](/images/terminator.jpg)
