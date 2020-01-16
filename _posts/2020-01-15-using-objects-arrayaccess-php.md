@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using objects as arrays (with a real world example) in PHP
-image: /images/using-objects-arrays.jpg
+image: /images/using-objects-arrays.png
 categories: [PHP, Laravel]
 ---
 
