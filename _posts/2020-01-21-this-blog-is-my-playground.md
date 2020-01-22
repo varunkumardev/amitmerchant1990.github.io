@@ -39,7 +39,7 @@ I read a lot of great blogs around the web and I draw a lot of design inspiratio
 
 {% include image.html file="article-grid.png" description="Featured Articles using CSS grid" %}
 
-Also, I liked the floating "Next" and "Previous" navigation links on the Swift with Sundell blog, where the links appear on each blog post that can be used to go to previous or next blog posts adjacent to the current post. I liked these links mainly because it's non-intrusive yet functional at the same time. So, I tried implementing the same on my blog with a pinch of design changes from my end. It turned out great and after implementing it, I feel the [bounce rate](https://en.wikipedia.org/wiki/Bounce_rate) on my blog has been reduced significantly.
+Also, I liked the floating "Next" and "Previous" navigation links on the [Swift by Sundell](https://www.swiftbysundell.com/) blog, where the links appear on each blog post that can be used to go to previous or next blog posts adjacent to the current post. I liked these links mainly because it's non-intrusive yet functional at the same time. So, I tried implementing the same on my blog with a pinch of design changes from my end. It turned out great and after implementing it, I feel the [bounce rate](https://en.wikipedia.org/wiki/Bounce_rate) on my blog has been reduced significantly.
 
 ### Implemented search functionality
 
