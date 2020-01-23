@@ -7,7 +7,7 @@ categories: [Laravel]
 
 When designing UI elements such as zebra strips in the tables, you'd need to identify if the loop iteration is even or odd and based on that you'd set the backgroud color of the row.
 
-In blade templates of Laravel, one way to achieve this would be to use something like following, 
+In [Blade](https://laravel.com/docs/6.x/blade) templates of Laravel, one way to achieve this would be to use something like following, 
 
 ```php
 @foreach ($users as $user)
