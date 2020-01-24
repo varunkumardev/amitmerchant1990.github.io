@@ -7,7 +7,7 @@ categories: [PHP]
 
 Working on an application which received user signups and let's suppose it's built on top of PHP, you want to validate that the email the user enters is valid. Sure, you'll check that the email entered is a "syntactically" valid one by using one of [these](https://www.php.net/manual/en/filter.examples.validation.php) methods.
 
-But, what if, let's say, you also want to verify the email in question is also comes from a valid domain. i.e it's not something non-existent such as _"test@iamjusttestingforthesackoftesting.com"_ where `iamjusttestingforthesackoftesting.com` doesn't exist at all on the internet.
+But, what if, let's say, you also want to verify the email in question comes from a valid domain. i.e it's not something non-existent such as _"test@iamjusttestingforthesackoftesting.com"_ where `iamjusttestingforthesackoftesting.com` doesn't exist at all on the internet.
 
 There's a handy little function in PHP that let's you do just that.
 
