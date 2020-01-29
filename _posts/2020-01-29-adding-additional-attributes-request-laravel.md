@@ -5,7 +5,7 @@ image: /cdn/add-additional-attributes-request.png
 categories: [Laravel]
 ---
 
-Sometimes you might want to attach additional attributes to the original request that has made to the Laravel application. For instance, you want to put your own check in the middleware to see if the user is permitted to access the page or not, and pass that "check" by attaching it as an additional attribute to the request.
+Sometimes, you might want to attach additional attributes to the original request that has made to the Laravel application. For instance, you want to put your own check in the middleware to see if the user is permitted to access the page or not, and pass that "check" by attaching it as an additional attribute to the request.
 
 This way you can also prevent duplicating code, where you would repeat the same code (or query) in the middleware and in the controller. For instance take following. If I want to only allow users which has `is_active` set to "1", I would write the following query twice like so.
 
