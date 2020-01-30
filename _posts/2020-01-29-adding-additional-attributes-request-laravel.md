@@ -40,7 +40,7 @@ public function view($id)
 }
 ```
 
-As you can see, the query to fetch the user has been written twice. This is simply the waste of rsources, right?
+As you can see, the query to fetch the user has been written twice. This is simply the waste of resources, right?
 
 ## The `merge` method
 
