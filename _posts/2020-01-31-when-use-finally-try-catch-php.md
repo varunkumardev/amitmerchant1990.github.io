@@ -77,7 +77,7 @@ Here, even if we've returned from the "catch" block, the execution won't stop th
 
 Also note here that, the code in the "finally" block is being printed first and then the statement returned from the "catch" block. Test it here [in this sandbox](http://sandbox.onlinephpfunctions.com/code/171c8e184dc83c5029e9261ebea5110bedd803a9).
 
-## When to use the `finally` block
+## When to actually use the `finally` block
 
 So, the question comes here when you should use the "finally" block? 
 
