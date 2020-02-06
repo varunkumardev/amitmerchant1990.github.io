@@ -43,6 +43,6 @@ In order to prevent Laravel from throwing error if the related Blade view is not
 When you only want to add the Blade view when a certain boolean condition matched, you could use `@includeWhen` directive like so.
 
 ```php
-@includeIf($someBooleanCondition, 'view-css')
+@includeWhen($someBooleanCondition, 'view-css')
 ```
 
