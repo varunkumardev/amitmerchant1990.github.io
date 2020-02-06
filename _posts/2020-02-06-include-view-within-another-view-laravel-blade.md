@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add view within an another view in Blade Laravel
+title: Add view within another view in Blade Laravel
 image: /cdn/include-blade.png
 categories: [Laravel]
 ---
