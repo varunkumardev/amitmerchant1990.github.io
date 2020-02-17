@@ -22,7 +22,7 @@ use Foo\TestClass;
 ?>
 ```
 
-Here, `use` will load the entire `\Foo\TestClass` (the initial `\` is optional) class as an absole path. But in case of Traits, the `use` keyword will treat the argument relative to the current namespace. Take following for example.
+Here, `use` will load the entire `\Foo\TestClass` (the initial `\` is optional) class as an absolute path. But in case of Traits, the `use` keyword will treat the argument relative to the current namespace. Take following for example.
 
 ```php
 <?php
