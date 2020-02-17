@@ -23,3 +23,19 @@ Here, `available_for_hire` might be an checkbox field or a string input, passing
 
 The method set the default to be `false` so then an undefined variable (eg unchecked checkbox) would act as false. i.e If the key is not found in the request input, `false` is returned.
 
+Here's how the `boolean()` method looks like  behind the scene.
+
+```php
+/**
+ * Retrieve input as a boolean value.
+ *
+ * @param  string|null  $key
+ * @param  bool  $default
+ * @return bool
+ */
+public function boolean($key = null, $default = false)
+{
+     return filter_var($this->input($key, $default), FILTER_VALIDATE_BOOLEAN);
+}
+```
+
