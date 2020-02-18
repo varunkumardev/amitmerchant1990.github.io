@@ -77,4 +77,10 @@ Also, as I mentioned previously, shutdown functions will always gets called no m
 
 ## A Parctical Usecase
 
-Many PHP frameworks use this approach for special cases. For instance, Laravel uses `register_shutdown_function()` [here](https://github.com/illuminate/console/blob/master/Scheduling/CallbackEvent.php#L65) in `Illuminate\Console\Scheduling\CallbackEvent` in order to remove the mutex for the event no matter what happend to the event. They probably used `register_shutdown_function()` for the issue with desctructors I've mentioned above
+Many PHP frameworks use this approach for special cases. For instance, Laravel uses `register_shutdown_function()` [here](https://github.com/illuminate/console/blob/master/Scheduling/CallbackEvent.php#L65) in `Illuminate\Console\Scheduling\CallbackEvent` in order to remove the mutex for the event no matter what happend to the event. They probably used `register_shutdown_function()` for the issue with desctructors I've mentioned above.
+
+## In Closing
+
+The `register_shutdown_function()` method is clearly not the replacement to the destructors but would turn out to be helpful in certain scenarios. Hope you liked this article and learned a thing or two.
+
+Until next time!
