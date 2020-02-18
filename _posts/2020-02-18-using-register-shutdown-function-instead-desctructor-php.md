@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Using register_shutdown_function() instead of desctructor in PHP
-image: /cdn/desctructors.png
+image: /cdn/register-shutdown-function-desctructors.png
 categories: [PHP]
 ---
 
-The usual and might be the most used way of cleaning the object is to use the good old [__destruct()](https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.destructor) magic method in PHP. The magic method proves to be good in most of the case. But there might be some scenario where even the `__destruct()` method will fail. For instance, a scenario where your PHP script exceeds the maximum execution time, and terminates thusly. And a Fatal error would occur called `Maximum execution time of 20 seconds exceeded in - on line XX`.
+The usual and might be the most used way of cleaning the object is to use the good old [__destruct()](https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.destructor) magic method in PHP. The magic method proves to be good in most of the cases. But there might be some scenario where even the `__destruct()` method will fail. For instance, a scenario where your PHP script exceeds the maximum execution time, and terminates thusly. And a fatal error would occur called `Maximum execution time of 20 seconds exceeded in - on line XX`.
 
 What would you use in such a case? This is where an alternative method [register_shutdown_function()](https://www.php.net/manual/en/function.register-shutdown-function.php) can be used.
 
@@ -23,7 +23,7 @@ class Destruction
     public function __construct($name) 
     {
         $this->name = $name;
-        register_shutdown_function(array(&$this, "shutdown"));
+        register_shutdown_function([&$this, "shutdown"]);
     }
 
     public function shutdown()
