@@ -32,6 +32,6 @@ echo "b" <=> "a"; // 1
  
 But it turns out a lot of us tend to forget the purpose of the operator more often. So, here's a handy yet effective trick to remember what this operator do pretty quickly. 
 
-What you'd do is to replace the spaceship operator (<=>) with a minus sign (-). If the result is negative, 0 or positive, the expression will return -1, 0 or 1 respectively. As you can see, it's now more easy to remember when an analogy comes into play. 
+What you'd do is to _replace the spaceship operator (<=>) with a minus sign (-)_. If the result is negative, 0 or positive, the expression will return -1, 0 or 1 respectively. As you can see, it's now more easy to remember when an analogy comes into play. 
 
-...And that is also how remember anything you want, in general.
+...And that is also how you remember anything you want, in general.
