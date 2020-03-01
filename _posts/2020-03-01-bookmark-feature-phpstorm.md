@@ -15,7 +15,7 @@ For instance, if you want to remember a piece of code that you might think can b
 
 ## How to Add a Bookmark
 
-In order to add a bookmark on a certain line of the code, you'll need to hover mouse on the gutter at the left and right click on it. You'll find an option called "Set Bookmark". Click on that option or just press F11, and your bookmark is added!
+In order to add a bookmark on a certain line of the code, you'll need to hover mouse on the gutter at the left and right click on it. You'll find an option called "Set Bookmark". Click on that option or just press <kbd>F11</kbd>, and your bookmark is added!
 
 ![](/images/phpstorm-bookmark-gutter.png)
 
