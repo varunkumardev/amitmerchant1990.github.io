@@ -32,7 +32,7 @@ But this approach was limited to use only the `id` field of the associated model
 {:.you-may-like}
 > You may also like: [Laravel Route Model Bindings - Implicit Vs. Explicit](/laravel-route-model-bindings/)
 
-## Route model bindings using custom columns
+## Model bindings using custom columns
 
 To actually use a different column/field in the binding, you'd just need to pass in the column in the route parameter definition like so.
 
@@ -46,7 +46,7 @@ Route::get('api/posts/{post:slug}', function (App\Post $post) {
 
 Now, you can just pass in the slug for the post instead of an `id` like **http://awesomelaravelblog.com/api/posts/my-first-blog** and laravel will fetch the record based on the slug that is provided in the route.
 
-## Useing two model binding in the route
+## Using two model binding in the route
 
 Apart from using a single route model binding, you can also use multiple eloquent models in the route definition. You can use it for the scenarios where you need to fetch the record based the parent-child relationship. For instance, take the following example.
 
