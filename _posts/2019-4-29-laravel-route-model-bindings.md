@@ -26,6 +26,9 @@ Route::get('api/posts/{post}', function (App\Post $post) {
 
 Notice here, we passed `$post` variable to the route's closure which is type-hinted as the `App\Post` eloquoent model and the variable name matches the `{post}` URI segment of the URL. Laravel will then automatically inject the model instance that has an `id` field matching the corresponding value from the request URI. If a matching model instance is not found in the database, a 404 HTTP response will automatically be generated for that particular route.
 
+{:.you-may-like}
+> You may also like: [Route model bindings using custom columns in Laravel 7](/route-model-bindings-custom-keys-laravel7/)
+
 ## Explicit Binding
 
 As the name suggests, this approach requires you to register an "explicit" binding by using the router's `model` method to specify the class for a given parameter. You can achieve this by defining your explicit model bindings in the `boot` method of the `RouteServiceProvider` class. Let's now rewrite the above example using this approach.
