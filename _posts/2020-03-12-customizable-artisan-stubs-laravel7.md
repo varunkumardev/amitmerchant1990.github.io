@@ -35,17 +35,17 @@ A typical Model stub file (`model.stub`) looks like the following.
 ```php
 <?php
 
-namespace {{ namespace }};
+namespace {% raw %}{{ namespace }}{% endraw %};
 
 use Illuminate\Database\Eloquent\Model;
 
-class {{ class }} extends Model
+class {% raw %}{{ class }}{% endraw %} extends Model
 {
     //
 }
 ```
 
-Here, `{{ namespace }}` and `{{ class }}` are variables in the stub files which gets replaced based on the user input in the corresponding artisan command. This is, as you can see, pretty basic skeleton for a model class. What if you want more content in the same, ready to be consumed by you and your team. A template just for your needs? This is where Laravel 7's stub customizations comes into play.
+Here, `{% raw %}{{ namespace }}{% endraw %}` and `{% raw %}{{ class }}{% endraw %}` are variables in the stub files which gets replaced based on the user input in the corresponding artisan command. This is, as you can see, pretty basic skeleton for a model class. What if you want more content in the same, ready to be consumed by you and your team. A template just for your needs? This is where Laravel 7's stub customizations comes into play.
 
 ## Customizable Artisan Stubs
 
@@ -66,12 +66,12 @@ So, for instance, you want to customize the model stub to have `$guarded` and `$
 ```php
 <?php
 
-namespace {{ namespace }};
+namespace {% raw %}{{ namespace }}{% endraw %};
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class {{ class }} extends Model
+class {% raw %}{{ class }}{% endraw %} extends Model
 {
     use SoftDeletes;
 
