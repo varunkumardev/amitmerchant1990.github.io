@@ -1043,6 +1043,10 @@ Modules - reusable parts of our design
 
 .medianet {
   padding: 10px 0;
+
+  iframe {
+    width: 100%;
+  }
 }
 
 #codefund {
