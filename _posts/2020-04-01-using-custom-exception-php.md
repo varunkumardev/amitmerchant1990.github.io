@@ -28,7 +28,7 @@ Exceptions are really useful when you want to handle some situations which can n
 
 As you can see here, we're checking the condition where if the method `inverse` receives the `0` as the argument, you'd terminate the execution by throwing an exception using the built-in [Exception](https://www.php.net/manual/en/class.exception.php) class which then can be catched under the `catch` block as shown in the example above.
 
-Let's take a slightly more real world example. Let's say we have an `Email` class which can be used to send email to the users. Here's how the class.
+Let's take a slightly more real world example. Let's say we have an `Email` class which can be used to send email to the users. Here's how the class looks like.
 
 ```php
 namespace AmitMerchant\App;
@@ -60,7 +60,7 @@ class Email
 ?>
 ```
 
-As you can see in the example above, we have an `Email` class which is used to send emails to the users. Now, there a few checks which needs to be validated before the application could send the email. 
+As you can see in the example above, we have an `Email` class which is used to send emails to the users. Now, there are a few checks which needs to be validated before the application could send the email. 
 
 We're throwing exceptions on each of the condition which doesn't match the certain criteria. The above code works perfectly fine. However, we have all the exception texts inside the method which makes the method look cluttered and heavy. This can be optimized using custom exception classed. Let's see how.
 
