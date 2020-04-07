@@ -13,7 +13,7 @@ So, for instance, if you've following blade component for instance,
 <!-- /resources/views/components/alert.blade.php -->
 
 <div class="alert">
-    {{ $slot }}
+    {% raw %}{{ $slot }}{% endraw %}
 </div>
 ```
 
@@ -39,7 +39,7 @@ You'd expect that the class "mb-4" will get merged with the "alert" and the resu
 
 ```php
 <div class="alert mb-4">
-    {{ $slot }}
+    {% raw %}{{ $slot }}{% endraw %}
 </div>
 ```
 
@@ -53,8 +53,8 @@ At its heart, `$attributes` carry all the attributes passed into the component t
 ```php
 <!-- /resources/views/components/alert.blade.php -->
 
-<div class="alert" {{ $attributes }}>
-    {{ $slot }}
+<div class="alert" {% raw %}{{ $attributes }}{% endraw %}>
+    {% raw %}{{ $slot }}{% endraw %}
 </div>
 ```
 
@@ -72,7 +72,7 @@ The result will be,
 <!-- /resources/views/components/alert.blade.php -->
 
 <div class="alert" class="mb-4">
-    {{ $slot }}
+    {% raw %}{{ $slot }}{% endraw %}
 </div>
 ```
 
@@ -81,8 +81,8 @@ As you can see, the classed didn't merge. Instead, Laravel tried to create it's 
 ```php
 <!-- /resources/views/components/alert.blade.php -->
 
-<div {{ $attributes->merge(['class' => 'alert']) }}>
-    {{ $slot }}
+<div {% raw %}{{ $attributes->merge(['class' => 'alert']) }}{% endraw %}>
+    {% raw %}{{ $slot }}{% endraw %}
 </div>
 ```
 
