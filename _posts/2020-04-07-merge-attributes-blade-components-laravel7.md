@@ -86,4 +86,4 @@ As you can see, the classed didn't merge. Instead, Laravel tried to create it's 
 </div>
 ```
 
-You'll now get the expected result. i.e. a component having both the `alert` and `mb-4` class.
+You'll now get the desired result. i.e. a blade component having both the `alert` and `mb-4` values merged together in class attribute.
