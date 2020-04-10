@@ -5,7 +5,7 @@ image: /cdn/vscode-darkthemes-2020.png
 categories: [VS Code]
 ---
 
-Another year. Another run down of all the (Dark) themes of VS Code that I'm using in 2020. This time around, I've experimented with themes which are quite unusual but have vibrant aesthetics. I'm listing down all the themes down below for you to check out. Sit back and enjoy!
+Another year. Another run down of all the (Dark) themes for [VS Code](https://code.visualstudio.com/) that I'm using in 2020. This time around, I've experimented with themes which are quite unusual but have vibrant aesthetics. I'm listing down all the themes down below for you to check out. Sit back and enjoy!
 
 {:.you-may-like}
 > You may also like: [Best VS Code themes - January 2019](/best-vscode-themes-january-2019/)
