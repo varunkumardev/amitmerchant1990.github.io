@@ -40,7 +40,7 @@ Another cool thing about IIFEs is you can also pass in arguments to it if you wa
 
 ```php
 (function($a, $b) {
-    $sum = $a + $b
+    $sum = $a + $b;
     echo $sum;
 })(25, 9);
 
