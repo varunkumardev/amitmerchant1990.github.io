@@ -5,13 +5,13 @@ image: /cdn/attach-detach-sync-laravel.png
 categories: [Laravel]
 ---
 
-There exists four types of relationship associated between models/entities. And they are: **One To One**, **One To Many**, **Many To One** and **Many To Many**. We're specifically going to talk about Many To Many relationship and most importantly attach, detach and sync helper methods that are provided in Laravel in this article.
+There exists four types of relationship associated between models/entities. And they are: **One To One**, **One To Many**, **Many To One** and **Many To Many**. We're specifically going to talk about Many To Many relationship and most importantly `attach`, `detach` and `sync` helper methods that are provided in Laravel in this article.
 
 ## What is a "Many to Many" relationship?
 
 > A relationship betweeen two entities is called as Many to Many when multiple records in a table are associated with multiple records in another table. 
 
-For instance, let's say we have two entities **Books** and **Authors**. If you carefully observe this relationship, you'll notice that a book can have multiple authors and an author has written multiple books. In this case, you have many books related to many authors. 
+For instance, let's say we have two entities **Books** and **Authors**. If you carefully observe this relationship, you'll notice that a book "can" have multiple authors and an author "has" written multiple books. In this case, you have many books related to many authors. 
 
 So, If we want to define a relationship between these two entities we'll need three database tables: `books`, `authors` and a special table called as a "pivot table" `book_author`. The  `book_author` table is derived from the alphabetical order of the related model names, and contains the `book_id` and `author_id` columns.
 
@@ -44,7 +44,7 @@ foreach ($user->authors as $author) {
 }
 ```
 
-Now, back to the intended topic of this article. Laravel comes with handy little helper methods called `attach`, `detach` and `sync` in order add certain amount of convenience for Many To Many relationships. Let's review them one by one.
+Now, back to the intended topic of this article. Laravel comes with handy little helper methods called `attach`, `detach` and `sync` in order to add certain amount of convenience for Many To Many relationships. Let's review them one by one.
 
 ## The `attach` method
 
