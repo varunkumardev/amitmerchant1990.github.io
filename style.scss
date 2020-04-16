@@ -1129,14 +1129,22 @@ Modules - reusable parts of our design
   line-height: 35px;
 
   a {
-    font-size: 14px;
-    padding: 2px 13px;
+    font-size: 13px;
+    padding: 2px 6px;
     border: none;
-    background-color: #4CAF50;
+    background: linear-gradient(to right, #6abdff, #b185ff);
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
   }
+}
+
+.divider {
+  color: #5f40f6;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 0;
+  text-align: center;
 }
 
 //Donation
