@@ -5,7 +5,7 @@ image: /cdn/named-slot-blade.png
 categories: [Laravel]
 ---
 
-The new [Blade components](https://laravel.com/docs/7.x/blade#components) in Laravel 7 are great. They provide an easy way of defining blade components in a Vue-like tag aliases. One of the nice features of Blade components are *solts*.
+The new [Blade components](https://laravel.com/docs/7.x/blade#components) in Laravel 7 are great. They provide an easy way of defining blade components in a Vue-like tag aliases. One of the nice features of Blade components are *slots*.
 
 Basically, what slot allows you to do is inject dynamic content into the blade component. For instance, if we've this sidebar component...
 
