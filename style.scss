@@ -1128,6 +1128,12 @@ Modules - reusable parts of our design
   text-align: center;
   line-height: 35px;
 
+  @media (max-width: 420px) {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+  }
+
   a {
     font-size: 13px;
     padding: 2px 6px;
