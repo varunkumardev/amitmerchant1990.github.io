@@ -8,7 +8,7 @@ fluidbox: true
 
 Have you ever been in a situation where you're testing an application but you don't have access to the source code but you still want to debug some part of the code by console logging the variables? 
 
-This can be a situation where you're checking out a prodduction version of the application but you don't have access to the source code of the same. For instance, let's say, you're checking this application [notepad.js.org](https://notepad.js.org/) and it has this JavaScript file at `js/app.js` which drives all of the JS related stuff of the application. You can access this file by going to [notepad.js.org](https://notepad.js.org/) and pressing <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>P</kbd> and searching "app.js" into it.
+This can be a situation where you're checking out a production version of the application but you don't have access to the source code of the same. For instance, let's say, you're checking this application [notepad.js.org](https://notepad.js.org/) and it has this JavaScript file at `js/app.js` which drives all of the JS related stuff of the application. You can access this file by going to [notepad.js.org](https://notepad.js.org/) and pressing <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>P</kbd> and searching "app.js" into it.
 
 In this specific file, there's a logic which retrieves the `bodyClass` of the app (which is used to switch between Dark/Light mode) based on the toggle.
 
