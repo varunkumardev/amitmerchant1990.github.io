@@ -152,6 +152,7 @@ class Car
     public function __construct(Vehicle $vehicle, Tire $tire)
     {
         $this->vehicle = $vehicle;
+        $this->tire = $tire;
     }
 
     public function accelarate()
