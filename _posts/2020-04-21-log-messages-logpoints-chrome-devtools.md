@@ -22,7 +22,7 @@ Logpoints can be used to log messages to the Console without cluttering up your 
 
 Let's see how it works.
 
-You go to the file in the console as I mentioned previously. Now..
+You go to the file in the console sources as I mentioned previously, i.e pressing <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>P</kbd> and searching `app.js`. Now..
 
 - Right-click the line number where you want to add the Logpoint. In our case, we want to do it just after the line where it's been assigned a value.
 
