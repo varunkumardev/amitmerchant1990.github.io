@@ -62,7 +62,7 @@ class Email
 
 As you can see in the example above, we have an `Email` class which is used to send emails to the users. Now, there are a few checks which needs to be validated before the application could send the email. 
 
-We're throwing exceptions on each of the condition which doesn't match the certain criteria. The above code works perfectly fine. However, we have all the exception texts inside the method which makes the method look cluttered and heavy. This can be optimized using custom exception classed. Let's see how.
+We're throwing exceptions on each of the condition which doesn't match the certain criteria. The above code works perfectly fine. However, we have all the exception texts inside the method which makes the method look cluttered and heavy. This can be optimized using custom exception classes. Let's see how.
 
 ## Custom Exception Classes
 
@@ -90,7 +90,7 @@ class IsUser extends Exception
 ?>
 ```
 
-We've created a regular class `IsUser` which extends the native `Exception` class. Next, the class have the static method ``notAllowed` which upon called will return the exception as shown in the code.
+We've created a regular class `IsUser` which extends the native `Exception` class. Next, the class have the static method `notAllowed` which upon called will return the exception as shown in the code.
 
 This, then can be used in our example like so.
 

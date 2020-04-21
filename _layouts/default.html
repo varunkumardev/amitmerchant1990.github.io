@@ -6,6 +6,9 @@
     {% include meta.html %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    {% if page.fluidbox %}
+    <link rel="stylesheet" href="/css/fluidbox.min.css" />
+    {% endif %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <link rel="search" type="application/opensearchdescription+xml" href="https://www.amitmerchant.com/opensearch.xml" title="Search AmitMerchant.com" />
@@ -82,7 +85,18 @@
         </div>
       </div>
     </div>
-
+    
+    {% if page.fluidbox %}
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.fluidbox.min.js"></script>  
+    <script>
+    $(function () {
+        $('.post a').fluidbox();
+    });
+    </script>
+    {% endif %}
+    
     {% include analytics.html %}
   </body>
 </html>

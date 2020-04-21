@@ -3,6 +3,7 @@ layout: post
 title: The Ultimate Crossover
 image: /cdn/ultimate-crossover.png
 categories: [Miscellaneous]
+fluidbox: true
 ---
 
 If you're a 90's like me, you most certainly be the fan of all the cartoons from Cartoon Network, Disney and the other similar franchises. That was an era of classic cartoons such as [Tom & Jerry](https://en.wikipedia.org/wiki/Tom_and_Jerry), [Popeye the Sailor](https://en.wikipedia.org/wiki/Popeye), [The Flinstones](https://en.wikipedia.org/wiki/The_Flintstones), Disney's [Mickey Mouse](https://en.wikipedia.org/wiki/Mickey_Mouse) and lots others.
