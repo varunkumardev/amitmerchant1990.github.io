@@ -633,6 +633,11 @@ nav {
   font-family: $helveticaNeue;
   font-size: 18px;
 
+  .magnifier {
+    width: 22px;
+    vertical-align: middle;
+  }
+
   @include mobile {
     float: none;
     margin-top: 9px;
