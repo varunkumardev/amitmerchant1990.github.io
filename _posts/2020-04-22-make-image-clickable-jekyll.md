@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Make images clikable in Jekyll
+title: Make images clickable in Jekyll
 image: /cdn/images-clickable.png
 categories: [Jekyll]
 ---
