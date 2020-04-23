@@ -166,12 +166,13 @@ p {
   margin: 15px 0;
 }
 
-/*.detailed .entry p:first-of-type:first-letter {
+.detailed .drop-cap > p:first-child:first-letter {
     float: left;
-    margin: 0.13em 0.05em 0 -0.05em;
+    margin: 0.13em 0.10em 0 -0.05em;
     font-size: 3.333em;
     line-height: 0.75em;
-}*/
+    font-family: serif;
+}
 
  #search-container {
   text-align: center;
@@ -1017,20 +1018,6 @@ Modules - reusable parts of our design
 
 .cd-timeline-img.cd-location {
   background: #f0ca45;
-}
-
-.chip {
-    display: inline-block;
-    height: 32px;
-    font-size: 14px;
-    font-weight: 500;
-    color: rgba(0,0,0,.6);
-    line-height: 32px;
-    padding: 0 12px;
-    border-radius: 16px;
-    background-color: #e4e4e4;
-    margin-bottom: 5px;
-    margin-right: 5px;
 }
 
 .yellow.lighten-2 {
