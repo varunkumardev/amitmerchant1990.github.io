@@ -5,6 +5,7 @@ layout: default
 <div class="flex-div">
   <div class="post detailed flex-left">
     {% if page.url == "/" %}
+    <div class="featured-articles-container">
       <h1>⚡ Featured Articles</h1>
 
       {% assign j = 0 %}
@@ -22,6 +23,7 @@ layout: default
         {% endif %}
         {% assign j = j | plus:1 %}
       {% endfor %}
+    </div>
     {% endif %}
 
     <div class="posts">

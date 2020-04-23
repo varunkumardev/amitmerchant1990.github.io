@@ -1427,7 +1427,7 @@ Modules - reusable parts of our design
   background: #d0fd9a;
   border: none;
   font-size: 12px;
-  padding: 0px 5px;
+  padding: 0px 2px 0px 5px;
   display: inline-block;
   border-radius: 4px;
   position: relative;
@@ -1446,6 +1446,14 @@ Modules - reusable parts of our design
     height: 21px;
     vertical-align: bottom;
     margin: 0 -2px 0 -5px;
+  }
+}
+
+.featured-articles-container {
+  padding-bottom: 0.5em;
+
+  h1 {
+    margin: 6px 0 15px;
   }
 }
 
