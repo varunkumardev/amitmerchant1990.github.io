@@ -93,8 +93,8 @@ exclude:
   - CNAME
 
 top_articles: 
-  - url: /Laravel-Eager-Loading-Load-Vs-With/
-    title: Laravel Eager Loading - load() Vs. with()
+  - url: /reasons-use-composition-over-inheritance-php/
+    title: Reasons to use Composition over Inheritance in PHP
   - url: /attribute-casting-laravel/
     title: Attribute casting in Laravel Eloquent
   - url: /this-is-why-php-dont-have-multiple-inheritance/
