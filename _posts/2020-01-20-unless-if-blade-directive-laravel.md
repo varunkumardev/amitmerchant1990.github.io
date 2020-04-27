@@ -23,7 +23,7 @@ So, for instance, if you want to check conditions on the `env` variables in the 
 @endenv
 ```
 
-Now, if you want to check if something should render only when the application in the "production" mode, you couuld do like so.
+Now, if you want to check if something should render only when the application in the "production" mode, you could do like so.
 
 ```
 @env('production')
@@ -33,6 +33,9 @@ Now, if you want to check if something should render only when the application i
 ```
 
 As you can see, here in this case, we're using an empty `if` condition which is quite an overkill.
+
+{:.you-may-like}
+> You may also like: [Create your own custom Blade directive in Laravel](/create-your-own-blade-directive-laravel/)
 
 ## The `unless` condition
 
