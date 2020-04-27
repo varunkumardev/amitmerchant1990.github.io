@@ -41,11 +41,11 @@ And now, we can pass content to the *slot* by injecting content into the compone
 
 All the content inside the `<x-sidebar>` tags will get *slotted in* the `$slot` variable of the component where it is used.
 
-Now, **what if we want to use multiple slots inside of the component?** Well, we can do this by using "Named" slots.
+Now, **what if we want to use multiple slots inside of the component?** Well, we can do this by using "Named" slots. And it seems like the inspiration is taken from [the similar concept](https://vuejs.org/v2/guide/components-slots.html#Named-Slots) in Vue.js.
 
 ## Named Slots
 
-If you want to use multiple slots inside of a component, you can use a `<x-slot>` tag and pass in a `name` attribute to it. For instance, in our previous example, if we want to insert a user avatar to the component, we can add a `<x-slot>` tag with attribute `name="avatar"` like so.
+At its heart, if you want to use multiple slots inside of a component, you can use a `<x-slot>` tag and pass in a `name` attribute to it. For instance, in our previous example, if we want to insert a user avatar to the component, we can add a `<x-slot>` tag with attribute `name="avatar"` like so.
 
 ```php
 <x-sidebar>
