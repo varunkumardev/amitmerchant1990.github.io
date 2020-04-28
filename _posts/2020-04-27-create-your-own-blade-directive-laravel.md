@@ -21,7 +21,7 @@ These, as I said, are in-built directives which comes with Laravel out-of-the-bo
 
 ## Custom Blade Directive
 
-Blade gives you the ability to define your own custom directives using the `directive` method. When the Blade compiler encounters the custom directive, it will call the provided callback with the expression that the directive contains.
+Blade gives you the ability to define your own custom directives using the `directive` method on the `Illuminate\Support\Facades\Blade` facade. When the Blade compiler encounters the custom directive, it will call the provided [callback](https://www.php.net/manual/en/functions.anonymous.php) with the expression that the directive contains.
 
 For, instance, if you want to create a custom directive called `@convert($var)` to convert the provided number to two decimal places, you can define that into the `AppServiceProvider`'s `boot` method like so.
 
