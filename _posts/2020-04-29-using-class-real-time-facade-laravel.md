@@ -64,7 +64,7 @@ But, what if you want to use your own defined class as a facade? Well, this can 
 
 ## Custom Facades using Real-Time Facades
 
-To use your custom class as a facade, all you have to do is to  prefix the namespace of the class the you want to import with `Facades`, which makes the class a "real-time facade".
+To use your custom class as a facade, all you have to do is to  prefix the namespace of the class that you want to import with `Facades`, which makes the class a "real-time facade".
 
 So, for instance, you have this class called `App\Currency` and you want to consume it inside your controller, you can do this using dependency injection like so.
 
