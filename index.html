@@ -8,21 +8,23 @@ layout: default
     <div class="featured-articles-container">
       <h1>⚡ Featured Articles</h1>
 
-      {% assign j = 0 %}
-      {% for article in site.top_articles %}
-        {% if j == 0 or j == 3 %}
-        <div class="row">
-        {% endif %}
-          <a href="{{article.url}}" class="top-articles-link" style="display: block;width: 100%; height:100%;">
-            <article class="column">
-              {{article.title}}
-            </article>
-          </a>
-        {% if j == 2 or j == 5 %}
-        </div>
-        {% endif %}
-        {% assign j = j | plus:1 %}
-      {% endfor %}
+      <div>
+        {% assign j = 0 %}
+        {% for article in site.top_articles %}
+          {% if j == 0 or j == 3 %}
+          <div class="row">
+          {% endif %}
+            <a href="{{article.url}}" class="top-articles-link" style="display: block;width: 100%; height:100%;">
+              <article class="column">
+                {{article.title}}
+              </article>
+            </a>
+          {% if j == 2 or j == 5 %}
+          </div>
+          {% endif %}
+          {% assign j = j | plus:1 %}
+        {% endfor %}
+      </div>
     </div>  
     {% endif %}
 
