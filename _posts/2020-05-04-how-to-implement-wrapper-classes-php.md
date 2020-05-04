@@ -5,7 +5,7 @@ image: /cdn/wrapper-class-php.png
 categories: [PHP]
 ---
 
-If you look at PHP's core helper functions, they [aren't very intuitive](http://phpsadness.com/sad/6) to use and are pretty inconsistent at times. For instance, the [array_map](https://www.php.net/manual/en/function.array-map.php) function is used to apply the callback to the elements of the given arrays. Here's how its definition looks like.
+If you look at PHP's core helper functions, they aren't very intuitive to use and [are pretty inconsistent](http://phpsadness.com/sad/6) at times. For instance, the [array_map](https://www.php.net/manual/en/function.array-map.php) function is used to apply the callback to the elements of the given arrays. Here's how its definition looks like.
 
 ```php
 array_map ( callable $callback , array $array1 [, array $... ] ) : array
