@@ -54,6 +54,9 @@ h1 {
   font-size: 26px;
   a {
     color: inherit;
+    &:hover {
+      color: $purple;
+    }
   }
 }
 
@@ -202,11 +205,12 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $purple;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
+  transition: color .2s ease-out,opacity .2s ease-out;
   &:hover, &:active {
-    color: $blue;
+    color: $gunpowder;
   }
 }
 
@@ -296,6 +300,10 @@ p > img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+
+  a:hover {
+    color: $purple;
+  }
 
   @include mobile {
     text-align: center;
@@ -881,13 +889,13 @@ body:after {
 
 .author_title{
   text-align: center;
-  color: #939aa1;
+  color: #717579;
   letter-spacing: 2px;
 }
 
 .post_date{
   text-align: center;
-  color: #939aa1;
+  color: #717579;
 }
 
 .cd-container {
