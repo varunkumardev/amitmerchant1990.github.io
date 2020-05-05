@@ -29,7 +29,7 @@ As you can see, we've a function `generateNumbers` which basically accepts a num
 
 ![normal-function](/images/normal-function.png)
 
-This will work fine for the small amount of `$number`. But what if we want to generate a really big range of numbers? Let's say `generateNumbers(100000000000)`. Running the above script by replacing the number with "100000000000". Let's see what happens.
+This will work fine for the small amount of `$number`. But what if we want to generate a really big range of numbers? Let's say `generateNumbers(INF)`. Running the above script by replacing the number with `INF` (This is a predefined constant which represents infinity in PHP). Let's see what happens.
 
 ![](/images/out-of-memory.png)
 
