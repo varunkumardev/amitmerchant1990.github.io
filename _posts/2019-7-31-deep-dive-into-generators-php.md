@@ -2,6 +2,7 @@
 layout: post
 title: A deep dive into Generators in PHP
 categories: PHP
+image: /cdn/php-generators.png
 ---
 
 Have you ever stuck in a situation where the code that you've wrote uses foreach to iterate over a set of data into an array and which ultimately caused you to exceed a memory? Well, I've been to. Many times.
