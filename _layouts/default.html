@@ -47,7 +47,7 @@
               <a href="{{ site.baseurl }}/projects">Projects</a>
               <a href="{{ site.baseurl }}/uses">Uses</a>
               <a href="{{ site.baseurl }}/about">About</a>
-              <a href="{{ site.baseurl }}/search" title="Search">
+              <a href="{{ site.baseurl }}/search" title="Press &quot;/&quot; to search">
                 <img src="/images/icons/magnifier.svg" alt="" class="magnifier">     
               </a>
             </nav>
@@ -99,6 +99,16 @@
     });
     </script>
     {% endif %}
+
+    <script>
+    window.addEventListener('keypress', function (e) {
+      // Navigates to search 
+      // page on pressing "/"
+      if (e.keyCode === 47) {
+        window.location.href = '/search';
+      }
+    }, false);
+    </script>
     
     {% include analytics.html %}
   </body>
