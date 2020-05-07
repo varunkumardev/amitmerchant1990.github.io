@@ -51,7 +51,7 @@ class Greeter
 }
 ```
 
-Now, we want to pull this package into a Laravel project. So, in order to do so, you'll first need to open the project's `composer.json` file into which you want to pull the package and add a `repositories` field like so.
+Now, we want to pull this package into a Laravel project. So, here's the trick! In order to do so, you'll first need to open the project's `composer.json` file into which you want to pull the package and add a `repositories` field like so.
 
 ```json
 "repositories": [
@@ -62,7 +62,7 @@ Now, we want to pull this package into a Laravel project. So, in order to do so,
 ],
 ```
 
-This will tell Composer that, upon installing, it should look into the `../laravel-greeter` directory (which is our package), if it gets specified as a project's dependencies. The `url` is the package's relative path to the project's directory.
+This will tell Composer that, upon installing, it should look into the `../laravel-greeter` directory (which is our package), if it gets specified as a project's dependencies. The `url` is the package's relative path to the project's directory. In our case, both the package and the project, are in the same directory. And hance we'll need to go one directory up.
 
 Now, we are ready to pull our package into this project. So, we'll fire off the following command into the project like so.
 
