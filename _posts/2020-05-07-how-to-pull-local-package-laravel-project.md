@@ -5,9 +5,9 @@ image: /cdn/pull-local-package.png
 categories: [Laravel]
 ---
 
-Lately, if you've been working something and you want to extract it as a Laravel package, you'd like to first test it locally. And if everything is well and good, you'd then publish it to the packagist.org.
+Lately, if you've been working on some functionality and you want to extract it as a Laravel package, you'd like to first test it locally. And if everything is well and good, you'd then publish it to the packagist.org.
 
-I'm going to explain how you can pull in a package in the Laravel project and test it locally in this article.
+I'm going to explain how you can pull in a local package in the Laravel project and test it locally in this article.
 
 So, for instance, let's say I've this package called `amitmerchant/laravel-greeter` which consists of the following `composer.json`.
 
