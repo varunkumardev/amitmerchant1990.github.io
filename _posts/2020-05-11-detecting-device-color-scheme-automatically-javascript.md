@@ -5,7 +5,7 @@ image: /cdn/device-scheme-javascript.png
 categories: [JavaScript]
 ---
 
-Implementing a Dark mode in applications is all the rage these days. And you can provide a toggle to switch between Dark/Light mode to users like the one I've implemented on my Notepad app.
+Implementing a Dark mode in applications is all the rage these days. And you can provide a toggle to switch between Dark/Light mode to users like the one I've implemented on my [Notepad](https://notepad.js.org/) app.
 
 But what if you can detect the device's default theme and based on that set the theme accordingly?
 
