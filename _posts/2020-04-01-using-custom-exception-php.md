@@ -62,17 +62,17 @@ class Email
 
 As you can see in the example above, we have an `Email` class which is used to send emails to the users. Now, there are a few checks which needs to be validated before the application could send the email. 
 
-We're throwing exceptions on each of the condition which doesn't match the certain criteria. The above code works perfectly fine. However, we have all the exception texts inside the method which makes the method look cluttered and heavy. This can be optimized using custom exception classes. Let's see how.
+We're throwing exceptions on each of the condition which doesn't match the certain criteria. The above code works perfectly fine. However, we have all the exception texts inside the method which makes the method look cluttered and heavy than it actually is. This can be optimized using custom exception classes. Let's see how.
 
 ## Custom Exception Classes
 
-We can extract all the above exceptions to their respective classes and use those instead of throwing the exception directly from the class like what we've done in the above example. We can do so creating a regular class which then extends the `Exception` class. So, the following exception...
+We can extract all the above exceptions to their respective classes and use those instead of throwing the exception directly from the class like what we've done in the above example. We can do  by creating a regular class which then extends the natiave [Exception](https://www.php.net/manual/en/class.exception.php) class. So, the following exception...
 
 ```php
 throw new Exception('Can not send email to this user.');
 ```
 
-Can be refactored to the following class,
+Can be extracted to the following class,
 
 ```php
 <?php
