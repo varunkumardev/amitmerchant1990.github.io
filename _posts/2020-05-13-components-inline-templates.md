@@ -7,7 +7,7 @@ categories: [Vue]
 
 Vue.js has this handy feature where you can set the `inline-template` special attribute on the component and now the component can use its inner content as its template, rather than treating it as distributed content.
 
-So, for instance, let's say I've this component called `sidebar`, I can attach the `inline-template` like so.
+So, for instance, let's say I have this component called `sidebar`, I can attach the `inline-template` attribute to it like so.
 
 ```html
 <sidebar inline-template>
@@ -21,7 +21,7 @@ So, for instance, let's say I've this component called `sidebar`, I can attach t
 
 Now, Vue will treat the content inside the `sidebar` as its template and you don't have to give template explicitly using `Vue.component`. This can be useful when you want to add some amount of reactivity to a little part of the application without adding a lot of complexity.
 
-> Although, this is an inline template, the rules for the template are still true here. i.e , You've wrapped your entire template into single root element `<ul>` and that is exactly what I did in this example.
+> Although, this is an inline template, the rules for the template are still true here. i.e , You've to wrap your entire template into a single root element and that is exactly what I did in this example by wrapping the content in a single root element `<ul>`.
 
 Now, we can define the component and make it dynamic like so.
 
