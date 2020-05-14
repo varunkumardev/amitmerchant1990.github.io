@@ -17,7 +17,7 @@ Now, you can cycle through all the available commands by <kbd>Ctrl</kbd> + <kbd>
 
 The vice-versa is also possible where you can press <kbd>Ctrl</kbd> + <kbd>R</kbd> and then type in your search keyword, which will work just like I've mentioned previously.
 
-Behind the scene, the command will search through `~/.bash_history` where history of all the commands gets maintained.
+Behind the scene, the command will search through `~/.bash_history` where the history of all the commands gets maintained.
 
 Very handy, right?
 
