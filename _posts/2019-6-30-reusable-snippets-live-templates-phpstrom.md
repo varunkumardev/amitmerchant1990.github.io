@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Reusable code snippets using Live Templates in PHPStrom
+title: Reusable code snippets using Live Templates in PHPStorm
 categories: [Miscellaneous]
 ---
 
-Let's just admit this. If you're a developer who works with PHP and you haven't heard about [PHPStrom](https://www.jetbrains.com/phpstorm/), you're assumed to be living in the rocks. Because PHPStrom is the best PHP IDE exist right now IMHO. The tagline on the homepage of it reads as __"The lightening-smart IDE for PHP"__ and it's really true. It has got all the features you'd need in order to become a fluent PHP programmer.
+Let's just admit this. If you're a developer who works with PHP and you haven't heard about [PHPStorm](https://www.jetbrains.com/phpstorm/), you're assumed to be living in the rocks. Because PHPStorm is the best PHP IDE exist right now IMHO. The tagline on the homepage of it reads as __"The lightening-smart IDE for PHP"__ and it's really true. It has got all the features you'd need in order to become a fluent PHP programmer.
 
-I'm going to talk about one such feature of PHPStrom which I think is underutilized by developers. I'm talking about **Live Templates**. Often time comes, when you'd want some small bits of called which you need on a frequent basis while working on your project. I call them snippets. Well, live templates is the exact same feature which would fulfil this need. Let's talk about it in detail.
+I'm going to talk about one such feature of PHPStorm which I think is underutilized by developers. I'm talking about **Live Templates**. Often time comes, when you'd want some small bits of called which you need on a frequent basis while working on your project. I call them snippets. Well, live templates is the exact same feature which would fulfil this need. Let's talk about it in detail.
 
 ## Live Templates
 
