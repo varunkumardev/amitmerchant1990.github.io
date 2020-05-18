@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Drag and drop files using only JavaScript
-image: /cdn/drag-drop-javascript.png
+image: /cdn/drag-drop-javascript-1.png
 categories: [JavaScript]
 ---
 
