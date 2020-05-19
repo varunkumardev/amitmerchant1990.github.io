@@ -59,7 +59,7 @@ function drop(e) {
 }
 ```
 
-Here, we retrieve the `dataTransfer` field from the event, pull the `file` list out of it and console logged it.
+Here, we retrieve the [dataTransfer](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer) field from the event, pull the `file` list out of it and console logged it.
 
 Upon checking the log, you can get some of the details, such as `name`, `size`, `type`, `lastModified` of the dropped files in form of `FileList` object like so.
 
