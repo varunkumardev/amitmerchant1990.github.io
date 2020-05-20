@@ -38,7 +38,7 @@ class PostController extends Controller
 
 As shown above, you could specify predefined validation rules (separated by pipes [`|`]) on request parameters. Apart from these predefined validation rules, you can also define you own rules using "rule objects".
 
-## Custome Rule Objects
+## Custom Rule Objects
 
 Rule objects are essentially classes that implements `Illuminate\Contracts\Validation\Rule` interface. A rule object contains two methods: `passes` and `message`. The `passes` method receives the attribute value and name, and should return `true` or `false` depending on whether the attribute value is valid or not. The `message` method should return the validation error message that should be used when validation fails.
 
