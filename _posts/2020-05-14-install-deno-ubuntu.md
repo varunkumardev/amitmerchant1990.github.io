@@ -18,6 +18,9 @@ Deno, the successor of Node.js, is now stable with it's [v1.0 release](https://d
 
 Looking at all these features, it was pretty tempting for me to try it out, and now that it's stable, why not? Let's jump into it.
 
+{:.you-may-like}
+> You may also like: [Node.js vs Deno — A high-level comparison](/node-vs-deno-breakdown/)
+
 ## Installing Deno on Ubuntu 18.04
 
 I'm using Ubuntu 18.04 as my primary OS and I have got [Homebrew](https://brew.sh/) installed on it. So, I've tried installing Deno using it first using Homebrew...
