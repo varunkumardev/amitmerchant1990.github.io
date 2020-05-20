@@ -7,7 +7,7 @@ categories: [Laravel]
 
 The Observer design pattern is one of the twenty-three well-known ["Gang of Four" design patterns](https://en.wikipedia.org/wiki/Design_Patterns) that describe how to solve recurring design problems to design flexible and reusable object-oriented software, that is, objects that are easier to implement, change, test, and reuse.
 
-[![Event-Listener Pattern](/images/event-listener-illustration.jpeg)](/images/event-listener-illustration.jpeg)
+[![Event-Listener Pattern](/images/event-listener-illustration.png)](/images/event-listener-illustration.png)
 
 Fortunately, Laravel is also using this pattern to provide the user the flexibility of using events in the framework itself. Basically, the pattern is divided in two parts
 
