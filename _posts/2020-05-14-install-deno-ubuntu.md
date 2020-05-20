@@ -23,7 +23,7 @@ Looking at all these features, it was pretty tempting for me to try it out, and 
 
 ## Installing Deno on Ubuntu 18.04
 
-I'm using Ubuntu 18.04 as my primary OS and I have got [Homebrew](https://brew.sh/) installed on it. So, I've tried installing Deno using it first using Homebrew...
+I'm using Ubuntu 18.04 as my primary OS and I have got [Homebrew](https://brew.sh/) installed on it. So, I've tried installing Deno first using Homebrew...
 
 ```bash
 $ brew install deno 
