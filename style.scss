@@ -1273,6 +1273,7 @@ Modules - reusable parts of our design
   color: #00000000;
   border-radius: 15px;
   font-size: 12px;
+  transition: none;
 
   @media (max-width: 1000px) {
     display: none;
