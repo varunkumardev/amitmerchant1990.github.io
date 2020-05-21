@@ -616,7 +616,7 @@ span[data-pullquote]:before {
   border-radius: 5px;
   background-image: radial-gradient(circle 346px at 0.3% 100%, #3e4ca7 0%, #ea6dff 100.7%);
   text-align: center;
-  box-shadow: 3px 2px 5px 0px #ababab;
+  box-shadow: 3px 2px 6px 0px #abababc9;
   height: 100%;
 
   a {
@@ -1394,13 +1394,14 @@ Modules - reusable parts of our design
 }
 
 .tinyletterForm {
-    border-top: 5px solid #673AB7;
+    border-top: 7px solid #ef8fff;
     padding: 3px;
     text-align: center;
     margin: 8px;
     border-radius: 5px;
     background-image: linear-gradient(180deg, #3800b9, #f3abff);
     color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 5px 0px;
 
     h3 {
       color: #fff;
