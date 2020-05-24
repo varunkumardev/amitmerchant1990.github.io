@@ -5,7 +5,7 @@ image: /cdn/typecasting-typescript.png
 categories: [TypeScript]
 ---
 
-The main advantage of using TypeScript over JavaScript is because the former is a typed language which helps in speeding up the development experience by catching errors and providing fixes before you even run your code. 
+The main advantage of using [TypeScript](https://www.typescriptlang.org/) over JavaScript is because the former is a typed language which helps in speeding up the development experience by catching errors and providing fixes before you even run your code. 
 
 So, you'd be assigning types, such as `numbers`, `strings`, `structures`, `boolean` and so forth, to the variables like so.
 
