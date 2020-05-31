@@ -34,7 +34,7 @@ class Post {
 }
 
 let post = new Post();
-post.setStatus("draft");
+post.setStatus("published");
 post.setStatus("canceled"); // error: "canceled" is not allowed here
 ```
 
