@@ -54,7 +54,7 @@ $validator->sometimes('payment_method', 'required', function ($input) {
 });
 ```
 
-Here, `$input` parameter passed to the [Closure](https://www.php.net/manual/en/class.closure.php) will be an instance of `Illuminate\Support\Fluent` and can be used to access your input and files.
+Here, the `$input` parameter passed to the [Closure](https://www.php.net/manual/en/class.closure.php) will be an instance of `Illuminate\Support\Fluent` and can be used to access your input and files.
 
 To take it further, you can add conditional validations for several fields at once like so.
 
