@@ -50,7 +50,7 @@ PHP will try to coerce "3.5" to its integer value which is happen to be `3` in t
 
 To check types strictly, PHP allow us to enable *strict mode* on a per-file basis. In *strict mode*, only a variable of the exact type of the type declaration will be accepted, or a [TypeError](https://www.php.net/manual/en/class.typeerror.php) will be thrown.
 
-This is how you can enable *strict mode* in a file.
+To enable strict mode, a [declare](https://www.php.net/manual/en/control-structures.declare.php) statement is used with the `strict_types` declaration like so.
 
 ```php
 declare(strict_types=1);
@@ -116,6 +116,8 @@ try {
 
 // bool(true)
 ```
+
+And lastly, Enabling strict mode will not only affect the function type declarations but also [return type declarations](https://www.php.net/manual/en/functions.returning-values.php#functions.returning-values.type-declaration).
 
 
 
