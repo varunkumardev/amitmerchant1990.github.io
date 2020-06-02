@@ -117,7 +117,7 @@ try {
 // bool(true)
 ```
 
-And lastly, Enabling strict mode will not only affect the function type declarations but also [return type declarations](https://www.php.net/manual/en/functions.returning-values.php#functions.returning-values.type-declaration).
+And lastly, Enabling strict mode will not only affect the function type declarations but  [return type declarations](https://www.php.net/manual/en/functions.returning-values.php#functions.returning-values.type-declaration) as well.
 
 
 
