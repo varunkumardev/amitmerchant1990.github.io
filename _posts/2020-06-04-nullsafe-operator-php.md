@@ -23,9 +23,9 @@ if ($session !== null) {
 }
 ```
 
-The code checks for the `null` check for each property before going onto the [next chain](/method-chaining-php-nutshell/) of the property/method. It do so by storing the intermediate values in the buffer properties in each condition and go on for the `null` check.
+The code looks for the `null` check for each property before going onto the [next chain](/method-chaining-php-nutshell/) of the property/method. It do so by storing the intermediate values in the buffer properties in each condition and go on for the `null` check on the next property in the chain.
 
-This is quite a hassle right now as you can see. This can be improved if [this RFC](https://wiki.php.net/rfc/nullsafe_operator) gets approved.
+This is quite a hassle right now as you can observe. This scenario can be improved if [this RFC](https://wiki.php.net/rfc/nullsafe_operator) gets approved.
 
 ## The nullsafe operator
 
