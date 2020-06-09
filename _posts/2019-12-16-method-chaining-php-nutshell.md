@@ -26,30 +26,30 @@ Fluent Interfaces implements method chaining by returning the class instance fro
 
 class Book
 {
- private string $name;
- private string $author;
+    private string $name;
+    private string $author;
 
- public function setName(string $name)
- {
- $this->name = $name;
+    public function setName(string $name)
+    {
+        $this->name = $name;
 
- return $this->name;
- }
+        return $this->name;
+    }
 
- public function setAuthor(string $author)
- {
- $this->author = $author;
+    public function setAuthor(string $author)
+    {
+        $this->author = $author;
 
- return $this->author;
- }
+        return $this->author;
+    }
 
- public function __toString()
- {
- $bookInfo = 'Book Name: ' . $this->name . PHP_EOL;
- $bookInfo .= 'Book Author: ' . $this->author . PHP_EOL;
+    public function __toString()
+    {
+        $bookInfo = 'Book Name: ' . $this->name . PHP_EOL;
+        $bookInfo .= 'Book Author: ' . $this->author . PHP_EOL;
 
- return $bookInfo;
- }
+        return $bookInfo;
+    }
 }
 
 $book = new Book();
@@ -72,30 +72,30 @@ As you can see above, after setting the values to the class properties, we're re
 
 class Book
 {
- private string $name;
- private string $author;
+    private string $name;
+    private string $author;
 
- public function setName(string $name)
- {
- $this->name = $name;
+    public function setName(string $name)
+    {
+        $this->name = $name;
 
- return $this;
- }
+        return $this;
+    }
 
- public function setAuthor(string $author)
- {
- $this->author = $author;
+    public function setAuthor(string $author)
+    {
+        $this->author = $author;
 
- return $this;
- }
+        return $this;
+    }
 
- public function __toString()
- {
- $bookInfo = 'Book Name: ' . $this->name . PHP_EOL;
- $bookInfo .= 'Book Author: ' . $this->author . PHP_EOL;
+    public function __toString()
+    {
+        $bookInfo = 'Book Name: ' . $this->name . PHP_EOL;
+        $bookInfo .= 'Book Author: ' . $this->author . PHP_EOL;
 
- return $bookInfo;
- }
+        return $bookInfo;
+    }
 }
 
 $book = new Book();
