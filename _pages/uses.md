@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /uses/
-title: The tech I'm using
-image: /images/setup-2108.jpg
+title: The things I'm currently using
+image: /images/uses.png
 ---
 
 This page enlists the collection of things that I'm currently using to get my work done. This includes the software, hardware, and accessories that I'm using on a daily basis at home/work. 
