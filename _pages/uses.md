@@ -19,11 +19,11 @@ I also have a [Transcend's StoreJet 1TB external hard drive](https://www.amazon.
 
 My phone's a [Xiaomi Mi A1](https://en.wikipedia.org/wiki/Xiaomi_Mi_A1). The reason why it's my daily driver is that I'm a stock android enthusiast and this is an [Android One](https://en.wikipedia.org/wiki/Android_One) phone so I'll be on newest and greatest of Android for at least 2 years.
 
-To listen to the music I've a pair of [Audio-Technica ATH-CLR100](https://www.audio-technica.com/cms/headphones/a0a8895f03d70c11/index.html) and a three-year-old Philip's Bluetooth speaker.
+To listen to the music I've a pair of [Audio-Technica ATH-CLR100](https://www.audio-technica.com/cms/headphones/a0a8895f03d70c11/index.html), a [Boat Rockerz 400](https://www.boat-lifestyle.com/products/rockerz-400) On-Ear headphones, and a three-year-old Philip's Bluetooth speaker.
 
-Apart from this, I own two watches of which one is a fitness tracker called [Mi Band 2](https://www.mi.com/global/miband2/) which I'm using to track my run and calories and the other one is the classic [Casio F-91W](https://en.wikipedia.org/wiki/Casio_F-91W).
+Apart from this, I own ~~two~~ three watches of which one is a fitness tracker called [Mi Band 2](https://www.mi.com/global/miband2/) which I'm using to track my run and calories, a classic [Casio F-91W](https://en.wikipedia.org/wiki/Casio_F-91W), and a [Casio Royale](https://www.casio.com/products/watches/classic/ae1200wh-1a).
 
-![](/images/casio-f91w.jpg)
+![Casio AE1200](/images/casio-f91w.jpg)
 
 ## Software
 
@@ -46,6 +46,8 @@ I use [Google Keep](https://keep.google.com) to get in sync with my todo lists a
 To make vector graphics, I use [Vectr](https://vectr.com/).
 
 I take a lot of screenshots. For this purpose, I use [Flameshot](https://flameshot.js.org/) as my primary screenshot tool and [Zoho Annotator](https://www.zoho.com/annotator/) to take take screenshots while I'm on Chrome.
+
+I occasionally record screencasts. For that purpose, I use [OBS Studio](https://obsproject.com/).
 
 My current blog is setup on top of [Jekyll](https://jekyllrb.com/) which is a static site generator and is hosted on [GitHub Pages](https://pages.github.com/). The Jekyll theme that I'm using is called [Reverie](https://github.com/amitmerchant1990/reverie) which is a tailor-made according to my taste.
 
