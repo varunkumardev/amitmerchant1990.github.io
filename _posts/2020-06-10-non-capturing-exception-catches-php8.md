@@ -37,3 +37,5 @@ try {
 
 As you can see, the exception variable is completely omitted as the exception details are become irrelevant now.
 
+Thanks for reading! 🚀
+
