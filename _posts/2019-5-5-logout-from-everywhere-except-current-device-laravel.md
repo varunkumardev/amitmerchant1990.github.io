@@ -6,8 +6,6 @@ categories: [Laravel]
 
 Every robust web app has this feature where you're provided with a setting through which you can choose to logout from all the devices you've been logged in from previously, except the current one. This is certainly a nice security feature that you can provide to your user without them even asking for it and if your app is built on top of Laravel 5.6, this comes out-of-the-box.
 
-{% include affiliates.html %}
-
 Here's how you can accomplish this. First of all, you need to uncomment the line `\Illuminate\Session\Middleware\AuthenticateSession::class` from `$middlewareGroups` property in `app/Http/Kernel.php` file because this is the middleware that manages the user sessions in Laravel.
 
 ```php
