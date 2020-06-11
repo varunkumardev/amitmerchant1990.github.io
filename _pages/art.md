@@ -57,7 +57,7 @@ fluidbox: true
         {% if j == 0 or j == 7 %}
         <div class="column-masonry">
         {% endif %}
-        <a href="/images/art/{{picture.name}}"><img src="/images/art/{{picture.name}}" style="width:100%" loading="lazy"></a>
+        <a href="/cdn/art/{{picture.name}}"><img src="/images/art/{{picture.name}}" style="width:100%" loading="lazy"></a>
         {% if j == 6 or j == 12 %}
         </div>
         {% endif %}
