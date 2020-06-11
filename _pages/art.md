@@ -51,6 +51,8 @@ fluidbox: true
     }
 </style>
 
+These are all of my artworks/drawings that I've drawn over time. This will be sort of a live page where I'll be adding new artworks as and when I get a chance to get them completed.
+
 <div class="row-masonry">
     {% assign j = 0 %}
     {% for picture in site.pictures %}
