@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Find the extension of files without extension in Laravel
-image: /cdn/guess-file-extension-laravel.png
+image: /cdn/guess-file-extension-laravel-1.png
 categories: [Laravel]
 ---
 
