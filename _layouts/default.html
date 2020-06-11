@@ -46,6 +46,7 @@
               <a href="{{ site.baseurl }}/">Articles</a>
               <a href="{{ site.baseurl }}/projects">Projects</a>
               <a href="{{ site.baseurl }}/uses">Uses</a>
+              <a href="{{ site.baseurl }}/art">Art</a>
               <a href="{{ site.baseurl }}/about">About</a>
               <a href="{{ site.baseurl }}/search" title="Press &quot;/&quot; to search">
                 <img src="/images/icons/magnifier.svg" alt="" class="magnifier">     
@@ -95,7 +96,7 @@
     <script type="text/javascript" src="/js/jquery.fluidbox.min.js"></script>  
     <script>
     $(function () {
-        $('.post a').fluidbox();
+        $('.post a, .row-masonry a').fluidbox();
     });
     </script>
     {% endif %}
