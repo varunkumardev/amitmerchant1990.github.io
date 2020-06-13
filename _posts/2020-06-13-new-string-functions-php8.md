@@ -66,6 +66,12 @@ str_contains("", "");     // true
 
 It returns `true` when using empty string as needle because PHP compiler thinks that there's an empty string contained in every string.
 
+It's also important to note here that `str_contains` is a case-sensitive function. So, following will return `false`.
+
+```php
+str_contains("Hello world!", "hello"); // false
+```
+
 ## `str_starts_with` and `str_ends_with` [RFC](https://wiki.php.net/rfc/add_str_starts_with_and_ends_with_functions)
 
 The `str_starts_with()` function checks if a string begins with another string and returns a boolean value (true/false) whether it does.
