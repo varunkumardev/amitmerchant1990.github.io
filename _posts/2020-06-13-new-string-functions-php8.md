@@ -9,19 +9,19 @@ Who would've thought that PHP would have to wait till its version 8 or rather 25
 
 Well, PHP 8 will get shipped with three new such string functions which many of us were anticipating from very long. These functions are as below.
 
-- `str_contains` - Checks if a string is contained in another string and returns a boolean value (true/false) whether or not the string was found.
+- `str_contains` - The function checks if a string is contained in another string and returns a boolean value (true/false) whether or not the string was found.
 
 ```php
 str_contains ( string $haystack , string $needle ) : bool
 ```
 
-- `str_starts_with` - Checks if a string begins with another string and returns a boolean value (true/false) whether it does.
+- `str_starts_with` - The function checks if a string begins with another string and returns a boolean value (true/false) whether it does.
 
 ```php
 str_starts_with ( string $haystack , string $needle ) : bool
 ```
 
-- `str_ends_with` - checks if a string ends with another string and returns a boolean value (true/false) whether it does.
+- `str_ends_with` - The function checks if a string ends with another string and returns a boolean value (true/false) whether it does.
 
 ```php
 str_ends_with ( string $haystack , string $needle ) : bool
