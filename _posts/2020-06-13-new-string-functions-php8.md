@@ -85,7 +85,7 @@ Below is the function signature.
 str_starts_with ( string $haystack , string $needle ) : bool
 ```
 
-`str_starts_with()` checks if `$haystack` begins with `$needle`. If `$needle` is longer than `$haystack`, it returns `false`; else, it compares each character in `$needle` with the corresponding character in `$haystack` (aligning both strings at their start), returning `false` if it encounters a mismatch, and `true` otherwise.
+`str_starts_with()` checks if `$haystack` begins with `$needle`. If `$needle` is longer than `$haystack`, it returns `false`; else, it compares each character in `$needle` with the corresponding character in `$haystack` (aligning both strings at their start), returning `false` if it encounters a mismatch, and `true` otherwise. The function is also case-sensitive.
 
 Here are few examples of the same.
 
