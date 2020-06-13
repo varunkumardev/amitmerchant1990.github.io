@@ -5,7 +5,7 @@ image: /cdn/new-string-functions-php8.png
 categories: [PHP]
 ---
 
-Who would've thought that PHP would have to wait till its version 8 or rather 25 years after its inception to get a truly native and understandable function to check if the a string is contained in another string?!
+Who would've thought that PHP would have to wait till its version 8 or rather 25 years after its inception to get a truly native and understandable function to check if a string is contained in another string?!
 
 Well, PHP 8 will get shipped with three new such string functions which many of us were anticipating from very long. These functions are as below.
 
