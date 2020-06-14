@@ -53,6 +53,8 @@ str_contains ( string $haystack , string $needle ) : bool
 
 So, `str_contains` takes a `$haystack` and a `$needle` as arguments, checks if `$needle` is found in `$haystack` and returns a boolean value (true/false) whether or not the `$needle` was found.
 
+![](/images/str_contains_meme.jpg){:width=500}
+
 Here are few examples of the same.
 
 ```php
