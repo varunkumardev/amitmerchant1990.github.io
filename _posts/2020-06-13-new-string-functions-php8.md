@@ -68,7 +68,7 @@ str_contains("", "");     // true
 
 It returns `true` when using empty string as needle because PHP compiler thinks that there's an empty string contained in every string.
 
-It's also important to note here that `str_contains` is a case-sensitive function. So, following will return `false`.
+It's also important to note here that `str_contains` is a *case-sensitive* function. So, the following will return `false`.
 
 ```php
 str_contains("Hello world!", "hello"); // false
