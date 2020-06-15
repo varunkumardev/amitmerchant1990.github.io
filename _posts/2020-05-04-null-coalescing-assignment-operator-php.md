@@ -5,13 +5,13 @@ image: /cdn/null-coalescing.png
 categories: [PHP]
 ---
 
-When PHP 7.4 comes out, it has added many nice things in PHP's toolbelt of utilities. One of the things among this was *Null coalescing assignment operator (??)*.
+When PHP 7.0 [released](https://www.php.net/manual/en/migration70.new-features.php), it has added many nice things in PHP's toolbelt of utilities. One of the things among this was *Null coalescing assignment operator (??)*.
 
-So basically, the operator can be used for the scenarios where you need to check if the variable is set or not before assigning it to an another variable. For instance, check the following code which you might be writing pre PHP 7.4 era.
+So basically, the operator can be used for the scenarios where you need to check if the variable is set or not before assigning it to an another variable. For instance, check the following code which you might be writing pre PHP 7.0 era.
 
 ```php
 <?php
-// Pre PHP 7.4
+// Pre PHP 7.0
 
 $user = [
     'name' => 'Amit', 
@@ -27,11 +27,11 @@ print_r($user);
 //Array([name] => Amit [job] => Developer)
 ```
 
-The above code code can be reduced to following in PHP 7.4 by using null coalescing assignment operator like so.
+The above code code can be reduced to following in PHP 7.0 by using null coalescing assignment operator like so.
 
 ```php
 <?php
-// From PHP 7.4
+// From PHP 7.0
 
 $user = [
     'name' => 'Amit'
