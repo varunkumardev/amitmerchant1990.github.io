@@ -5,7 +5,7 @@ image: /cdn/refactor-condition-method-php.png
 categories: [PHP]
 ---
 
-Refactoring is important in programming things.It is a process of restructuring existing computer code—changing the factoring—without changing its external behavior. It makes code more readable, structured and easy to process. 
+Refactoring is important in programming things. It is a process of restructuring existing computer code—changing the factoring—without changing its external behavior. It makes code more readable, structured and easy to process. 
 
 There are a lot of ways to refactor the code but I want to talk about this little technique which doesn't take lot of your thinking and makes your code look readable instantly.
 
