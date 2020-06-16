@@ -43,6 +43,8 @@ I use [Google Drive](https://drive.google.com) to store my documents and backups
 
 I use [Google Keep](https://keep.google.com) to get in sync with my todo lists and important notes. 
 
+I use [KDE Connect](https://kdeconnect.kde.org/) to sync my files and clipboard across my Android phone and Ubuntu desktop. 
+
 To make vector graphics, I use [Vectr](https://vectr.com/).
 
 I take a lot of screenshots. For this purpose, I use [Flameshot](https://flameshot.js.org/) as my primary screenshot tool and [Zoho Annotator](https://www.zoho.com/annotator/) to take take screenshots while I'm on Chrome.
