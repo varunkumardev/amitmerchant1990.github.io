@@ -7,7 +7,7 @@ categories: [PHP]
 
 Refactoring is important in programming things.It is a process of restructuring existing computer code—changing the factoring—without changing its external behavior. It makes code more readable, structured and easy to process. 
 
-There are a lot of ways to refactor the code but I want to talk about a technique which doesn't take lot of your thinking and makes your code look readable instantly.
+There are a lot of ways to refactor the code but I want to talk about this little technique which doesn't take lot of your thinking and makes your code look readable instantly.
 
 So, take this for example function.
 
@@ -48,7 +48,7 @@ We now have refctored all the conditions to a method named `canProcessOrder` and
 
 Now, the `placeOrder` method looks more cleaner to look at and has a single responsibility. And when there's another condition to add in the future, you can always add that to `canProcessOrder` method whithout messing the `placeOrder` method.
 
-You can further simplify the `canProcessOrder` method by early return method like so.
+You can take it further by simplifying the `canProcessOrder` method using early return method like so.
 
 ```php
 private function canProcessOrder()
