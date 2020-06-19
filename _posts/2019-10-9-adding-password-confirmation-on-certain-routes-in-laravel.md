@@ -4,11 +4,11 @@ title: Adding password confirmation on certain routes in Laravel
 categories: [Laravel]
 ---
 
-If you've used some well creafted web application, such as [GitHub](https://github.com) for instance, you might've noticed that upon saving sensitive information such as settings or payment details, it asks for the password confirmation before performing the action. This adds the extra layer of security layer and certainly a nice-to-have feature.
+If you've used some well creafted web application, such as [GitHub](https://github.com) for instance, you might've noticed that upon saving sensitive information such as settings or payment details, it asks for the password confirmation before performing the action. This adds the extra layer of security and certainly a nice-to-have feature.
 
-In Laravel v6.2.0, the very feature has been shipping [in-built](https://github.com/laravel/laravel/pull/5129). You can add password confirmation on any route by attaching a `password.confirm` middleware to it and it will take care of rest of the things. i.e navigating the user to re-confirm their password. You locate the middleware over here: `src/Illuminate/Auth/Middleware/RequirePassword.php`
+In Laravel v6.2.0, the very feature has been shipping [in-built](https://github.com/laravel/laravel/pull/5129). You can add password confirmation on any route by attaching a `password.confirm` middleware to it and it will take care of rest of the things. i.e navigating the user to re-confirm their password. You can locate the middleware over here: `src/Illuminate/Auth/Middleware/RequirePassword.php`
 
-Below is how you can do this.
+Below is how you can use the middleware.
 
 ```php
 Route::get('/payment-details', 'PaymentsController@save')->middleware('password.confirm');
