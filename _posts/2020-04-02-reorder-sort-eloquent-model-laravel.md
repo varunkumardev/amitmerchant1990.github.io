@@ -11,7 +11,7 @@ Often times, there comes a sceanrio where you'd want to alter the column through
 $query = DB::table('users')->orderBy('name');
 ```
 
-Now, all you want to do is remove the sort order or just change the column for the soring to something else, what would you do?
+Now, all you want to do is remove the sort order or just change the column for the sorting to something else, what would you do?
 
 ## `reorder()` sort method
 
