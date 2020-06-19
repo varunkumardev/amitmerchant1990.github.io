@@ -103,8 +103,8 @@ top_articles:
     title: This is why PHP don't have multiple inheritance
   - url: /why-you-should-use-laravel-queues/
     title: Why you should use Laravel Queues
-  - url: /array-destructuring-in-php/
-    title: Array destructuring in PHP
+  - url: /using-custom-exception-php/
+    title: Benefits of using custom exceptions in PHP
   - url: /invokable-classes-php/
     title: A closer look at Invokable classes in PHP
 
