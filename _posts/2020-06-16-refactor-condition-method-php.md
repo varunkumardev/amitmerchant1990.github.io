@@ -53,15 +53,15 @@ You can take it further by simplifying the `canProcessOrder` method using early 
 ```php
 private function canProcessOrder()
 {
-    if ($this->customer->allowed) {
+    if (!$this->customer->allowed) {
         return false;
     }
 
-    if ($this->customer->hasPayment()) {
+    if (!$this->customer->hasPayment()) {
         return false;
     }
 
-    if ($this->product->inStock) {
+    if (!$this->product->inStock) {
         return false;
     }
 
