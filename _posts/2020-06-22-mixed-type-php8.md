@@ -215,7 +215,7 @@ class B extends A
 ```
 
 > **More in PHP 8**
-> - [New String Function](/new-string-functions-php8/)
+> - [New string functions](/new-string-functions-php8/)
 > - [Non-capturing exception catches](/non-capturing-exception-catches-php8/)
 > - [Constructor Property Promotion](/constructor-property-promotion-php8/)
 > - [Nullsafe operator](/nullsafe-operator-php/)
