@@ -20,7 +20,7 @@ When it comes to PHP, it already supports two special union types:
 - `Type` or `null`, using [the special](/nullable-types-php71/) `?Type` syntax.
 - `array` or `Traversable`, using the special iterable type.
 
-But as of now, arbitrary union types are not supported by the language. So, programmers tends to use PHPDoc annotations as a workaround.
+But as of now, arbitrary union types are not supported by the language. So, programmers tends to use [PHPDoc annotations](https://en.wikipedia.org/wiki/PHPDoc) as a workaround.
 
 ```php
 class Number {
@@ -75,7 +75,7 @@ As you can see in the example above, the syntax is now a lot less boilerplate-y 
 
 ## Scope of union types
 
-Union types will support all types currently supported by PHP. There some exceptions to this such as `void` type, Nullable union types, `false` pseudo-type and so on. You can read more about it [here](https://github.com/nikic/php-rfcs/blob/union-types/rfcs/0000-union-types-v2.md#supported-types).
+Union types will support all types currently supported by PHP. There are some exceptions to this such as `void` type, Nullable union types, `false` pseudo-type and so on. You can read more about it [here](https://github.com/nikic/php-rfcs/blob/union-types/rfcs/0000-union-types-v2.md#supported-types).
 
 ## In closing
 
