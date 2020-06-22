@@ -80,3 +80,10 @@ Union types will support all types currently supported by PHP. There are some ex
 ## In closing
 
 The union types are all great and they are most probably going to be included in PHP 8.0. So, until then we'll have to resort to the good old PHP DOCBlocks.
+
+> **More in PHP 8**
+> - [The mixed type](/mixed-type-php8/)
+> - [New String Function](/new-string-functions-php8/)
+> - [Non-capturing exception catches](/non-capturing-exception-catches-php8/)
+> - [Constructor Property Promotion](/constructor-property-promotion-php8/)
+> - [Nullsafe operator](/nullsafe-operator-php/)

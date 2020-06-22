@@ -102,4 +102,9 @@ class Book
 
 You can learn more about this feature over [here](https://wiki.php.net/rfc/constructor_promotion).
 
-
+> **More in PHP 8**
+> - [The mixed type](/mixed-type-php8/)
+> - [New String Function](/new-string-functions-php8/)
+> - [Non-capturing exception catches](/non-capturing-exception-catches-php8/)
+> - [Nullsafe operator](/nullsafe-operator-php/)
+> - [Union types](/union-types-php/)

@@ -123,5 +123,12 @@ if (str_ends_with("", "a")) echo "not printed\n";
 
 The behavior concerning empty strings is in accordance with what is described in `str_contains` section. 
 
+> **More in PHP 8**
+> - [The mixed type](/mixed-type-php8/)
+> - [Non-capturing exception catches](/non-capturing-exception-catches-php8/)
+> - [Constructor Property Promotion](/constructor-property-promotion-php8/)
+> - [Nullsafe operator](/nullsafe-operator-php/)
+> - [Union types](/union-types-php/)
+
 
 

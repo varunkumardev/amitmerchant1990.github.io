@@ -39,3 +39,10 @@ As you can see, the exception variable is completely omitted as the exception de
 
 Thanks for reading! 🚀
 
+> **More in PHP 8**
+> - [The mixed type](/mixed-type-php8/)
+> - [New String Function](/new-string-functions-php8/)
+> - [Constructor Property Promotion](/constructor-property-promotion-php8/)
+> - [Nullsafe operator](/nullsafe-operator-php/)
+> - [Union types](/union-types-php/)
+

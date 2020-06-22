@@ -48,3 +48,10 @@ This is really convient as it effectively reduces the number of line of the code
 The feature is scheduled to be included in PHP 8 if this RFC gets approved.
 
 Fingers crossed!
+
+> **More in PHP 8**
+> - [The mixed type](/mixed-type-php8/)
+> - [New String Function](/new-string-functions-php8/)
+> - [Non-capturing exception catches](/non-capturing-exception-catches-php8/)
+> - [Constructor Property Promotion](/constructor-property-promotion-php8/)
+> - [Union types](/union-types-php/)
