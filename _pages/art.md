@@ -56,7 +56,7 @@ These are all of my artworks/drawings that I've drawn over time. This will be so
 <div class="row-masonry">
     {% assign j = 0 %}
     {% for picture in site.pictures %}
-        {% if j == 0 or j == 7 %}
+        {% if j == 0 or j == 8 %}
         <div class="column-masonry">
         {% endif %}
         <a href="/cdn/art/{{picture.name}}"><img src="/cdn/art/{{picture.name}}" style="width:100%" loading="lazy"></a>
