@@ -60,7 +60,7 @@ These are all of my artworks/drawings that I've drawn over time. This will be so
         <div class="column-masonry">
         {% endif %}
         <a href="/cdn/art/{{picture.name}}"><img src="/cdn/art/{{picture.name}}" style="width:100%" loading="lazy"></a>
-        {% if j == 6 or j == 13 %}
+        {% if j == 7 or j == 13 %}
         </div>
         {% endif %}
         {% assign j = j | plus:1 %}
