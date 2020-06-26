@@ -188,7 +188,7 @@ p {
    margin: 8px 0;
    display: inline-block;
    border: 1px solid #ccc;
-   border-radius: 4px;
+   border-radius: 7px;
    box-sizing: border-box;
    font-size: 18px;
    background-color: #fff3ff;
@@ -317,7 +317,7 @@ p > img {
 
 .masthead-menu {
   border-bottom: 1px solid $lightGray;
-  border-radius: 4px;
+  border-radius: 6px;
   background-image: linear-gradient(225deg, #e131ff 0%, #6c2fa2 50%, #164b78 100%);
 
   a {
@@ -399,7 +399,7 @@ p > img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 7px;
   }
 }
 
@@ -704,7 +704,7 @@ nav {
     color: $gray;
     font-size: 19px;
     background-color: #ede1ff;
-    border-radius: 5px;
+    border-radius: 10px;
 
     .highlighter-rouge {
       margin-bottom: 14px;
@@ -755,7 +755,7 @@ nav {
 }
 
 .about-picture {
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 footer {
@@ -1167,7 +1167,7 @@ Modules - reusable parts of our design
 .donation-container{
   border: 2px solid #985dff;
   background-color: #f3ecff;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 16px;
 
   .donation-box{
@@ -1182,7 +1182,7 @@ Modules - reusable parts of our design
       margin-right: 2rem;
 
       img{
-        border-radius: 5px;
+        border-radius: 10px;
       }
     }
 
@@ -1353,7 +1353,7 @@ Modules - reusable parts of our design
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 7px;
   box-sizing: border-box;
 
   &::placeholder{
@@ -1381,7 +1381,7 @@ Modules - reusable parts of our design
   color: white;
   padding: 8px 22px;
   margin: 8px 0;
-  border-radius: 4px;
+  border-radius: 7px;
   cursor: pointer;
   font-size: 11pt;
   border: none;
