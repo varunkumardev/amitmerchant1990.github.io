@@ -35,7 +35,7 @@ Your Jekyll blog will often be viewable immediately at <https://yourgithubuserna
 
 Enter your site `name`, `description`, `avatar` and many other configuration by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons right here.
 
-> By the way, the `_config.yml` is the [YAML](https://en.wikipedia.org/wiki/YAML) file where all your blog's configuration will be specified. Reverie has many configuration out-of-the-box which you can customise according to your liking.
+> By the way, the `_config.yml` is a [YAML](https://en.wikipedia.org/wiki/YAML) file where all your blog's configuration will be specified. Reverie has many configuration out-of-the-box which you can customise according to your liking.
 
 Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with Jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
 
