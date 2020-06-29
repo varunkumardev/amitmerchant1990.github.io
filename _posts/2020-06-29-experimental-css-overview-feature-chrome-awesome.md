@@ -16,7 +16,7 @@ It potentially does this by analyzing the external stylesheets and inline styles
 
 To enable this feature, first...
 
-- Open the DevTools on the website you want to have CSS over of. You can invoke DevTools using shortcut <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>J</kbd> (On Windows/Linux) or <kbd>Option</kbd> + <kbd>⌘</kbd> + <kbd>J</kbd> (on macOS)
+- Open DevTools on the website you want to have CSS overview of. You can invoke DevTools using shortcut <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>J</kbd> (On Windows/Linux) or <kbd>Option</kbd> + <kbd>⌘</kbd> + <kbd>J</kbd> (on macOS)
 
 - Next, open the **Setting** of the DevTools using shortcut <kbd>Shift</kbd> + <kbd>?</kbd>
 
