@@ -24,7 +24,7 @@ To enable this feature, first...
 
 - This is where you'd find **CSS Overview** option. Check that.
 
-- Close the setting, reload the website, and re-open the DevTools.
+- Close the settings, reload the website, and re-open the DevTools.
 
 ## Using “CSS Overview”
 
