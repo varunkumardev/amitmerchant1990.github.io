@@ -51,6 +51,8 @@ I take a lot of screenshots. For this purpose, I use [Flameshot](https://flamesh
 
 I occasionally record screencasts. For that purpose, I use [OBS Studio](https://obsproject.com/).
 
+I read a lot of eBooks. I use [Foliate](https://johnfactotum.github.io/foliate/) to read eBooks on my Ubuntu machine and [Google Play Books](https://play.google.com/books) to read on my mobile phone.
+
 My current blog is setup on top of [Jekyll](https://jekyllrb.com/) which is a static site generator and is hosted on [GitHub Pages](https://pages.github.com/). The Jekyll theme that I'm using is called [Reverie](https://github.com/amitmerchant1990/reverie) which is a tailor-made according to my taste.
 
 For all my Markdown writing needs, I use an editor called [Markdownify](https://markdownify.js.org/) which I made two years ago. And for grammar corrections, I use [Grmmarly](http://grammarly.com/).
