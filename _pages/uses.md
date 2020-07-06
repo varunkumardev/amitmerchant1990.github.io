@@ -13,7 +13,7 @@ This page enlists the collection of things that I'm currently using to get my wo
 
 I'm mostly a laptop person. I've a 15" HP Notebook which is running on Intel Core i5. It has 8GB of RAM and 1TB of SATA hard drive. I've dual-boot this machine to run [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/) and [Windows 10](https://en.wikipedia.org/wiki/Windows_10) so that I can use former for all my programming needs and for all other purposes such as graphics design, video editing and so on, use the latter. The battery of this laptop is currently dead so I'm tethered to the wall all of the time nowadays. 
 
-I've a [Intex optical mouse](https://www.amazon.in/Intex-Magic-USB-Optical-Mouse/dp/B01GV3M40S) which I use when I need to do designing stuff. I don't have any external keyboard right now cause I feel the laptop's built-in keyboard is sufficient for my purposes. 
+I've a ~~[Intex optical mouse](https://www.amazon.in/Intex-Magic-USB-Optical-Mouse/dp/B01GV3M40S)~~ [HP X3500 Wireless Mouse](https://store.hp.com/in-en/default/hp-x3500-wireless-mouse-h4k65aa.html) which I use when I need to do designing stuff. I don't have any external keyboard right now cause I feel the laptop's built-in keyboard is sufficient for my needs. 
 
 I also have a [Transcend's StoreJet 1TB external hard drive](https://www.amazon.in/Transcend-StoreJet-2-5-inch-Portable-External/dp/B005MNGQ6C) where I store my backups and all my multimedia holdings. 
 
