@@ -28,6 +28,7 @@
   </head>
 
   <body>
+    <canvas id="confetti-holder"></canvas>
     <div id="bar"></div>
     <div class="wrapper-container">
       <div class="wrapper-masthead">
@@ -89,11 +90,13 @@
         </div>
       </div>
     </div>
+
+    <script type="text/javascript" src="/js/confetti.min.js" async></script> 
     
     {% if page.fluidbox %}
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.ba-throttle-debounce.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.fluidbox.min.js"></script>  
+    <script type="text/javascript" src="/js/jquery.fluidbox.min.js"></script>
     <script>
     $(function () {
         $('.post a, .row-masonry a').fluidbox();
@@ -109,6 +112,21 @@
         window.location.href = '/search';
       }
     }, false);
+
+    // Konami Code trigger ;)
+    const keySequence = [];
+    const konamiCode = 'ArrowUpArrowUpArrowDownArrowDownArrowLeftArrowRightArrowLeftArrowRightba';
+
+    document.addEventListener('keyup', function(e) {
+      keySequence.push(e.key);
+      keySequence.splice(-konamiCode.length - 1, keySequence.length - konamiCode.length);
+
+      if (keySequence.join('').includes(konamiCode)) {
+        const confettiConfig = { target: 'confetti-holder' };
+        const confetti = new ConfettiGenerator(confettiConfig);
+        confetti.render();
+      }
+    });
     </script>
     
     {% include analytics.html %}
