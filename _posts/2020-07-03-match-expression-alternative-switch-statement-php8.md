@@ -155,6 +155,6 @@ echo match (1) {
 
 ## Caveat
 
-There is one caveat with match caveat right now and that, as you may probably guessed, is it would only be used with one-liner results. So, the cases when you'd want to use multiple line case blocks, you'd need to stick to switch statement.
+There is one caveat with match caveat right now and that, as you may probably guessed, is it would only be used with one-liner expressions. So, the cases when you'd want to use multiple line case blocks, you'd need to stick to the switch statement only.
 
 You can learn more about the feature [here](https://wiki.php.net/rfc/match_expression_v2).
