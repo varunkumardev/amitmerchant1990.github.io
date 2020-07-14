@@ -22,9 +22,13 @@ This is fine. But do you know there's a trick using which you can make function 
 I came to know about this trick while reading [7 Useful JavaScript Tricks](https://davidwalsh.name/javascript-tricks). So, according to this, there would be a function that would just throw a standard error and you can further assign this function to the function parameter like so.
 
 ```js
-const isRequired = () => { throw new Error('param is required'); };
+const isRequired = () => {
+    throw new Error('param is required');
+};
 
-const hello = (name = isRequired()) => { console.log(`hello ${name}`) };
+const hello = (name = isRequired()) => {
+    console.log(`hello ${name}`)
+};
 ```
 
 This makes the parameter `name` required. Meaning, it will throw an error if the parameter is left empty or assigned `undefined` like so.
