@@ -38,7 +38,7 @@ In a nutshell, named arguments/parameters allow passing arguments to a function 
 callAFunction(paramName: $value);
 ```
 
-Here, named arguments are passed by prefixing the value with the parameter name followed by a colon
+Here, named arguments are passed by prefixing the value with the parameter name followed by a colon.
 
 So, the previous example of `array_slice` can be written using named parameters like so.
 
@@ -48,7 +48,7 @@ array_slice($array, $offset, $length, preserve_keys: true);
 
 As you can see, the code is now pretty self-documenting as compared to the previous example. Now, we know what the fourth param is intended to do.
 
-Apart from this, this would be very convenient when a function has a high number of parameters or default ones.
+Apart from this, this would be very convenient when a function has a high number of parameters or default ones. With named arguments, we can make the code much more readable.
 
 ### Order-agnostic paramters
 
