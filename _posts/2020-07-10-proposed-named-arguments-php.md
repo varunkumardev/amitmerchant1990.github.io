@@ -92,7 +92,7 @@ Pretty cool, no?
 
 We're just scratching the surface here. There a lot of exciting things that would come along with named parameters. You can refer to [the original RFC](https://wiki.php.net/rfc/named_params) (which is still in the voting phase) if you want to take a more in-depth look at named parameters and constraints they comes with.
 
-Let's hope the RFC gets approved because it would certainly make a difference to a lot of PHP codebases. Of course, for a good!
+I'm really hoping that this RFC gets approved because it would certainly make a difference to a lot of PHP codebases. Of course, for a good!
 
 Until next time!
 
