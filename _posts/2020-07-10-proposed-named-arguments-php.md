@@ -48,6 +48,8 @@ array_slice($array, $offset, $length, preserve_keys: true);
 
 As you can see, the code is now pretty self-documenting as compared to the previous example. Now, we know what the fourth param is intended to do.
 
+Apart from this, this would be very convenient when a function has a high number of parameters or default ones.
+
 ### Order-agnostic paramters
 
 Apart from making the code self-documenting, this feature also makes the parameters *order agnostic*, and allows skipping default values arbitrarily.
