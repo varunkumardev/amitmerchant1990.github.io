@@ -24,13 +24,19 @@ $post = Post::create([
     'is_published' => false
 ]);
 
-$post->isDirty(); // return `false` as any model attribute hasn't been changed yet
+$post->isDirty(); 
+// return `false` as any model attribute hasn't been changed yet
 
 $post->is_published = true;
 
-$post->isDirty(); // return `true` as `is_published` is changed.
-$post->isDirty('title'); // returns `false` as `title` attirbute hasn't been changed yet
-$post->isDirty('is_published'); // returns `true` as `is_published` is changed.
+$post->isDirty(); 
+// return `true` as `is_published` is changed.
+
+$post->isDirty('title'); 
+// returns `false` as `title` attirbute hasn't been changed yet
+
+$post->isDirty('is_published'); 
+// returns `true` as `is_published` is changed.
 
 $post->save();
 ```
@@ -46,13 +52,19 @@ $post = Post::create([
     'is_published' => false
 ]);
 
-$post->isClean(); // return `true` as any model attribute hasn't been changed yet
+$post->isClean();
+// return `true` as any model attribute hasn't been changed yet
 
 $post->is_published = true;
 
-$post->isClean(); // return `false` as `is_published` is changed.
-$post->isClean('title'); // returns `true` as `title` attirbute hasn't been changed yet
-$post->isClean('is_published'); // returns `false` as `is_published` is changed.
+$post->isClean();
+// return `false` as `is_published` is changed.
+
+$post->isClean('title');
+// returns `true` as `title` attirbute hasn't been changed yet
+
+$post->isClean('is_published');
+// returns `false` as `is_published` is changed.
 
 $post->save();
 ```
@@ -73,7 +85,12 @@ $post = Post::create([
 $post->is_published = true;
 $post->save();
 
-$post->wasChanged(); // return `true` as `is_published` is changed.
-$post->wasChanged('title'); // returns `false` as `title` attirbute hasn't been changed yet
-$post->wasChanged('is_published'); // returns `true` as `is_published` is changed.
+$post->wasChanged();
+// return `true` as `is_published` is changed.
+
+$post->wasChanged('title');
+// returns `false` as `title` attirbute hasn't been changed yet
+
+$post->wasChanged('is_published');
+// returns `true` as `is_published` is changed.
 ```
