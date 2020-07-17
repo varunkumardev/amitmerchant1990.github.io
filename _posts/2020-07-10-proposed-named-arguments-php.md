@@ -16,8 +16,6 @@ array_slice($array, $offset, $length, true);
 Now, the first three parameters passed to [array_slice](https://www.php.net/manual/en/function.array-slice.php) is seemed to be self-explanatory because of informative variable names but what about the fourth parameter? It just says `true`. But what does `true` signify here? Well, to find it out, you'd need to navigate to the function definition or refer to the documentation. In the case of `array_slice`, the definition of it is like so.
 
 ```php
-<?php
-
 function array_slice(
     array $array,
     $offset,
