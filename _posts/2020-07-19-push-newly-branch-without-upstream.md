@@ -18,7 +18,7 @@ So, for instance, I created a new branch called `featureA` from the `master` bra
 $ git checkout -b featureA
 ```
 
-Note that the `featureA` is still a local branch. I made changes into files and tried to push using `git push`. But as you might expect, I'm greeted with the following error which says ***"fatal: The current branch featureA has no upstream branch."*** as `featureA` doesn't have an upstream branch.
+Note that the `featureA` is still a local branch. I made changes into files and tried to push using `git push`. But as you might expect, I was greeted with the following error which says ***"fatal: The current branch featureA has no upstream branch."*** as `featureA` doesn't have an [upstream branch](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches).
 
 [![](/images/git-push-error.png)](/images/git-push-error.png)
 
@@ -30,7 +30,7 @@ $ git push --set-upstream origin featureA
 
 ## The solution
 
-The previous solution is alright! But there's a simpler solution than this in which you just need to set a git config using a command like so. And that magic command is...
+The previous solution is alright! But there's a simpler and more effective solution than this in which you just need to set a git config using a command like so. And that magic command is...
 
 ```bash
 $ git config --global push.default current
