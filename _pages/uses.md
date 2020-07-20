@@ -27,7 +27,11 @@ Apart from this, I own ~~two~~ three watches of which one is a fitness tracker c
 
 ## Software
 
-As I mentioned earlier, I work with Linux to fulfill all my programming related stuff. I mostly work with PHP, JavaScript, and occasionally Java. I use [Git](https://git-scm.com/) to version control all my opensource and personal projects and manage all those on [GitHub](https://github.com/amitmerchant1990). 
+As I mentioned earlier, I work with Linux to fulfill all my programming related stuff. And the Linux flavour I'm right now using is [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/).
+
+![Ubuntu 18.04](/images/ubuntu18-04.png)
+
+I mostly work with PHP, JavaScript, and occasionally Java. I use [Git](https://git-scm.com/) to version control all my opensource and personal projects and manage all those on [GitHub](https://github.com/amitmerchant1990). 
 
 [Google Chrome](https://www.google.com/chrome/) is my browser of choice. I use [VS Code](https://code.visualstudio.com/) as my primary editor mainly because it's more modern, highly configurable, and lightweight in comparison to other Electron-based editors such as [Atom](https://atom.io/). Apart from this, it has a repository of great plugins. VS Code is great but when I need some more control I use IDE such as [PHPStorm](https://www.jetbrains.com/phpstorm/).
 
