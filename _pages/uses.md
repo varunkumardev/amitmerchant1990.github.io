@@ -59,7 +59,7 @@ I read a lot of eBooks. I use [Foliate](https://johnfactotum.github.io/foliate/)
 
 My current blog is setup on top of [Jekyll](https://jekyllrb.com/) which is a static site generator and is hosted on [GitHub Pages](https://pages.github.com/). The Jekyll theme that I'm using is called [Reverie](https://github.com/amitmerchant1990/reverie) which is a tailor-made according to my taste.
 
-For all my Markdown writing needs, I use an editor called [Markdownify](https://markdownify.js.org/) which I made two years ago. And for grammar corrections, I use [Grmmarly](http://grammarly.com/).
+For all my Markdown writing needs, I use an editor called [Markdownify](https://markdownify.js.org/) which I made two years ago. And for grammar corrections, I use [Grammarly](http://grammarly.com/).
 
 I use [Crello](https://crello.com/) to create image banners for my articles.
 
