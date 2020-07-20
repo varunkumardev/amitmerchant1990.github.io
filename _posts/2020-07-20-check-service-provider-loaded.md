@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Check if the specific service provider is loaded or not in Laravel
-image: /cdn/check-service-provider-loaded.png
+image: /cdn/check-service-provider-loaded-1.png
 categories: [Laravel]
 ---
 
