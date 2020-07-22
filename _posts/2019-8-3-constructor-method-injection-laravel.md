@@ -4,7 +4,7 @@ title: Understanding Constructor and Method dependency injection in Laravel
 categories: Laravel
 ---
 
-To understand, how dependency injection works in Laravel, let's jsut get to know what dependency injection actually is, in software engineering.
+To understand, how dependency injection works in Laravel, let's just get to know what dependency injection actually is, in software engineering.
 
 From the Wikipedia [definition](https://en.wikipedia.org/wiki/Dependency_injection) of dependency injection,
 
