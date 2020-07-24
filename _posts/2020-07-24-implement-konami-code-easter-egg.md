@@ -38,7 +38,10 @@ const konamiCode = [
 
 document.addEventListener('keyup', function(e) {
     keySequence.push(e.key);
-    keySequence.splice(-konamiCode.length - 1, keySequence.length - konamiCode.length);
+    keySequence.splice(
+        -konamiCode.length - 1, 
+        keySequence.length - konamiCode.length
+    );
     konamiString = konamiCode.join('');
 
     if (keySequence.join('').includes(konamiString)) {
@@ -62,7 +65,10 @@ keySequence.push(e.key);
 The next line is important. The Konami code consists of only 10 keys. So, we don't want to store more than 10 keys into the `keySequence` as that would be overkill. For this, we're [splicing](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) off the array from the reverse to the length of the Konami code with the following code like so.
 
 ```js
-keySequence.splice(-konamiCode.length - 1, keySequence.length - konamiCode.length);
+keySequence.splice(
+    -konamiCode.length - 1, 
+    keySequence.length - konamiCode.length
+);
 ```
 
 The rest of the code is simple. All we need to do is convert both `keySequence` and `konamiCode` to string and compare both to invoke the easter egg like so.
