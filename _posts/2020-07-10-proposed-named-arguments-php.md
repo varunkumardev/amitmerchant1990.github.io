@@ -5,7 +5,7 @@ image: /cdn/proposed-named-arguments-php.png
 categories: [PHP]
 ---
 
-*Update: Named parameters has been accepted to be included in PHP 8. A 2/3 majority in voting from members was required and it got the required votes! Here's [the RFC](https://wiki.php.net/rfc/named_params) that got accepted.*
+*Update: Named parameters have been accepted to be included in PHP 8. A 2/3 majority in voting from members was required and it got the required votes! Here's [the RFC](https://wiki.php.net/rfc/named_params) that got accepted.*
 
 <hr>
 
