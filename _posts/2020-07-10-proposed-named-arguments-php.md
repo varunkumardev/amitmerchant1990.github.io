@@ -5,6 +5,10 @@ image: /cdn/proposed-named-arguments-php.png
 categories: [PHP]
 ---
 
+*Update: Named parameters has been accepted to be included in PHP 8. A 2/3 majority in voting from members was required and it got the required votes! Here's [the RFC](https://wiki.php.net/rfc/named_params) that got accepted.*
+
+<hr>
+
 Did you ever get in a situation where you're seeing a function and its parameters and wonders what those parameters are all about? I'm pretty sure you did.
 
 For instance, take following,
