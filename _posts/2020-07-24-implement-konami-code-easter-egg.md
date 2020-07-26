@@ -83,7 +83,7 @@ if (keySequence.join('').includes(konamiString)) {
 
 In the `if` condition, you can invoke whatever you'd like. I've invoked a cool confetti effect on the page using [this library](https://agezao.github.io/confetti-js/). But you can choose to do invoke a host of other things. Like the one on [Stripe.com](https://stripe.com/en-us). The possibilities are endless!
 
-But before that, try it out on her right now and feel the superpower! 😉
+But before that, try it out on here right now and feel the superpower! 😉
 
 I hope you learned something new here and let me know in the comments what you'd like to do with Konami code your site/blog/web app.
 
