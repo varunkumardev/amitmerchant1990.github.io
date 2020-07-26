@@ -91,7 +91,8 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="/js/confetti.min.js" async></script> 
+    <script type="text/javascript" src="/js/confetti.min.js" async></script>
+    <script type="text/javascript" src="/js/konami.js" async></script> 
     
     {% if page.fluidbox %}
     <script type="text/javascript" src="/js/jquery.min.js"></script>
@@ -112,34 +113,6 @@
         window.location.href = '/search';
       }
     }, false);
-
-    // Konami Code trigger ;)
-    const keySequence = [];
-    let konamiString = '';
-    const konamiCode = [
-      'ArrowUp',
-      'ArrowUp',
-      'ArrowDown',
-      'ArrowDown',
-      'ArrowLeft',
-      'ArrowRight',
-      'ArrowLeft',
-      'ArrowRight',
-      'b',
-      'a'
-    ];
-
-    document.addEventListener('keyup', function(e) {
-      keySequence.push(e.key);
-      keySequence.splice(-konamiCode.length - 1, keySequence.length - konamiCode.length);
-      konamiString = konamiCode.join('');
-
-      if (keySequence.join('').includes(konamiString)) {
-        const confettiConfig = { target: 'confetti-holder' };
-        const confetti = new ConfettiGenerator(confettiConfig);
-        confetti.render();
-      }
-    });
     </script>
     
     {% include analytics.html %}
