@@ -122,4 +122,13 @@ layout: default
   <div class="flex-right">
     {% include sidebar.html %}
   </div>
+
+  <!-- Levitating next/previous page links -->
+  {% if paginator.previous_page %}
+    <a class="pagination-side next" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><b>Previous page</b></a>
+  {% endif %}
+  
+  {% if paginator.next_page %}
+    <a class="pagination-side previous" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><b>Next page</b></a>
+  {% endif %}
 </div>
