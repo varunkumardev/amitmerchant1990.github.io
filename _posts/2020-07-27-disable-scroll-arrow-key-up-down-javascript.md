@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Freeze scroll on arrow key up or down using JavaScript
-image: /cdn/disable-scroll-arrow-key-up-down-javascript.png
+image: /cdn/disable-scroll-arrow-key-up-down-javascript-1.png
 categories: [JavaScript]
 ---
 
