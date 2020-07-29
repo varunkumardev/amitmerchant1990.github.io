@@ -31,7 +31,8 @@ Here's how the previous example would look like if `once` is passed as an option
 checkoutBtn.addEventListener('click', function() {
     alert('You clicked the checkout button.');
 },{
-    once: true // This will invoke the event once and de-register it afterward
+    // This will invoke the event once and de-register it afterward
+    once: true
 });
 ```
 
