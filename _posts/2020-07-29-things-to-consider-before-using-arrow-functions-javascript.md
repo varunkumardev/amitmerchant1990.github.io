@@ -80,9 +80,9 @@ console.log(book.getDetails());
 
 So, running the above code will throw the error: `TypeError: Book is not a constructor`.
 
-### Arrow functions shouldn't be uses as object functions
+### Arrow functions shouldn't be used as object functions
 
-As the JavaScript objects don't create their scope, you need to be careful when using arrow functions as object methods.
+As the JavaScript objects don't create their own scope, you need to be careful when using arrow functions as object methods.
 
 Take the following for example.
 
