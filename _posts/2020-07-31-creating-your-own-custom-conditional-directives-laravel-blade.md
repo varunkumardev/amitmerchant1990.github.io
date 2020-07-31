@@ -33,7 +33,7 @@ class AppServiceProvider extends ServiceProvider
 }
 ```
 
-As you can see, the `Blade::if` takes two arguments. The first is the name of the custom conditional which we're going to use in the Blade template. In our case, it's `booktype`. And the second argument is the closure which performs the logic.
+As you can see, the `Blade::if` takes two arguments. The first is the name of the custom conditional which we're going to use in the Blade template. In our case, it's `booktype`. And the second argument is the closure which performs the logic. This is, ofcourse, a really simple logic that I've defined but this can be useful when you want to put some more complex logic in place.
 
 Once created, you can now use this custom conditional like so.
 
