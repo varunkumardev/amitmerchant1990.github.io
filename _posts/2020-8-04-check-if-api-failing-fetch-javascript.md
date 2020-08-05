@@ -21,7 +21,7 @@ fetch("https://jsonplaceholder.typicode.com/posts/1")
 
 Now, as you can see here, the Fetch API will call the provided endpoint and return whatever response in form of a Promise. But there's a catch. The Fetch API can't distinguish between a successful or a bad response sent by the server.
 
-Irrespective of bad response, say 404 or 500, it will still fulfill the promise and goes into `then()`. So, for instance, the following endpoint [https://jsonplaceholder.typicode.com/posts/1483948389](https://jsonplaceholder.typicode.com/posts/1483948389) would return 404 as `1483948389` is a non-existent post ID but still, the Fetch API wouldn't throw any error.
+Irrespective of bad response, say ***404*** or ***500***, it will still fulfill the promise and goes into `then()`. So, for instance, the following endpoint [https://jsonplaceholder.typicode.com/posts/1483948389](https://jsonplaceholder.typicode.com/posts/1483948389) would return 404 as `1483948389` is a non-existent post ID but still, the Fetch API wouldn't throw any error.
 
 To get around this, the Fetch API provides two object variables mainly `status` and `ok`.
 
