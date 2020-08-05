@@ -79,7 +79,7 @@ This way you can add multiple slots into your component which can come handy in 
 
 ## Dynamic Slot Names
 
-Now, apart from declaring slot with fixed names, you can also make the name for the slots dynamic. For this, all you need to do is to prefix `:` before the `name` attribute and passing in the dynamic varibale like so.
+Now, apart from declaring slot with fixed names, you can also make the name for slots dynamic. For this, all you need to do is to prefix `:` before the `name` attribute and passing in the dynamic varibale like so.
 
 ```php
 <x-slot :name="$avatar">
