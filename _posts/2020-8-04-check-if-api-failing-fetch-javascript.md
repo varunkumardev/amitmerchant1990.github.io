@@ -10,12 +10,12 @@ The [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) as w
 So, for instance, if I want to make a GET call to this API ([https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1)), I can comfortably do it like so.
 
 ```js
-fetch("https://jsonplaceholder.typicode.com/posts/1")
+fetch('https://jsonplaceholder.typicode.com/posts/1')
   .then(response => {
     console.log('suucess!');
   })
   .catch(error => {
-    console.log("AP failure" + error);
+    console.log('API failure' + error);
   });
 ```
 
@@ -33,12 +33,12 @@ Using these object variables, one can identify if the request is successful or f
 So, in the previous example, if we use some non-existent post ID, we can use `status` and `ok` the bad request like so.
 
 ```js
-fetch("https://jsonplaceholder.typicode.com/posts/1483948389")
-  .then(response => {
+fetch('https://jsonplaceholder.typicode.com/posts/1483948389')
+  .then(response => 
     console.log(response.status, response.ok); // 404 false 
   })
   .catch(error => {
-    console.log("AP failure" + error);
+    console.log('API failure' + error);
   });
 ```
 
