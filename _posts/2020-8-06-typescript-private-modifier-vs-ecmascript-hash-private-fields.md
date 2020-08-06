@@ -5,7 +5,7 @@ image: /cdn/typescript-private-modifier-vs-ecmascript-hash-private-fields.png
 categories: [Typescript]
 ---
 
-With the introduction of TypeScript 3.8, the team has introduced support for the ECMAScript Private Fields into the TypeScript itself. Meaning, you can now declare private fields in the class using `#` like so.
+With the release of TypeScript 3.8, the team has introduced support for the ECMAScript Private Fields into the TypeScript itself. Meaning, you can now declare private fields in the class using `#` like so.
 
 ```ts
 class Person {
