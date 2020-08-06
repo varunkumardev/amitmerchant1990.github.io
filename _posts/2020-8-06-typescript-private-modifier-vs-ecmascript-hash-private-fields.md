@@ -49,13 +49,13 @@ When we'll try to access the `foo` outside the class `Bar` like so...
 console.log(new Bar().foo); // prints '10'
 ```
 
-...It will give a compile-time error that "Property 'foo' is private and only accessible within class 'Bar'." but when TypeScript outputs .js files, it'll run fine and print `10`.
+...It will give a compile-time error that ***"Property 'foo' is private and only accessible within class 'Bar'."*** but when TypeScript outputs .js files, it'll run fine and print `10`.
 
-That's the main difference between Typescript's private modifiers and ECMAScript's hash(#) private fields.
+That's the key difference between Typescript's private modifiers and ECMAScript's hash(#) private fields.
 
-That is, the ECMAScript's hash(#) private fields provide hard privacy is really useful for strictly ensuring that nobody can make use of any of your internals. 
+That is, the ECMAScript's hash(#) private fields provide hard privacy which is really useful for strictly ensuring that nobody can make use of any of internal of your classes. 
 
-Apart from this, another advantage the ECMAScript's private fields provide is, these fields can't be overwritten in the subclass. Take the following for example.
+Apart from this, another advantage the ECMAScript's private fields bring is, these fields can't be overwritten in the subclass. Take the following for example.
 
 ```ts
 class C {
@@ -80,7 +80,7 @@ console.log(instance.cHelper()); // prints '10'
 console.log(instance.dHelper()); // prints '20'
 ```
 
-As you can see, even if the subclass `D` has a similarly named field `foo` like that of the parent class `C`, it hadn't been overridden in `D`. This wouldn't be possible if we had declared those with the regular `private` keyword.
+As you can see, even though the subclass `D` has a similarly named field `foo` like that of the parent class `C`, it hadn't been overridden in `D`. This wouldn't be possible if we had declared those with the regular `private` keyword.
 
 This comes in handy if you’re a library author, removing or renaming a private field should never cause a breaking change.
 
