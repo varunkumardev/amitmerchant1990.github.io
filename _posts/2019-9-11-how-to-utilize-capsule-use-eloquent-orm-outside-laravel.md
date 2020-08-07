@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to utilize Capsule to use Eloquent ORM outside Laravel
+image: /cdn/how-to-utilize-capsule-use-eloquent-orm-outside-laravel.png
 categories: [Laravel]
 ---
 
