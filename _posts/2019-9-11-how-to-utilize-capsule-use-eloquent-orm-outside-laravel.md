@@ -9,7 +9,7 @@ If you love the [Laravel](https://laravel.com) as a framework or more specifical
 
 ## Installing Eloquent Capsule
 
-In order to use Eloquent, you just need to install it via Composer into your project using following command.
+In order to use Eloquent, you just need to install it via [Composer](https://getcomposer.org/) into your project using following command.
 
 ```bash
 composer require "illuminate/database"
@@ -17,7 +17,7 @@ composer require "illuminate/database"
 
 ## Usage
 
-Now, once installed, to actually use Eloquent, you need first create a new "Capsule" manager instance. Capsule aims to make configuring the library for usage outside of the Laravel framework as easy as possible. Here's how you can create database configuration.
+Now, once installed, to actually use Eloquent, you need to first create a new `Capsule` manager instance. Capsule aims to make configuring the library for usage outside of the Laravel framework as easy as possible. Here's how you can create database configuration.
 
 ```php
 use Illuminate\Database\Capsule\Manager as Capsule;
@@ -36,8 +36,6 @@ $capsule->addConnection([
 ]);
 ```
 
-{% include affiliates.html %}
-
 ### Executing queries
 
 Once the Capsule instance has been registered, you can use it like this.
@@ -53,6 +51,8 @@ $results = Capsule::select('select * from users where id = ?', [1]);
 ```
 
 ### Using The Schema Builder
+
+You can also create table schemas just like you'd be used to within Laravel.
 
 ```php
 Capsule::schema()->create('users', function ($table) {
