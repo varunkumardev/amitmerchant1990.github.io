@@ -12,7 +12,7 @@ If you love the [Laravel](https://laravel.com) as a framework or more specifical
 In order to use Eloquent, you just need to install it via [Composer](https://getcomposer.org/) into your project using following command.
 
 ```bash
-composer require "illuminate/database"
+$ composer require "illuminate/database"
 ```
 
 ## Usage
