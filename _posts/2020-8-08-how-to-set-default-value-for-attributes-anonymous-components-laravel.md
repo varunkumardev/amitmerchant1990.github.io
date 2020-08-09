@@ -39,7 +39,7 @@ This `type` attribute can be utilized in the component template like so.
 </div>
 ```
 
-But sometimes, you just want to keep a default value for the attribute irrespective of passing it down from the component. So, if we doesn't provide any `type` attribute like so, in the previous example...
+But sometimes, you just want to keep a default value for the attribute irrespective of passing it down from the component. So, if we don't provide any `type` attribute like so, in the previous example...
 
 ```php
 <x-alert>
@@ -51,7 +51,7 @@ It should still work. Luckily, Laravel has a solution for this as well. Enter `@
 
 ## The `@props` directive
 
-The `@props` directive can be used to specify default value for the attributes at the top of the component's Blade template. So, if we want to set `type` attribute's default value to `success`, we can do it like so.
+The `@props` directive can be used to specify a default value for the attributes at the top of the component's Blade template. So, if we want to set the `type` attribute's default value to `success`, we can do it like so.
 
 ```php
 @props([
