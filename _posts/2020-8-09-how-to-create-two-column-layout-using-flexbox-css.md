@@ -5,11 +5,19 @@ image: /cdn/how-to-create-two-column-layout-using-flexbox-css.png
 categories: [CSS]
 ---
 
-This blog has got this two-column layout which houses host of different things for different purposes. A two-column layout is especially useful if you want to repeat a certain column on every page. In my case, it's the right column which gets repeated on every page.
+This blog has got this two-column layout which houses host of different things for different purposes. A two-column layout is especially useful if you want to repeat a certain column on every page. In my case, it's the right column which gets repeated on every page because it contains a newsletter box, a recently published articles' container, and a few ads. I wanted these things on every page. And hence a two-column layout was inevitable.
 
-I've built this two-column layout using [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). And I'll tell you it's rather easy to create one. Let's jump into it right away.
+I've built this two-column layout using [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). And I'll tell you it's rather easy to create one from my experience. Apart from these, the support for Felxbox is quite widespread across all the newest browsers as you can see below.
 
-First we'll need to create a parent container which will house the two column/div like so.
+<picture>
+<source type="image/webp" srcset="https://caniuse.bitsofco.de/static/v1/mdn-css__properties__flex-1596979843785.webp">
+<source type="image/png" srcset="https://caniuse.bitsofco.de/static/v1/mdn-css__properties__flex-1596979843785.png">
+<img src="https://caniuse.bitsofco.de/static/v1/mdn-css__properties__flex-1596979843785.jpg" alt="Data on support for the mdn-css__properties__flex feature across the major browsers from caniuse.com">
+</picture>
+
+So, let's jump into it right away.
+
+First, we'll need to create a parent container which will house the two column/div like so.
 
 ```html
 <div class="flex-container">
@@ -52,7 +60,7 @@ We now have two columns called `flex-left` and `flex-right` respectively. Let's 
 }
 ```
 
-This just set the widths of the columns that we would like to see. In my case, I've set the width of left column to 75% of the entire window and 25% for the right column. Also, set the `height` property to `100vh` so that it takes the height of the whole window.
+This just set the widths of the columns that we would like to see. In my case, I've set the width of left column to ***75%*** of the entire window and ***25%*** for the right column. Also, set the `height` property to `100vh` so that it takes the height of the whole window.
 
 And that's about it! That's all you need to create a nice two-column layout for your website. See it in action in this CodePen below.
 
@@ -63,8 +71,8 @@ And that's about it! That's all you need to create a nice two-column layout for 
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-As you may notice, I've added borders, margins and padding so things look more sophisticated and visible.
+As you may notice, I've added borders, margins and paddings to the columns so things look more sophisticated and visible.
 
 ## Bonus
 
-To make this layout responsive, you can change the `flex-direction` of the container to `column` which will stack the column on top of each other and set the `width` of both the columns to `100%` in mobile view. I've done exactly the same on this blog. 
+You can make this layout responsive for mobile devices by changing the `flex-direction` of the container to `column` which will stack the columns on top of each other and set the `width` of both the columns to `100%`. I've done exactly the same on this blog. 
