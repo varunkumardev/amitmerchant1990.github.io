@@ -68,10 +68,18 @@ And that's about it! That's all you need to create a nice two-column layout for 
   Two column layout</a> by Amit Merchant (<a href="https://codepen.io/amit_merchant">@amit_merchant</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 As you may notice, I've added borders, margins and paddings to the columns so things look more sophisticated and visible.
 
-## Bonus
+## Make it responsive
 
-You can make this layout responsive for mobile devices by changing the `flex-direction` of the container to `column` which will stack the columns on top of each other and set the `width` of both the columns to `100%`. I've done exactly the same on this blog. 
+You can make this layout responsive for mobile devices by changing the `flex-direction` of the container to `column` which will stack the columns on top of each other and set the `width` of both the columns to `100%`. I've done exactly the same on this blog.
+
+Something like following.
+
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="amit_merchant" data-slug-hash="qBZdjwe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Two column layout (Responsive)">
+  <span>See the Pen <a href="https://codepen.io/amit_merchant/pen/qBZdjwe">
+  Two column layout (Responsive)</a> by Amit Merchant (<a href="https://codepen.io/amit_merchant">@amit_merchant</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
