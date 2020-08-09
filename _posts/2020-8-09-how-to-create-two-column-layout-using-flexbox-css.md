@@ -3,6 +3,7 @@ layout: post
 title: How to create a two column layout using Flexbox in CSS
 image: /cdn/how-to-create-two-column-layout-using-flexbox-css.png
 categories: [CSS]
+fluidbox: true
 ---
 
 This blog has got this two-column layout which houses host of different things for different purposes. A two-column layout is especially useful if you want to repeat a certain column on every page. 
@@ -11,11 +12,7 @@ In my case, it's the right column which gets repeated on every page because it c
 
 I've built this two-column layout using [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). And I'll tell you it's rather easy to create one from my experience. Apart from these, the support for Felxbox is quite widespread across all the newest browsers as you can see below.
 
-<picture>
-<source type="image/webp" srcset="https://caniuse.bitsofco.de/static/v1/mdn-css__properties__flex-1596979843785.webp">
-<source type="image/png" srcset="https://caniuse.bitsofco.de/static/v1/mdn-css__properties__flex-1596979843785.png">
-<img src="https://caniuse.bitsofco.de/static/v1/mdn-css__properties__flex-1596979843785.jpg" alt="Data on support for the mdn-css__properties__flex feature across the major browsers from caniuse.com">
-</picture>
+[![Flexbox browser support](/images/flex-support-browsers.png)](/images/flex-support-browsers.png)
 
 So, let's jump into it right away.
 
