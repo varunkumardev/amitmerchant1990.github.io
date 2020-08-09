@@ -10,7 +10,7 @@ This blog has got this two-column layout which houses host of different things f
 
 In my case, it's the right column which gets repeated on every page because it contains a newsletter box, a recently published articles' container, and a few ads. I wanted these things on every page. And hence a two-column layout was inevitable.
 
-I've built this two-column layout using [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). And I'll tell you it's rather easy to create one from my experience. Apart from these, the support for Felxbox is quite widespread across all the newest browsers as you can see below.
+I've built this two-column layout using [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). And I'll tell you it's rather easy to create one from my experience. Apart from this, the support for Flexbox is quite widespread across all the newest browsers as you can see below.
 
 [![Flexbox browser support](/images/flex-support-browsers.png)](/images/flex-support-browsers.png)
 
