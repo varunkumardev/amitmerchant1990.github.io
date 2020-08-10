@@ -9,7 +9,7 @@ When writing MySQL queries, when there are more than two where conditions, you'd
 
 ```sql
 select * from books 
-        where author_name = 'Rowlings' 
+        where author_name = 'JK Rowling' 
         and rating > 4 
         or genre = 'fiction';
 ```
@@ -20,14 +20,14 @@ If we want to determine if `rating > 4 or genre = 'fiction'` in the previous que
 
 ```sql
 select * from books 
-        where author_name = 'Rowlings' 
+        where author_name = 'JK Rowling' 
         and (rating > 4 or genre = 'fiction');
 ```
 
 We can achieve a similar thing in [Eloquent](https://laravel.com/docs/7.x/eloquent) as well. For this, we can pass in `Closure` into the `where` method of Eloquent where we can further set the constraints which will be grouped. So, if we want to write the previous query using Eloquent, we can do it like so.
 
 ```php
-$books = Book::where('author_name', '=', 'Rowlings')
+$books = Book::where('author_name', '=', 'JK Rowling')
            ->where(function ($query) {
                $query->where('rating', '>', 4)
                      ->orWhere('genre', '=', 'fiction');
