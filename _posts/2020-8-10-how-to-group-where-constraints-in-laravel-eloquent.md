@@ -5,7 +5,7 @@ image: /cdn/how-to-group-where-constraints-in-laravel-eloquent.png
 categories: [Laravel]
 ---
 
-When writing MySQL queries, when there are more than two where conditions, you'd want to group certain constraints/conditions to avoid unexpected behavior. For instance, check the following query.
+When writing MySQL queries, if there are more than two where conditions, you'd want to group certain constraints/conditions to avoid unexpected behavior. For instance, check the following query.
 
 ```sql
 select * from books 
