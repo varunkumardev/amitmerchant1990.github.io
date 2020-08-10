@@ -14,7 +14,7 @@ select * from books
         or genre = 'fiction';
 ```
 
-Here, if we don't specifically mention how the `and` and `or` conditions should get evaluated, we might get unexpected results. So, we must explicitly determine their order and for that, we can use parenthesis in MySQL queries. 
+Here, if we don't specifically mention how the `and` and `or` conditions should get evaluated, we might get unexpected results. So, we must explicitly determine their order and for that and in MySQL, we can use parenthesis to achieve this.
 
 If we want to determine if `rating > 4 or genre = 'fiction'` in the previous query should get evaluated first, we can do it using parenthesis like so.
 
