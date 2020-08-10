@@ -16,6 +16,6 @@ I'm currently working at [Codal](http://codal.com/). In my spare time, I love to
 
 This blog has been setup using [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com). I'm using [Reverie](https://github.com/amitmerchant1990/reverie) jekyll theme which I've personalized to suit my need and taste.
 
-You can contact me at **amit.d.merchant@gmail.com** if you want to discuss something with me or just want to say "Hi!". For any sort of business inquiries or advertisement opportunities, you can contact me by filling up [this form](/contact).
+You can contact me at **bullredeyes@gmail.com** if you want to discuss something with me or just want to say "Hi!". For any sort of business inquiries or advertisement opportunities, you can contact me by filling up [this form](/contact).
 
 _Hasta la vista!_
