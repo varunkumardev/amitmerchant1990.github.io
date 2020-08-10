@@ -24,7 +24,7 @@ select * from books
         and (rating > 4 or genre = 'fiction');
 ```
 
-We can achieve a similar thing in [Eloquent](https://laravel.com/docs/7.x/eloquent) as well. For this, we can pass in `Closure` into the `where` method of Eloquent where we can further set the constraints which will be grouped. So, if we want to write the previous query using Eloquent, we can do it like so.
+We can achieve a similar thing in [Eloquent](https://laravel.com/docs/7.x/eloquent) as well. For this, we can pass in a `Closure` into the `where` method of Eloquent where we can further set the constraints which want to be grouped. So, if we want to write the previous query using Eloquent, we can do it like so.
 
 ```php
 $books = Book::where('author_name', '=', 'JK Rowling')
