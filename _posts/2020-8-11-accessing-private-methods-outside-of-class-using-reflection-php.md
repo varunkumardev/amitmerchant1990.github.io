@@ -11,9 +11,9 @@ categories: [PHP]
 - `protected` - Class members declared protected can be accessed only within the class itself and by inheriting and parent classes.
 - `private` - Class members declared as private may only be accessed by the class that defines the member.
 
-Generally, the class members are declared `private` for certain reasons. One is to implement encapsulation which makes the class members available inside of the originating class only and can only be modified using public getter and setter methods.
+Generally, the class members are declared `private` for certain reasons. One is to implement encapsulation which makes the class members available inside of the originating class only i.e. to hide data from the user of the class and can only be modified using public getter and setter methods.
 
-But in certain scenarios, you might want to access these private members outside of the class and there's a workaround in PHP using which you can do so. First, let's check how to access private methods.
+But in certain scenarios, you might want to access these private members outside of the class. There's a workaround in PHP using which you can do so. First, let's check how to access private methods.
 
 ## Accessing `private` methods
 
