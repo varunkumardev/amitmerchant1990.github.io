@@ -22,9 +22,9 @@ First, check the following class.
 ```php
 class Foo 
 {
-  private function privateMethod() {
-    return 'Hogwarts';
-  }
+    private function privateMethod() {
+        return 'Hogwarts';
+    }
 }
 ```
 
@@ -61,7 +61,7 @@ Similarly, you can also access the `private` properties of the class but the onl
 ```php
 class Foo 
 {
-  private $privateProperty = 'Harry Potter!';    
+    private $privateProperty = 'Harry Potter!';    
 }
 
 $method = new ReflectionProperty('Foo', 'privateProperty');
