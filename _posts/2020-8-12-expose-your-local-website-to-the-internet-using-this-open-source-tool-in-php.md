@@ -8,7 +8,7 @@ fluidbox: true
 
 Recently, I've been working on a Laravel app and one of my friends wanted to see it in action who's sitting seven ocean apart. But, I didn't have an actual server to host it and to make it accessible for my friend. And so, I was looking for a tool/API which can expose my local website instance to the internet.
 
-This is where I came across this tool called [Expose](https://beyondco.de/docs/expose/introduction) by the company called *Beyond Code*. The tool lets you share your local websites with others via the internet. It does this by exposing local servers behind NATs and firewalls to the public internet over secure tunnels.
+This is where I came across this tool called [Expose](https://beyondco.de/docs/expose/introduction) by the company called *Beyond Code*. The tool lets you share your local websites with others via the internet. It does this by exposing local servers behind NATs and firewalls to the public internet over [secure tunnels](https://en.wikipedia.org/wiki/Tunneling_protocol).
 
 The tool is entirely written in PHP. It aims to serve as an open-source and free alternative to a similar service called [ngrok](https://ngrok.com/product) which is a paid one.
 
