@@ -84,6 +84,6 @@ Here, "admin" is the username and "secret" is the password. This will present an
 
 ## In closing
 
-This was just a rough overview of what you can do with Expose. But there are a lot of other things that you can do with it such as using custom domains, SSL support, custom views, and so many other things.
+This was just a rough overview of what you can do with Expose. But there are a lot of other things that you can do with it such as using custom domains, SSL support, custom views, and so many other things. As it's an open-source software, you can [host your own Expose instance](https://beyondco.de/docs/expose/server/starting-the-server) on your server as well if you want to make use of your own domain
 
 You can learn more about it at its [official website](https://beyondco.de/docs/expose/introduction).
