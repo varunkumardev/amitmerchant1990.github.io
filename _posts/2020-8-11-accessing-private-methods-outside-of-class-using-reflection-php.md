@@ -37,7 +37,7 @@ $foo->privateMethod();
 // Foo::privateMethod() from context
 ```
 
-To get around this, we can use in-built [ReflectionMethod](https://www.php.net/manual/en/class.reflectionmethod.php) class which can give information about the method. And also can "reverse engineer" things for us.
+To get around this, we can use PHP's in-built [ReflectionMethod](https://www.php.net/manual/en/class.reflectionmethod.php) class which can give information about the method. And also can "reverse engineer" things for us.
 
 ```php
 $reflectionMethod = new ReflectionMethod('Foo', 'privateMethod');
