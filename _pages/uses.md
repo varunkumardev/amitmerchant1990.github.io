@@ -37,6 +37,8 @@ I mostly work with PHP, JavaScript, and occasionally Java. I use [Git](https://g
 
 [Google Chrome](https://www.google.com/chrome/) is my browser of choice. I use [VS Code](https://code.visualstudio.com/) as my primary editor mainly because it's more modern, highly configurable, and lightweight in comparison to other Electron-based editors such as [Atom](https://atom.io/). Apart from this, it has a repository of great plugins. VS Code is great but when I need some more control I use IDE such as [PHPStorm](https://www.jetbrains.com/phpstorm/).
 
+I'm using [JetBrains Mono](https://www.jetbrains.com/lp/mono/) fonts across all my text editors and IDEs. The looks great overall and supports [ligatures](https://en.wikipedia.org/wiki/Orthographic_ligature) which is nice.
+
 I love everything dark. Editor themes are no exception. Both my editor and IDE is rocking [Dracula theme](https://draculatheme.com/). It's a great dark theme and gives me a consistent environment across my devices and setups.
 
 I use [Postman](https://www.getpostman.com/) to perform API calls.
