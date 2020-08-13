@@ -5,7 +5,7 @@ image: /cdn/live-reloading-local-jekyll-site-on-file-changes.png
 categories: [Jekyll]
 ---
 
-The other day, I was looking for a way using which I can reload my local Jekyll instance every time I make some changes into the files.
+The other day, I was looking for a way using which I can reload my local [Jekyll](https://jekyllrb.com/) instance every time I make some changes into the files.
 
 So, I dig through the following `--help` command hoping to find if something in-built is there or not,
 
