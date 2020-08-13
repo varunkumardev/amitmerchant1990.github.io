@@ -1254,12 +1254,18 @@ Modules - reusable parts of our design
     display: flex;
     padding: 20px;
 
-    p{
-      font-size: 17px;
+    p {
+      font-size: 18px;
+      margin: 0 0 15px 0;
+    }
+
+    .donation-content {
+      width: 70%;
     }
 
     .donation-logo{
       margin-right: 2rem;
+      width: 30%;
 
       img{
         border-radius: 10px;
@@ -1276,7 +1282,7 @@ Modules - reusable parts of our design
         line-height: 36px!important;
         min-width: 150px;
         display: inline-block!important;
-        background-color: #29abe0;
+        background-color: #c60fe4;
         padding: 2px 12px !important;
         text-align: center !important;
         border-radius: 7px;
@@ -1303,12 +1309,8 @@ Modules - reusable parts of our design
           text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
 
           img.kofiimg {
-            height: 15px!important;
-            width: 22px!important;
             display: initial!important;
             vertical-align: middle;
-            height: 13px!important;
-            width: 20px!important;
             padding-top: 0;
             padding-bottom: 0;
             border: none;
