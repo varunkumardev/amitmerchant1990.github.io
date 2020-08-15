@@ -35,7 +35,6 @@ class Client {
 
 In above example, the class `Client` wants to use another service called `UserService` by instantiating a class property `$service` into constructor and assigning the `UserService`'s instance into it, which then can be accessed by other methods of the class `Client`. Here as you can see, the client(class `Client`) controls which implementation of service(class `UserService`) is used and controls its construction. Here, the class `Client` has a hard-coded implicit dependency upon `UserService`.
 
-
 But the thing is, your business logic may change over the period of time and you might want to use some other service other than `UserService` let's say `UserRepository` in this particular class. What will you do in this case? Replace `UserService`'s instance with `UserRepository`'s instance? Nah, that will make harder to test the class and it's purely baseless to interchange the dependency like this. This where the concept of dependency comes into play.
 
 {:.you-may-like}
@@ -43,7 +42,7 @@ But the thing is, your business logic may change over the period of time and you
 
 ## Constructor dependency injection
 
-The first type of dependency injection that we're going to learn is "Constructor dependency injection". Let's under it by tweaking the above example.
+The first type of dependency injection that we're going to learn is "Constructor dependency injection". Let's understand it by tweaking the above example.
 
 ```php
 <?php
@@ -176,4 +175,4 @@ As you can see, in this case if we know that the method `getSettings` is the onl
 
 ## In closing
 
-That's all about how dependency injection works in Laravel. It's a really powerful design pattern and it's essential to understand it better in order to building a powerful, large application using Laravel.
+That's all about how dependency injection works in Laravel. It's a really powerful design pattern and it's essential to understand it better in order to building powerful and large applications using Laravel.
