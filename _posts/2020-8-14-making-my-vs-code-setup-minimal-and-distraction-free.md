@@ -73,3 +73,5 @@ And to remove the gutter, we have to change a couple of settings. For that go to
 And with that, your editor should be looking like the way I've shown previously. Clean, minimal, and beautiful!
 
 Of course, to go back to the default layout, revert all these settings and you'll get the good old VS Code back.
+
+And if you're wondering which color theme and fonts I'm using? The answer for that is I'm currently using a theme called [Hyper Dracula](https://marketplace.visualstudio.com/items?itemName=hilalh.hyper-dracula-vscode-theme) which is a ultra dark variant of the popular [Dracula](https://draculatheme.com/) theme and fonts that I'm using are [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
