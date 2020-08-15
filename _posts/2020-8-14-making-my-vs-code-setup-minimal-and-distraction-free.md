@@ -26,7 +26,7 @@ Pretty clean, isn't it? If you find this interesting, I'll walk you through all 
 
 First, let's get rid of the status bar which lies in the bottom of the editor which shows the file language, current line and column numbers, and a few Git related things. I personally don't make use of the status bar and so, I removed it.
 
-To remove it, open command prompt (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Status Bar Visibility` and select it. This will remove the status bar from the bottom.
+To remove it, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Status Bar Visibility` and select it. This will remove the status bar from the bottom.
 
 ### Remove Activity Bar
 
@@ -40,13 +40,13 @@ Next, let's get rid of the Activity Bar which sits in the far left. This provide
 
 It's just a matter of remembering these shortcuts and we can safely hide this Activity Bar as well.
 
-To do this, open command prompt (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Activity Bar Visibility` and select it. This will remove the activity bar.
+To do this, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Activity Bar Visibility` and select it. This will remove the activity bar.
 
 ### Remove Side Bar
 
 Next, we can proceed to hide the entire sidebar which holds the explorer, the source control, search, and extension panel. 
 
-For this, open command prompt (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Side Bar Visibility` and select it. This will remove the activity bar. Of course, you can toggle the visibilty of the sidebar anytime you want.
+For this, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Side Bar Visibility` and select it. This will remove the activity bar. Of course, you can toggle the visibilty of the sidebar anytime you want.
 
 Sweet! At this point, your editor would be looking much cleaner and sober than before but we still have work to do.
 
@@ -54,7 +54,7 @@ Sweet! At this point, your editor would be looking much cleaner and sober than b
 
 Next, we'll aim to remove the minimap that comes in-built and can be seen far right. It has the sole purpose to give you a high-level overview of your source code. Personally, I don't rely upon it and so I've removed it as well.
 
-To do this, open command prompt (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Minimap` and select it. And bam! The minimap is gone as well!
+To do this, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Minimap` and select it. And bam! The minimap is gone as well!
 
 ### Remove Menubar and Gutter (Line Numbers)
 
