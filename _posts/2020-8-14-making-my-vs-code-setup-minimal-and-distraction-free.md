@@ -75,3 +75,7 @@ And with that, your editor should be looking like the way I've shown previously.
 Of course, to go back to the default layout, revert all these settings and you'll get the good old VS Code back.
 
 And if you're wondering which color theme and fonts I'm using? The answer for that is I'm currently using a theme called [Hyper Dracula](https://marketplace.visualstudio.com/items?itemName=hilalh.hyper-dracula-vscode-theme) which is a ultra dark variant of the popular [Dracula](https://draculatheme.com/) theme and fonts that I'm using are [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
+
+If you're a visual learner, I've made a video of the entire process which you can checkout as well.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VYzCM7JP0WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
