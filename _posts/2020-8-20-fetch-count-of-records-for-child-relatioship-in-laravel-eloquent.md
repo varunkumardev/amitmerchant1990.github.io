@@ -5,7 +5,7 @@ image: /cdn/fetch-count-of-records-for-child-relatioship-in-laravel-eloquent.png
 categories: [Laravel]
 ---
 
-There comes a times when you want to fetch the number of records for a child relationship along with the main Eloquent query.
+There comes a time when you want to fetch the number of records for a child relationship along with the main Eloquent query.
 
 For instance, let's say, I want to get the number of books and publications when fetching authors. To do so, we can use `withCount` method on the Eloquent model like so.
 
