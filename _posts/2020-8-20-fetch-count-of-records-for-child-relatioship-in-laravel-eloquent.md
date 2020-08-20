@@ -26,9 +26,12 @@ foreach ($authors as $author) {
 You can use alias (using `as`) and Closures to utilize the same relationship twice in `withCount` for different constraints like so.
 
 ```php
-$authors = app\Author::withCount(['books', 'books as published_books_count' => function (Builder $query) {
-    $query->where('status', 'published');
-}])->get();
+$authors = app\Author::withCount([
+    'books', 
+    'books as published_books_count' => function (Builder $query) {
+        $query->where('status', 'published');
+    }
+])->get();
 ```
 
 The aliased count column can be accessed like so.
