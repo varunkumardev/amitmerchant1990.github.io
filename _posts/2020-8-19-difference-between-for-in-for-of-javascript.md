@@ -76,3 +76,9 @@ As you can see, the `for...of` can only iterate over array values, and hence the
 ## In closing
 
 So, by looking at the differences both of these `for` statements, it would be safe to tell that the `for...in` can be used in most of the cases as you'd be using it with both Objects and Arrays and also you can get values of the properties using their keys. However, when you're only working with Arrays and only cares about property values, you'd be better off with the `for...of`. 
+
+If you're a visual learner, there's a video form as well which you can checkout below.
+
+<div class="videowrapper">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/OLSEHF6iFFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

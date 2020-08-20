@@ -78,4 +78,6 @@ And if you're wondering which color theme and fonts I'm using? The answer for th
 
 If you're a visual learner, I've made a video of the entire process which you can checkout as well.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VYzCM7JP0WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VYzCM7JP0WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
