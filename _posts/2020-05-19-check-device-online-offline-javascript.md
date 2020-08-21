@@ -40,3 +40,9 @@ window.addEventListener('online', function(e) {
 ```
 
 That's it! It's as simple as that.
+
+If you're a visual learner, there's a video form as well which you can checkout below.
+
+<div class="videowrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VV2dvu_Xwvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
