@@ -37,7 +37,7 @@ I mostly work with PHP, JavaScript, and occasionally Java. I use [Git](https://g
 
 [Google Chrome](https://www.google.com/chrome/) is my browser of choice. I use [VS Code](https://code.visualstudio.com/) as my primary editor mainly because it's more modern, highly configurable, and lightweight in comparison to other Electron-based editors such as [Atom](https://atom.io/). Apart from this, it has a repository of great plugins. VS Code is great but when I need some more control I use IDE such as [PHPStorm](https://www.jetbrains.com/phpstorm/).
 
-I'm using [JetBrains Mono](https://www.jetbrains.com/lp/mono/) fonts across all my text editors and IDEs. The looks great overall and supports [ligatures](https://en.wikipedia.org/wiki/Orthographic_ligature) which is nice.
+I'm using [JetBrains Mono](https://www.jetbrains.com/lp/mono/) fonts across all my text editors and IDEs. These looks great overall and supports [ligatures](https://en.wikipedia.org/wiki/Orthographic_ligature) which is nice!
 
 I love everything dark. Editor themes are no exception. Both my editor and IDE is rocking [Dracula theme](https://draculatheme.com/). It's a great dark theme and gives me a consistent environment across my devices and setups.
 
@@ -57,13 +57,13 @@ To make vector graphics, I use [Vectr](https://vectr.com/).
 
 I take a lot of screenshots. For this purpose, I use [Flameshot](https://flameshot.js.org/) as my primary screenshot tool and [Zoho Annotator](https://www.zoho.com/annotator/) to take take screenshots while I'm on Chrome.
 
-I occasionally record screencasts. For that purpose, I use [OBS Studio](https://obsproject.com/).
+I occasionally record [screencasts](https://www.youtube.com/c/AmitMerchant). For that purpose, I use [OBS Studio](https://obsproject.com/).
 
 I read a lot of eBooks. I use [Foliate](https://johnfactotum.github.io/foliate/) to read eBooks on my Ubuntu machine and [Google Play Books](https://play.google.com/books) to read on my mobile phone.
 
 My current blog is setup on top of [Jekyll](https://jekyllrb.com/) which is a static site generator and is hosted on [GitHub Pages](https://pages.github.com/). The Jekyll theme that I'm using is called [Reverie](https://github.com/amitmerchant1990/reverie) which is a tailor-made according to my taste.
 
-For all my Markdown writing needs, I use an editor called [Markdownify](https://markdownify.js.org/) which I made two years ago. And for grammar corrections, I use [Grammarly](http://grammarly.com/).
+For all my Markdown writing needs, I use an editor called [Markdownify](https://markdownify.js.org/) which I made two years ago. And for fixing grammar and typos, I use [Grammarly](http://grammarly.com/).
 
 I use [Crello](https://crello.com/) to create image banners for my articles.
 
