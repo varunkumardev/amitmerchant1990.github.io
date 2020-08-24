@@ -32,7 +32,7 @@ This is one way to define relationships. But there's another way in Eloquent usi
 
 ## The `resolveRelationUsing` method
 
-Laravel provides this handy method called `resolveRelationUsing` which can be used to define relations between Eloquent models outside of model like so.
+> Laravel provides this handy method called `resolveRelationUsing` which can be used to define relations between Eloquent models outside of model like so.
 
 So, if we were to define the previous relationship using `resolveRelationUsing`, we can do it like so.
 
