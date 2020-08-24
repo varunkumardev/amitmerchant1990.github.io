@@ -51,8 +51,8 @@ Inside the Closure, you can define relationships as you'd normally do but with a
 
 ## Where to define these relationships
 
-Now, a question might be arriving in your mind that where would you define these "on-the-fly" relationships. Well, the answer is you can define the relations in the `boot` method of one of your service providers and you'll good to go.
+Now, a question might be arriving in your mind that where should you define these "on-the-fly" relationships? Well, the answer is, you can define these relationships in the `boot` method of one of your service providers and you'll good to go.
 
 ## In closing
 
-Although, this is a handy way of defining model relationships it's not very much recommended. It would be useful only in scenarios where you're developing an Eloquent package and you want to define/extend relationships without touching model code.
+Although, this is a handy way of defining model relationships, it's not very much recommended. It would be useful only in scenarios where you're developing an Eloquent package and you want to define/extend relationships without touching model code.
