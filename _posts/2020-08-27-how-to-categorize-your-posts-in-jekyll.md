@@ -5,7 +5,7 @@ image: /cdn/how-to-categorize-your-posts-in-jekyll.png
 categories: [Jekyll]
 ---
 
-When I first started blogging using Jekyll, I was using a popular Jekyll theme called [jekyll-now](https://www.google.com/search?q=jekyll-now&oq=jekyll-now&aqs=chrome..69i57j0l7.2704j0j4&sourceid=chrome&ie=UTF-8). The theme is quite minimalistic in nature, bare-bone and lacking some key features. But in those earlier days, I was okay with its simplicity.
+When I first started blogging using [Jekyll](https://jekyllrb.com/), I was using a popular Jekyll theme called [jekyll-now](https://www.google.com/search?q=jekyll-now&oq=jekyll-now&aqs=chrome..69i57j0l7.2704j0j4&sourceid=chrome&ie=UTF-8). The theme is quite minimalistic in nature, bare-bone and lacking some key features. But in those earlier days, I was okay with its simplicity.
 
 Then, over time, my number of articles grew and I was writing about an array of different topics and at this point, I've felt that something is missing. The content became unmanageable and unsearchable and so, I needed a way to get around with it. And that's where the idea of implementing categories/tags arrived. I'll walk you through how I implemented it on this blog.
 
