@@ -41,6 +41,6 @@ $books = Cache::remember('books', $expire, function() {
 });
 ```
 
-It's as simple as it gets! Now, for the next 10 minutes, Laravel will fetch the result from the `books` key of the cache instead of querying the database. And this can especially improve the performance of your application when you're complex queries to fetch results.
+It's as simple as it gets! Now, for the next 10 minutes, Laravel will fetch the result from the `books` key of the cache instead of querying the database. And this can especially improve the performance of your application when you're performing complex queries to fetch results.
 
-There's a `rememberForever` as well which can retrieve an item from the cache or store it forever but you probably shouldn't use it unless the app you're building doesn't get updated in a timely manner.
+There's a `rememberForever` method as well which can retrieve an item from the cache or store it forever but you probably shouldn't use it unless the app you're building doesn't get updated in a timely manner.
