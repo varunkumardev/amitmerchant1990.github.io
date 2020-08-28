@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Difference between "export" and "export default" in TypeScript
+title: Difference between Export and Export Default in TypeScript
 image: /cdn/difference-between-export-and-export-default-in-typescript.png
 categories: [TypeScript]
 ---
