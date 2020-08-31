@@ -22,6 +22,9 @@ Thankfully, VS Code is very customizable even when it comes to changing its over
 
 Pretty clean, isn't it? If you find this interesting, I'll walk you through all the settings using which you can also make your VS Code look like this.
 
+* TOC
+{:toc}
+
 ### Remove Status Bar
 
 First, let's get rid of the status bar which lies in the bottom of the editor which shows the file language, current line and column numbers, and a few Git related things. I personally don't make use of the status bar and so, I removed it.
