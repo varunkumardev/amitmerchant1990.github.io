@@ -27,6 +27,8 @@ The code looks for the `null` check for each property before going onto the [nex
 
 This is quite a hassle right now as you can observe. This scenario can be improved if [this RFC](https://wiki.php.net/rfc/nullsafe_operator) gets approved.
 
+> ***Update:*** The RFC has been implemented to be included in PHP 8 which is scheduled to be released on November 26, 2020.
+
 ## The nullsafe operator
 
 Essentially, the RFC proposes a new operator called nullsafe operator `?->` with full short-circuiting.
