@@ -7,6 +7,9 @@ categories: [Laravel]
 
 In one of [my articles](/extending-class-using-macros-laravel/), I've described how you can add different behavior to some of the classes in Laravel using macros. To give you a primer, Laravel ships with this trait called [Illuminate\Support\Traits\Macroable](https://github.com/laravel/framework/blob/6.x/src/Illuminate/Support/Traits/Macroable.php) using which you can add additional methods to the class in hand (which is using the `Macroable` trait) at run time.
 
+{:.you-may-like}
+> You may also like: [Extending class behaviour in Laravel using Macros](/extending-class-using-macros-laravel/)
+
 For instance, we’ve got `Illuminate\Support\Str` class in Laravel which is a “macroable” class. And if you want to add an additional method which doesn't exist in the class currently, you can do it like so.
 
 ```php
