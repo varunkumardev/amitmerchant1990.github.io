@@ -1,0 +1,16 @@
+<div class="related-articles">
+    <h2>More in "{{ page.categories }}"</h2>
+    {% assign maxposts = 5 %}
+    {% capture category %}{{ page.categories | first }}{% endcapture %}
+    <ul class="post-list text-muted list-unstyled">
+        {% for post in site.categories[category] limit: maxposts %}
+            <li>
+                <p>
+                    <a class="article-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

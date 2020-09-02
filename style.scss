@@ -875,6 +875,48 @@ footer {
   }
 }
 
+.related-articles {
+  text-align: center;
+  border: 2px solid #3800b9;
+  border-radius: 10px;
+  margin: 8px;
+
+  h2 {
+    font-size: 15px;
+    background: #3800b9;
+    margin: 0;
+    color: #fff;
+    padding: 2px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0 15px;
+    
+    li {
+      margin-bottom: 14px;
+
+      p {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      &:not(:last-child)::after{
+        width: 5rem;
+        height: 2px;
+        background: #3800b9;
+        content: " ";
+        display: block;
+        margin: 0px auto;
+        position: relative;
+        top: 7px;
+      }
+    }
+  }
+}
+
 body:after {
     background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
     width: 100%;

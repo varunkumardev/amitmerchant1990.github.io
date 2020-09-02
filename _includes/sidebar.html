@@ -13,6 +13,10 @@
 </div>
 
 {% if page.url != "/" %}
+  {% if page.id %}
+    {% include related_articles.html %}
+  {% endif %}
+
   {% include recent_articles.html %}
 {% endif %}
 
