@@ -45,6 +45,8 @@ Order::resolveRelationUsing('customer', function ($orderModel) {
 });
 ```
 
+> By the way, you can define these relationships in the `boot` method of `App\Providers\AppServiceProvider`.
+
 As you can see, the method accepts two parameters. The first parameter is the name of the relationship that we want to define and second, is a [Closure](https://www.php.net/manual/en/class.closure.php) which receives an instance of the model on which we want to define the relationship.
 
 Inside the Closure, you can define relationships as you'd normally do but with an exception where you'll need to provide explicit key name arguments to the Eloquent relationship methods. In our case, we have passed `customer_id` explicitly.
