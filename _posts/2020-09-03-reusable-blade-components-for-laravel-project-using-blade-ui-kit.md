@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Re-usable Blade components for Laravel project using Blade UI Kit
+title: Re-usable Blade components for Laravel projects using Blade UI Kit
 image: /cdn/re-usable-blade-components-for-laravel-project-using-blade-ui-kit.png
 categories: [Laravel]
 ---
