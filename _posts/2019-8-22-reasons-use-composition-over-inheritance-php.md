@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reasons to use Composition over Inheritance in PHP
+image: /cdn/composition-over-inheritance.png
 categories: [PHP]
 ---
 
