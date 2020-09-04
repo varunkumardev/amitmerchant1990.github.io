@@ -37,7 +37,9 @@ $foo->privateMethod();
 // Foo::privateMethod() from context
 ```
 
-To get around this, we can use PHP's in-built [ReflectionMethod](https://www.php.net/manual/en/class.reflectionmethod.php) class which can give information about the method. And also can "reverse engineer" things for us.
+To get around this, we can use PHP's in-built [ReflectionMethod](https://www.php.net/manual/en/class.reflectionmethod.php) class which can give handlful of information about the class. And also can "reverse engineer" things for us.
+
+Basically, it shows the "mirror" to the class so that it can learn about itself. And here's how you can use it.
 
 ```php
 $reflectionMethod = new ReflectionMethod('Foo', 'privateMethod');
@@ -48,7 +50,7 @@ echo $reflectionMethod->invoke(new Foo); // Hogwarts
 
 As you can see, the `ReflectionMethod` constructor accepts two parameters: *"Class name"* and *"Method name"*. In our case, we passed in `Foo` as the class name and `privateMethod` method name as we want to access this method.
 
-Next, we'll need to make the private method accessible outside of the class. For this, we have used the `setAccessible` method on the object and set it to `true`. This will allow `protected` and `private` methods to be invoked.
+Next, we'll need to make the private method accessible outside of the class. For this, we have used the `setAccessible` method on the object and set it to `true`. This will allow `protected` and `private` methods to be invoked on-the-fly.
 
 And lastly, we can invoke the method using the `invoke` method on the object and passing in the object of the class (`new Foo`) as its only parameter for which we're accessing the method.
 
