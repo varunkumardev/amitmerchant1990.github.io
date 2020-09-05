@@ -21,13 +21,13 @@ And you can call it like so.
 User('Amit', '30'); // 'Amit' '30'
 ```
 
-Simple, no? But there is a problem over here and that is by looking at the function call, you can't know what argument is intended for. For that, you'll need to navigate to the definition of the function.
+Simple, no? But there is a problem over here and that is by looking at the function call, you can't figure out the intention behind all the arguments. For that, you'll need to navigate where the function is defined.
 
-This can get complex if your function has more than two arguments and you just can't wrap your head around all these arguments. How can you solve this? Well, it's turn out you can use JavaScript's [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to make this more readable.
+This can get complex if your function has more than two arguments and you just can't wrap your head around all these arguments. How can you solve this? Well, it turns out, you can use JavaScript's [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to make this more readable.
 
 ## Named arguments
 
-What you'll need to do is to use JavaScript objects to name the arguments. So, our previous example can be re-written like so.
+What you'll need to do is to use JavaScript objects to name the arguments. So, our previous example can be re-written using an object like so.
 
 ```js
 const User = ({name, age}) => {
@@ -46,7 +46,7 @@ User({
 // 'Amit' '30'
 ```
 
-Looks more readable, right? Now you can easily identify which argument is intended for what without even navigating to the function definition.
+Looks more readable, right? Now you can easily identify which argument is intended for what purpose without even navigating to the function definition.
 
 ## Default argument values
 
