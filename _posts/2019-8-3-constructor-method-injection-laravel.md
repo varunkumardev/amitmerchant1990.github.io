@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Understanding Constructor and Method dependency injection in Laravel
+image: /cdn/constructor-method-injection-laravel.png
 categories: Laravel
 ---
 
