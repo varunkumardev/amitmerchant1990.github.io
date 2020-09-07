@@ -17,7 +17,7 @@ You might be asking how I've started writing so much? And where do I get ideas f
 
 The answer to all these questions is ***"From teaching things to myself"***. In a nutshell, whenever I'm in a situation where I don't get certain concepts correctly, I would first try to understand the topic thoroughly. And when things get clear for me, I would try to depict the concept in my words. In a way that can make me understand whenever I look upon it next time.
 
-That means I write articles for myself. And if anyone gets benefitted from it, it would be an added bonus!
+That means I primarily write articles for myself only. And if anyone gets benefitted from my articles, it would be an added bonus!
 
 ## Writing the Article
 
@@ -30,6 +30,8 @@ To make this even better, I use a VS Code extension called [Markdown All in One]
 Once the article has been written, I head to [grammarly.com](https://www.grammarly.com/) and paste in my entire article to check for spelling and grammatical mistakes. And once it detects those errors, it can fix those in a cinch.
 
 On top of this, it also suggests alternative words and removal of unnecessary words which can make the entire reading experience a pleasant one.
+
+> Back then, I was not very concerned regarding making my articles grammar-correct. But over time, I realised it's important from the perspective of a reader because I'm also an avid reader myself. And so the grammar correction step entered into my workflow.
 
 ## Creating Social Banner
 
