@@ -49,4 +49,4 @@ At this moment, everything is in the place and the article is ready to be publis
 
 Once the code is pushed, it would take 30-45 seconds to make the article live on the holy internet!
 
-And that's my entire workflow from ideation to the publishing of an article. I've been following this workflow from the past two years and it has suited me very well and I'm hoping the continue it for some more time!
+And that completes my entire workflow from *ideation* to *publishing an article*. I've been following this workflow from the past two years and it has suited me very well and I'm hoping the continue it for some more time!
