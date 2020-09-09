@@ -5,7 +5,7 @@ image: /cdn/dynamic-blade-components-in-laravel-8.png
 categories: [Laravel]
 ---
 
-With the introduction of Laravel 8, you can now render Blade components dynamically using a built-in component called `dynamic-component`.
+With the [release of Laravel 8](https://laravel.com/docs/8.x/releases), you can now render Blade components dynamically using a built-in component called `dynamic-component`.
 
 Essentially, you can use dynamic components in scenarios where you'd want to render components based on the value of a variable. i.e in scenarios where it's not known which component to render until runtime.
 
