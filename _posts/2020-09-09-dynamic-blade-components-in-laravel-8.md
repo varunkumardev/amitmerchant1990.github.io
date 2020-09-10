@@ -33,6 +33,10 @@ This is equivalent to using the following.
 
 As you can see, the components can be now rendered dynamically. So, if for some reason, the user creation is not successful, all you'll need to do is just set the `messageComponent` to `error` and you're done. You don't need to touch the Blade template in this case.
 
+> ***Note:*** When using `dynamic-component`, you can not simply pass in the component name directly to `:component` like so:<br> 
+> `<x-dynamic-component :component="alert" />` <br><br>
+> This will throw the error: `Use of undefined constant alert - assumed 'alert'`
+
 ## Passing down the attributes
 
 You can, of course, pass down various attributes to the underlying Blade components in `dynamic-component` like so.
