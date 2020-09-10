@@ -45,7 +45,9 @@ That's it! That's your own maintenance mode view. Now, you can customize further
 
 ## Using in-built error views of Laravel
 
-You can also use Laravel's error views which come in-built. You can publish this view into your project using the `php artisan vendor:publish` command which will allow you to choose an option for `laravel-errors`. This will copy the error views from `/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views` to your project's `/resources/views/errors`. Here are all the error views that you'll get.
+You can also use Laravel's error views which come in-built. You can publish this view into your project using the `php artisan vendor:publish` command which will allow you to choose an option for `laravel-errors`. 
+
+This will copy the error views from `/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views` to your project's `/resources/views/errors`. Here are all the error views that you'll get.
 
 ![](/images/laravel-existing-error-views.png)
 
