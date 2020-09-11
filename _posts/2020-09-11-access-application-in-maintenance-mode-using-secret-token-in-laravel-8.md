@@ -24,7 +24,7 @@ $ php artisan down --secret="harrypotter"
 
 Once the application is in the maintenance mode, you can access it using the `secret` token like so.
 
-```
+```md
 https://example.com/harrypotter
 ```
 
