@@ -7,6 +7,9 @@ categories: [Laravel]
 
 The model factories in Laravel are a great way of seeding some fake data in the database for testing purposes which I've discussed [in this article](/create-mass-database-records-using-model-factories-in-laravel/). While the previous implementation was great, Laravel 8 has given model factories a major overhaul and it makes them even better!
 
+{:.you-may-like}
+> You may like this if you're on previous versions of Laravel ➔ [Insert mass database records using model factories in Laravel](/create-mass-database-records-using-model-factories-in-laravel/)
+
 Laravel 8's model factories are class-based. Meaning, you'll have now more control over things which was not possible in previous versions.
 
 For comparison, before Laravel 8, model factories are nothing but some PHP files. For instance, if we have a `BookFactory` for the `Book` model, it would look like so.
