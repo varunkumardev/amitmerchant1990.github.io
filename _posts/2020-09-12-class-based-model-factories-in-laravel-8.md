@@ -12,7 +12,7 @@ The model factories in Laravel are a great way of seeding some fake data in the 
 
 Laravel 8's model factories are class-based. Meaning, you'll have now more control over things which was not possible in previous versions.
 
-For comparison, before Laravel 8, model factories are nothing but some PHP files. For instance, if we have a `BookFactory` for the `Book` model, it would look like so.
+For comparison, before Laravel 8, model factories were nothing but regular PHP files. For instance, if we have a `BookFactory` for the `Book` model, it would look like so.
 
 ```php
 <?php
