@@ -5,7 +5,7 @@ image: /cdn/new-ratelimiter-facade-in-laravel-8.png
 categories: [Laravel]
 ---
 
-In the previous versions of Laravel, up to 7.x, when you wanted to rate limit certain routes, you could do it by assigning the `throttle` middleware to the route or group of routes like so.
+In the previous versions of Laravel, up to 7.x, when you wanted to rate limit certain routes, [you could do it](/rate-limit-route-requests-laravel/) by assigning the `throttle` middleware to the route or group of routes like so.
 
 ```php
 Route::get('admin/profile', function () {
