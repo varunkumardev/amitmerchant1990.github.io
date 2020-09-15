@@ -6,11 +6,7 @@
   <input type="submit" value="Subscribe" class="subscribeBtn" />
 </form>
 
-<div class="suggestion-container">
-  <div class="additional-container">
-    <p>Follow me on Twitter <a href="https://twitter.com/amit_merchant">@amit_merchant</a></p>
-  </div>
-</div>
+{% include social_icons.html %}
 
 {% if page.url != "/" %}
   {% if page.id %}
