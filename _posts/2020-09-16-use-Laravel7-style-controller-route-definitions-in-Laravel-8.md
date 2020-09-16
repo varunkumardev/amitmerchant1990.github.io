@@ -8,7 +8,7 @@ categories: [Laravel]
 One of the most prominent changes in Laravel 8 is the (kind of) new way of defining controller routes. Before Laravel 8, if you wanted to define a route, you could do it like so.
 
 ```php
-Route::get('/users', 'UserController@index']);
+Route::get('/home', 'HomeController@index']);
 ```
 
 Here, as you can tell, `UserController` is the controller and `index` in the method of the controller we want to call on this route. 
@@ -19,27 +19,34 @@ Now, this was used to work fine because, under the hood, Laravel used to append 
 protected $namespace = 'App\Http\Controllers';
 ```
 
-So, the previous route definition would act like the following.
+So, the previous route definition would get resolved to the following.
 
 ```php
-Route::get('/users', 'App\Http\Controllers\UserController@index']);
+Route::get('/home', 'App\Http\Controllers\HomeController@index']);
 ```
 
 ## What's changed in Laravel 8?
 
-With the release of Laravel 8, the aforementioned way would not work. This is because the `$namespace` property I talked about previously has been completely removed from `app/Providers/RouteServiceProvider`.
+With the [release of Laravel 8](https://laravel.com/docs/8.x/releases), the aforementioned way would not work. And if you do, you'll get the following error.
+
+```js
+Illuminate\Contracts\Container\BindingResolutionException
+Target class [HomeController] does not exist.
+```
+
+This is because the `$namespace` property I talked about previously has been completely removed from `app/Providers/RouteServiceProvider`.
 
 So, if you've just bootstrapped a new application using Laravel 8, you can start using the new syntax which encourages you to use [Fully Qualified Class Names (FQCN)](https://en.wikipedia.org/wiki/Fully_qualified_name) for controllers like so.
 
 ```php
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\HomeController;
 
-Route::get('/users', [UserController::class, 'index']);
+Route::get('/home', [HomeController::class, 'index']);
 ```
 
 ## Using old route definitions in Laravel 8
 
-But if you're like me who has just upgraded his/her Laravel application from 7.x to 8.x and still using the old syntax, you can include the `$namespace` property back to the `app/Providers/RouteServiceProvider` like so.
+But if you're like me who has just upgraded his/her Laravel application from 7.x to 8.x and still want to use the old syntax, you can add the `$namespace` property back to the `app/Providers/RouteServiceProvider` like so.
 
 ```php
 protected $namespace = 'App\Http\Controllers';
