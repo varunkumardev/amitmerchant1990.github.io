@@ -244,15 +244,28 @@ p {
   color: #222;
 }
 
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    flex: 0 46%;
+
+    @include tablet {
+      flex: inherit;
+    }
+  }
+}
+
 .project-box {
   padding: 15px;
   box-shadow: rgba(36,37,38,0.21) 2px 1px 7px 0px;
   border-radius: 10px;
-  background: #f1f1f1;
+  margin: 10px;
 
   h2 {
     text-align: left;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
   }
 
