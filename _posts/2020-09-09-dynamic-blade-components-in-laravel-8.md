@@ -50,7 +50,7 @@ And these attributes are available to the component's "attribute bag" like so.
 ```php
 // error.blade.php
 
-<div {{ $attributes }}>
+<div {% raw %}{{ $attributes }}{% endraw %}>
     User can not be created
 </div>
 ```
