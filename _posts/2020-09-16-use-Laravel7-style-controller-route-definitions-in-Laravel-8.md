@@ -52,7 +52,7 @@ But if you're like me who has just upgraded his/her Laravel application from 7.x
 protected $namespace = 'App\Http\Controllers';
 ```
 
-And apart from this, in the `boot` method, you'll need to assign this namesapce to the routes like so.
+And apart from this, in the `boot` method, you'll need to assign this namespace to the routes like so.
 
 ```php
 public function boot()
