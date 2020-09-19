@@ -48,6 +48,6 @@ Next, you'll need to specify which branch of the GitHub repository you want to p
 }
 ```
 
-As you can see, you can pull the specified branch by appending `dev-` to it.
+As you can see, you can pull the specified branch by prepending `dev-` to it.
 
 Now, when you'll do `composer install` or `composer update`, it should pull the `quickfix` from the specified GitHub repository and not from the [Packagist](https://packagist.org).
