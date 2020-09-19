@@ -2,7 +2,7 @@
 layout: post
 title: How to pull GitHub repositories as Composer packages in PHP
 image: /cdn/how-to-pull-github-repositories-as-composer-packages-in-php.png
-categories: [PHP]
+categories: [Composer]
 ---
 
 Sometimes there comes a scenario when you might want to pull the composer package's GitHub repository as the composer package itself. This can be useful in situations where you want to upgrade something but because one of the dependencies is still not compatible with the current version of the software.
