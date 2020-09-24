@@ -5,7 +5,7 @@ image: /cdn/catchable-queued-closures-in-laravel-8.png
 categories: [Laravel]
 ---
 
-One of the handiest features of Laravel is the ability to dispatch Closures to queues. This is because you don't always need to create a job class for simple tasks such as sending emails.
+One of the handiest features of Laravel is the ability to dispatch Closures to [queues](/why-you-should-use-laravel-queues/). This is because you don't always need to create a job class for simple tasks such as sending emails.
 
 So, for instance, we want to dispatch the email sending the part to the queue, we can do it like so.
 
