@@ -7,9 +7,9 @@ categories: [Laravel]
 
 [Laravel](https://laravel.com/), as a framework, has grown slowly but strongly since its inception and so is its ecosystem. The ecosystem here is all the packages/products that are built by the Laravel team which revolves around the original Laravel framework. This includes open-source packages and premium/paid products.
 
-But the thing is all these products/packages don't have obvious names. You wouldn't get the idea of what the package/products are for only by looking at its name if you're new in this ecosystem.
+But the thing is all these products/packages don't have obvious names and often confusing. You wouldn't get the idea of what the package/products are for only by looking at its name if you're *new* in this ecosystem.
 
-So, in this article, I'm listing all those products/packages with its name and what it's doing in simple terms. Basically, I got to know about this from one of [Mohamed Said](https://twitter.com/themsaid)'s [tweet](https://twitter.com/themsaid/status/1308847972067807232) this morning. And so I thought why not list all those under an article? So, here it goes!
+So, in this article, *I'm listing all those **products/packages with its name** and what it's doing **in simple terms***. Basically, I got to know about this from one of [Mohamed Said](https://twitter.com/themsaid)'s [tweet](https://twitter.com/themsaid/status/1308847972067807232) this morning. And so I thought why not list all those under an article? So, here it goes!
 
 ## First class open-source packages
 
