@@ -5,7 +5,7 @@ image: /cdn/current-branch-command-prompt.png
 categories: [Terminal]
 ---
 
-It's always nice a nice idea to add something to your workflow which can enhance your productivity. Even if it's as small as showing the current Git branch for your project in command prompt like so.
+It's always a nice idea to add something to your workflow which can enhance your productivity. Even if it's as small as showing the current Git branch for your project in command prompt like so.
 
 ```bash
 amitmerchant@hp-notebook:~/workspace/amitmerchant1990.github.io (master)$ 
