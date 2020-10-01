@@ -55,11 +55,11 @@ And lastly, as you can return any expression from the short function, you could 
 ```php
 function guessFruit(int $fruit): string => match ($fruit) {
     'apple' => 'fruit is apple',
-    'cake' => 'fruit is cake',
-    default => 'fruit is pizza',
+    'orange' => 'fruit is orange',
+    default => 'fruit is banana',
 };
 
-print pick_one('apple') . PHP_EOL; // fruit is apple
+print guessFruit('apple') . PHP_EOL; // fruit is apple
 ```
 
 Which is equivalent to be writing it in PHP 8 like so.
@@ -69,10 +69,12 @@ function guessFruit(int $fruit): string
 {
     return match ($fruit) {
         'apple' => 'fruit is apple',
-        'cake' => 'fruit is cake',
-        default => 'fruit is pizza',
+        'orange' => 'fruit is orange',
+        default => 'fruit is banana',
     }
 }
+
+print guessFruit('apple') . PHP_EOL; // fruit is apple
 ```
 
 Pretty dense, no?
