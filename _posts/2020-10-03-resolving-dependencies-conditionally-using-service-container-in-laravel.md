@@ -91,7 +91,7 @@ use App\Http\Controllers\PurchaseController;
 use App\Payment\Contract\PaymentInterface;
 use App\Payment\Stripe;
 
-$this->app->when(AccountRenewalController::class)
+$this->app->when(PurchaseController::class)
           ->needs(PaymentInterface::class)
           ->give(function () {
               return Stripe('sid', 'token')
