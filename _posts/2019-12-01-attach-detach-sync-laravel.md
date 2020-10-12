@@ -39,7 +39,7 @@ We can define the model for `Author` the same way. Now once the relationship is 
 ```php
 $book = App\Book::find(1);
 
-foreach ($user->authors as $author) {
+foreach ($book->authors as $author) {
     dd($author->name);
 }
 ```
