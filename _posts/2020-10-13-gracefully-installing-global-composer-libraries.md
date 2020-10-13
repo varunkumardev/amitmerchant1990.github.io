@@ -5,7 +5,7 @@ image: /cdn/gracefully-installing-global-composer-libraries.png
 categories: [Composer]
 ---
 
-Recently, I happened to install the [Laravel Envoy](https://laravel.com/docs/8.x/envoy) library in my Linux-powered machine. Now, if you don't know Envoy is a task runner that can be used to define and run common tasks on your remote servers. You can set up tasks for your application deployment such as Git commands, artisan commands, and a lot of other CLI-based commands.
+Recently, I happened to install the [Laravel Envoy](https://laravel.com/docs/8.x/envoy) library in my Linux-powered machine. Now, if you don't know, Envoy is a task runner that can be used to define and run common tasks on your remote (and local) servers. You can set up tasks for your application deployment such as Git commands, artisan commands, and a lot of other CLI-based things.
 
 Now, coming to the issue I faced. To use Envoy, you'd need to install it globally using Composer using the `global require` like so.
 
@@ -13,7 +13,7 @@ Now, coming to the issue I faced. To use Envoy, you'd need to install it globall
 $ composer global require laravel/envoy
 ```
 
-I run the above command and I ran into the following error and the installation got terminated.
+I ran the above command and I got the following error and the installation got terminated.
 
 [![Envoy Dependency Error](/images/envoy_error.png)](/images/envoy_error.png)
 
@@ -38,5 +38,7 @@ $ cgr laravel/envoy
 ```
 
 And boom! it successfully/gracefully installed it without any sort of dependency related issues. And as a bonus, I didn't have to put `$HOME/.config/composer/vendor/bin` or `$HOME/.composer/vendor/bin` to make the `envoy` command work in the terminal and that is also managed by `cgr`.
+
+This is one example but you should consider using `cgr` if you happen to install Composer libraries globally for painless installations.
 
 You can learn more about `consolidation/cgr` at [its official documentation](https://github.com/consolidation/cgr).
