@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Convert HTML to PDF like a pro using DocRaptor API
+title: Convert HTML to PDF like a pro using DocRaptor API (Sponsor)
 image: /cdn/convert-html-to-pdf-like-a-pro-using-docraptor-api.png
 categories: [PHP]
 ---
@@ -130,7 +130,7 @@ To get started with it, you'd first need to create an object of [DocRaptor\Princ
 $prince_options = new DocRaptor\PrinceOptions();
 ```
 
-And then set various [prince related options](https://docraptor.com/documentation/api#api_advanced_pdf) on it. For instance, you want to create PDF using PDF profiles such as **PDF/A-1a**, **PDF/A-3a**, or **PDF/UA-1** (which makes [PDFs accessibilty](https://www.w3.org/TR/WCAG20-TECHS/pdf) compatible), you can set it like so.
+And then set various [prince related options](https://docraptor.com/documentation/api#api_advanced_pdf) on it. For instance, if you want to create PDF using PDF profiles such as **PDF/A-1a**, **PDF/A-3a**, or **PDF/UA-1** (which makes [PDFs accessibilty](https://www.w3.org/TR/WCAG20-TECHS/pdf) compatible), you can set it like so.
 
 ```php
 $prince_options->setProfile('PDF/A-1a');
