@@ -5,7 +5,7 @@ image: /cdn/how-to-use-env-in-laravel-envoy.png
 categories: [Laravel]
 ---
 
-Laravel Envoy is a great tool if you want to create deployment flow for your application or even something as small as writing a script to pull the latest code and deploy the application right away.
+Laravel [Envoy](https://laravel.com/docs/8.x/envoy) is a great tool if you want to create deployment flow for your application or even something as small as writing a script to pull the latest code and deploy the application right away.
 
 One of the cool features of Envoy is it can also send a notification to different services after each [task](https://laravel.com/docs/8.x/envoy#writing-tasks) is executed such as Slack, Discord, Telegram, and so on. So, for instance, if you want to send a notification to a Slack channel, you could do it using the `@slack` directive like so.
 
