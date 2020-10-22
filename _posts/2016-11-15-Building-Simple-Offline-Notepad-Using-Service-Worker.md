@@ -14,7 +14,7 @@ _A service worker is a script that runs in the background, separate from your we
 
 The first and foremost feature ServiceWorkers provides is to give the ability to webapp to work offline. Apart from this ServiceWorkers also includes features like [push notifications](https://developers.google.com/web/updates/2015/03/push-notifications-on-the-open-web) and [background sync](https://developers.google.com/web/updates/2015/12/background-sync). In the future service workers will support other things like periodic sync or geofencing. The core feature discussed in this tutorial is the ability to intercept and handle network requests, including programmatically managing a cache of responses.
 
-## Now, let's talk about what is a Progressive Web App?
+## What is a Progressive Web App?
 
 _A Progressive Web App uses modern web capabilities to deliver an app-like user experience. They evolve from pages in browser tabs to immersive, top-level apps, maintaining the web's low friction at every moment._
 
