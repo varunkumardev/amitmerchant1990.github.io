@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Building a simple offline-capable Notepad app using ServiceWorker
+image: /cdn/building-simple-offline-capable-notepad-app-using-serviceworker.png
 categories: [JavaScript, PWA]
 ---
 
 Today, We are going to build a progressive Notepad app which can very well be used in offline mode, be responsive on all available devices and which saves the content locally on device. So, the core functionality of this Notepad here is to make it work offline. To fulfill this requirement, we'll use [ServiceWorkers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers) which I'm going to cover next.
 
-# Foreward
+* TOC
+{:toc}
 
 ## What is a ServiceWorker?
 
@@ -20,7 +22,7 @@ _A Progressive Web App uses modern web capabilities to deliver an app-like user 
 
 - This means a progressive web app should be responsive, connection-independent, app-like, fresh, installable and so forth. So, to make our Notepad a progressive web app, we need to include all above features. Let's get started.
 
-# Building the Notepad
+## Building the Notepad
 
 Let's start by creating a folder called Notepad in your favorite local web server(in my case I have used [XAMPP](https://www.apachefriends.org/index.html)) and add following files into it:
 
@@ -30,13 +32,79 @@ Let's start by creating a folder called Notepad in your favorite local web serve
 
 Now, first thing we will do is register a `ServiceWorker` when our app hits the browser for the first time. For this, create a folder called `js` in root and add file `app.js` into it and add the following code in that file.
 
-<script src="https://gist.github.com/amitmerchant1990/47533b3422bce2d50437d12fba705858.js"></script>
+```js
+// Registering ServiceWorker
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').then(function(registration) {
+    // Registration was successful
+    console.log('ServiceWorker registration successful with scope: ',    registration.scope);
+  }).catch(function(err) {
+    // registration failed :(
+    console.log('ServiceWorker registration failed: ', err);
+  });
+}
+```
 
 Above code will try to check if the current browser supports `ServiceWorker` and if yes, it will register one. Notice, we have passed a file called `sw.js` in the register function which we haven't created yet.
 
 Create a file called `sw.js` in the root and add the following content into it.
 
-<script src="https://gist.github.com/amitmerchant1990/4d5bb62b795b10cb593e8b585ae8a1a5.js"></script>
+```js
+importScripts('js/cache-polyfill.js');
+
+var CACHE_VERSION = 'app-v1';
+
+self.addEventListener('install', function (event) {
+    event.waitUntil(
+        caches.open(CACHE_VERSION)
+            .then(function (cache) {
+                console.log('Opened cache');
+                return cache.addAll(CACHE_FILES);
+            })
+    );
+});
+
+self.addEventListener('fetch', function (event) {
+    event.respondWith(
+        caches.match(event.request).then(function(res){
+            if(res){
+                return res;
+            }
+            requestBackend(event);
+        })
+    )
+});
+
+function requestBackend(event){
+    var url = event.request.clone();
+    return fetch(url).then(function(res){
+        //if not a valid response send the error
+        if(!res || res.status !== 200 || res.type !== 'basic'){
+            return res;
+        }
+
+        var response = res.clone();
+
+        caches.open(CACHE_VERSION).then(function(cache){
+            cache.put(event.request, response);
+        });
+
+        return res;
+    })
+}
+
+self.addEventListener('activate', function (event) {
+    event.waitUntil(
+        caches.keys().then(function(keys){
+            return Promise.all(keys.map(function(key, i){
+                if(key !== CACHE_VERSION){
+                    return caches.delete(keys[i]);
+                }
+            }))
+        })
+    )
+});
+```
 
 Notice, If you want to import any external script in the Service Worker, you can do it using importScripts() . In this example we'll be using the [cache-polyfill](https://github.com/coonsta/cache-polyfill) since the support for cache is limited.
 
@@ -57,19 +125,129 @@ All this files will get cached for the offline use. Here you can see we call `ca
 
 Next, we'll add following content into the file `manifest.json`.
 
-<script src="https://gist.github.com/amitmerchant1990/ea50498abf28cd04083ccc200ac19227.js"></script>
+```json
+{
+  "short_name": "Notepad",
+  "name": "Notepad",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/icon-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon-196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "theme_color": "#9b59b6",
+  "background_color": "#EEEEEE"
+}
+```
 
 You can see here, we have provided our application name in `short_name`, default orientation for application is `standalone` and we have also provided different sized icons of our application which you can get from [here](https://github.com/amitmerchant1990/notepad/tree/master/img).
 
 Let's now move to the `index.html` and add following content:
 
-<script src="https://gist.github.com/amitmerchant1990/e2d6fb2d92327fec9c7de85122a8137a.js"></script>
+```html
+<html>
+  <head>
+    <title>Notepad - Offline capable</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#9b59b6">
+    <meta name="description" content="An offline capable notepad powered by ServiceWorker">
+    <meta name="keywords" content="note,offline,mobile,web,notepad" />
+    <meta name="author" content="Amit Merchant">
+    <meta name="application-name" content="Notepad" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <nav class="navbar-default navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Notepad - Offline capable</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about" data-toggle="modal" data-target="#myModal">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="starter-template">
+        <textarea id="note" placeholder="Type your notes here and when you come back all your notes will be right here..."></textarea>
+      </div>
+    </div>
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Notepad - Offline capable</h4>
+          </div>
+          <div class="modal-body">
+            <p>An offline capable notepad powered by ServiceWorker</p>
+            <a href="https://github.com/amitmerchant1990/notepad" target="_blank">Go to the repository</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+```
 
 So, as you can see here we have taken a textarea and have given it `id`=`note` which we will use to keep track of `onKeyUp` event of textarea. For this, purpose we'll use [jQuery](https://jquery.com/). Let's also note here that, to make the app responsive on all device, we have used [Bootstrap](http://getbootstrap.com/). You can I have included all of the necessary files in `index.html`. You can get all the necessary file from [here](https://github.com/amitmerchant1990/notepad/tree/master/js) and [here](https://github.com/amitmerchant1990/notepad/tree/master/css) and add them to the relevant folders. I have also included file [style.css](https://github.com/amitmerchant1990/notepad/blob/master/css/style.css) which will make some necessary changes on the page to make it responsive.
 
 Now, again move to the file `js/app.js` and add the following content:
 
-<script src="https://gist.github.com/amitmerchant1990/6a4aee82dd4e54296a5c36c44496e5a2.js"></script>
+```js
+// Commented out for brevity
+
+$(document).ready(function(){
+  $('#note').bind('input propertychange', function(){
+    localStorage.setItem("note", $(this).val());
+  });
+
+  if(localStorage.getItem("note") && localStorage.getItem("note")!=''){
+    var noteItem = localStorage.getItem("note")
+    $('#note').val(noteItem);
+  }
+});
+```
 
 As you can see, we have `bind` the textarea's `propertychange` event so that it will get the text while user types and it to the `localStorage
 
