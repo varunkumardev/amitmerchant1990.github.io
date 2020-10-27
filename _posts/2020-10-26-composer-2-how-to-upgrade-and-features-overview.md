@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Composer 2 — How to upgrade and features overview
+title: Composer 2.0 — How to upgrade and features overview
 image: /cdn/composer-2-how-to-upgrade-and-features-overview.png
 categories: [PHP]
 ---
