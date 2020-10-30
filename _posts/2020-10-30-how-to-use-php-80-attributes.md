@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use Attributes & their real-world usage in PHP 8.0
+title: How to use Attributes and their real-world usage in PHP 8.0
 image: /cdn/how-to-use-php-80-attributes-real-world-usage.png
 categories: [PHP]
 ---
