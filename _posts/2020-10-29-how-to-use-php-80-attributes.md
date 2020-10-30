@@ -116,8 +116,42 @@ array:1 [▼
 Next, to get the attribute of the class, we have called the `newInstance()` method on the attribute which will return the instance of the `TestAttribute` and from there, you can retrieve the metadata by calling the argument like so.
 
 ```php
-$classAttributes[0]->newInstance()->testArgument
+$classAttributes[0]->newInstance()->testArgument // "Hello World"
 ```
+
+You can play around with this entire example below.
+
+<div class="laravel-playground" data-theme="dark" data-filename="index.php" data-php="8" data-hide-result="true" ><pre data-filename="index.php">&lt;?php
+declare(strict_types=1);
+
+// Below is a custom attribute
+
+#[\Attribute]
+class TestAttribute
+{
+    public function __construct(public string $testArgument)
+    {}
+}
+
+
+// Apply the custom attribute to the class
+
+#[TestAttribute(&#39;Hello World&#39;)]
+class MyClass
+{
+
+}
+
+
+// Get the metadata of the class using Reflection
+
+$reflection = new \ReflectionClass(MyClass::class);
+$classAttributes = $reflection-&gt;getAttributes();
+
+dd($classAttributes[0]-&gt;newInstance()-&gt;testArgument);</pre>
+</div>
+
+<script type="text/javascript" src="https://embed.laravelplayground.com"></script>
 
 ## Real-world usage
 
