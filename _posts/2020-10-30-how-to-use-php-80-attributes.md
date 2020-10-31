@@ -12,9 +12,28 @@ Of many [great](https://www.amitmerchant.com/constructor-property-promotion-php8
 
 ## What are Attributes?
 
-Essentially, *Attributes are special kinds of classes that can be used to add metadata to other classes, properties, functions, methods, parameters, and constants.* 
+Essentially, *Attributes are special kinds of classes that can be used to add [metadata](https://en.wikipedia.org/wiki/Metadata) to other classes, properties, functions, methods, parameters, and constants.* 
 
-Before PHP 8, it was a regular practice to use "doc-comments" or "DocBlocks" to add metadata to these entities.
+Before PHP 8, it was a regular practice to use "doc-comments" or "DocBlocks" to add metadata to these entities. For instance, here's how you can define a method DocBlock with metadata which indicates what type the arguments are of and what type of out it's returning.
+
+```php
+/**
+ * Description of method here.
+ *
+ * @param Random         $mathRandom
+ * @param StdlibDateTime $dateTime
+ * @param int            $number
+ *
+ * @return int
+ */
+private function doSomething(
+    Random $mathRandom, 
+    StdlibDateTime $dateTime, 
+    int $number
+) : int {
+
+}
+```
 
 But doc-comments are just strings and used to keep some structured information and some of the [libraries](https://www.phpdoc.org/) are using these doc-comments to generate full-fledged documentation by parsing them. Apart from this, IDEs such as PhpStorm uses these DocBlocks to intelligently show you diagnostics and show runtime warnings and errors in the code if there are any.
 
