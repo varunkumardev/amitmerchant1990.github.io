@@ -159,7 +159,7 @@ Here `src` is the folder that you want to be analyzed by Rector. Once run, the c
 
 ![](/images/rector-applied-rules.png)
 
-If you're satisfied with all the changes, you can finally apply all changes in real by dropping `--dry-run` from the previous command and run it like so.
+If you're satisfied with the potential changes, you can finally apply all changes in real by dropping `--dry-run` from the previous command and run it like so.
 
 ```bash
 $ vendor/bin/rector process src
