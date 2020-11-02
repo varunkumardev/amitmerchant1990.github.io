@@ -165,7 +165,7 @@ If you're satisfied with all the changes, you can finally apply all changes in r
 $ vendor/bin/rector process src
 ```
 
-And this will change the `Test.php` file to the following state which is using all the PHP 8.0 features. i.e constructor property promotion, match expressions, and non-capturing exception catches.
+And this will change the `Test.php` file to the following state which is equivalent of all the PHP 8.0 features. i.e constructor property promotion, match expressions, and non-capturing exception catches.
 
 ```php
 <?php
