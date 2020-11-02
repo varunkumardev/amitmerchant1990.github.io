@@ -39,7 +39,7 @@ This will generate a `rector.php` config file in your project root with some [pr
 
 Rector uses something called [rules](https://github.com/rectorphp/rector/blob/master/docs/rector_rules_overview.md) to upgrade the PHP codebase. These ranges from framework-specific rules to different PHP version specific rules.
 
-We'll update the `rector.php` to use [PHP 8.0 specific rule sets](https://github.com/rectorphp/rector/blob/master/config/set/php80.php). To do so, replace the content of `rector.php` content with the following.
+We'll update the `rector.php` to use [PHP 8.0 specific rule sets](https://github.com/rectorphp/rector/blob/master/config/set/php80.php). To do so, replace the content of `rector.php` with the following.
 
 ```php
 <?php
@@ -202,4 +202,4 @@ class Test
 }
 ```
 
-And that's how you can upgrade any codebase to PHP 8.0 just like that!
+And that's how you can upgrade about any codebase to PHP 8.0 just like that!
