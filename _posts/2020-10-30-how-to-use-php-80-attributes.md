@@ -45,7 +45,7 @@ Let's check how you can define attributes.
 
 In its most simple form, an attribute in PHP can be applied using `#[attr]` syntax.
 
-> Fun fact: PHP's attribute syntax is inspired by the [Rust's Attribute](https://doc.rust-lang.org/reference/attributes.html) syntax.
+> 🎯 **Fun fact:** PHP's attribute syntax is inspired by the [Rust's Attribute](https://doc.rust-lang.org/reference/attributes.html) syntax.
 
 So, if you want to apply an attribute to a class, for instance, you can do it like so.
 
@@ -171,6 +171,48 @@ dd($classAttributes[0]-&gt;newInstance()-&gt;testArgument);</pre>
 </div>
 
 <script type="text/javascript" src="https://embed.laravelplayground.com"></script>
+
+## Scopes of Attributes
+
+Apart from applying attributes to different entities in PHP, you can also define scope of where a particular arrtibute should be used.
+
+For this, you would need to pass in special flags to the `Attribute` and these includes the following: `Attribute::TARGET_METHOD`, `Attribute::TARGET_CLASS`, `Attribute::TARGET_FUNCTION`, `Attribute::TARGET_PROPERTY`, `Attribute::TARGET_CLASS_CONSTANT`, `Attribute::TARGET_PARAMETER`, and `Attribute::TARGET_ALL`.
+
+So, if I want to limit a custom attribute to only be applied to PHP classes, I would do it like so.
+
+```php
+#[\Attribute(Attribute::TARGET_CLASS)]
+class TestAttribute
+{
+    public function __construct(public string $testArgument)
+    {}
+}
+```
+
+Now, if I try to apply this attribute to a class method and get the metadata through reflection like so...
+
+```php
+class MyClass
+{
+    #[TestAttribute('Hello World')]
+    public function index()
+    {
+
+    }
+}
+
+$reflection = new \ReflectionMethod(MyClass::class, 'index');
+$methodAttributes = $reflection->getAttributes();
+
+print_r($methodAttributes[0]->newInstance()->testArgument);
+```
+
+...PHP will throw a fatal error something like below.
+
+> *Error*
+> Attribute "TestAttribute" cannot target method (allowed targets: class)
+
+As you can see, the error is self-explanatory. i.e. you can not apply the attribute on class methods which is designed to be used on classes.
 
 ## Real-world usage
 
