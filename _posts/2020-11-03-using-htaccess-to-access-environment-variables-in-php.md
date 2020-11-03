@@ -25,7 +25,7 @@ But what if you want to set environment variables for the projects that use plai
 
 ## Using `.htaccess` in Apache webserver
 
-To define environment variables in the PHP app running on the Apache webserver, you can use the `.htaccess` file for this purpose. For this, all you need to enable the `mod_env` module in your server. You can enable using the following command.
+To define environment variables in the PHP app running on the [Apache](https://httpd.apache.org/) webserver, you can use the `.htaccess` file for this purpose. For this, all you need to enable the `mod_env` module in your server. You can enable using the following command.
 
 ```bash
 $ sudo a2enmod env
