@@ -32,13 +32,13 @@ $factory->define(Book::class, function (Faker $faker) {
 });
 ```
 
-As you can tell, there isn't any class involved in this. And the syntax is also quite hard yo remember with all those Closures and *"magic"* variables like `$factory`.
+As you can tell, there isn't any class involved in this. And the syntax is also quite hard to remember with all those Closures and *"magic"* variables like `$factory`.
 
 Laravel 8 has attempted to solve this. Let's look at how.
 
 ## Class based model factories
 
-In a nutshell, the model factories aren't simply PHP classes anymore. They are now full-fledged PHP classes which come with some added goodies. 
+In a nutshell, the model factories aren't simply PHP files anymore. They are now full-fledged PHP classes which come with some added goodies. 
 
 So, if you create a new factory for the `Book` model using the following Artisan command,
 
