@@ -23,7 +23,7 @@ So, if you want your route parameter to be always numeric, you can use `whereNum
 Route::get('authors/{author}')->whereNumber('author');
 ```
 
-Similarly, the `whereNumber` method can be used to constrain the route parameter to be always of alphabetic form. 
+Similarly, the `whereAlpha` method can be used to constrain the route parameter to be always of alphabetic form. 
 
 ```php
 Route::get('authors/{book}')->whereAlpha('book');
@@ -39,9 +39,9 @@ I've decided to add this method. And decided to call it `whereAlphaNumeric`.
 
 ## The implementation
 
-I first forked the [laravel/framework](https://github.com/laravel/framework) repository and then cloned it into my machine. 
+I first forked the [laravel/framework](https://github.com/laravel/framework) repository into my GitHub account and then cloned it into my machine. 
 
-Next, I created a branch called feature branch called `feature-alphanumeric-route-regex` from `8.x`.
+Next, I created a feature branch called `feature-alphanumeric-route-regex` from `8.x`.
 
 The rest of the things were easy. I added the following method into `src/Illuminate/Routing/CreatesRegularExpressionRouteConstraints.php` which is the meat of the functionality.
 
