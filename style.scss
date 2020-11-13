@@ -761,8 +761,14 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  box-shadow: 0 2.8px 0px rgba(0, 0, 0, 0.034), 3px 2px 6px rgba(0, 0, 0, 0.048), 3px 8px 4px rgba(0, 0, 0, 0.06), 2px 1px 17px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 22px 18px;
+  margin-bottom: 15px;
+
+  h1 {
+    margin: 0;
+  }
 }
 
 .posts > .post-ad {
@@ -819,6 +825,21 @@ nav {
     text-align: center;
     display: block;
     margin: 0 auto;
+  }
+}
+
+.custom-ad {
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+
+  img {
+    border-radius: 10px;
+  }
+
+  p {
+    margin: 0;
   }
 }
 
@@ -1098,11 +1119,15 @@ Modules - reusable parts of our design
   overflow: hidden;
 }
 
-.additional-links ul {
-  list-style-type: none;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding: 0 5px 0 5px;
+.additional-links {
+  margin-bottom: 15px;
+
+  ul {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0 5px 0 5px;
+  }
 }
 
 .grid {
