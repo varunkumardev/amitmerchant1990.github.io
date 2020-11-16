@@ -166,12 +166,16 @@ kbd {
 
 .pagination a, .pagination span {
   padding: 7px 18px;
-  border: 1px solid #eee;
-  margin-left: -2px;
-  margin-right: -2px;
+  border: 1px solid #d4d4d4;
   background-color: #ffffff;
   display: inline-block;
   margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.pagination span {
+  background: #ffe0ff;
+  font-weight: bold;
 }
 
 .pagination a {    
