@@ -533,10 +533,11 @@ p > img {
 }
 
 #markdown-toc {
-  border: 1px solid #aaa;
-  padding: 1.5em;
+  padding: 1.5em 2em;
   list-style: decimal;
   display: inline-block;
+  border-radius: 10px;
+  background: #FCE4EC;
 
   ul {
     list-style: decimal;
