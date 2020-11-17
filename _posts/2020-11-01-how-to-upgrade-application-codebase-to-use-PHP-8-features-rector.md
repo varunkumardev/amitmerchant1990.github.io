@@ -13,6 +13,9 @@ There is an open-source library called [Rector](https://github.com/rectorphp/rec
 
 In this article, I'll just focus on how you can upgrade your legacy codebase to PHP 8.0. So, stick along.
 
+* TOC
+{:toc}
+
 ## Installing Rector
 
 First and foremost, you'll need to install Rector as a development dependency in your project. Install it using the following command.
