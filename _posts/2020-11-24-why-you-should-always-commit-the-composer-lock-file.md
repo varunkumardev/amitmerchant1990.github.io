@@ -5,7 +5,7 @@ image: /cdn/why-you-should-always-commit-the-composer-lock-file.png
 categories: [Composer]
 ---
 
-When you install the packages through [Composer](https://getcomposer.org/), it will parse the `composer.json` of your project and try to install all the dependencies listed in it under `require` and `require-dev`.
+When you install [packages](https://packagist.org/) through [Composer](https://getcomposer.org/), it will parse the `composer.json` of your project and try to install all the dependencies listed in it under `require` and `require-dev` keys.
 
 Now, when you are installing dependencies for the first time and once all the dependencies are resolved successfully, Composer will automatically generate a `composer.lock` file along with it. What is it?
 
