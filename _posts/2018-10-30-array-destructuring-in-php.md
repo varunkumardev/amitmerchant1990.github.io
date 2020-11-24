@@ -2,6 +2,7 @@
 layout: post
 title: Array destructuring in PHP
 categories: PHP
+image: /cdn/array-destructuring-php.png
 ---
 
 Folks who are familiar with the JavaScript's ES6 may very well aware of the [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) feature which allows us to extract data from arrays, objects, maps and sets. For instance, Using ES6 way, we can assign the top level variables of the objects to local variables using destructuring like below:
