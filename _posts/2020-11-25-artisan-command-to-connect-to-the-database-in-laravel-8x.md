@@ -3,6 +3,7 @@ layout: post
 title: Artisan command to connect to the database in CLI in Laravel 8.x
 image: /cdn/artisan-command-to-connect-to-the-database-in-laravel-8x.png
 categories: [Laravel]
+fluidbox: true
 ---
 
 Laravel keeps getting better on each of its major releases. But sometimes, it's the minor and patch releases that take the cake by introducing some lesser-noticed features.
