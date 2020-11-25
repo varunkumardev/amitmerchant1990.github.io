@@ -18,7 +18,7 @@ This command figures out which database you are using and starts a database CLI 
 
 So, for instance, if my project is using a MySQL database as its default database `breeze` and if I run the `artisan db` command, it will connect to the database like so.
 
-![php artisan db](/images/artisan-db.png)
+[![php artisan db](/images/artisan-db.png)](/images/artisan-db.png)
 
 Pretty nifty, right!
 
