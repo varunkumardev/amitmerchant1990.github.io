@@ -34,4 +34,4 @@ public function handle()
 }
 ```
 
-Note here that, this code will still work as the code will be executed right away if there's no enclosing transaction.
+Note here that, this code will still work in cases when there's no enclosing transaction as the code will be executed right away.
