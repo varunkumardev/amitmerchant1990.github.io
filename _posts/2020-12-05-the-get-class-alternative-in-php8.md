@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The get_class() alternative in PHP 8
-image: /cdn/the-get-class-alternative-in-php8.png
+image: /cdn/the-get-class-alternative-in-php-8.png
 categories: [PHP]
 ---
 
