@@ -17,11 +17,8 @@ title: Categories
   {% for category in site.categories %}
     <div class="archive-group">
       {% capture category_name %}{{ category | first }}{% endcapture %}
-      <div id="#{{ category_name | slugize }}"></div>
-      <p></p>
-      
-      <h3 class="category-head">{{ category_name }}</h3>
       <a name="{{ category_name | slugize }}"></a>
+      <h3 class="category-head">{{ category_name }}</h3>
       <div class="category-posts">
       {% for post in site.categories[category_name] %}
       <article class="archive-item">
