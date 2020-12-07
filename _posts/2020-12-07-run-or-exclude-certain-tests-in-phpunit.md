@@ -40,7 +40,7 @@ Once the tests are tagged with suitable groups, now is the time to exclude group
 $ vendor/bin/phpunit --exclude skip
 ```
 
-Or if you're using Laravel 7.x, you can use the `artisan test` command like so.
+Or if you're using Laravel 7.x, you can use the `artisan test` [command](https://laravel.com/docs/8.x/testing#artisan-test-runner) like so.
 
 ```bash
 $ php artisan test --exclude skip
