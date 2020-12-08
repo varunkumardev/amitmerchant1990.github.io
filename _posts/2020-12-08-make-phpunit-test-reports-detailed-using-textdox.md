@@ -17,15 +17,15 @@ On the contrary, if you're using Laravel 7.x, you can use the `artisan test` [co
 
 ![php artisan test](/images/php-artisan-test.png)
 
-But what if you want similar kind of test results from PHPUnit itself? Well, Meet **TextDox**.
+But what if you want similar kind of test results from PHPUnit itself? Well, Meet **TestDox**.
 
-## Make test results verbose using TextDox
+## Make test results verbose using TestDox
 
 [TestDox](https://phpunit.readthedocs.io/en/9.5/textui.html#testdox) is essentially a functionality that comes bundled with PHPUnit which looks at a test class and all the test method names and converts them from camel case (or snake_case) PHP names to sentences. 
 
 Essentially, this makes the test results almost similar like we get using the `php artisan test`. 
 
-To use TextDox, all you'll need to do is use the `--testdox` option with PHPUnit like so.
+To use TestDox, all you'll need to do is use the `--testdox` option with PHPUnit like so.
 
 ```bash
 $ vendor/bin/phpunit --testdox
