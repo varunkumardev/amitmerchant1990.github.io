@@ -9,7 +9,7 @@ Imagine you just bought a new computer and the next thing you want to do is crea
 
 The usual way to do this is to install a server (Apache or Nginx) PHP, MySQL, and a lot of other software yourself. Not to forget a lot of required [PHP extensions](https://www.php.net/manual/en/extensions.alphabetical.php) as well. That's a lot of work do to if you ask me. On top of this, if you are stuck somewhere in this process, god saves you!
 
-To remove this overhead, Taylor Otwell has just released a brand new command-line interface called Sail for Laravel.
+To remove this overhead, Taylor Otwell has [just released](https://twitter.com/taylorotwell/status/1336357588791947264) a brand new command-line interface called Sail for Laravel.
 
 ## What is Sail?
 
