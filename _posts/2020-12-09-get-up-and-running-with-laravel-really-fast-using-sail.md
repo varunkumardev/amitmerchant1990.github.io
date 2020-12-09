@@ -11,6 +11,9 @@ The usual way to do this is to install a server (Apache or Nginx) PHP, MySQL, an
 
 To remove this overhead, Taylor Otwell has [just released](https://twitter.com/taylorotwell/status/1336357588791947264) a brand new command-line interface called Sail for Laravel.
 
+* TOC
+{:toc}
+
 ## What is Sail?
 
 Quoting the [official documentation](https://laravel.com/docs/8.x/sail)...
