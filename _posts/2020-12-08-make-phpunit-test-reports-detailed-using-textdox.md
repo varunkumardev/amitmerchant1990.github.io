@@ -37,4 +37,8 @@ Running this would give a test report like so.
 
 Looks more detailed as opposed to using PHPUnit in its default state, right?
 
+Here's how a **failing test** would look like when using TestDox.
+
+![](/images/phpunit-failing-test-testdox.png)
+
 What TestDox does under the hood is converts test method names to sentences. So, for instance, if there is a method called `testBalanceIsInitiallyZero()` (or `test_balance_is_initially_zero())`, it will convert it to "Balance is initially zero".
