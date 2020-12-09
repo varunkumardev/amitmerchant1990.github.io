@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make PHPUnit test reports more detailed using TextDox
-image: /cdn/make-phpunit-test-reports-verbose-using-textdox.png
+image: /cdn/make-phpunit-test-reports-verbose-using-testdox.png
 categories: [PHPUnit]
 ---
 
