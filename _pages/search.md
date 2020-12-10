@@ -5,7 +5,12 @@ permalink: /search/
 ---
 
 <div id="search-container">
-    <input type="text" id="search-input" placeholder="Try searching about PHP, Eloquent, PWA,..">
+    <div>
+        <input type="text" id="search-input" placeholder="Try searching about PHP, Eloquent, PWA,..">
+        <p class="search-categories">
+            ...Or browse by <a title="Categories" href="/categories">categories</a>
+        </p>
+    </div>
     <ul id="results-container"></ul>
 </div>
 
