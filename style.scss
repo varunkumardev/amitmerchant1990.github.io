@@ -227,15 +227,17 @@ p {
   a {
     margin: 0 5px;
     font-size: 13px;
-    padding: 3px 9px;
+    padding: 0px 10px;
     border: none;
     background: linear-gradient(to right, #6abdff, #b185ff);
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
+    display: inline-block;
 
     &:hover {
       color: #fff;
+      transform: scale(1.08);
     } 
   }
 }
@@ -737,6 +739,10 @@ span[data-pullquote]:before {
   text-align: center;
   box-shadow: 3px 2px 6px 0px #abababc9;
   height: 100%;
+
+  &:hover {
+    background-image: radial-gradient(circle 346px at 0.3% 100%, #EA6DFF 0%, #3e4ca7 56.7%);
+  }
 
   a {
     color: #fff;
