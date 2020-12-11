@@ -14,7 +14,7 @@ layout: default
           {% if j == 0 or j == 3 %}
           <div class="row">
           {% endif %}
-            <a href="{{article.url}}" class="top-articles-link" style="display: block;width: 100%; height:100%;">
+            <a href="{{article.url}}" class="top-articles-link">
               <article class="column">
                 {{article.title}}
               </article>
@@ -54,37 +54,50 @@ layout: default
     {% endif %}
 
     <div class="posts">
+      {% if page.url == "/" %}
+        {% for post in site.tags.pinned %}
+          <article class="post">
+            <p class="pinned-article"><b>📌 Pinned Article</b></p>
+            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+            <div class="entry">
+              <p><span class="post_date"><i>{{ post.date | date: "%B %e, %Y" }}</i></span> — {{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            </div>
+
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More ⟶</a>
+          </article>
+        {% endfor %}
+      {% endif %}
+
       {% assign i = 0 %}
       {% for post in paginator.posts %}
-        {% if forloop.index == 5 %}
-          <!-- Adspace: an advertisement can be added here. -->
-          <article class="post">
+        {% unless post.tags contains 'pinned' %}
+          {% if forloop.index == 5 %}
+            <!-- Adspace: an advertisement can be added here. -->
+            <article class="post">
 
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-            <div class="entry">
-              <p><span class="post_date"><i>{{ post.date | date: "%B %e, %Y" }}</i></span> — {{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            </div>
+              <div class="entry">
+                <p><span class="post_date"><i>{{ post.date | date: "%B %e, %Y" }}</i></span> — {{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+              </div>
 
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More ⟶</a>
-          </article>
-        {% else %}
-          <article class="post">
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More ⟶</a>
+            </article>
+          {% else %}
+            <article class="post">
 
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-            <!-- <div>
-              <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
-            </div> -->
+              <div class="entry">
+                <p><span class="post_date"><i>{{ post.date | date: "%B %e, %Y" }}</i></span> — {{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+              </div>
 
-            <div class="entry">
-              <p><span class="post_date"><i>{{ post.date | date: "%B %e, %Y" }}</i></span> — {{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            </div>
-
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More ⟶</a>
-          </article>
-        {% endif %}
-        {% assign i = i | plus:1 %}
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More ⟶</a>
+            </article>
+          {% endif %}
+          {% assign i = i | plus:1 %}
+        {% endunless %}
       {% endfor %}
       
       <!-- pagination -->
