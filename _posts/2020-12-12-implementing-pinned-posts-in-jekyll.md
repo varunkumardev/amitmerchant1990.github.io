@@ -68,9 +68,9 @@ The end result would look like below.
 
 ![pinned post jekyll](/images/pinned-post-jekyll.png)
 
-## Remove pinned posts from the main list
+## Exclude pinned posts from the main list
 
-The last thing I did was to remove pinned posts from the main list of posts because that is redundant and repetitive.
+The last thing I did was to exclude pinned posts from the main list of posts because that is redundant and repetitive.
 
 To do so, I added a check to only render the posts which are not marked as pinned in the main loop which renders all of the posts like so.
 
