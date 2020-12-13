@@ -20,7 +20,7 @@ To begin with, I've set up this blog using this [Jekyll](https://jekyllrb.com/) 
 
 Back then, the blog used to [look like this](http://web.archive.org/web/20161010120522/http://www.amitmerchant.com/).
 
-{% include image.html file="initial-days.png" description="This is how it looked like in 2016" %}
+{% include image.html file="initial-days-updated.png" description="This is how it looked like in 2016" %}
 
 Nothing fancy there, no? Just a photo of me(posing as an Iron Man) as a logo, a few pages including About and Projects pages and a couple of blog posts and that's about it! In other words, "Pretty bland".
 
@@ -50,7 +50,7 @@ I read a lot of great blogs around the web and I draw a lot of design inspiratio
 
 I wanted to implement a similar kind of grid on my blog. So, I got to learn about CSS grids in the process and implemented the following grid on the [homepage](/).
 
-{% include image.html file="article-grid.png" description="Featured Articles using CSS grid" %}
+{% include image.html file="article-grid-updated.png" description="Featured Articles using CSS grid" %}
 
 Also, I liked the floating "Next" and "Previous" navigation links on the [Swift by Sundell](https://www.swiftbysundell.com/) blog, where the links appear on each blog post can be used to go to previous or next blog posts adjacent to the current post. I liked these links mainly because it's non-intrusive yet functional at the same time. So, I tried implementing the same on my blog with a pinch of design changes from my end. It turned out great and after implementing it, I feel the [bounce rate](https://en.wikipedia.org/wiki/Bounce_rate) on my blog has been reduced significantly.
 
