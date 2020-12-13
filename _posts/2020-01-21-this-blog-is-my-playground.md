@@ -5,7 +5,12 @@ image: /cdn/this-blog-is-my-playground.png
 categories: [Miscellaneous]
 ---
 
-I started this website to establish my web presence on the holy internet. I wanted to keep a portfolio of my projects and to blog about random stuff(very rarely). Back then, I was only used to post articles whenever I feel like. But then, something's changed.
+I started this website to establish my web presence on the holy internet. I wanted to keep a portfolio of my projects and to blog about random stuff (very rarely). Back then, I was only used to post articles whenever I feel like. But then, something's changed.
+
+* TOC
+{:toc}
+
+### The beggining
 
 To begin with, I've set up this blog using this [Jekyll](https://jekyllrb.com/) theme called [Jekyll Now](https://www.jekyllnow.com/). I chose it mainly because...
 
@@ -23,7 +28,9 @@ But then from late 2018, I've started improving the overall experience of the wh
 
 ### Designed a logo
 
-I've, first of all, designed [this logo](/images/logo.png) which I think helped establish this blog kind of like a brand. The logo that you currently seeing is the one I've designed 2 years ago. I've designed it using an app called Inkdrop. I'm no graphic designer. But trust me, if you really want to do something, you'll find the way. I looked up to a couple of YouTube tutorials about designing a logo using Inkdrop. I followed those and I ended up with this beautiful logo which I'm using ever since.
+I've, first of all, designed [this logo](/images/logo.png) which I think helped establish this blog kind of like a brand. The logo that you currently seeing is the one I've designed 2 years ago. I've designed it using an app called Inkdrop. I'm no graphic designer. But trust me, if you really want to do something, you'll find the way. I looked up to a couple of YouTube tutorials about designing a logo using [Inkscape](https://inkscape.org/). I followed those and I ended up with this beautiful logo which I'm using ever since.
+
+This way I learned the tid-bits of graphic designing. 
 
 ### Made design-related decisions
 
@@ -31,7 +38,9 @@ Then I began with overhauling the design of the blog. I wanted to give a unique 
 
 The theme I was using was pretty simple. Not that this is a bad thing, but I wanted more. For instance, the theme lacked pagination. So, I looked for the solution. Turned out, there was already a Jekyll plugin called [jekyll-paginate](https://github.com/jekyll/jekyll-paginate) for GitHub Pages that I needed to add in the `_config.yml` of the theme. I added it and there I have a nice pagination system setup for my blog.
 
-There were many such features in Jekyll that got enabled just by adding plugins likewise. That was, however, not enough. 
+Then I wanted to make some of the things available on each page. To do is, I would need a two-column layout. And so, I've [converted](/how-to-create-two-column-layout-using-flexbox-css/) this blog from a single-column layout to having a 2-column layout.
+
+The point here is, I'm my own boss when it comes to take decisions for my blog. There's no one who would validate and judge my ideas and that gives me freedom to tweak the design however I want.
 
 ### Learned CSS grids
 
@@ -56,6 +65,8 @@ I've also implemented [OpenSearch](https://developer.mozilla.org/en-US/docs/Web/
 
 ## In closing
 
-The entire point of this article is I've learned many new things while maintaining and growing this particular blog and I'm still learning. I'm improving my blog every day by incorporating new things into it as and when I come across one. The blog is now reaching a wider audience, so I try to keep it on standards on par with the great ones in the same territory. I'm happy with the current state of the blog but I won't miss the opportunity to improve it further if there's a scope. Let me know if you've any suggestions. 
+The entire point of this article is I've learned many new things while maintaining and growing this particular blog and I'm still learning. I'm improving my blog everyday by incorporating new things into it as and when I come across one. 
+
+The blog is now reaching a wider audience, so I try to keep it in sync with standards on par with the great ones in the same territory. I'm happy with the current state of the blog but I won't miss the opportunity to improve it further if there's a scope. Let me know if you've any suggestions. 
 
 Until next time!
