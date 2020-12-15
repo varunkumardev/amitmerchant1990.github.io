@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Monitor a Laravel App with Scout APM (Sponsor)
-image: /cdn/monitor-a-laravel-app-with-scout-apm.png
+image: /cdn/monitor-a-laravel-app-with-scout-apm-1.png
 categories: [Laravel]
 fluidbox: true
 ---
