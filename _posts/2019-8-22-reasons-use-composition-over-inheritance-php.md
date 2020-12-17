@@ -7,9 +7,12 @@ categories: [PHP]
 
 In object oriented programming, there are two ways using which classes can achieve polymorphic behaviour: _"Inheritance"_ & _"Composition"_.
 
-Inheritance is the mechanism of basing an object or class upon another object or class, retaining similar implementation. In other words, using inheritance a class inherits fields and methods from all its superclasses, whether direct or indirect. A subclass can override methods that it inherits, or it can hide fields or methods that it inherits. Inheritance establishes an "is-a" relationship between classes. For example, "A car is a vehicle". Meaning a cat "inherits" all the traits of an animal.
+Inheritance is the mechanism of basing an object or class upon another object or class, retaining similar implementation. In other words, using inheritance a class inherits fields and methods from all its superclasses, whether direct or indirect. A subclass can override methods that it inherits, or it can hide fields or methods that it inherits. Inheritance establishes an ***"is-a"*** relationship between classes. For example, "A car *is a* vehicle". Meaning a cat "inherits" all the traits of an animal.
 
-On the other hand, Composition is the mechanism to reuse code across classes by containing instances of other classes that implement the desired functionality. A composition establishes a "has-a" relationship between classes. For example "A car has an engine". There are number of reasons which favors the use of composition over inheritance.
+On the other hand, Composition is the mechanism to reuse code across classes by containing instances of other classes that implement the desired functionality. A composition establishes a ***"has-a"*** relationship between classes. For example, "A car *has an* engine". There are a number of reasons which favors the use of composition over inheritance. Let's go over them each.
+
+* TOC
+{:toc}
 
 ## Maintainability and loose coupling
 
