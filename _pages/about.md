@@ -18,4 +18,5 @@ This blog is a place to brain-dump things which I learn on a daily basis. It has
 
 You can contact me at **bullredeyes@gmail.com** if you want to discuss something with me or just want to say "Hi!". For any sort of business inquiries or advertisement opportunities, you can navigate to [this page](/contact) for more details.
 
-_Hasta la vista!_
+<div>Cheers,</div>
+<div>Amit</div>
