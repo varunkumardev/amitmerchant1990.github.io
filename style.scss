@@ -1489,15 +1489,13 @@ Modules - reusable parts of our design
     }
 
     .kofi-btn-container{
-      display: inline-block!important;
-      white-space: nowrap;
-      min-width: 160px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(117px, 1fr));
+      gap: 1em;
 
       a.kofi-button {
         box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
         line-height: 36px!important;
-        min-width: 150px;
-        display: inline-block!important;
         background-color: #c60fe4;
         padding: 2px 12px !important;
         text-align: center !important;
@@ -1515,8 +1513,7 @@ Modules - reusable parts of our design
 
         span.kofitext {
           color: #fff !important;
-          letter-spacing: -0.15px!important;
-          text-wrap: none;
+          letter-spacing: -0.15px !important;
           vertical-align: middle;
           line-height: 33px !important;
           padding: 0;
@@ -1524,21 +1521,44 @@ Modules - reusable parts of our design
           text-decoration: none!important;
           text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
 
-          img.kofiimg {
-            display: initial!important;
-            vertical-align: middle;
-            padding-top: 0;
-            padding-bottom: 0;
-            border: none;
-            margin-top: 0;
-            margin-right: 5px;
-            margin-left: 0;
-            margin-bottom: 3px;
-          }
-
           .coffee-svg {
             vertical-align: middle;
             margin-bottom: 6px;
+          }
+        }
+      }
+
+      a.newsletter-button {
+        box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+        line-height: 36px!important;
+        background-color: #673AB7;
+        padding: 2px 12px !important;
+        text-align: center !important;
+        border-radius: 7px;
+        color: #fff;
+        cursor: pointer;
+        overflow-wrap: break-word;
+        vertical-align: middle;
+        border: 0 none #fff !important;
+        font-family: 'Quicksand',Helvetica,Century Gothic,sans-serif !important;
+        text-decoration: none;
+        text-shadow: none;
+        font-weight: 700!important;
+        font-size: 14px !important;
+
+        span.newslettertext {
+          color: #fff !important;
+          letter-spacing: -0.15px!important;
+          vertical-align: middle;
+          line-height: 38px !important;
+          padding: 0;
+          text-align: center;
+          text-decoration: none!important;
+          text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
+
+          .newsletter-svg {
+            vertical-align: middle;
+            margin-bottom: 4px;
           }
         }
       }
