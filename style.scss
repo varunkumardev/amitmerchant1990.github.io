@@ -1488,10 +1488,14 @@ Modules - reusable parts of our design
       }
     }
 
-    .donation-btn-container{
+    .donation-btn-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(176px, 1fr));
       gap: 1em;
+
+      a:hover {
+        transform: scale(1.03);
+      }
 
       a.kofi-button {
         box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
