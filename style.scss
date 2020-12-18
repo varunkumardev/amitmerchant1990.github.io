@@ -293,42 +293,34 @@ p {
 }
 
 .projects-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+  gap: 1em;
 
-  div {
-    flex: 0 46%;
-
-    @include tablet {
-      flex: inherit;
-    }
-  }
-}
-
-.project-box {
-  padding: 15px;
-  box-shadow: rgba(36,37,38,0.21) 2px 1px 7px 0px;
-  border-radius: 10px;
-  margin: 10px;
-
-  h2 {
-    text-align: left;
-    font-size: 25px;
-    margin: 0;
-  }
-
-  p {
-    margin: 0;
-  }
-
-  blockquote {
-    p {
-      margin: 0 0 5px 0;
-    }
-  }
-
-  img {
+  .project-box {
+    padding: 15px;
+    box-shadow: rgba(36,37,38,0.21) 2px 1px 7px 0px;
     border-radius: 10px;
+  
+    h2 {
+      text-align: left;
+      font-size: 25px;
+      margin: 0;
+    }
+  
+    p {
+      margin: 0;
+    }
+  
+    blockquote {
+      p {
+        margin: 0 0 5px 0;
+      }
+    }
+  
+    img {
+      border-radius: 10px;
+    }
   }
 }
 
