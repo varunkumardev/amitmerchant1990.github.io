@@ -1709,6 +1709,7 @@ Modules - reusable parts of our design
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 1fr;
     gap: 0.5em;
 
     .column {
