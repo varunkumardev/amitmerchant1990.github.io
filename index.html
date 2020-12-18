@@ -8,48 +8,42 @@ layout: default
     <div class="featured-articles-container">
       <h1>⚡ Featured Articles</h1>
 
-      <div>
-        {% assign j = 0 %}
+      <div class="grid-container">
         {% for article in site.top_articles %}
-          {% if j == 0 or j == 3 %}
           <div class="row">
-          {% endif %}
             <a href="{{article.url}}" class="top-articles-link">
               <article class="column">
                 {{article.title}}
               </article>
             </a>
-          {% if j == 2 or j == 5 %}
           </div>
-          {% endif %}
-          {% assign j = j | plus:1 %}
         {% endfor %}
       </div>
     </div>
 
     <div class="additional-links">
-      <ul class="grid item-list compact quick-links">
-        <li>
+      <div class="grid item-list compact quick-links">
+        <span>
           <a href="/feed">
             <span>Subscribe via RSS</span>
           </a>
-        </li>
-        <li>
+        </span>
+        <span>
           <a href="/categories">
             <span>Browse by category</span>
           </a>
-        </li>
-        <li>
+        </span>
+        <span>
           <a href="/contact">
             <span>Get in touch</span>
           </a>
-        </li>
-        <li>
+        </span>
+        <span>
           <a href="https://www.youtube.com/c/AmitMerchant" target="_blank">
             <span>YouTube Channel</span>
           </a>
-        </li>
-      </ul>
+        </span>
+      </div>
     </div>
     {% endif %}
 

@@ -719,46 +719,11 @@ span[data-pullquote]:before {
 }
 
 @media screen and (min-width: 800px) {
-  .row {
-    display: grid;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 12px;
-  }
-  .column {
-    flex: 1;
-    margin: 6px;
-  }
   ._25 {
     flex: 2.5;
   }
   ._5 {
     flex: 5;
-  }
-}
-
-.column {
-  background: #673AB7;
-  margin: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 18px;
-  border-radius: 10px;
-  background-image: radial-gradient(circle 346px at 0.3% 100%, #3e4ca7 0%, #ea6dff 100.7%);
-  text-align: center;
-  box-shadow: 3px 2px 6px 0px #abababc9;
-  height: 100%;
-
-  &:hover {
-    background-image: radial-gradient(circle 346px at 0.3% 100%, #EA6DFF 0%, #3e4ca7 56.7%);
-  }
-
-  a {
-    color: #fff;
-    font-weight: bold;
-    letter-spacing: 0.5px;
   }
 }
 
@@ -1175,8 +1140,7 @@ Modules - reusable parts of our design
 }
 
 // Additional links grid
-.item-list > li {
-  margin-top: 5px;
+.item-list > span {
   background-image: linear-gradient(225deg, #6a7dfb 0%, #764fbf 50%, #f588ae 90%);
   padding: 12px 14px;
   border-radius: 10px;
@@ -1185,31 +1149,28 @@ Modules - reusable parts of our design
 
 .additional-links {
   margin-bottom: 20px;
+  margin-top: 5px;
 
   ul {
     list-style-type: none;
     margin-block-start: 0;
     margin-block-end: 0;
-    padding: 0 5px 0 5px;
+    padding: 0;
   }
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-}
-
-.grid > * {
-  display: flex;
 }
 
 .item-list.quick-links {
   margin-top: 0;
-  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+
+  &> * {
+    display: flex;
+  }
 }
 
-.item-list.quick-links > li {
+.item-list.quick-links > span {
   padding: 0;
   font-weight: bold;
   display: flex;
@@ -1228,7 +1189,7 @@ Modules - reusable parts of our design
   align-items: center;
 }
 
-.item-list > li > a {
+.item-list > span > a {
   display: block;
   width: 100%;
   padding: 12px 14px;
@@ -1744,6 +1705,35 @@ Modules - reusable parts of our design
 
 .featured-articles-container {
   padding-bottom: 0.5em;
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5em;
+
+    .column {
+      display: flex;
+      background: #673AB7;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      border-radius: 10px;
+      background-image: radial-gradient(circle 346px at 0.3% 100%, #3e4ca7 0%, #ea6dff 100.7%);
+      text-align: center;
+      box-shadow: 3px 2px 6px 0px #abababc9;
+      height: 100%;
+    
+      &:hover {
+        background-image: radial-gradient(circle 346px at 0.3% 100%, #EA6DFF 0%, #3e4ca7 56.7%);
+      }
+    
+      a {
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
 
   h1 {
     margin: 6px 0 15px;
