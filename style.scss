@@ -1488,39 +1488,24 @@ Modules - reusable parts of our design
       }
     }
 
-    .kofi-btn-container{
+    .donation-btn-container{
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(117px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(176px, 1fr));
       gap: 1em;
 
       a.kofi-button {
         box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
-        line-height: 36px!important;
+        line-height: 36px !important;
         background-color: #c60fe4;
         padding: 2px 12px !important;
         text-align: center !important;
         border-radius: 7px;
         color: #fff;
         cursor: pointer;
-        overflow-wrap: break-word;
-        vertical-align: middle;
-        border: 0 none #fff !important;
-        font-family: 'Quicksand',Helvetica,Century Gothic,sans-serif !important;
-        text-decoration: none;
-        text-shadow: none;
         font-weight: 700!important;
         font-size: 14px !important;
 
         span.kofitext {
-          color: #fff !important;
-          letter-spacing: -0.15px !important;
-          vertical-align: middle;
-          line-height: 33px !important;
-          padding: 0;
-          text-align: center;
-          text-decoration: none!important;
-          text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
-
           .coffee-svg {
             vertical-align: middle;
             margin-bottom: 6px;
@@ -1530,32 +1515,17 @@ Modules - reusable parts of our design
 
       a.newsletter-button {
         box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
-        line-height: 36px!important;
+        line-height: 36px !important;
         background-color: #673AB7;
         padding: 2px 12px !important;
         text-align: center !important;
         border-radius: 7px;
         color: #fff;
         cursor: pointer;
-        overflow-wrap: break-word;
-        vertical-align: middle;
-        border: 0 none #fff !important;
-        font-family: 'Quicksand',Helvetica,Century Gothic,sans-serif !important;
-        text-decoration: none;
-        text-shadow: none;
-        font-weight: 700!important;
+        font-weight: 700 !important;
         font-size: 14px !important;
 
         span.newslettertext {
-          color: #fff !important;
-          letter-spacing: -0.15px!important;
-          vertical-align: middle;
-          line-height: 38px !important;
-          padding: 0;
-          text-align: center;
-          text-decoration: none!important;
-          text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
-
           .newsletter-svg {
             vertical-align: middle;
             margin-bottom: 4px;
