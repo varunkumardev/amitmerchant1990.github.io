@@ -455,6 +455,140 @@ p > img {
   }
 }
 
+/* hamburger menu */
+.header {
+  background-color: #fff;
+  width: 100%;
+
+  .menu {
+    clear: both;
+    max-height: 0;
+
+    .magnifier {
+        width: 22px;
+        vertical-align: middle;
+    }
+  }
+
+  .menu-btn {
+    display: none;
+
+    &:checked ~ .menu {
+      max-height: 100%;
+      box-shadow: 1px 2px 12px 0px #7b7a7ac9;
+      border-radius: 13px;
+      position: absolute;
+      top: 13px;
+      left: 0;
+      right: 0;
+      margin: 0 6px;
+    }
+
+    &:checked ~ .menu-icon .navicon {
+      background: transparent;
+    }
+
+    &:checked ~ .menu-icon .navicon:before {
+      transform: rotate(-45deg);
+    }
+
+    &:checked ~ .menu-icon .navicon:after {
+      transform: rotate(45deg);
+    }
+
+    &:checked ~ .menu-icon:not(.steps) .navicon:before,
+    &:checked ~ .menu-icon:not(.steps) .navicon:after {
+      top: 0;
+    }
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 11px 5px;
+    position: relative;
+    user-select: none;
+    z-index: 999;
+
+    .navicon {
+      background: #333;
+      display: block;
+      height: 2px;
+      position: relative;
+      transition: background .2s ease-out;
+      width: 18px;
+
+      &:before,
+      &:after {
+        background: #333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+      }
+
+      &:before {
+        top: 5px;
+      }
+
+      &:after {
+        top: -5px;
+      }
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+
+    li {
+      padding: 6px 0px;
+
+      a {
+        color: #333;
+          text-align: right;
+          font-weight: bold;
+          letter-spacing: 1px;
+          font-size: 18px;
+      }
+    }
+  }  
+}
+
+@media (min-width: 805px) {
+  .header {
+    li {
+      float: left;
+      padding: 0 !important;
+
+      a {
+        margin-left: 22px;
+        display: block;
+        font-size: 16px !important;
+      }
+    }
+
+    .menu {
+      margin-top: 25px !important;
+      clear: none;
+      float: right;
+      max-height: none;
+      box-shadow: none !important;
+      position: initial !important;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+  }
+}
+/* hamburger menu */
+
 .nav-menu {
   margin-top: 0 !important;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -34,7 +34,11 @@
     <div class="wrapper-container">
       <div class="wrapper-masthead">
         <div class="container">
-          <header class="masthead clearfix">
+          <header class="masthead clearfix header">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn">
+              <span class="navicon"></span>
+            </label>
             <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
             <div class="site-info">
               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
@@ -44,16 +48,18 @@
                 </a>
               </p> 
             </div>
-            <nav>
-              <a href="{{ site.baseurl }}/">Articles</a>
-              <a href="{{ site.baseurl }}/projects">Projects</a>
-              <a href="{{ site.baseurl }}/uses">Uses</a>
-              <a href="{{ site.baseurl }}/art">Art</a>
-              <a href="{{ site.baseurl }}/about">About</a>
-              <a href="{{ site.baseurl }}/search" title="Or press &quot;/&quot; to search">
-                <img src="/images/icons/magnifier.svg" alt="" class="magnifier">     
-              </a>
-            </nav>
+            <ul class="menu">
+              <li><a href="{{ site.baseurl }}/">Articles</a></li>
+              <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
+              <li><a href="{{ site.baseurl }}/uses">Uses</a></li>
+              <li><a href="{{ site.baseurl }}/art">Art</a></li>
+              <li><a href="{{ site.baseurl }}/about">About</a></li>
+              <li>
+                <a href="{{ site.baseurl }}/search" title="Or press &quot;/&quot; to search">
+                  <img src="/images/icons/magnifier.svg" alt="" class="magnifier">     
+                </a>
+              </li>
+            </ul>
           </header>
           <header class="masthead-menu clearfix">
             <nav class="nav-menu">
