@@ -4,9 +4,12 @@ title: Monitor a Laravel App with Scout APM (Sponsor)
 image: /cdn/monitor-a-laravel-app-with-scout-apm-1.png
 categories: [Laravel]
 fluidbox: true
+tags: pinned
 ---
 
-There is no denying the popularity of PHP. It has been a constant force in the web development world since its release in 1995. And now, thanks to Laravel, it is still going as strong as ever! To support this popularity, Scout APM works hard to provide a PHP application performance monitoring agent to sit alongside their existing [Ruby](https://docs.scoutapm.com/?&_ga=2.13897777.787953493.1607361874-1921515952.1591658385#ruby-agent), [Python](https://docs.scoutapm.com/?_ga=2.13897777.787953493.1607361874-1921515952.1591658385#python-agent), [Node.js](https://docs.scoutapm.com/#nodejs-agent), and [Elixir](https://docs.scoutapm.com/?_ga=2.121896717.787953493.1607361874-1921515952.1591658385#elixir-agent) agents, and we thought it would be a good idea to show you folks how easy it is to get started with it and to highlight the main features to the Laravel community.
+There is no denying the popularity of PHP. It has been a constant force in the web development world since its release in 1995. And now, thanks to Laravel, it is still going as strong as ever! 
+
+To support this popularity, Scout APM works hard to provide a PHP application performance monitoring agent to sit alongside their existing [Ruby](https://docs.scoutapm.com/?&_ga=2.13897777.787953493.1607361874-1921515952.1591658385#ruby-agent), [Python](https://docs.scoutapm.com/?_ga=2.13897777.787953493.1607361874-1921515952.1591658385#python-agent), [Node.js](https://docs.scoutapm.com/#nodejs-agent), and [Elixir](https://docs.scoutapm.com/?_ga=2.121896717.787953493.1607361874-1921515952.1591658385#elixir-agent) agents, and we thought it would be a good idea to show you folks how easy it is to get started with it and to highlight the main features to the Laravel community.
 
 * TOC
 {:toc}
