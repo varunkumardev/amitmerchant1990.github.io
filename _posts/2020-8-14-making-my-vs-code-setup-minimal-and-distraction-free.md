@@ -29,7 +29,7 @@ Pretty clean, isn't it? If you find this interesting, I'll walk you through all 
 
 First, let's get rid of the status bar which lies in the bottom of the editor which shows the file language, current line and column numbers, and a few Git related things. I personally don't make use of the status bar and so, I removed it.
 
-To remove it, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Status Bar Visibility` and select it. This will remove the status bar from the bottom.
+To remove it, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggle Status Bar Visibility` and select it. This will remove the status bar from the bottom.
 
 ### Remove Activity Bar
 
