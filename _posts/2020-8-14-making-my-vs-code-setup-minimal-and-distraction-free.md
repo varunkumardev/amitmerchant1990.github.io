@@ -43,13 +43,13 @@ Next, let's get rid of the Activity Bar which sits in the far left. This provide
 
 It's just a matter of remembering these shortcuts and we can safely hide this Activity Bar as well.
 
-To do this, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Activity Bar Visibility` and select it. This will remove the activity bar.
+To do this, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggle Activity Bar Visibility` and select it. This will remove the activity bar.
 
 ### Remove Side Bar
 
 Next, we can proceed to hide the entire sidebar which holds the explorer, the source control, search, and extension panel. 
 
-For this, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Side Bar Visibility` and select it. This will remove the activity bar. Of course, you can toggle the visibilty of the sidebar anytime you want.
+For this, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggle Side Bar Visibility` and select it. This will remove the activity bar. Of course, you can toggle the visibilty of the sidebar anytime you want.
 
 Sweet! At this point, your editor would be looking much cleaner and sober than before but we still have work to do.
 
@@ -57,7 +57,7 @@ Sweet! At this point, your editor would be looking much cleaner and sober than b
 
 Next, we'll aim to remove the minimap that comes in-built and can be seen far right. It has the sole purpose to give you a high-level overview of your source code. Personally, I don't rely upon it and so I've removed it as well.
 
-To do this, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggel Minimap` and select it. And bam! The minimap is gone as well!
+To do this, open command palette (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and search `Toggle Minimap` and select it. And bam! The minimap is gone as well!
 
 ### Remove Menubar and Gutter (Line Numbers)
 
@@ -65,7 +65,7 @@ Now, the only thing remains is to hide the menubar and remove the gutter that sh
 
 First, let's remove menubar. To remove it, Go to **View > Appearance** and toggle **"Show Menu Bar"** option. This will hide the menubar. But, if in any case, you want to access it, you can do it by pressing <kbd>Alt</kbd>, and it'll appear right there.
 
-And to remove the gutter, we have to change a couple of settings. For that go to the **"Settings"** and find the below preferences and change those values as I mention here.
+And to remove the gutter, we have to change a couple of settings. For that, go to the **"Settings"** and find the below preferences and change those values as I mention here.
 
 ```json
 "editor.lineNumbers": "off"
