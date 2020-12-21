@@ -7,7 +7,7 @@ image: https://raw.githubusercontent.com/amitmerchant1990/test/master/markdownif
 fluidbox: true
 ---
 
-These are some of the projects I've worked on in my spare time.
+These are some of the projects I've worked on in my spare time. All of these project are [open-source](https://github.com/amitmerchant1990). So, you can go and peek into their codebase and help me improve them further if you want. 
 
 <div class="projects-container" style="">
 <div markdown="1" class="project-box">
