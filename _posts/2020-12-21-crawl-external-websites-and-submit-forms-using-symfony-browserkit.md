@@ -98,3 +98,5 @@ If you want to see the practical usage of this component, check Beyond Code's [f
 ## In closing
 
 There are a lot of use-cases in which you can make use of this amazing package. You can go even further by coupling it with [CssSelector](https://symfony.com/doc/current/components/css_selector.html) and [DomCrawler](https://symfony.com/doc/current/components/dom_crawler.html) components to get the most out of it.
+
+Check out BrowserKit's [offical documentation](https://symfony.com/doc/current/components/browser_kit.html) to learn more about it.
