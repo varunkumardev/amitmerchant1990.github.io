@@ -99,7 +99,8 @@
     </div>
 
     <script type="text/javascript" src="/js/confetti.min.js" async></script>
-    <script type="text/javascript" src="/js/konami.js" async></script> 
+    <script type="text/javascript" src="/js/konami.js" async></script>
+    <script type="text/javascript" src="/js/app.js" async></script> 
     
     {% if page.fluidbox %}
     <script type="text/javascript" src="/js/jquery.min.js"></script>
@@ -111,16 +112,6 @@
     });
     </script>
     {% endif %}
-
-    <script>
-    window.addEventListener('keypress', function (e) {
-      // Navigates to search 
-      // page on pressing "/"
-      if (e.keyCode === 47) {
-        window.location.href = '/search';
-      }
-    }, false);
-    </script>
     <!-- <script src="https://cdn.purpleads.io/load.js?publisherId=b72b54e2f48e07a22d3370ef8993e629:6117f14bdc4cf05ee1e3c8aac50038d71dfd7f01d7c4fe4c0a94f0c616a84cc14b66922c468f679fd422e76c62354f4112dd0e632d6c1173d6e7443ad9350578" id="purpleads-client" async></script> -->
     
     {% include analytics.html %}
