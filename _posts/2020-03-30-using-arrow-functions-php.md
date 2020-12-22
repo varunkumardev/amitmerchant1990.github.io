@@ -41,7 +41,7 @@ print_r($numbers);
 ?>
 ```
 
-The entire code is now reduced to just one line. It’s now more readable, shorter and clean now. And as an added bonus, you now don’t have to pass the local varible (in above example `$factor`) using `use` explicitly. It’ll be accessible in the arrow function automatically.
+The entire code is now reduced to just one line. It’s more readable, shorter and clean now. And as an added bonus, you now don’t have to pass the local varible (in above example `$factor`) using `use` explicitly. It’ll be accessible in the arrow function automatically.
 
 Also, because arrow functions have an implicit "return", it makes them ideal for single expressions rather than blocks of procedural code.
 
