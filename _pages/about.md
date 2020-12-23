@@ -6,7 +6,7 @@ permalink: /about/
 
 ![about-picture](/images/profilesnap.JPG){:.about-picture}
 
-<h2 style="text-align: left;">Allo! Allo! Thank you for stopping by here. I'm Amit, a software engineer and tech blogger from India.</h2>
+<h2 style="text-align: left;">Allo! Allo! Thank you for stopping by at my creative outlet. I'm Amit, a software engineer and tech blogger from India.</h2>
 
 I obtained my undergraduate degree from the [Sarvajanik College Of Engineering & Technology, Surat](http://scet.ac.in) (Computer Science and Engineering, 2011).
 
