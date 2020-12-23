@@ -49,7 +49,7 @@ Or you can use it in conjunction with the [null coalescing assignment operator](
 $value = fn() => $nullableValue ?? throw new Exception();
 ```
 
-### Usage ternary operation
+### Usage in ternary operation
 
 Or in a ternary operation like so.
 
