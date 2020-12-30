@@ -76,7 +76,7 @@ I use [Spark](https://spark.adobe.com/) by Adobe to create image banners for my 
 
 I'm an avid reader so I've kept a list of RSS feeds of my favorite blogs in [Feeder](https://feeder.co).
 
-## Conclusion
+## In closing
 
 So, that's about it. These are all the things which I use on a day-to-day basis at my work/home to get the things done. I hope you enjoyed reading it as much as I enjoyed writing it. Let me know in the comments below if you want to know anything which might have missed in the article.
 
