@@ -5,7 +5,10 @@ title: The things I'm currently using
 image: /images/uses.png
 ---
 
-This page enlists the collection of things that I'm currently using to get my work done. This includes the software, hardware, and accessories that I'm using on a daily basis at home/work. 
+This page enlists the collection of things that I'm currently using to get my work done. This includes the software, hardware, and accessories that I'm using on a daily basis at home/work.
+
+* TOC
+{:toc}
 
 ## Hardware
 
@@ -19,7 +22,7 @@ As for the keyboard, currently, I'm using a mechanical keyboard called [Zebronic
 
 I also have a [Transcend's StoreJet 1TB external hard drive](https://www.amazon.in/Transcend-StoreJet-2-5-inch-Portable-External/dp/B005MNGQ6C) where I store my backups and all my multimedia holdings. 
 
-My phone's a [Xiaomi Mi A1](https://en.wikipedia.org/wiki/Xiaomi_Mi_A1). The reason why it's my daily driver is that I'm a stock android enthusiast and this is an [Android One](https://en.wikipedia.org/wiki/Android_One) phone so I'll be on newest and greatest of Android for at least 2 years.
+My phone's a ~~[Xiaomi Mi A1](https://en.wikipedia.org/wiki/Xiaomi_Mi_A1)~~ [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a). The reason why it's my daily driver is that I'm a stock android enthusiast and ofcourse, it's coming from the God of Android itself.
 
 To listen to the music I've a pair of [Audio-Technica ATH-CLR100](https://www.audio-technica.com/cms/headphones/a0a8895f03d70c11/index.html), a [Boat Rockerz 400](https://www.boat-lifestyle.com/products/rockerz-400) On-Ear headphones, and a three-year-old Philip's Bluetooth speaker.
 
@@ -61,11 +64,15 @@ I occasionally record [screencasts](https://www.youtube.com/c/AmitMerchant). For
 
 I read a lot of eBooks. I use [Foliate](https://johnfactotum.github.io/foliate/) to read eBooks on my Ubuntu machine and [Google Play Books](https://play.google.com/books) to read on my mobile phone.
 
+## The Blog's Stack
+
 My current blog is setup on top of [Jekyll](https://jekyllrb.com/) which is a static site generator and is hosted on [GitHub Pages](https://pages.github.com/). The Jekyll theme that I'm using is called [Reverie](https://github.com/amitmerchant1990/reverie) which is a tailor-made according to my taste.
+
+The [search](/search/) in here is powered by [this little JavaScript library](https://github.com/christian-fei/Simple-Jekyll-Search) which is perfect for a static site built using Jekyll.
 
 For all my Markdown writing needs, I use an editor called [Markdownify](https://markdownify.js.org/) which I made two years ago. And for fixing grammar and typos, I use [Grammarly](http://grammarly.com/).
 
-I use [Crello](https://crello.com/) to create image banners for my articles.
+I use [Spark](https://spark.adobe.com/) by Adobe to create image banners for my articles.
 
 I'm an avid reader so I've kept a list of RSS feeds of my favorite blogs in [Feeder](https://feeder.co).
 
