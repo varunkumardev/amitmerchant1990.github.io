@@ -68,7 +68,7 @@ if (!($bar instanceof Foo)) {
 }
 ```
 
-...You can simplify it using `get_debug_type` like so.
+...You can simplify it using `get_debug_type` (like [get_class](https://www.php.net/manual/en/function.get-class.php)) like so.
 
 ```php
 <?php
