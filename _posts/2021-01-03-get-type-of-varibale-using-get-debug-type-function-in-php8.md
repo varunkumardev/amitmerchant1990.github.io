@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Get native type of a varibale using get_debug_type() in PHP 8
-image: /cdn/get-type-of-varibale-using-get-debug-type-function-in-php8.png
+title: Get native type of a variable using get_debug_type() in PHP 8
+image: /cdn/get-type-of-variable-using-get-debug-type-function-in-php8.png
 categories: [PHP]
 ---
 
