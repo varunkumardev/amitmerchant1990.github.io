@@ -46,7 +46,7 @@ I love everything dark. Editor themes are no exception. Both my editor and IDE i
 
 I use [Postman](https://www.getpostman.com/) to perform API calls.
 
-I'm sucked into Google's ecosystem of software. I store all my photos on [Google Photos](https://photos.google.com) and occasionally edit them on [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=en_IN). 
+I'm sucked into Google's ecosystem of software. I store all my photos on [Google Photos](https://photos.google.com) and occasionally edit them on [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=en_IN).
 
 [Google Chrome](https://www.google.com/chrome) is the browser of my choice.
 
@@ -66,7 +66,7 @@ I read a lot of eBooks. I use [Foliate](https://johnfactotum.github.io/foliate/)
 
 ## The Blog's Stack
 
-My current blog is setup on top of [Jekyll](https://jekyllrb.com/) which is a static site generator and is hosted on [GitHub Pages](https://pages.github.com/). The Jekyll theme that I'm using is called [Reverie](https://github.com/amitmerchant1990/reverie) which is a tailor-made according to my taste.
+As for this blog, it is currently being setup on top of [Jekyll](https://jekyllrb.com/) which is a static site generator and is hosted on [GitHub Pages](https://pages.github.com/). The Jekyll theme that I'm using is called [Reverie](https://github.com/amitmerchant1990/reverie) which is a tailor-made according to my taste.
 
 The [search](/search/) in here is powered by [this little JavaScript library](https://github.com/christian-fei/Simple-Jekyll-Search) which is perfect for a static site built using Jekyll.
 
