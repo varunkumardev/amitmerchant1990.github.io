@@ -14,6 +14,9 @@ There are key differences when you export modules using both of these keywords. 
 
 So, let's start with `export`.
 
+* TOC
+{:toc}
+
 ## The `export` keyword
 
 When you want to export a class(or variable, function, class, type alias, or interface) that can be ready to be consumed by other modules, it can be exported using the `export` keyword.
