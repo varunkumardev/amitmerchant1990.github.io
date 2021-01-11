@@ -59,7 +59,7 @@ class UserController extends Controller
 
 As you can see, some of the methods here are using `$id` to identify the resource. 
 
-But you might want to use a model instance instead of an `id` when using [route model binding](https://www.amitmerchant.com/laravel-route-model-bindings/). What would you do in that case?
+But you might want to use a model instance instead of an `id` when using [route model binding](/laravel-route-model-bindings/). What would you do in that case?
 
 ## Using model instance in `make:controller`
 
