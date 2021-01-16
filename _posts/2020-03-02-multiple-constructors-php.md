@@ -7,6 +7,9 @@ categories: [PHP]
 
 Constructors are a really important part of the class-based object oriented programming. Through constuctors, a newly created objects initialize properties automatically before it is usable. In PHP, a constructor is a method named `__construct()`, which the keyword `new` automatically calls after creating the object. Constructors can also accept arguments, in which case, when the `new` statement is written, you also need to send the constructor arguments for the parameters.
 
+{:.you-may-like}
+> You may also like: [Method overloading in PHP](/method-overloading-in-php/)
+
 Here's an example of how a constructor can be defined in PHP.
 
 ```php
