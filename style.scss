@@ -773,6 +773,7 @@ p > img {
 .flex-right {
   width: 25%;
   @include mobile {
+    margin-top: 20px;
     width: 100%; 
   }
 }
