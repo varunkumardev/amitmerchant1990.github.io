@@ -9,14 +9,14 @@ When you are using Laravel queues, you might bump into the situation where you w
 
 Let's say the user's wallet balance is being updated by a job called `App\Jobs\UpdateUserWallet` and this job will get invoked each time the user does a transaction from his/her account. How can you make sure that the wallet balance of the user won't get updated by two different job instances at the same time? How can you maintain the integrity of the user's balance in such a case?
 
-Well, Laravel is being shipped with a handy job middleware called `WithoutOverlapping` just for this purpose.
+Well, Laravel is being shipped with a handy [job middleware](https://laravel.com/docs/8.x/queues#job-middleware) called `WithoutOverlapping` just for this purpose.
 
 * TOC
 {:toc}
 
 ## The `WithoutOverlapping` middleware
 
-The `WithoutOverlapping` middleware provided by Laravel can be used to prevent overlapping of jobs based on an arbitrary key. For instance, in our case, it would be the user's `id` for which we are updating the wallet's balance.
+The `WithoutOverlapping` [middleware](https://laravel.com/docs/8.x/queues#job-middleware) provided by Laravel can be used to prevent overlapping of jobs based on an arbitrary key. For instance, in our case, it would be the user's `id` for which we are updating the wallet's balance.
 
 This can prevent modifying the wallet's balance by two different instances of the same job by preventing them from overlapping each other. Meaning, if, for example, `App\Jobs\UpdateUserWallet` is dispatched and if you're using this middleware, it won't allow another instance of the job to be dispatched until the first job is completed.
 
