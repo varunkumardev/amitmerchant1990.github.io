@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A little known artisan command that can inspire you
-image: /cdn/an-artisan-command-to-inspire-you.png
+image: /cdn/an-artisan-command-to-inspire-you-1.png
 categories: [Laravel]
 fluidbox: true
 ---
