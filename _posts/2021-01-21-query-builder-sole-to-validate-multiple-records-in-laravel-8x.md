@@ -5,7 +5,7 @@ image: /cdn/eloquent-sole-to-validate-multiple-records-in-laravel-8x.png
 categories: [Laravel]
 ---
 
-With the latest release minor of Laravel, i.e. v8.23.0, a really interesting method has been introduced in Laravel's query builder for situation where you want to get the only record for the matching criteria. But if there are more records for this criteria, there should be some sort of exception.
+With the latest release minor of Laravel, i.e. [v8.23.0](https://github.com/laravel/framework/releases/tag/v8.23.0), a really interesting method has been introduced in Laravel's query builder for situation where you want to get the only record for the matching criteria. But if there are more records for this criteria, there should be some sort of exception.
 
 The method is called `sole()`. Let's understand it in detail.
 
