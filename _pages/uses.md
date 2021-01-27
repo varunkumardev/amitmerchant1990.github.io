@@ -5,7 +5,7 @@ title: The things I'm currently using
 image: /images/uses.png
 ---
 
-This page enlists the collection of things that I'm currently using to get my work done. This includes the software, hardware, and accessories that I'm using on a daily basis at home/work.
+This page enlists the collection of things that I'm currently using to get my work done. This includes the software, hardware, and accessories that I'm using on a daily basis at home/work. This page is ever updating.
 
 * TOC
 {:toc}
@@ -57,6 +57,8 @@ I use [Google Keep](https://keep.google.com) to get in sync with my todo lists a
 I use [KDE Connect](https://kdeconnect.kde.org/) to sync my files and clipboard across my Android phone and Ubuntu desktop. 
 
 To make vector graphics, I use [Vectr](https://vectr.com/).
+
+When I need to compress images, I use [TinyPNG](https://tinypng.com/). It uses smart lossy compression techniques to reduce the file size of your PNG files.
 
 I take a lot of screenshots. For this purpose, I use [Flameshot](https://flameshot.js.org/) as my primary screenshot tool and [Zoho Annotator](https://www.zoho.com/annotator/) to take take screenshots while I'm on Chrome.
 
