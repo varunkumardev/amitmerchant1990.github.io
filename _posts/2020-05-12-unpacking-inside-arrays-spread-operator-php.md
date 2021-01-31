@@ -37,6 +37,9 @@ print_r($result);
 
 You can even unpack multiple arrays into a single array which is not possible using methods such as `array_merge` as the method like these can only take two arrays at a time.
 
+{:.you-may-like}
+> You may like: [Array unpacking with string keys coming in PHP 8.1](https://www.amitmerchant.com/array-unpacking-with-string-keys-coming-in-php-81/)
+
 ## Caveat
 
 There's one issue however with this implementation. And that is you can not unpack the associative arrays. Doing so will throw a fatal error.
