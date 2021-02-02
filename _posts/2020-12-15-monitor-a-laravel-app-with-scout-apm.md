@@ -4,7 +4,6 @@ title: Monitor a Laravel App with Scout APM (Sponsor)
 image: /cdn/monitor-a-laravel-app-with-scout-apm-1.png
 categories: [Laravel]
 fluidbox: true
-tags: pinned
 ---
 
 There is no denying the popularity of PHP. It has been a constant force in the web development world since its release in 1995. And now, thanks to Laravel, it is still going as strong as ever! 
