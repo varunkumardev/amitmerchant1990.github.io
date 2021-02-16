@@ -28,6 +28,7 @@ fluidbox: true
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
+        border-radius: 10px;
     }
 
     /* Responsive layout - makes a two 
