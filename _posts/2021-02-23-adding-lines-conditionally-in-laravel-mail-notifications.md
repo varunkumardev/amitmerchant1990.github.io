@@ -5,7 +5,7 @@ image: /cdn/adding-lines-conditionally-in-laravel-mail-notifications.png
 categories: [Laravel]
 ---
 
-When working with Main notifications in Laravel, you'll often be in a situation where you would want to render something based on some condition. 
+When working with Mail notifications in Laravel, you'll often be in a situation where you would want to render something based on some condition. 
 
 For instance, you may want to render a line in the Mail notification only when a certain attribute is present/true. How would you do that?
 
