@@ -60,7 +60,7 @@ Now, if you can see, I'm rendering a `FormComponent` inside the popup which hold
 
 I wanted to close the popup on the successful form submission in the `FormComponent`. How can I toggle the `open` state from within `<FormComponent>`?
 
-To do so, all **I needed to do is to pass in the `setOpen` function as a [prop](https://reactjs.org/docs/components-and-props.html) to the `FormComponent`** like so.
+> To do so, all **I needed to do is to pass in the `setOpen` function as a [prop](https://reactjs.org/docs/components-and-props.html) to the `FormComponent`** like so.
 
 ```jsx
 {open && 
