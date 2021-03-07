@@ -65,7 +65,7 @@ To do so, all **I needed to do is to pass in the `setOpen` function as a [prop](
 ```js
 {open && 
     <div>
-        <Form
+        <FormComponent
             setOpen={setOpen}
         />
     </div>
