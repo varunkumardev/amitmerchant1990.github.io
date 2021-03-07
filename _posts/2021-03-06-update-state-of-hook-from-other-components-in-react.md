@@ -5,7 +5,7 @@ image: /cdn/update-state-of-hook-from-other-components-in-react.png
 categories: [React]
 ---
 
-React Hooks are a great way to add stateful logic into function components. So, if you want to maintain a state in the component you can do it using [useState](https://reactjs.org/docs/hooks-state.html) hook like so.
+React Hooks are a great way to add [stateful](https://reactjs.org/docs/state-and-lifecycle.html) logic into function components. So, if you want to maintain a state in the component you can do it using [useState](https://reactjs.org/docs/hooks-state.html) hook like so.
 
 ```js
 import React, { useState } from 'react';
