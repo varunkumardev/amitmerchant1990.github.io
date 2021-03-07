@@ -7,7 +7,7 @@ categories: [React]
 
 React Hooks are a great way to add [stateful](https://reactjs.org/docs/state-and-lifecycle.html) logic into function components. So, if you want to maintain a state in the component you can do it using [useState](https://reactjs.org/docs/hooks-state.html) hook like so.
 
-```js
+```jsx
 import React, { useState } from 'react';
 
 function Example() {
@@ -33,7 +33,7 @@ For instance, in one of the projects I'm working on, I needed to control the mod
 
 Here's how the modal component looks like.
 
-```js
+```jsx
 import React, { useState } from 'react';
 import FormComponent from './FormComponent';
 
@@ -58,11 +58,11 @@ function ModalPopup() {
 
 Now, if you can see, I'm rendering a `FormComponent` inside the popup which holds the form input manipulation operations.
 
-I wanted to close the popup on the successful form submission in the `FormComponent`. How can I toggle the `open` state from within `<ForFormComponentm>`?
+I wanted to close the popup on the successful form submission in the `FormComponent`. How can I toggle the `open` state from within `<FormComponent>`?
 
 To do so, all **I needed to do is to pass in the `setOpen` function as a [prop](https://reactjs.org/docs/components-and-props.html) to the `FormComponent`** like so.
 
-```js
+```jsx
 {open && 
     <div>
         <FormComponent
@@ -74,7 +74,7 @@ To do so, all **I needed to do is to pass in the `setOpen` function as a [prop](
 
 Once done, the `setOpen` is now accessible from within the `FormComponent`. So, if I want to close the popup on the form submission, I can do it like so.
 
-```js
+```jsx
 export default function FormComponent({
     setOpen
 }) {
