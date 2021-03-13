@@ -1553,6 +1553,14 @@ Modules - reusable parts of our design
   border: 10px solid #000;
 }
 
+.homepage-tags {
+  float: right;
+
+  @media (max-width: 420px) {
+    width: auto !important;
+  }
+}
+
 .post-tags {
   text-align: center;
   line-height: 35px;

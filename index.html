@@ -91,6 +91,7 @@ layout: default
             </div>
 
             <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More ⟶</a>
+            {% include homepage-tags.html %}
           </article>
         {% endfor %}
       {% endif %}
@@ -109,6 +110,7 @@ layout: default
               </div>
 
               <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More ⟶</a>
+              {% include homepage-tags.html %}
             </article>
           {% else %}
             <article class="post">
@@ -120,6 +122,7 @@ layout: default
               </div>
 
               <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More ⟶</a>
+              {% include homepage-tags.html %}
             </article>
           {% endif %}
           {% assign i = i | plus:1 %}
