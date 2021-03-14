@@ -37,7 +37,7 @@ Now, when you want to import it in another module, you can import it at the top 
 import {Users} from "./Users";
 ```
 
-Notice, we have used the array destructuring syntax of ES6 over here to retrieve `Users` from `Users.ts`. 
+Notice, we have used the object destructuring syntax of ES6 over here to retrieve `Users` from `Users.ts`. 
 
 So, whenever we export a module using `export`, it's important to make sure that the class, function, variable or interface that you're exporting has a name. And because, it's important to have a named declaration (such as a variable, function, class, type alias, or interface), you can export multiple declarations from the same file.
 
@@ -87,7 +87,7 @@ As you can see, we didn't have the name of the class over here. Classes and func
 import UsersFactory from "./Users";
 ```
 
-Notice, when the module is exported as default, you don't have to use array destructuring and you can import under whatever name you want. As you can see, I've imported it under the `UsersFactory` name.
+Notice, when the module is exported as default, you don't have to use object destructuring and you can import under whatever name you want. As you can see, I've imported it under the `UsersFactory` name.
 
 >  **Important:** There can only be one default export per module.
 
