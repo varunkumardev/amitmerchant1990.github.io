@@ -142,6 +142,9 @@ class Book extends Model
 
 Under the hood, this `HasFactory` trait returns a new factory instance for the model and because of which we can directly use the factory on models.
 
+{:.you-may-like}
+> Related ➔ [Seeding model rows based on the user input in Laravel](/seeding-model-rows-based-on-user-input-in-laravel/)
+
 Now, you can seed the database using the good old `php artisan db:seed` command and it will seed the database with five new records in the `books` table.
 
 ## Using factories elsewhere in code
