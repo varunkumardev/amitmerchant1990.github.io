@@ -75,6 +75,9 @@ class BookSeeder extends Seeder
 
 Now, when you run the seeder using `php artisan db:seed --class=BookSeeder`, you will be prompted with the question *"How many books you want to create?"*. You can then provide the number of rows you want to seed or just press enter which will generate 10 rows by default.
 
+{:.you-may-like}
+> Related ➔ [Class based model factories in Laravel 8](/class-based-model-factories-in-laravel-8/)
+
 Here's how it would look like.
 
 [![](/images/dynamic-seeding.png)](/images/dynamic-seeding.png)
