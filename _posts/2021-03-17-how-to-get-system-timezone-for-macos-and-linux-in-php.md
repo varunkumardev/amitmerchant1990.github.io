@@ -20,6 +20,7 @@ function fetchTimeZoneLinux()
     }
 
     return exec('date +%Z', $_, $exitCode);
+    // IST
 }
 ```
 
