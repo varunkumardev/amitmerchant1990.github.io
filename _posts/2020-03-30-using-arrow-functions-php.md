@@ -7,7 +7,10 @@ categories: [PHP]
 
 When PHP 7.4 [released](https://www.php.net/archive/2019.php#2019-11-28-1), it came with a whole lot of features/improvements that makes the language more interesting to work with. The one such feature that I want to talk about is arrow functions. For a primer, arrow functions are not new. In fact, If you've been working with the latest JavaScript (EcmaScript 6), you might've worked with [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) already.
 
-## Using arrow functions in PHP
+* TOC
+{:toc}
+
+## Before PHP 7.4
 
 With PHP 7.4, you can now use a shorthand syntax for defining functions with implicit by-value scope binding. Let's understand it by taking the following example.
 
@@ -27,6 +30,8 @@ print_r($numbers);
 ```
 
 As you can see, in the above example, if you want to use higher order functions such as [array_map](https://www.php.net/manual/en/function.array-map.php), there will be an anonymous function which will evaluate the values from the array passed as a second argument and if you want to use a variable which lies outside of the scope of the anonymous function, you’ll need to add `use`. That’s a lot of boilerplate code, right?
+
+## Hello, Arrow functions!
 
 From PHP 7.4, the above can be reduced to the following using fat arrow(`=>`) syntax like so.
 
