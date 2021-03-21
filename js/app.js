@@ -1,7 +1,7 @@
 window.addEventListener('keypress', function (e) {
     // Navigates to search 
     // page on pressing "/"
-    if (e.keyCode === 47) {
+    if (e.keyCode == '/'.charCodeAt(0)) {
         window.location.href = '/search';
     }
 }, false);
