@@ -82,13 +82,4 @@ I'm an avid reader so I've kept a list of RSS feeds of my favorite blogs in [Fee
 
 So, that's about it. These are all the things which I use on a day-to-day basis at my work/home to get the things done. I hope you enjoyed reading it as much as I enjoyed writing it. Let me know in the comments below if you want to know anything which might have missed in the article.
 
-<div id="disqus_thread"></div>
-<script>
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://amitmerchant.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% include utterances.html %}
