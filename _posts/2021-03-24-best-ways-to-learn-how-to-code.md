@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Best Ways to Learn How to Code
-image: /cdn/best-ways-to-learn-how-to-code.png
+image: /cdn/best-ways-to-learn-how-to-code-1.png
 categories: [Programming]
 ---
 
