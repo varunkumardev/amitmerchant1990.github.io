@@ -1097,13 +1097,13 @@ footer {
 
 .recent-articles {
   text-align: center;
-  border: 2px solid #c60fe4;
   border-radius: 10px;
   margin: 8px 0;
+  background: #c60fe4;
+  padding: 2px;
 
   h2 {
     font-size: 15px;
-    background: #c60fe4;
     margin: 0;
     color: #fff;
     padding: 2px;
@@ -1112,10 +1112,13 @@ footer {
 
   ul {
     list-style-type: none;
-    padding: 0 15px;
+    padding: 0 15px 15px;
+    background: white;
+    border-radius: 8px;
+    margin: 0px;
     
     li {
-      margin-bottom: 14px;
+      padding-top: 14px;
 
       p {
         font-size: 12px;
@@ -1139,13 +1142,13 @@ footer {
 
 .related-articles {
   text-align: center;
-  border: 2px solid #3800b9;
   border-radius: 10px;
   margin: 8px 0 16px 0;
+  background: #3800b9;
+  padding: 2px;
 
   h2 {
     font-size: 15px;
-    background: #3800b9;
     margin: 0;
     color: #fff;
     padding: 2px;
@@ -1154,10 +1157,13 @@ footer {
 
   ul {
     list-style-type: none;
-    padding: 0 15px;
+    padding: 0 15px 15px;
+    background: white;
+    border-radius: 8px;
+    margin: 0px;
     
     li {
-      margin-bottom: 14px;
+      padding-top: 14px;
 
       p {
         font-size: 12px;
