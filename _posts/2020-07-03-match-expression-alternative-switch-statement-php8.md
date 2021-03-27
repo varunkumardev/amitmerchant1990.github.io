@@ -7,6 +7,11 @@ categories: [PHP]
 
 The [switch statement](https://www.php.net/manual/en/control-structures.switch.php) in PHP is great when you want check condition on the same expression without incorporating many `if` statements altogether.
 
+* TOC
+{:toc}
+
+## Good ol' switch statement
+
 This is a basic *if-else* comparison on a same expression.
 
 ```php
@@ -124,7 +129,7 @@ echo match ($x) {
 };
 ```
 
-## No need to return value from each cases
+### No need to return value from each cases
 
 Using match expression, it's no longer needed to return values from each cases. So, where you'd need to store a value in each case like so...
 
