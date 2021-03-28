@@ -6,26 +6,44 @@ title: Categories
 
 <div>
   <span class="all-categories">
-  {% for category in site.categories %}
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <a href="{{site.baseurl}}/categories/#{{category_name|slugize}}">{{ category_name }}</a>
+  {% capture categories %}
+    {% for category in site.categories %}
+      {{ category[1].size | plus: 1000 }}#{{ category[0] }}#{{ category[1].size }}@
+    {% endfor %}
+  {% endcapture %}
+  {% assign sortedcategories = categories | split:'@' | sort %}
+
+  {% for category in sortedcategories reversed %}
+    {% assign categoryitems = category | split: '#' %}
+    {% if categoryitems[1] != null %}
+      <a href="{{site.baseurl}}/categories/#{{ categoryitems[1] | slugize }}">
+        {{ categoryitems[1] }}
+      </a>
+    {% endif %}
   {% endfor %}
   </span>
 </div>
 
 <div id="archives">
-  {% for category in site.categories %}
-    <div class="archive-group">
-      {% capture category_name %}{{ category | first }}{% endcapture %}
-      <a name="{{ category_name | slugize }}"></a>
-      <h3 class="category-head">{{ category_name }}</h3>
-      <div class="category-posts">
-      {% for post in site.categories[category_name] %}
-      <article class="archive-item">
-        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-      </article>
-      {% endfor %}
+  {% for category in sortedcategories reversed %}
+    {% assign categoryitems = category | split: '#' %}
+    {% if categoryitems[1] != null %}
+      <div class="archive-group">
+        <a name="{{ categoryitems[1] | slugize }}"></a>
+        <h3 class="category-head">{{ categoryitems[1] }} ({{ categoryitems[2] }})</h3>
+        <div class="category-posts">
+        {% capture category_name %}{{ categoryitems[1] | slugize }}{% endcapture %}
+        {% for post in site.categories[category_name] %}
+        <article class="archive-item">
+          <h4>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              {{post.title}}
+            </a>
+          </h4>
+        </article>
+        {% endfor %}
+        </div>
       </div>
-    </div>
+    {% endif %}
   {% endfor %}
 </div>
