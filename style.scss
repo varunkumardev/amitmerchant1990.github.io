@@ -272,6 +272,31 @@ p {
   }
 }
 
+.top-categories-sidebar {
+  margin-top: 16px;
+  background: #237ace;
+  padding: 2px;
+  border-radius: 8px;
+
+  .all-categories {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+
+    .all-category-link {
+      background: #ca76e4;
+    }
+  }
+
+  p {
+    margin: 1px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #eeeaf9;
+    font-size: 15px;
+  }
+}
+
 #search-container {
   text-align: center;
 

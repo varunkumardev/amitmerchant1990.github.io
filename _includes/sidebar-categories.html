@@ -1,0 +1,23 @@
+<div class="top-categories-sidebar">
+    <p>Top Categories</p>
+    <div class="all-categories">
+        {% capture categories %}
+        {% for category in site.categories %}
+            {{ category[1].size | plus: 1000 }}#{{ category[0] }}#{{ category[1].size }}@
+        {% endfor %}
+        {% endcapture %}
+        {% assign sortedcategories = categories | split:'@' | sort | reverse %}
+
+        {% for category in sortedcategories | limit:9 %}
+        {% assign categoryitems = category | split: '#' %}
+        {% if categoryitems[1] != null %}
+            <a href="{{site.baseurl}}/categories/#{{ categoryitems[1] | slugize }}">
+            {{ categoryitems[1] }}
+            </a>
+        {% endif %}
+        {% endfor %}
+        <a href="{{site.baseurl}}/categories" class="all-category-link">
+        ➔
+        </a>
+    </div>
+</div>

@@ -22,6 +22,10 @@
   {% include recent_articles.html %}
 {% endif %}
 
+{% if page.url != "/" and page.url != "/categories/" %}
+  {% include sidebar-categories.html %}
+{% endif %}
+
 <div class="ads-container">
   <!--<div style="text-align: center;">
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6KJY&placement=wwwamitmerchantcom" id="_carbonads_js"></script>

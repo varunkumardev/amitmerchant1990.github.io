@@ -11,9 +11,9 @@ title: Categories
       {{ category[1].size | plus: 1000 }}#{{ category[0] }}#{{ category[1].size }}@
     {% endfor %}
   {% endcapture %}
-  {% assign sortedcategories = categories | split:'@' | sort %}
+  {% assign sortedcategories = categories | split:'@' | sort | reverse %}
 
-  {% for category in sortedcategories reversed %}
+  {% for category in sortedcategories %}
     {% assign categoryitems = category | split: '#' %}
     {% if categoryitems[1] != null %}
       <a href="{{site.baseurl}}/categories/#{{ categoryitems[1] | slugize }}">
@@ -25,7 +25,7 @@ title: Categories
 </div>
 
 <div id="archives">
-  {% for category in sortedcategories reversed %}
+  {% for category in sortedcategories %}
     {% assign categoryitems = category | split: '#' %}
     {% if categoryitems[1] != null %}
       <div class="archive-group">
