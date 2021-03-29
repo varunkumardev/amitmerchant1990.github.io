@@ -30,7 +30,7 @@ title: Categories
     {% if categoryitems[1] != null %}
       <div class="archive-group">
         <a name="{{ categoryitems[1] | slugize }}"></a>
-        <h3 class="category-head">{{ categoryitems[1] }} ({{ categoryitems[2] }})</h3>
+        <h3 class="category-head">{{ categoryitems[1] }} <span class="category-post-count">({{ categoryitems[2] }})</span></h3>
         <div class="category-posts">
         {% capture category_name %}{{ categoryitems[1] | slugize }}{% endcapture %}
         {% for post in site.categories[category_name] %}
