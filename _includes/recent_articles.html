@@ -8,6 +8,9 @@
                     <a class="article-link" href="{{ post.url | relative_url }}">
                         {{ post.title | escape }}
                     </a>
+                    {% if forloop.index == 1 %}
+                        <span class="new-tag">NEW</span>
+                    {% endif %}
                 </p>
             </li>
         {% endfor %}
