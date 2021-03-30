@@ -12,6 +12,9 @@ There are two ways of many using which you can loop over the iterables in JavaSc
 
 While both of the statements can loop over the iterables such as enumerable properties, there are key differences in both which I'll discuss here.
 
+* TOC
+{:toc}
+
 ## The #1 Difference
 
 First, the `for...in` can loop through both [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) while the `for...of` can only loop through Arrays, [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), arguments object. 
