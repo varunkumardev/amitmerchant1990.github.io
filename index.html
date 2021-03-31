@@ -114,6 +114,9 @@ layout: default
             </article>
           {% else %}
             <article class="post">
+              {% if forloop.index == 1 and page.url == "/" %}
+                <span class="new-tag">NEW!</span>
+              {% endif %}
 
               <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
