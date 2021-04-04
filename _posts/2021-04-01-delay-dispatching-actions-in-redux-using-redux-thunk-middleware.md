@@ -20,9 +20,9 @@ Redux essentially tries to solve the basic issue with state management. i.e it m
 - **Action creators** - These are the functions that return objects that can be used to change the state by emitting actions for certain tasks.
 - **Reducer** - This is a pure function that transforms the state based on the actions dispatched to it.
 
-First and foremost, you would need to create a central store for your application like so. So, if we were to make a *Todo app*, you can do it by using `createStore()` like so.
+First and foremost, you would need to create a central store for your application. So, if we were to make a *Todo app*, you can do it by using `createStore()` like so.
 
-```js
+```jsx
 // index.js
 
 import React from 'react'
@@ -98,7 +98,7 @@ But before that, we would need to [connect](https://gist.github.com/gaearon/1d19
 
 Here's how we can connect the component with Redux.
 
-```js
+```jsx
 import React from 'react';
 import { connect } from 'react-redux';
 import { createTodo, deleteTodo } from './actions/todos';
@@ -122,7 +122,7 @@ Similarly, the second argument is an object, formally called `mapDispatchToProps
 
 So, back to where we were. If we want to create a Todo list item, we can do it by dispatching the `createTodo()` action from within the component like so.
 
-```js
+```jsx
 function App(props) {
     submitTodo = () => {
         props.createTodo('Buy groceries');
@@ -160,7 +160,7 @@ $ yarn add redux-thunk
 
 Once installed, you can start using it by using [applyMiddleware()](https://redux.js.org/api/applymiddleware) when creating the store.
 
-```js
+```jsx
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import rootReducer from './reducers/index';
