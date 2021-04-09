@@ -40,7 +40,7 @@ function updateUser(name, age) {
 }
 
 updateUser.isAllowed = true;
-updateUser('Jemini', 89)
+updateUser('Jemini', 30)
 ```
 
 As you can see, we needed a way to check whether the user is allowed to do this update operation and using function properties, it becomes pretty easy to set the property called `isAllowed` on the function without even changing the function definition!
