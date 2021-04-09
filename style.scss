@@ -1630,13 +1630,13 @@ Modules - reusable parts of our design
     font-size: 13px;
     padding: 2px 6px;
     border: none;
-    background: linear-gradient(to right, #6abdff, #b185ff);
+    background: linear-gradient(to right, #499ee2, #b185ff);
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
 
     &:hover {
-      background: linear-gradient(to right, #b185ff, #6abdff);
+      background: linear-gradient(to right, #b185ff, #499ee2);
     }
   }
 }
