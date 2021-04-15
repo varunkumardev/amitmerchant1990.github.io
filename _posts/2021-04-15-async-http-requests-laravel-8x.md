@@ -40,9 +40,9 @@ All these requests that you make using the HTTP client, are synchronous in natur
 
 And as it turns out, Guzzle is already providing the support for asynchronous requests in the form of [Guzzle/Promises](https://github.com/guzzle/promises).
 
-It was only a matter of implementing it in Laravel's HTTP client.
+So, it was only a matter of implementing it in Laravel's HTTP client.
 
-And this PR exactly tries to do the same.
+And [this recent PR](https://github.com/laravel/framework/pull/36948) exactly tries to do the same.
 
 ## Concurrent asynchronous requests
 
