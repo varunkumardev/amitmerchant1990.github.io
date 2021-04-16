@@ -32,7 +32,7 @@ Apart from this, I own ~~two~~ three watches of which one is a fitness tracker c
 
 ## Software
 
-As I mentioned earlier, I work with Linux to fulfill all my programming related stuff. And the Linux flavour I'm right now using is [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/).
+As I mentioned earlier, I work with Linux to fulfill all my programming related stuff. And the Linux flavour I'm right now using is [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/). Here's the entire configuration of my machine obtained using [neofetch](https://github.com/dylanaraps/neofetch).
 
 ![Ubuntu 18.04](/images/ubuntu18-04.png)
 
