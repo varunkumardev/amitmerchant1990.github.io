@@ -22,4 +22,4 @@ As you can tell, the command lists down all the direct dependencies which are go
 
 - `latest` is the version of the package tagged as latest in the registry. Running `npm publish` with no special configuration will publish the package with a dist-tag of `latest`. This may or may not be the maximum version of the package, or the most recently published version of the package, depending on how the package's developer manages the latest [dist-tag](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag).
 
-You can then decide which packages you should update based on these columns but it's safe to say that the packages are shown in `red fonts` should be updated as soon as possible!
+You can then decide which packages you should update based on these columns but it's safe to say that the packages are shown in *red fonts* should be updated as soon as possible!
