@@ -1815,6 +1815,10 @@ Modules - reusable parts of our design
   max-width: 740px;
   padding: 10px 0;
   width: 100%;
+
+  .nav-menu {
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+  }
 }
 
 .footer-link-outer {
@@ -1823,7 +1827,7 @@ Modules - reusable parts of our design
   nav {
     a {
       font-weight: bold;
-      font-size: 16px;
+      font-size: clamp(0.8rem, 1.5vw, 1rem);
       color: #5f40f6;
 
       @include mobile {
