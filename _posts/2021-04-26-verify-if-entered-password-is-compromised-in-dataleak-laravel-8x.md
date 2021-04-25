@@ -34,7 +34,7 @@ If the password has been leaked somewhere, it will give you the following valida
 
 That's pretty neat, right?
 
-## Bhind the scenes
+## Behind the scenes
 
 I tried to dig this feature to know how it all works and found that it is using [have i been pwned? API](https://haveibeenpwned.com/API/v3) under the hood in [Illuminate\Validation\NotPwnedVerifier](https://github.com/laravel/framework/blob/c5d57a7dbad9e3495e2e569d1aad17bb797ee969/src/Illuminate/Validation/NotPwnedVerifier.php) which checks if the password is previously leaked or not like so.
 
