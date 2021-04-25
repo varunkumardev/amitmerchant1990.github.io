@@ -47,6 +47,8 @@ As you can tell, there's this method called `min` using which can ensure the pas
 There are a few more rules that you can apply on the password fields like so.
 
 ```php
+use Illuminate\Validation\Rules\Password;
+
 $request->validate([
     // Makes the password require at least one uppercase and one lowercase letter.
     'password' =>  ['required', 'confirmed', Password::min(8)->mixedCase()],
