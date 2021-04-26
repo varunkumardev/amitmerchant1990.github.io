@@ -4,7 +4,7 @@ permalink: /keyboard-shortcuts/
 title: Keyboard Shortcuts
 ---
 
-Here are common keyboard shortcuts that you can use to navigate throughout the blog.
+Here are some common keyboard shortcuts that you can use to navigate throughout the blog.
 
 |  Keyboard Shortcut | Description  |
 |---|---|
