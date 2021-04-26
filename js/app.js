@@ -1,8 +1,17 @@
-window.addEventListener('keypress', function (e) {
+window.addEventListener('keydown', function (event) {
     // Navigates to search 
     // page on pressing "/"
-    if (e.keyCode == '/'.charCodeAt(0)) {
+    if (event.code === 'Slash') {
         window.location.href = '/search';
+    }
+
+    if (event.ctrlKey && event.code === 'KeyK') {
+        event.preventDefault();
+        window.location.href = '/keyboard-shortcuts';
+    }
+
+    if (event.shiftKey && event.code === 'KeyC') {
+        window.location.href = '/categories';
     }
 }, false);
 

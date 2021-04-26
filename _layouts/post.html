@@ -82,4 +82,19 @@ layout: default
   <div class="flex-right">
     {% include sidebar.html %}
   </div>
+  <script>
+    window.addEventListener('keydown', function(event) {
+      '{% if page.previous.url %}'
+      if (event.ctrlKey && event.key === 'ArrowRight') {
+          window.location.href = '{{ page.previous.url }}';
+      }
+      '{% endif %}'
+
+      '{% if page.next.url %}'
+      if (event.ctrlKey && event.key === 'ArrowLeft') {
+          window.location.href = '{{ page.next.url }}';
+      }
+      '{% endif %}'
+    });
+  </script>
 </div>
