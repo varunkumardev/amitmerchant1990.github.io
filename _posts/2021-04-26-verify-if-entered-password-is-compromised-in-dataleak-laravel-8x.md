@@ -6,7 +6,7 @@ categories: [Laravel]
 fluidbox: true
 ---
 
-In my [previous articles](/the-new-custom-password-rule-object-in-laravel-8x/), I talked about the new custom password rule object which brings in the ability to easily add various validation rules to the password field.
+In my [previous article](/the-new-custom-password-rule-object-in-laravel-8x/), I talked about the new custom password rule object which brings in the ability to easily add various validation rules to the password field.
 
 There are a lot of interesting rules that this object is introducing but the one that really caught my eyes is *the password rule that validates if the entered password is exposed in a data leak in the past or not*.
 
