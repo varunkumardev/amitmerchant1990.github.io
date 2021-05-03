@@ -5,9 +5,9 @@ image: /cdn/update-url-query-parameters-as-you-type-in-the-input-using-javascrip
 categories: [JavaScript]
 ---
 
-Sometimes, there might be a use case where you want to change the URL's query parameters as you type in the input field.
+Sometimes, there might be a use case where you want to change the URL's query parameters as you type in an input field.
 
-For instance, on this blog, if you type in the search field on the search page, it will update the URL in the [address bar](https://en.wikipedia.org/wiki/Address_bar) accordingly as well. It will append a `q` query parameter to the URL with the value typed in the search field.
+For instance, on this blog, if you type in the search field on the [search page](https://www.amitmerchant.com/search), it will update the URL in the [address bar](https://en.wikipedia.org/wiki/Address_bar) accordingly as well. It will append a `q` query parameter to the URL with the value typed in the search field.
 
 How would you achieve something like this? Well, to understand it, check the below code snippet first.
 
