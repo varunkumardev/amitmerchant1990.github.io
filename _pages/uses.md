@@ -22,7 +22,7 @@ As for the keyboard, currently, I'm using a mechanical keyboard called [Zebronic
 
 I also have a [Transcend's StoreJet 1TB external hard drive](https://www.amazon.in/Transcend-StoreJet-2-5-inch-Portable-External/dp/B005MNGQ6C) where I store my backups and all my multimedia holdings. 
 
-My phone's a ~~[Xiaomi Mi A1](https://en.wikipedia.org/wiki/Xiaomi_Mi_A1)~~ [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a). The reason why it's my daily driver is that I'm a stock android enthusiast and ofcourse, it's coming from the God of Android itself.
+My phone's a ~~[Xiaomi Mi A1](https://en.wikipedia.org/wiki/Xiaomi_Mi_A1)~~ [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a). The reason why it's my daily driver is that I'm a stock android enthusiast and ofcourse, it's coming from the [God of Android](https://www.google.com/) itself.
 
 To listen to the music I've a pair of [Audio-Technica ATH-CLR100](https://www.audio-technica.com/cms/headphones/a0a8895f03d70c11/index.html), a [Boat Rockerz 400](https://www.boat-lifestyle.com/products/rockerz-400) On-Ear headphones, and a three-year-old Philip's Bluetooth speaker.
 
@@ -40,6 +40,8 @@ I mostly work with PHP, JavaScript, and occasionally Java. I use [Git](https://g
 
 [Google Chrome](https://www.google.com/chrome/) is my browser of choice. I use [VS Code](https://code.visualstudio.com/) as my primary editor mainly because it's more modern, highly configurable, and lightweight in comparison to other Electron-based editors such as [Atom](https://atom.io/). Apart from this, it has a repository of great plugins. VS Code is great but when I need some more control I use IDE such as [PHPStorm](https://www.jetbrains.com/phpstorm/).
 
+To play around with new JavaScript features and libraries, I'm using this awesome desktop playground called [RunJS](https://runjs.app/).
+
 I'm using [JetBrains Mono](https://www.jetbrains.com/lp/mono/) fonts across all my text editors and IDEs. These looks great overall and supports [ligatures](https://en.wikipedia.org/wiki/Orthographic_ligature) which is nice!
 
 I love everything dark. Editor themes are no exception. Both my editor and IDE is rocking [Dracula theme](https://draculatheme.com/). It's a great dark theme and gives me a consistent environment across my devices and setups.
@@ -52,11 +54,13 @@ I'm sucked into Google's ecosystem of software. I store all my photos on [Google
 
 I use [Google Drive](https://drive.google.com) to store my documents and backups. 
 
-I use [Google Keep](https://keep.google.com) to get in sync with my todo lists and important notes. 
+I use [Google Keep](https://keep.google.com) to get in sync with my todo lists and important notes. But if I want to quickly take some temporory notes, I use [Notepad](https://notepad.js.org/).
 
 I use [KDE Connect](https://kdeconnect.kde.org/) to sync my files and clipboard across my Android phone and Ubuntu desktop. 
 
 To make vector graphics, I use [Vectr](https://vectr.com/).
+
+I have designed this [blog's logo](/images/icon.svg) using [Figma](https://www.figma.com/).
 
 When I need to compress images, I use [TinyPNG](https://tinypng.com/). It uses smart lossy compression techniques to reduce the file size of your PNG files.
 
@@ -68,7 +72,7 @@ I read a lot of eBooks. I use [Foliate](https://johnfactotum.github.io/foliate/)
 
 ## The Blog's Stack
 
-As for this blog, it is currently being setup on top of [Jekyll](https://jekyllrb.com/) which is a static site generator and is hosted on [GitHub Pages](https://pages.github.com/). The Jekyll theme that I'm using is called [Reverie](https://github.com/amitmerchant1990/reverie) which is a tailor-made according to my taste.
+As for this blog, it is currently being setup on top of [Jekyll](https://jekyllrb.com/) which is a static site generator and is hosted on [GitHub Pages](https://pages.github.com/). The Jekyll theme that I'm using is called [Reverie](https://github.com/amitmerchant1990/reverie). I have customized it heavily according to my taste.
 
 The [search](/search/) in here is powered by [this little JavaScript library](https://github.com/christian-fei/Simple-Jekyll-Search) which is perfect for a static site built using Jekyll.
 
