@@ -5,7 +5,7 @@ image: /cdn/estimated-reading-time-macro-in-laravel.png
 categories: [Laravel]
 ---
 
-When you want to [extend some of the classes' functionality](https://www.amitmerchant.com/extending-class-using-macros-laravel/) in Laravel, Macros are your best bet. Your imagination is the only limit to what you can do with macros.
+When you want to [extend some of the classes' functionality](/extending-class-using-macros-laravel/) in Laravel, Macros are your best bet. Your imagination is the only limit to what you can do with macros.
 
 For instance, I have recently come across a [handly little macro](https://twitter.com/marcelpociot/status/1389881758267625473) shared by [Marcel Pociot](https://twitter.com/marcelpociot) that gives you the estimated reading time for the given text(s).
 
