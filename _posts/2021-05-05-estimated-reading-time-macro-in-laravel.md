@@ -24,7 +24,7 @@ Str::macro('readDuration', function(...$text) {
 echo Str::readDuration($post->text). ' min read';
 ```
 
-As you can tell, the macro essentially tries to calculate the average reading time, keeping in mind that an average human can read about *200* words per minute. 
+As you can tell, the macro essentially tries to calculate the average reading time, keeping in mind that [an average human can read about 200 words per minute](https://en.wikipedia.org/wiki/Speed_reading#:~:text=normal%20reading%20for%20comprehension%20(around%20200%E2%80%93230%20wpm)). 
 
 If the text comprises less than 200 words, it will return 1 minute.
 
