@@ -23,13 +23,10 @@ permalink: /search/
     }
 
     let element = '';
+    element =  document.getElementById('search-input');
+    element.focus();
 
-    if (getURLParameter('q') === '') {
-        element =  document.getElementById('search-input');
-        element.focus();
-    } else {
-        element =  document.getElementById('search-input');
-        element.focus();
+    if (getURLParameter('q') !== '') {
         element.value = getURLParameter('q');
     }
 
