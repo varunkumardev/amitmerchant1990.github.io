@@ -6,7 +6,7 @@ permalink: /search/
 
 <div id="search-container">
     <div>
-        <input type="text" id="search-input" placeholder="Try searching about PHP, Eloquent, PWA,..">
+        <input type="search" id="search-input" placeholder="Try searching about PHP, Eloquent, PWA,..">
         <p class="search-categories">
             ...Or browse by <a title="Categories" href="/categories">category</a>
         </p>
