@@ -97,12 +97,12 @@ exclude:
 top_articles: 
   - url: /reasons-use-composition-over-inheritance-php/
     title: Reasons to use Composition over Inheritance in PHP
-  - url: /attribute-casting-laravel/
-    title: Attribute casting in Laravel Eloquent
+  - url: /async-http-requests-laravel-8x/
+    title: Asynchronous HTTP client requests in Laravel 8.x
   - url: /this-is-why-php-dont-have-multiple-inheritance/
     title: This is why PHP don't have multiple inheritance
-  - url: /why-you-should-use-laravel-queues/
-    title: Why you should use Laravel Queues
+  - url: /delay-dispatching-actions-in-redux-using-redux-thunk-middleware/
+    title: Delay dispatching actions in Redux using Thunk middleware
   - url: /using-custom-exception-php/
     title: Benefits of using custom exceptions in PHP
   - url: /invokable-classes-php/
