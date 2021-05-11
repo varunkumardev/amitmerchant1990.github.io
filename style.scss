@@ -1022,7 +1022,6 @@ nav {
 
   blockquote {
     margin: 1.8em .8em;
-    /*border-left: 2px solid $gray;*/
     padding: 0.1em 1em;
     color: $mediumDarkGray;
     font-size: 19px;
@@ -1271,12 +1270,23 @@ body:after {
   line-height: 1.2;
 }
 
-.page h1{
-  font-family: $defaultFonts;
-  text-align: center;
-  font-weight: bold;
-  font-kerning: auto;
-  line-height: 1.2;
+.page { 
+  h1 {
+    font-family: $defaultFonts;
+    text-align: center;
+    font-weight: bold;
+    font-kerning: auto;
+    line-height: 1.2;
+  }
+
+  blockquote {
+    margin: 1.8em .8em;
+    padding: 0.1em 1em;
+    color: $mediumDarkGray;
+    font-size: 19px;
+    background-color: #ede1ff;
+    border-radius: 10px;
+  }
 }
 
 .author_title{
