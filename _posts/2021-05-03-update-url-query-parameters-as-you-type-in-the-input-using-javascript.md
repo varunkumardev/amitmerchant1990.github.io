@@ -19,14 +19,14 @@ searchInput.addEventListener("keyup", function(event) {
 
     searchParams.set("q", event.target.value);
 
-    if (window.history.pushState) {
+    if (window.history.replaceState) {
         const url = window.location.protocol 
                     + "//" + window.location.host 
                     + window.location.pathname 
                     + "?" 
                     + searchParams.toString();
 
-        window.history.pushState({
+        window.history.replaceState({
             path: url
         }, "", url)
     }
@@ -37,7 +37,7 @@ This is the entire code that will fulfill the use case I talked about. As you ca
 
 Next, with the combination of [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/URLSearchParams) and [window.location.search](https://developer.mozilla.org/en-US/docs/Web/API/Location/search), we can retrieve the query string of the URL and set a parameter named `q` using the `set` method.
 
-Once that is done, we can go ahead and build the final URL based on the `searchParams` and push that URL in the browser's session history stack using [History.pushState()](https://developer.mozilla.org/en-US/docs/Web/API/History/pushState).
+Once that is done, we can go ahead and build the final URL based on the `searchParams` and modify browser's current session history stack using [History.replaceState()](https://developer.mozilla.org/en-US/docs/Web/API/History/replaceState).
 
 This way, you can conveniently rewrite URL's query params as you type in the input field!
 
