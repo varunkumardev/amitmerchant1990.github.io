@@ -536,6 +536,7 @@ p > img {
       left: 0;
       right: 0;
       margin: 0 6px;
+      z-index: 9;
     }
 
     &:checked ~ .menu-icon .navicon {
