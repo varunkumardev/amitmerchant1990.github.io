@@ -178,15 +178,15 @@ The query results returned by `useQuery` contain all of the information about th
 
 In our example, I have used the following to retrieve several things:
 
-- `isLoading` or `status` === 'loading' - The query has no data and is currently fetching.
+- `isLoading` or `status` === **'loading'** - The query has no data and is currently fetching.
 - `error` - If the query is in an `isError` state, the error is available via the `error` property.
 - `data` - If the query is in a `success` state, the data is available via the data property.
 
 There are a few more states/properties that you can use to improvise the behavior further.
 
-- `isError` or `status` === 'error' - The query encountered an error
-- `isSuccess` or `status` === 'success' - The query was successful and data is available
-- `isIdle` or `status` === 'idle' - The query is currently disabled (you'll learn more about this in a bit)
+- `isError` or `status` === **'error'** - The query encountered an error
+- `isSuccess` or `status` === **'success'** - The query was successful and data is available
+- `isIdle` or `status` === **'idle'** - The query is currently disabled (you'll learn more about this in a bit)
 - `isFetching` - In any state, if the query is fetching at any time (including background refetching) `isFetching` will be `true`.
 
 As you can tell, the amount of code required significantly reduced when using React Query as opposed to the previous approach, and on top of this, you also don't need to handle errors and other different states yourself. 
