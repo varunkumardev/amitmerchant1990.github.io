@@ -31,6 +31,6 @@ As you can tell, using `-` with `git checkout` will switch back to the most rece
 
 Now if you want to switch back to `ui-improvements` once again, you can use `git checkout -` to do so.
 
-This is how the switching of branches looks like with this command.
+This is how the switching between branches looks like when using this command.
 
 [![](/images/quick-switch-branch-git.png)](/images/quick-switch-branch-git.png)
