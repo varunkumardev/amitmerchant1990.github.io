@@ -719,6 +719,18 @@ p > img {
   }
 }
 
+.search-icon-text {
+  display: none;
+
+  @include mobile {
+    display: inline-block;
+  }
+
+  @include tablet {
+    display: inline-block;
+  }
+}
+
 .site-info {
   float: left;
 
