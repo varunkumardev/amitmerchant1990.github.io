@@ -1,0 +1,16 @@
+<div class="related-articles-container">
+    <h2>You might like</h2>
+    <div class="grid-container">
+        {% assign maxposts = 4 %}
+        {% capture category %}{{ page.categories | first }}{% endcapture %}
+        {% for post in site.categories[category] limit: maxposts %}
+            <div class="row">
+                <a href="{{ post.url | relative_url }}" class="top-articles-link">
+                    <article class="column">
+                        {{ post.title | escape }}
+                    </article>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
