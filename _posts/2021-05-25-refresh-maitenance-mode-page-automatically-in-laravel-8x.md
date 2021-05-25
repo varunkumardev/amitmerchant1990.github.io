@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Refresh maintenance mode page automatically in Laravel 8.x
-image: /cdn/refresh-maintenance-mode-page-automatically-in-laravel-8x.png
+image: /cdn/refresh-maintenance-mode-page-automatically-in-laravel-8.png
 categories: [Laravel]
 fluidbox: true
 ---
