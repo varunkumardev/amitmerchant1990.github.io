@@ -6,9 +6,7 @@ categories: [Laravel]
 
 There's this neat feature in Laravel where you can validate model IDs that have been injected into the route by injecting model instances directly at route level.
 
-For instance, instead of injecting `post_id` in the following URL, say, `'api/posts/{post_id}'` and writing all the business logic ourselves just to validate the model IDs, we can directly pass the entire `Post` model instance that matches the given ID in the URL. 
-
-{% include affiliates.html %}
+For instance, instead of injecting `post_id` in the following URL, say, `'api/posts/{post_id}'` and writing all the business logic ourselves just to validate the model IDs, we can directly pass the entire `Post` model instance that matches the given ID in the URL.
 
 You can achieve this using two methods: **Implicit Model Binding** and **Explicit Model Binding**.
 

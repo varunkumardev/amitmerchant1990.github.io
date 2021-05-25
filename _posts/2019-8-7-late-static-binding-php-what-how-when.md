@@ -37,8 +37,6 @@ Beta::printClass();
 
 Ideally, if you run above code, you'd expect it to obviously print `Beta` but instead it'll print `Alpha`. Why? Because static references to the current class like `self::` or `__CLASS__` are resolved using the class in which the function belongs or in other words `self` keyword does not follow the same rules of inheritance. `self` always resolves to the class in which it is used. If you want the desired result, you'll need to use a feature called "Late static binding".
 
-{% include affiliates.html %}
-
 ## What is late static binding?
 
 > Late static bindings in PHP is a feature which can be used to reference the called class in a context of static inheritance.

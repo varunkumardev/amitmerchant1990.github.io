@@ -21,8 +21,6 @@ public function getTax($value)
 }
 ```
 
-{% include affiliates.html %}
-
 But starting with Laravel 5, there's a more simpler way of doing the same. Eloquent provides a `$casts` property on your model using which you can convert attributes to common data types. You can achieve the above example like below.
 
 ```php

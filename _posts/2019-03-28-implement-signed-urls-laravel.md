@@ -5,9 +5,7 @@ categories: [Laravel]
 image: /cdn/signed-url-laravel.png
 ---
 
-There comes a time when you want URLs which are public but still you want some kind of authentication onto the same. For instance, you'd want such kind of URLs to enable invite-only registrations for your applications, where you'd send a URL to the user which that specific person only can access and register. In such scenarios, signed URLs can come in handy which are the special kind of URLs that have a "signature" hash appended to the query string to verify that the URL has not been modified since it was created. 
-
-{% include affiliates.html %}
+There comes a time when you want URLs which are public but still you want some kind of authentication onto the same. For instance, you'd want such kind of URLs to enable invite-only registrations for your applications, where you'd send a URL to the user which that specific person only can access and register. In such scenarios, signed URLs can come in handy which are the special kind of URLs that have a "signature" hash appended to the query string to verify that the URL has not been modified since it was created.
 
 Laravel 5.8 comes with the capability to easily create "signed" URLs to named routes. We'll learn how you can implement the signed routes step-by-step
 

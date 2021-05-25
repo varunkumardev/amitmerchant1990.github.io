@@ -30,8 +30,6 @@ php artisan queue:table
 php artisan migrate
 ```
 
-{% include affiliates.html %}
-
 This will create a table named "jobs" of the following strucure:
 
 ``` 
