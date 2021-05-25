@@ -6,7 +6,7 @@ categories: [Laravel]
 fluidbox: true
 ---
 
-Laravel has [this cool feature](http://localhost:4000/customized-maintenance-mode-views-in-laravel-8/) using which you put your website in maintenance mode. To do so, all you will need to do is run the following command.
+Laravel has [this cool feature](http://localhost:4000/customized-maintenance-mode-views-in-laravel-8/) using which you can put your website in maintenance mode. To do so, all you will need to do is run the following command.
 
 ```bash
 $ php artisan down
