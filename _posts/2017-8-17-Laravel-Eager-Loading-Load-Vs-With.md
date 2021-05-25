@@ -10,8 +10,6 @@ Today, while working with one of my projects(which is built on top Laravel) I bu
   - [with()](https://laravel.com/docs/5.2/eloquent-relationships#eager-loading)
   - [load()](https://laravel.com/docs/5.2/eloquent-relationships#lazy-eager-loading)
 
-{% include affiliates.html %}
-
 Both accomplish the same end results—eager loading a related model onto the first. In fact, they both run exactly the same two queries. The key difference is that `with()` eager loads the related model up front, immediately after the initial query (`all()`, `first()`, or `find(x)`, for example); when using `load()`, you run the initial query first, and then eager load the relation at some later point.
 
 "Eager" here means that we're associating all the related models for a particular result set using just one query, as opposed to having to run `n` queries, where `n` is the number of items in the initial set.
