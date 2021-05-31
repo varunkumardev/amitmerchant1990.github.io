@@ -3,7 +3,6 @@ layout: post
 title: Blade stringable to handle objects centrally in Laravel 8.x
 image: /cdn/blade-stringable-to-handle-objects-centrally-in-laravel-8x.png
 categories: [Laravel]
-fluidbox: true
 ---
 
 Wouldn't it be useful if you could define a certain action that should be performed every time your [Blade templates](https://laravel.com/docs/8.x/blade) encounter objects of a specific class?
@@ -13,7 +12,7 @@ So, for instance, let's say when working with libraries such as [Carbon](https:/
 Normally, if you want to format the date in a specific format for a `Carbon` instance, you could do it in [Blade templates](https://laravel.com/docs/8.x/blade) like so.
 
 ```php
-{{ $post->created_at->format('d-m-Y') }}
+{% raw %}{{{% endraw %} $post->created_at->format('d-m-Y') {% raw %}}}{% endraw %}
 ```
 
 This is fine. But as you can tell, you would find yourself repeating the same at other places in your application as well. When all you'd want is to format it similarly everywhere where the `Carbon` instance is found in your Blade templates.
@@ -38,7 +37,9 @@ class AppServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        Blade::stringable(Carbon::class, fn($object) => $object->format('d-m-Y')));
+        Blade::stringable(Carbon::class, function ($object) {
+            return $object->format('d-m-Y');
+        });
     }
 }
 ```
