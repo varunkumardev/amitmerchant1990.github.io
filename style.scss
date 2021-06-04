@@ -238,7 +238,7 @@ p {
     font-size: 13px;
     padding: 0px 10px;
     border: none;
-    background: linear-gradient(to right, #3994dc, #b185ff);
+    background: linear-gradient(to right, #3984bf, #9768ea);
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
@@ -491,7 +491,7 @@ p > img {
 .masthead-menu {
   border-bottom: 1px solid $lightGray;
   border-radius: 6px;
-  background-image: linear-gradient(225deg, #e131ff 0%, #6c2fa2 50%, #164b78 100%);
+  background-image: linear-gradient(225deg, #e131ff 0%, #6c2fa2 50%, $purpleGradient 100%);
 
   a {
     color: white;
@@ -1071,7 +1071,7 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 10px;
-    background: linear-gradient(89deg, #F36C9A 30.03%, #E5ABB3 101.13%);
+    background: linear-gradient(91deg, #f55c90 30.03%, #e897a3 101.13%);
     color: white;
     padding: 7px;
     border-radius: 5px;
@@ -1388,7 +1388,7 @@ Modules - reusable parts of our design
 
 // Additional links grid
 .item-list > span {
-  background-image: linear-gradient(225deg, #6a7dfb 0%, #764fbf 50%, #f588ae 90%);
+  background-image: linear-gradient(225deg, $purpleGradient 0%, #764fbf 50%, #ff70a2 90%);
   padding: 12px 14px;
   border-radius: 10px;
   overflow: hidden;
@@ -1428,7 +1428,7 @@ Modules - reusable parts of our design
 
   &:hover{
     transform: scale(1.02);
-    background-image: linear-gradient(225deg, #f588ae 0%, #764fbf 50%, #6a7dfb 90%);
+    background-image: linear-gradient(225deg, #ff70a2 0%, #764fbf 50%, $purpleGradient 90%);
   }
 }
 
@@ -1661,13 +1661,13 @@ Modules - reusable parts of our design
     font-size: 13px;
     padding: 2px 6px;
     border: none;
-    background: linear-gradient(to right, #499ee2, #b185ff);
+    background: linear-gradient(to right, #3984bf, #9768ea);
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
 
     &:hover {
-      background: linear-gradient(to right, #b185ff, #499ee2);
+      background: linear-gradient(to right, #9768ea, #3984bf);
     }
   }
 }
@@ -1899,7 +1899,7 @@ Modules - reusable parts of our design
 }
 
 .subscribeBtn {
-  background: linear-gradient(128.17deg, #a02bca -14.78%, #e91e63c2 110.05%);
+  background: linear-gradient(128.17deg, #6d108e -14.78%, #e91e63c2 110.05%);
   color: white;
   padding: 8px 22px;
   margin: 8px 0;
@@ -1921,7 +1921,7 @@ Modules - reusable parts of our design
     text-align: center;
     margin-top: 8px;
     border-radius: 10px;
-    background-image: linear-gradient(180deg, #3800b9, #f3abff);
+    background-image: linear-gradient(180deg, $purpleGradient, #e697f3);
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 5px 0px;
 
@@ -1985,13 +1985,13 @@ Modules - reusable parts of our design
       justify-content: center;
       padding: 18px;
       border-radius: 10px;
-      background-image: radial-gradient(circle 346px at 0.3% 100%, #3e4ca7 0%, #ea6dff 100.7%);
+      background-image: radial-gradient(circle 346px at 0.3% 100%, $purpleGradient 0%, #ea6dff 75%);
       text-align: center;
       box-shadow: 3px 2px 6px 0px #abababc9;
       height: 100%;
     
       &:hover {
-        background-image: radial-gradient(circle 346px at 0.3% 100%, #EA6DFF 0%, #3e4ca7 56.7%);
+        background-image: radial-gradient(circle 346px at 0.3% 100%, #EA6DFF 0%, $purpleGradient 56.7%);
       }
     
       a {
@@ -2023,13 +2023,13 @@ Modules - reusable parts of our design
       justify-content: center;
       padding: 18px;
       border-radius: 10px;
-      background-image: radial-gradient(circle 346px at 0.3% 100%, #3f51b5 0%, #ea6dff 100.7%);
+      background-image: radial-gradient(circle 346px at 0.3% 100%, $purpleGradient 0%, #ea6dff 100.7%);
       text-align: center;
       box-shadow: 3px 2px 6px 0px #abababc9;
       height: 100%;
     
       &:hover {
-        background-image: radial-gradient(circle 346px at 0.3% 100%, #EA6DFF 0%, #3f51b5 56.7%);
+        background-image: radial-gradient(circle 346px at 0.3% 100%, #EA6DFF 0%, $purpleGradient 56.7%);
       }
     
       a {
