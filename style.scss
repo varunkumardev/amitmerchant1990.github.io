@@ -1274,7 +1274,7 @@ body:after {
 }
 
 #bar {
-    background: linear-gradient(225deg, #e131ff 0%, #6c2fa2 50%, #164b78 100%);
+    background: linear-gradient(225deg, #e131ff 0%, #6c2fa2 50%, $purpleGradient 100%);
     height: 7px;
     position: fixed;
     top: 0;
