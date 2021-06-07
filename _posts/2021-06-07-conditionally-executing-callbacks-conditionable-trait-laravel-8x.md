@@ -5,7 +5,7 @@ image: /cdn/conditionally-executing-callbacks-conditionable-trait-laravel-8x.png
 categories: [Laravel]
 ---
 
-If you have been working with Laravel lately, you might have used this feature called "conditional clauses" using which you will be able to run a certain callback when a condition becomes `true`.
+If you have been working with Laravel lately, you might have used this feature called *"conditional clauses"* using which you will be able to run a certain callback when a condition becomes `true`.
 
 For instance, take the example of Laravel's [query builder](https://laravel.com/docs/8.x/queries) where using the `when` method, you can query clauses to apply to a query based on another condition like so.
 
