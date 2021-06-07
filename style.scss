@@ -1456,6 +1456,42 @@ Modules - reusable parts of our design
   font-size: 12px;
 }
 
+.custom-ad-block {
+  margin-bottom: 16px;
+
+  a {
+    color: white;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    border-radius: 10px;
+    background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%);
+    background-blend-mode: overlay, screen, overlay, overlay, normal;
+    text-align: center;
+    box-shadow: 3px 2px 6px 0px #abababc9;
+    height: 100%;
+
+    &:hover {
+      background: rgb(5,0,97);
+      background: linear-gradient(127deg, rgba(5,0,97,1) 0%, rgba(11,11,139,1) 57%, rgba(255,0,181,1) 84%);
+    }
+
+    .heading {
+      font-weight: bold;
+    }
+
+    .sub-heading {
+      font-size: small;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+  }
+}
 
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
