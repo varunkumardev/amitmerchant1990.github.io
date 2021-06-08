@@ -659,6 +659,7 @@ p > img {
   height: 70px;
   margin-right: 15px;
   position: relative;
+  transition: transform 250ms ease-in;
 
   @include mobile {
     float: none;
@@ -672,46 +673,8 @@ p > img {
     margin: 0 auto;
   }
 
-  &:before {
-    position: absolute;
-    top: 0;
-    left: -75%;
-    z-index: 2;
-    display: block;
-    opacity: 0;
-    content: '';
-    width: 25%;
-    height: 100%;
-    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-    -webkit-transform: skewX(-25deg);
-    transform: skewX(-25deg);
-  }
-
   &:hover {
-    &:before {
-      -webkit-animation: shine .50s;
-      animation: shine .50s;
-      opacity: 1;
-    }
-  }
-
-  &:active {
-    &:before {
-      opacity: 0;
-    }
-  }
-
-  @-webkit-keyframes shine {
-    100% {
-      left: 89%;
-    }
-  }
-  
-  @keyframes shine {
-    100% {
-      left: 89%;
-    }
+    transform: rotate(-1deg) scale(1.09);
   }
 
   img {
@@ -1483,6 +1446,7 @@ Modules - reusable parts of our design
 
     .heading {
       font-weight: bold;
+      margin-bottom: 5px;
     }
 
     .sub-heading {
