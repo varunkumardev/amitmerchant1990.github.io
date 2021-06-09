@@ -11,13 +11,17 @@ The other day I was looking for a way to add a custom "Install" button in my [No
 * TOC
 {:toc}
 
-So, to give you a primer when you open a PWA, a `beforeinstallprompt` event would get fired in [supported browsers](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent#browser_compatibility). When this event is fired, the browser would show an installation popup to the user like so. 
+## Introduction
+
+To give you a primer, when you open a PWA, a `beforeinstallprompt` event would get fired in [supported browsers](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent#browser_compatibility). When this event is fired, the browser would show an installation popup to the user like so. 
 
 [![Native PWA Popup](/images/native-pwa-popup.png)](/images/native-pwa-popup.png)
 
-The user can then choose to install the app or dismiss the popup. So, what if you want your users to install your PWA once again after they dismiss the installation popup? To mitigate this what you can do is show a custom "Install" button somewhere in your app which would trigger the user to install your PWA.
+The user can then choose to install the app by hitting the *"Install"* button or dismiss the popup. So, what if you want to remind your users to install your PWA once again after they dismiss the installation popup? 
 
-This is exactly what I did in my Notepad PWA as well. How did I achieve this? Read on.
+To get around this, what you can do is show a custom "Install" button somewhere in your app itself which would trigger the user to install your PWA.
+
+This is exactly what I did in my [Notepad](https://notepad.js.org/) PWA as well. How did I achieve this? Read on to know how.
 
 ## Tap into the `beforeinstallprompt` event
 
@@ -35,9 +39,11 @@ As you can tell, we need to define a global variable called `deferredPrompt` and
 
 ## Add an Install button in the PWA
 
-Next, we can now add an install button somewhere in your app. In my Notepad app, I put it into the "About" modal next to the app's title like so.
+Next, we can now add an install button somewhere in our app. In my Notepad app, I have put it into the "About" modal next to the app's title like so.
 
 [![](/images/custom-install-button.png)](/images/custom-install-button.png)
+
+You can choose to put it anywhere within your app. But make sure that it should be non-intrusive and not in the face of the user.
 
 ## Hook into the button's click event
 
