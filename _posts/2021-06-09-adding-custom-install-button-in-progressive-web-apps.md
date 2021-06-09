@@ -6,7 +6,7 @@ categories: [PWA]
 fluidbox: true
 ---
 
-The other day I was looking for a way to add a custom "Install" button in my [Notepad](https://notepad.js.org/) app which is essentially a [Progressive Web App (PWA)](https://web.dev/progressive-web-apps/).
+The other day, I was looking for a way to add a custom "Install" button in my [Notepad](https://notepad.js.org/) app which is essentially a [Progressive Web App (PWA)](https://web.dev/progressive-web-apps/).
 
 * TOC
 {:toc}
