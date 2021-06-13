@@ -6,7 +6,7 @@ categories: [Miscellaneous]
 fluidbox: true
 ---
 
-It's a wrap for Apple's [WWDC 2021](https://developer.apple.com/wwdc21/) last week. And while a lot of good stuff was released in the event, I, as a web developer, was pretty excited for Safari 15 and its all-new design in the macOS and the iPadOS.
+It's a wrap for Apple's [WWDC 2021](https://developer.apple.com/wwdc21/) last week. And while a lot of good stuff was released in the event, I, as a web developer, was pretty excited for [Safari 15](https://developer.apple.com/videos/play/wwdc2021/10029) and its all-new design in the macOS and the iPadOS.
 
 * TOC
 {:toc}
