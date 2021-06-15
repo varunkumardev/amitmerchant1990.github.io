@@ -6,7 +6,7 @@ categories: [React]
 fluidbox: true
 ---
 
-The latest major version of React.js, 18, is around the corner and it will include out-of-the-box improvements (like [automatic batching](https://github.com/reactwg/react-18/discussions/21)), new APIs (like [startTransition](https://github.com/reactwg/react-18/discussions/41)), and a [new streaming server renderer](https://github.com/reactwg/react-18/discussions/37) with built-in support for `React.lazy`.
+The latest major version of [React.js](https://reactjs.org/), 18, is around the corner and it will include out-of-the-box improvements (like [automatic batching](https://github.com/reactwg/react-18/discussions/21)), new APIs (like [startTransition](https://github.com/reactwg/react-18/discussions/41)), and a [new streaming server renderer](https://github.com/reactwg/react-18/discussions/37) with built-in support for `React.lazy`.
 
 Among these features, I'm particularly curious about the new `startTransition` API that will be introduced in React 18 and we will be taking a look at it in this article.
 
