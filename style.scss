@@ -1097,8 +1097,24 @@ nav {
   background-color: $lightGray;
 }
 
-.about-picture {
+.about-picture-container {
+  background: #ffdfea;
+  width: 100%;
+  height: 0;
+  padding-top: 65%;
+  position: relative;
   border-radius: 15px;
+    
+  .about-picture {
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: 16% 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 footer {

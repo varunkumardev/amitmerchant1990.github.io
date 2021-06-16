@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-![about-picture](/images/profilesnap.JPG){:.about-picture}
+<p class="about-picture-container">
+    <img src="/images/profilesnap.JPG" class="about-picture" alt="about-picture">
+</p>
 
 <h2 style="text-align: left;">Allo! Allo! Thank you for stopping by at my creative outlet. I'm Amit, a software engineer and tech blogger from India.</h2>
 
