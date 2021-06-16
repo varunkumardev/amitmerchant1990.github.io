@@ -1069,6 +1069,10 @@ nav {
     object-position: 16% 0;
     width: 100%;
     height: 100%;
+
+    &:hover {
+      transform: scale(1.02);
+    }
   }
 
   p {
