@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p class="about-picture-container">
-    <img src="/images/profilesnap.JPG" class="about-picture" alt="about-picture">
+    <img src="/images/profilesnap.JPG" class="about-picture" alt="My sexy hero image">
 </p>
 
 <h2 style="text-align: left;">Allo! Allo! Thank you for stopping by at my creative outlet. I'm Amit, a software engineer and tech blogger from India.</h2>
@@ -18,7 +18,10 @@ I'm currently working at [ValueLabs](https://www.valuelabs.com). In my spare tim
 
 This blog is a place to brain-dump things which I learn on a daily basis. It has been setup using [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com). I'm using [Reverie](https://github.com/amitmerchant1990/reverie) jekyll theme which I've heavily personalized to suit my need and taste.
 
+Navigate to [this page](/uses) if you want to learn what all things I am using to get things done.
+
 You can contact me at **bullredeyes@gmail.com** if you want to discuss something with me or just want to say "Hi!". For any sort of business inquiries or advertisement opportunities, you can navigate to [this page](/contact) for more details.
 
-<div>Cheers,</div>
-<div>Amit</div>
+<br/>
+
+<img src="/images/signature.png" style="margin: 0;" alt="Signature">
