@@ -24,4 +24,4 @@ You can contact me at **bullredeyes@gmail.com** if you want to discuss something
 
 <br/>
 
-<img src="/images/signature.png" style="margin: 0;" alt="Signature">
+<img src="/images/signature.svg" style="margin: 0;" alt="Signature">
