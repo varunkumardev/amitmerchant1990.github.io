@@ -1,5 +1,8 @@
 <div class="related-articles-container">
-    <h2>You might like</h2>
+    <div class="header">
+        <p>More on similar topics</p>
+        <a href="/categories">Browse articles by category</a>
+    </div>
     <div class="grid-container">
         {% assign maxposts = 4 %}
         {% capture category %}{{ page.categories | first }}{% endcapture %}
