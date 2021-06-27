@@ -778,6 +778,7 @@ p > img {
 .flex-div {
   display: flex;
   flex-direction: row;
+  gap: 1.5rem;
 
   @include mobile {
     flex-direction: column;
@@ -786,18 +787,16 @@ p > img {
 
 .flex-left {
   width: 75%; 
-  padding-right: 1.5rem;
 
   @include mobile {
     width: 100%; 
-    padding-right: 0;
   }
 }
 
 .flex-right {
   width: 25%;
+  
   @include mobile {
-    margin-top: 20px;
     width: 100%; 
   }
 }
