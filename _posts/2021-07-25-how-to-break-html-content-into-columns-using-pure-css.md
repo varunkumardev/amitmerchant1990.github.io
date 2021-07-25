@@ -5,7 +5,7 @@ image: /cdn/how-to-break-html-content-into-columns-using-pure-css.png
 categories: [CSS]
 ---
 
-Sometimes the things you might think are tricky to implement can turn out to be a matter of just a few lines of code if you read the documentation.
+Sometimes, the things you might think are tricky to implement can turn out to be a matter of just a few lines of code if you read the documentation.
 
 For instance, let's say you want to break the content into a specified number of columns just like how you see in the newspapers like so.
 
