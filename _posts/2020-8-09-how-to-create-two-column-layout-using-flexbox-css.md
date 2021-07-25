@@ -61,6 +61,9 @@ We now have two columns called `flex-left` and `flex-right` respectively. Let's 
 
 This just set the widths of the columns that we would like to see. In my case, I've set the width of left column to ***75%*** of the entire window and ***25%*** for the right column. Also, set the `height` property to `100vh` so that it takes the height of the whole window.
 
+{:.you-may-like}
+> You may like: [Break HTML content into newspaper-like columns using pure CSS](/how-to-break-html-content-into-columns-using-pure-css/)
+
 And that's about it! That's all you need to create a nice two-column layout for your website. See it in action in this CodePen below.
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="amit_merchant" data-slug-hash="KKzpMEo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Two column layout">
