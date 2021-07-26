@@ -36,6 +36,8 @@ Here's the property in action.
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+That's it! That's all you need.
+
 Now, the great thing about this property is, it works equally well for the content that lies in nested elements. So, for instance, check the following example.
 
 ```html
