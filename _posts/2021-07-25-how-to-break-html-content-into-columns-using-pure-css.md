@@ -7,6 +7,9 @@ categories: [CSS]
 
 Sometimes, the things you might think are tricky to implement can turn out to be a matter of just a few lines of code if you read the documentation.
 
+* TOC*
+{:toc}
+
 For instance, let's say you want to break the content into a specified number of columns just like how you see in the newspapers like so.
 
 ![](/images/newspaper-column.jpg)
@@ -38,7 +41,7 @@ Here's the property in action.
 
 That's it! That's all you need.
 
-Now, the great thing about this property is, it works equally well for the content that lies in nested elements. So, for instance, check the following example.
+Now, the great thing about this property is, it works equally well for the content that lies in nested elements as well. So, for instance, check the following example.
 
 ```html
 <div class="nested-content">
