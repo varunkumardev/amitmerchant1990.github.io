@@ -29,3 +29,7 @@ As you can see, to center anything horizontally and vertically inside a containe
 The `flex` property allows the container to have flexible items, the [align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) property would center the content on the y-axis while the [justify-content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) would center the content on the x-axis.
 
 And that's about it... All you'll need is to slap in these 3 lines of CSS to perfectly center anything and everything!
+
+If you're a visual learner, there's a video that you can check out.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DiVa55NWoh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
