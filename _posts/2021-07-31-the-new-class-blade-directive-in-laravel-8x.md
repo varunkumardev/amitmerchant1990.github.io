@@ -29,10 +29,10 @@ And that is when a new `@class` Blade directive comes into the picture.
 In the [recent release](https://github.com/laravel/framework/releases/tag/v8.51.0) of Laravel, [this PR](https://github.com/laravel/framework/pull/38016) tries to add a `@class` Blade directive which does essentially the same thing which I mentioned previously but in a less verbose manner. So, here's how the previous example would look like using the `@class` directive like so.
 
 ```php
-<div {% raw %}{{ @class([
+<div @class([
     'p-4', 
     'bg-red' => $hasError
-]) }}{% endraw %}>
+])>
     Welp! something gone wrong.
 </div>
 ```
