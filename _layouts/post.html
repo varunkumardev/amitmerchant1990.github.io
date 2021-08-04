@@ -8,7 +8,11 @@ layout: default
 
     <div>
       <p class="author_title">
-        <a href="https://www.twitter.com/{{ site.footer-links.twitter }}">{{site.author}}</a>  ·  {{ page.date | date: "%B %e, %Y" }} · 
+        {% if page.author %}
+          <a href="{{ page.website }}" target="_blank">{{page.author}}</a>  ·  {{ page.date | date: "%B %e, %Y" }} · 
+        {% else %}
+          <a href="https://www.twitter.com/{{ site.footer-links.twitter }}">{{site.author}}</a>  ·  {{ page.date | date: "%B %e, %Y" }} · 
+        {% endif %}
         <span class="post-tags">
           {% if post %}
             {% assign categories = post.categories %}
