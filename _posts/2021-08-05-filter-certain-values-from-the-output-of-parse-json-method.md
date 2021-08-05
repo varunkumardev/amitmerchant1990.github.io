@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Filter certain values from the output of JSON.parse() method
-image: /cdn/filter-certain-values-from-the-output-of-parse-json-method.png
+image: /cdn/filter-certain-values-from-the-output-of-parse-json.png
 categories: [JavaScript]
 ---
 
