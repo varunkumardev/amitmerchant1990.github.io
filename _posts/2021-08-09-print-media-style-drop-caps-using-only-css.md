@@ -11,7 +11,12 @@ The first character in this paragraph, the letter **"T"**, is called a *drop cap
 
 Having drop caps in your text can add a nice flavor to the overall aesthetics of your writing layout. For instance, on this blog, as you can see I have implemented the drop cap and it kind of adds a flare to the blog's design language and the reader would get the feel of reading an old-world newspaper.
 
-In this article, we will go over how you can implement drop caps using pure CSS. 
+In this article, we will go over how you can implement drop caps using pure CSS.
+
+* TOC*
+{:toc}
+
+## Implementing drop caps
 
 Let's take the following for example.
 
@@ -37,10 +42,6 @@ p:first-child:first-letter {
 }
 ```
 
-Let's break this down. 
-
-We used the `first-child` pseudo-element on the `<p>` tag since we want to make the drop cap for the first paragraph only. This is coupled with the `first-letter` pseudo-element that applies styles to the first letter of the first line of a block-level element.
-
 Here's the above example in action.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="MWmzRWO" data-user="amit_merchant" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -49,6 +50,12 @@ Here's the above example in action.
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+Let's break this down. 
+
+## How is it done?
+
+We used the `first-child` pseudo-element on the `<p>` tag since we want to make the drop cap for the first paragraph only. This is coupled with the `first-letter` pseudo-element that applies styles to the first letter of the first line of a block-level element.
 
 You can apply the style to this first letter however you want. You can play around with the margins and line-height according to your liking, add drop shadows, or you can set an entirely different font for your drop caps altogether. Your imagination is the only limit here!
 
