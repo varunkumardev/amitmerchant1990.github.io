@@ -7,7 +7,9 @@ categories: [CSS]
 
 The first character in this paragraph, the letter **"T"**, is called a *drop cap* or an "initial". Why? Because in a written or published work, an initial or [drop cap](https://en.wikipedia.org/wiki/Initial) is a letter at the beginning of a word, a chapter, or a paragraph that is larger than the rest of the text.
 
-Having drop caps in your text adds a nice flavor to the overall aesthetics of your writing layout. For instance, on this blog, as you can see I have implemented the drop cap and it kind of adds a flare to the blog's design language.
+> With a drop cap, the initial sits within the margins and runs several lines deep into the paragraph, indenting some normal-sized text in these lines. This keeps the left and top margins of the paragraph flush.
+
+Having drop caps in your text can add a nice flavor to the overall aesthetics of your writing layout. For instance, on this blog, as you can see I have implemented the drop cap and it kind of adds a flare to the blog's design language and the reader would get the feel of reading an old-world newspaper.
 
 In this article, we will go over how you can implement drop caps using pure CSS. 
 
