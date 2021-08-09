@@ -49,3 +49,12 @@ Here's the above example in action.
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 You can apply the style to this first letter however you want. You can play around with the margins and line-height according to your liking, add drop shadows, or you can set an entirely different font for your drop caps altogether. Your imagination is the only limit here!
+
+Here's one more example of what more you can do with drop caps.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="PomxMaW" data-user="amit_merchant" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/amit_merchant/pen/PomxMaW">
+  Drop cap</a> by Amit Merchant (<a href="https://codepen.io/amit_merchant">@amit_merchant</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
