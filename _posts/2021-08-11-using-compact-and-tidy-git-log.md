@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using compact and tidy Git Log
-image: /cdn/using-compact-and-tidy-git-log.png
+image: /cdn/using-compact-git-log.png
 categories: [Git]
 fluidbox: true
 ---
