@@ -4,6 +4,40 @@
     overflow: auto;
     font-size: 95%;
     border-radius: 10px;
+    position: relative;
+}
+
+pre.highlight > button {
+    position: absolute;
+    right: 0.2rem;
+    top: 0.2rem;
+    opacity: 0; 
+    display: inline-block;
+    height: 25px;
+    padding: 0 12px;
+    color: #1f1e1e;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #c6ff83;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+pre.highlight:hover > button {
+    opacity: 1;
+}
+
+pre.highlight > button:active,
+pre.highlight > button:focus {
+    opacity: 1;
 }
 
 code {
