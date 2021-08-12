@@ -4,13 +4,16 @@
     overflow: auto;
     font-size: 95%;
     border-radius: 10px;
+}
+
+div.highlight {
     position: relative;
 }
 
-pre.highlight > button {
+div.highlight pre > button {
     position: absolute;
-    right: 0.2rem;
-    top: 0.2rem;
+    right: 0.5rem;
+    top: 0.5rem;
     opacity: 0; 
     display: inline-block;
     height: 25px;
@@ -31,12 +34,12 @@ pre.highlight > button {
     box-sizing: border-box;
 }
 
-pre.highlight:hover > button {
+div.highlight pre:hover > button {
     opacity: 1;
 }
 
-pre.highlight > button:active,
-pre.highlight > button:focus {
+div.highlight pre > button:active,
+div.highlight pre > button:focus {
     opacity: 1;
 }
 
