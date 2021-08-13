@@ -6,7 +6,7 @@ categories: [JavaScript]
 fluidbox: true
 ---
 
-If you ask me what is that one thing that I (over)use when working with JavaScript application, the only answer you'll get is `console.log()`.
+If you ask me what is that one thing that I (over)use when working with JavaScript, the only answer you'll get is `console.log()`.
 
 * TOC*
 {:toc}
