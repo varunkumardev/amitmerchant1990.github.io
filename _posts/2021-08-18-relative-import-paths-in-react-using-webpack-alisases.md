@@ -15,7 +15,7 @@ For instance, let's say if I want to import a module that is two directories up 
 import Order from '../../components/order';
 ```
 
-Now, it kind of works but if you can notice this kind of imports are not easy to comprehend and you've to keep track of the level of the directory you're currently in which, in my opinion, is not friendly at all.
+Now, it kind of works but if you can notice this kind of imports are not easy to comprehend and you've to keep track of the level of the directory you're currently in which, in my opinion, is not friendly at all and kind of suck.
 
 How do we make this a little straightforward? Well, it turns out if you're using [Webpack](https://webpack.js.org/) as a module bundler for your project, it's rather pretty easy.
 
