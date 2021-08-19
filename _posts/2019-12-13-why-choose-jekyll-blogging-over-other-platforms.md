@@ -9,6 +9,9 @@ It's hard to choose a platform for blogging in 2019. Why? Because there are so m
 
 In this article, I'll talk specifically about [Jekyll](https://jekyllrb.com/) upon which this blog has been built and why I've never looked back since then. I'll talk about certain aspects of Jekyll which makes it a de-facto choice for developers who wants to get started with blogging. Let's discuss them one at a time.
 
+* TOC*
+{:toc}
+
 ## Simplicity
 
 The first and foremost thing that hooks me to Jekyll is it's simplicity. As it's a [static site generator](https://davidwalsh.name/introduction-static-site-generators), it's just a matter of few clicks if you want to get your blog up and running on the internet.
