@@ -6,7 +6,7 @@ categories: [React]
 author: Harikrishna Kundariya
 website: https://twitter.com/harikrishnakun7
 authorImage: /images/Harekrishna-Headshot.jpg
-authorDescription: <b>Harikrishna Kundariya</b> is a marketer, developer, IoT, ChatBot &amp; Blockchain savvy designer, co-founder, Director of <a href="https://www.esparkinfo.com" target="_blank">eSparkBiz Technologies</a>. His 10+ years of experience enables him to provide digital solutions to new start-ups based on IoT and ChatBot.
+authorDescription: <b>Harikrishna Kundariya</b> is a marketer, developer, IoT, ChatBot &amp; Blockchain savvy designer, co-founder, and the director of <a href="https://www.esparkinfo.com" target="_blank">eSparkBiz Technologies</a>. His 10+ years of experience enables him to provide digital solutions to new start-ups based on IoT and ChatBot.
 ---
 
 No matter what field your business is in, having a mobile application to improve your customer’s engagement and experience helps it immensely. 
