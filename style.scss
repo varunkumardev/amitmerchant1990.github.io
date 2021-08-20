@@ -199,6 +199,10 @@ kbd {
 }
 
 @media (min-width: 769px){
+  .donation-content h2::before, .donation-content h2::after {
+    content: none !important;
+  }
+
 	.post h2::before, .post h2::after {
 	    content: "";
 	    display: inline-block;
@@ -1727,6 +1731,12 @@ Modules - reusable parts of our design
 
     .donation-content {
       width: 70%;
+
+      h2 {
+        text-align: left;
+        margin: 0 0 10px 0;
+        color: #985dff;
+      }
     }
 
     .donation-logo{
