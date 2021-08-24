@@ -9,7 +9,7 @@ Regular expressions (RegEx) are great little strings that help in solving some o
 
 > Essentially, Regular expressions are patterns used to match character combinations in strings.
 
-JavaScript identifies regular expressions as objects and there are methods in JavaScript such as [exec()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec) and test() using which you can test strings based on the regular expression.
+JavaScript identifies regular expressions as objects and there are methods in JavaScript such as [exec()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec) and [test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test) using which you can test strings based on the regular expression.
 
 * TOC*
 {:toc}
@@ -40,7 +40,7 @@ console.log(result);
 
 As you can tell, the `exec()` method has returned an array in this case that includes the matched text as the first item, and then one item for each parenthetical capture group of the matched text.
 
-So, if you want to access the words "Brown" and "Jumps" respectively, you can do it like so.
+So, if you want to access the words *"Brown"* and *"Jumps"* respectively, you can do it like so.
 
 ```js
 result[1] // Brown
