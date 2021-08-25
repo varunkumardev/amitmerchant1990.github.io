@@ -10,6 +10,9 @@ The [Composer](https://getcomposer.org/) dependency manager is currently the de-
 
 That's right! I'm going to enlist such features in this article that you might be unaware of Composer and can help you improve your Composer workflow.
 
+* TOC*
+{:toc}
+
 ### List all the installed dependencies of the project
 
 Using the `show` command of the Composer, you can get the list of all the packages installed in the project or all your repositories in the following format.
