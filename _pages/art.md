@@ -52,7 +52,7 @@ fluidbox: true
     }
 </style>
 
-These are all of my artworks/drawings that I've drawn over time. This is sort of a live page where I'll be adding new artworks as and when I get a chance to get them completed.
+These are some of my hand-picked artworks/drawings/sketches that I've drawn over time. This is sort of a live page where I'll be adding new artworks as and when I get a chance to get them done.
 
 <div class="row-masonry">
     {% assign j = 0 %}
