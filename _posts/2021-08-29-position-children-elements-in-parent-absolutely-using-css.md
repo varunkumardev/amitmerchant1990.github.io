@@ -3,13 +3,14 @@ layout: post
 title: Position children elements in the parent absolutely using CSS
 image: /cdn/position-children-elements-in-parent-absolutely-using-css.png
 categories: [Laravel]
+fluidbox: true
 ---
 
 Sometimes, it might be the case where you want to place/position the children elements that reside insides their parent absolutely.
 
 For instance, if you can notice on the [homepage](/), the first article on the list is labeled as a *"NEW"* badge on it like so. 
 
-![](/images/new-badge-homepage.jpg)
+[![The NEW badge on the homepage](/images/new-badge-homepage.jpg)](/images/new-badge-homepage.jpg)
 
 Here, the new badge is an SVG icon that lies inside the parent box absolutely and so even though it's a child of this parent div, I was able to place it outside of its edge.
 
