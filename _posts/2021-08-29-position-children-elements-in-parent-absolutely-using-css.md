@@ -2,7 +2,7 @@
 layout: post
 title: Position children elements in the parent absolutely using CSS
 image: /cdn/position-children-elements-in-parent-absolutely-using-css.png
-categories: [Laravel]
+categories: [CSS]
 fluidbox: true
 ---
 
