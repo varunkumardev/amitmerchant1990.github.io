@@ -20,7 +20,7 @@ But, as I mentioned earlier, if the file has no extension, say the png file with
 
 Well, according to [this PR](https://github.com/laravel/framework/pull/33001), there will be a `guessedExtension` method on the [File](https://laravel.com/api/5.8/Illuminate/Support/Facades/File.html) facade, which will try to *"guess"* the extension of the file like so.
 
-> Update: The `guessedExtension` method has now renamed to `guessExtension` from Laravel 8.x.
+> **Update:** The `guessedExtension` method has now renamed to `guessExtension` from Laravel 8.x.
 
 ```php
 use Illuminate\Support\Facades\File;
