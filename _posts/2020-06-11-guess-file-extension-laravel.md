@@ -7,9 +7,11 @@ categories: [Laravel]
 
 It's helpful sometimes when you have a file and it doesn't have extension attached to it but you want to know the extension of the file regardless.
 
-For instance, If I've [png](https://en.wikipedia.org/wiki/Portable_Network_Graphics) file named `foo.png` and if I want to get the extension of this file, Laravel has got `extension` method on [File](https://laravel.com/api/5.8/Illuminate/Support/Facades/File.html) facade which can be used to get the extension when the file has got the extension attached like so.
+For instance, If I've [png](https://en.wikipedia.org/wiki/Portable_Network_Graphics) file named `foo.png` and if I want to get the extension of this file, Laravel has got `extension` method on [File](https://laravel.com/api/8.x/Illuminate/Support/Facades/File.html) facade which can be used to get the extension when the file has got the extension attached like so.
 
 ```php
+use Illuminate\Support\Facades\File;
+
 File::extension(public_path('foo.png'))
 // "png"
 ```
@@ -18,11 +20,15 @@ But, as I mentioned earlier, if the file has no extension, say the png file with
 
 Well, according to [this PR](https://github.com/laravel/framework/pull/33001), there will be a `guessedExtension` method on the [File](https://laravel.com/api/5.8/Illuminate/Support/Facades/File.html) facade, which will try to *"guess"* the extension of the file like so.
 
+> Update: The `guessedExtension` method has now renamed to `guessExtension` from Laravel 8.x.
+
 ```php
-File::guessedExtension(public_path('foo'))
+use Illuminate\Support\Facades\File;
+
+File::guessExtension(public_path('foo'))
 // "png"
 
-File::guessedExtension(public_path('desktop'))
+File::guessExtension(public_path('desktop'))
 // "jpg"
 ```
 
