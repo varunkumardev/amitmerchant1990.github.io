@@ -11,6 +11,9 @@ If you're a tech blogger(or any blogger in general) you must have faced this iss
 
 I've been blogging for three years now and I admit I've been to this situation many times during this period. I wanted to write an article but I just didn't have a subject to write about. But then slowly, over time, I've found some tricks using which I was able to find topics and once when I've a subject in hand, it's only a matter of researching on that topic and write about it. I'm going to list down those techniques in this article. Hope someone will find them useful.
 
+* TOC*
+{:toc}
+
 ## Look into your day-to-day work
 
 I'm a software engineer and I work mostly with PHP, JavaScript, and things around these languages. So, the other day I was working on a feature and there came a situation where I needed to use [PHP generators](https://www.php.net/manual/en/language.generators.syntax.php). This was the first time that I was using this feature. I've fixed the issue in my application using generators. But I wanted to learn more about it. So, I've researched more about it, and the idea strikes! I got a subject to write about. I've written [a whole article](/deep-dive-into-generators-php/) about generators. Basically, my thoughts, my take-on the subject.
