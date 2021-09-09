@@ -8,7 +8,7 @@ permalink: /about/
     <img src="/images/profilesnap.JPG" class="about-picture" alt="My sexy hero image">
 </p>
 
-<h2 style="text-align: left;">Allo! Allo! Thank you for stopping by at my creative outlet. I'm Amit, a software engineer and tech blogger from India.</h2>
+<h2 style="text-align: left; padding: 12px;">Allo! Allo! Thank you for stopping by at my creative outlet. I'm Amit, a software engineer and tech blogger from India.</h2>
 
 I obtained my undergraduate degree from the [Sarvajanik College Of Engineering & Technology, Surat](http://scet.ac.in){:target="_blank"} (Computer Science and Engineering, 2011).
 
