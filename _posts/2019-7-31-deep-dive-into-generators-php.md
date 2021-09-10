@@ -7,6 +7,9 @@ image: /cdn/php-generators.png
 
 Have you ever stuck in a situation where the code that you've wrote uses foreach to iterate over a set of data into an array and which ultimately caused you to exceed a memory? Well, I've been to. Many times.
 
+* TOC*
+{:toc}
+
 Take this for example:
 
 ```php
@@ -37,7 +40,7 @@ As you can see, PHP has thrown "Out of memory" fatal error. Obvious solution her
 
 ## What are generators?
 
-Generators are like the normal functions in PHP but instead of returning a value, they yields as many values as it needs to. So, whichever function that contains "yield" is a generator.
+Generators are like the normal functions in PHP but instead of returning a value, they yields as many values as it needs to. So, whichever function that contains *"yield"* is a generator.
 
 When a generator function is called, it returns an object that can be iterated over. Let's understand this by modifying the earlier example by using generator.
 
@@ -60,9 +63,9 @@ As you can see here, the function `generateNumbers` is become a generator and no
 It's like returning the value from a function in "realtime" and you don't need to maintain the state of the values in the function itself. And once there are no more values to be yielded, then the generator can simply exit, and the calling code continues just as if an array has run out of values.
 
 
-## Role of `yield` keyword
+## Role of the `yield` keyword
 
-The meaning of "yielding" means "To produce or provide". It's working exactly the same way in terms of generators as its meaning. In generators, a yield statement looks much like a return statement, except that instead of stopping execution of the function and returning, yield instead provides a value to the code looping over the generator and pauses execution of the generator function.
+The meaning of "yielding" means "To produce or provide". It works exactly the same way in terms of generators as its meaning. In generators, a yield statement looks much like a return statement, except that instead of stopping execution of the function and returning, yield instead provides a value to the code looping over the generator and pauses execution of the generator function.
 
 Apart from yielding only values from generators, you'd also can return key/value pair from the generators. Here's how it looks for the earlier example.
 
