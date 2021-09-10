@@ -6,9 +6,12 @@ categories: [PHP]
 
 In PHP, _Invokables_ refer to any class that may be instantiated without any constructor arguments. In other words, one should be able to create an instance solely be calling `new $className()`. To implement an invokable class, one needs to use [__invoke()](https://www.php.net/manual/en/language.oop5.magic.php#object.invoke) magic method of PHP. Before we understand how invokable exactly works, let's take a look why invokable classes even exists in PHP.
 
+* TOC*
+{:toc}
+
 PHP does not allow the passing of function pointers like other languages. Functions are not [first class](http://en.wikipedia.org/wiki/First-class_function) in PHP. Functions being first class mainly means that you can perform operations on functions which includes being passed as an argument, returned from a function, modified, and assigned to a variable. Using `__invoke()` method PHP can accommodate pseudo-first-class functions. The method can be used to pass a class that can act as a [closure](https://www.php.net/manual/en/class.closure.php) or a [continuation](http://en.wikipedia.org/wiki/Continuation), or simply as a function that you can pass around.
 
-## How to create an Invokable class
+## How to create an Invokable class?
 
 An invokable class can be created by implementing a `__invoke` magic method into it. Below is a simple example of an invokable class.
 
@@ -33,7 +36,7 @@ As you can see, class `Butterfly` is an invokalble class which can be callable b
 {:.you-may-like}
 > You may also like: [This is why PHP don't have multiple inheritance](/this-is-why-php-dont-have-multiple-inheritance/)
 
-## Usecases for Invokalble classes
+## Usecases for Invokable classes
 
 As I discussed earlier, Invokables in PHP are designed to compensate for PHP's lack of first class function, so by creating an invokable object, you are essentially creating a first class function. An ideal scenario of invokable object is that it consists of only a constructor and an `__invoke()` method in its public interface, and it's sole responsibility is to serve a first class function.
 
