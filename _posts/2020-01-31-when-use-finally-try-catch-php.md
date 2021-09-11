@@ -7,6 +7,9 @@ categories: [PHP]
 
 Exception handling is an essential part of the software development workflow. It is used to handle the runtime errors so that the normal flow of the application can be maintained.
 
+* TOC*
+{:toc}
+
 PHP has a robust mechanism of handling exception using ["try-catch"](https://www.php.net/manual/en/language.exceptions.php) blocks where an exception can be thrown from the "try" block and the same can be caught in the "catch" block. Onwards from PHP 5.5, the language has been introduced with an another block called "finally". And in this article, I'm going to talk about the same and usecases where you should use it.
 
 ## The `finally` block
