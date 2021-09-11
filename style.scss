@@ -198,6 +198,28 @@ kbd {
   text-align: center;
 }
 
+.twitter-recommendation {
+  width: 100%;
+  border-radius: 10px;
+  padding: 11px;
+  margin-bottom: 18px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-image: linear-gradient( 111.3deg,  rgba(74,105,187,1) 9.6%, rgba(205,77,204,1) 93.6% );
+
+  a {
+    color: #ffeb3b;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #ffeb3b;
+
+    &:hover {
+      color: #dac82d;
+    }
+  }
+}
+
 @media (min-width: 769px){
   .donation-content h2::before, .donation-content h2::after {
     content: none !important;
