@@ -9,6 +9,9 @@ VS Code extensions are a great way to enhance the experience of the already grea
 
 In this article, I'm going to list down my favorite [VS Code extensions](https://code.visualstudio.com/docs/editor/extension-gallery) that I'm currently using myself and have helped me improvise my developer life quite significantly.
 
+* TOC*
+{:toc}
+
 ## [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 
 I'm a PHP developer and my default IDE is [PhpStorm](https://www.jetbrains.com/phpstorm/) when it comes to working with PHP but sometimes I just want to open projects into VS Code for quick updates and this is where I miss PhpStorm's intelligence a lot. 
