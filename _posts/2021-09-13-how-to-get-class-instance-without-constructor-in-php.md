@@ -24,7 +24,7 @@ I did not want that. I needed a way using which the user can simply call a class
 
 ## The solution
 
-Turns out, you can do this by using a [static](https://www.php.net/manual/en/language.oop5.static.php) method and return the class instance from it.
+Turns out, you can do this by using a [static](https://www.php.net/manual/en/language.oop5.static.php) method and return the [class instance](https://www.php.net/manual/en/language.types.object.php) from it.
 
 Here's how I did it for my package.
 
