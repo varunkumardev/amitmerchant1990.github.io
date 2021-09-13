@@ -5,7 +5,7 @@ image: /cdn/graceful-error-handling-using-error-boundaries-in-react.png
 categories: [React]
 ---
 
-Working with [React.js](https://reactjs.org/), it's a common thing you would see where if something goes wrong, (for instance, a JavaScript error), the entire React.js app would crash and renders blank.
+Working with [React.js](https://reactjs.org/), it's a common thing you would see where if something goes wrong, (for instance, a JavaScript error), the entire React.js app would crash instantly and renders blank.
 
 * TOC*
 {:toc}
