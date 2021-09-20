@@ -30,7 +30,7 @@ function wordCount(...$strings) {
     $totalWords = 0;
 
     foreach ($strings as $string) {
-        $totalWords =+ str_word_count($string);
+        $totalWords += str_word_count($string);
     }
 
     return $totalWords;
