@@ -7,6 +7,9 @@ categories: [PHP]
 
 In modern web applications, one of the pain points everyone faces at some point is spam submissions to forms by automated bots. 
 
+* TOC*
+{:toc}
+
 What happens is malicious entities or back actors submit unwanted information through online forms to phish or send abusive messages. So, there is no real human who is filling out the form. Instead, the bots will fill every field of the form with completely random data (which are eventually of no use) and submits the form.
 
 There are a few ways to fix this kind of attack. One of the many ways is to use CAPTCHA. Essentially, A CAPTCHA is a type of challenge-response test used in forms to determine whether or not the user is human. But I'm not going to talk about it as this involves the use of a third-party CAPTCHA service such as [Google CAPTCHA](https://www.google.com/recaptcha/about/).
