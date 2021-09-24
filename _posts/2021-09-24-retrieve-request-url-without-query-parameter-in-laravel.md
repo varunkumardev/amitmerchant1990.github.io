@@ -5,7 +5,7 @@ image: /cdn/retrieve-request-url-without-query-parameter-in-laravel.png
 categories: [Laravel]
 ---
 
-When you have a request in hand and if the URL is having a query string with different parameters, the easiest way to get the entire URL with the query string is using the `fullUrl()` method like so.
+When you have a [request](https://laravel.com/docs/8.x/requests) in hand and if the URL is having a query string with different parameters, the easiest way to get the entire URL with the query string is using the `fullUrl()` method like so.
 
 ```php
 $urlWithQueryString = $request->fullUrl();
