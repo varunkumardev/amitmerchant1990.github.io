@@ -47,4 +47,4 @@ So, if we change the previous example by using the `poster` attribute, it looks 
 
 (Try opening the video in fullscreen)
 
-As you can tell, now that we are using the `poster` attribute on the `<video>` element (where we have given a *.png* image), it will be now shown as a thumbnail for this video... just like a YouTube thumbnail!
+As you can tell, now that we are using the `poster` attribute on the `<video>` element (where we have given a *.png* image), it will be now shown as a thumbnail for this video instead of a blank screen... just like a YouTube thumbnail!
