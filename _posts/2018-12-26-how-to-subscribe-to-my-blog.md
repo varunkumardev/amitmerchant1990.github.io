@@ -22,7 +22,7 @@ This is how my blog looks in my Feedly account.
 
 I'm running a newsletter for this blog. So, once you're subscribed to it, you'll get an email every week which will include all the newest articles I post on the blog.
 
-You can subscribe to my newsletter [here](https://tinyletter.com/amitmerchant/subscribe).
+You can subscribe to my newsletter [here](https://www.getrevue.co/profile/amit_merchant).
 
 ## Twitter
 

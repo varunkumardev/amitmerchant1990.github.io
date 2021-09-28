@@ -198,6 +198,21 @@ kbd {
   text-align: center;
 }
 
+.revue-form-footer {
+  font-size: 8px;
+  padding: 4px 30px 10px;
+
+  a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+
+    &:hover {
+      color: #e6e6e6 !important;
+    }
+  }
+}
+
 .twitter-recommendation {
   width: 100%;
   border-radius: 10px;
@@ -1996,11 +2011,12 @@ Modules - reusable parts of our design
       letter-spacing: 1px;
     }
 
-    p{
+    p {
       margin: 0;
 
       &:first-of-type {
         padding: 10px;
+        line-height: 24px;
       }
     }
 }
