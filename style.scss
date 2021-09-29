@@ -175,11 +175,11 @@ kbd {
 
 .pagination a, .pagination span {
   padding: 7px 18px;
-  border: 1px solid #d4d4d4;
   background-color: #ffffff;
   display: inline-block;
   margin-bottom: 5px;
   border-radius: 8px;
+  box-shadow: #0000002b 0px 1px 2px 1px;
 }
 
 .pagination span {
@@ -189,7 +189,7 @@ kbd {
 
 .pagination a {    
   &:hover {
-      background-color: #f1f1f1;
+      background-color: #e6d7ff;
       color: #333;
   }
 }
@@ -1969,6 +1969,16 @@ Modules - reusable parts of our design
 .tlelabel {
   font-size: 13px;
   font-weight: bold;
+
+  a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+
+    &:hover {
+      color: #e6e6e6;
+    }
+  }
 }
 
 .ads-container {
