@@ -1136,7 +1136,8 @@ nav {
   bottom: 0;
   width: 100%;
   height: 156px;
-  background-color: $lightGray;
+  background-color: $lightPink;
+  padding: 10px 0;
 }
 
 .about-picture-container {
@@ -1174,7 +1175,7 @@ footer {
 }
 
 .wrapper-footer .container {
-    background: #eee;
+    background: $lightPink;
 }
 
 .affiliates-container{
@@ -1921,7 +1922,7 @@ Modules - reusable parts of our design
 .footer-link-container{
   margin: 0 auto;
   max-width: 740px;
-  padding: 10px 0;
+  padding: 10px 0 20px;
   width: 100%;
 
   .nav-menu {
@@ -1930,7 +1931,7 @@ Modules - reusable parts of our design
 }
 
 .footer-link-outer {
-  background: #eee;
+  background: $lightPink;
 
   nav {
     a {
