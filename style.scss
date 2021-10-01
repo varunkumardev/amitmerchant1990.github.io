@@ -771,10 +771,34 @@ p > img {
   }
 }
 
+.image-shadow {
+  box-shadow: #0000002e 3px 3px 9px 3px;
+  border-radius: 20px;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
 .site-description {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  justify-content: center;
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 15px;
+  
+  &::after {
+    content: "";
+    width: 4px;
+    height: 14px;
+    background: #ff89b1;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+  }
 
   @include mobile {
     margin: 3px 0;
