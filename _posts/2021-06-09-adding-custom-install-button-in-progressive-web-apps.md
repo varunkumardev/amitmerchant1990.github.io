@@ -23,6 +23,9 @@ To get around this, what you can do is show a custom "Install" button somewhere 
 
 This is exactly what I did in my [Notepad](https://notepad.js.org/) PWA as well. How did I achieve this? Read on to know how.
 
+{:.you-may-like}
+> You may like: [Check if a PWA is opened as a standalone app or not](/check-if-pwa-opened-as-standalone-app/)
+
 ## Tap into the `beforeinstallprompt` event
 
 Remember I talked about the [beforeinstallprompt](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent) event which triggers the installation popup? We need to add an event listener for this event in our app and save the event to use it later to trigger the native installation popup. You can do it like so.
