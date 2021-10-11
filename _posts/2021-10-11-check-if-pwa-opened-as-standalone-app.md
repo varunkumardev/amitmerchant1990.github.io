@@ -49,7 +49,7 @@ window
         } else {
             $('#installAppButton').show();
         }
-});
+    });
 ```
 
 Now, this will track the transition of the website's display mode (From `browser` to `standalone` for instance) and will do things accordingly.
