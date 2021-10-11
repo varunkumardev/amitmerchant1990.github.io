@@ -2,7 +2,7 @@
 layout: post
 title: Check if a PWA is opened as a standalone app or not
 image: /cdn/check-if-pwa-opened-as-standalone-app.png
-categories: [Composer]
+categories: [PWA]
 ---
 
 When working with Progressive Web Apps (PWA), there might be a case when you only want to show certain things when the website is in standalone mode.
@@ -16,7 +16,7 @@ When a PWA is installed on any supported computer, it can act like a native app 
 
 For instance, if your PWA is installed on an Android phone, it can be opened just like the native Android apps are opened. i.e. the PWA can have a different window, its own icon in the application launcher, etc. Also, there won't be any address bar in this case.
 
-So, I have been in the situation where I needed to show an "Install" button only when my Notepad PWA is opened in the browser and hide it when it's opened in the standalone mode.
+So, I have been in the situation where I needed to show an "Install" button only when my [Notepad](https://notepad.js.org/) PWA is opened in the browser and hide it when it's opened in the standalone mode.
 
 ## The CSS Way
 
