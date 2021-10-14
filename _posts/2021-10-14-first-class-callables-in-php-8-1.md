@@ -11,6 +11,9 @@ In this article though, I want to discuss a relatively small feature that is goi
 
 It's called *"First-class callables"*.
 
+* TOC*
+{:toc}
+
 ## First-class callables
 
 According to [this RFC](https://wiki.php.net/rfc/first_class_callable_syntax), PHP 8.1 is going to come with a new first-class callable syntax that can be used instead of existing encodings using strings and arrays.
