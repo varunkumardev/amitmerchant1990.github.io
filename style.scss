@@ -1345,6 +1345,34 @@ body:after {
     z-index: 1000;
 }
 
+.youtube-banner {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(#ff2b2be0, #ff6161, #ab86863b);
+  background-size: cover;
+  padding: 16px 24px;
+  color: white;
+  border-radius: 10px;
+  height: 124px;
+  font-weight: bold;
+  box-shadow: #0000004f 2px 2px 4px 0px;
+  margin-bottom: 25px;
+  width: 100%;
+
+  @include mobile {
+    display: none;
+  }
+
+  .youtube-logo {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: -13px;
+    bottom: -26px;
+    transform: rotate(-10deg);
+  }
+}
+
 .post h1{
   font-family: $defaultFonts;
   text-align: center;
