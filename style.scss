@@ -1359,6 +1359,10 @@ body:after {
   margin-bottom: 25px;
   width: 100%;
 
+  &:hover {
+    transform: scale(1.03);
+  }
+
   @include mobile {
     display: none;
   }
