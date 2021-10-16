@@ -36,7 +36,7 @@ The advantage is that this new syntax is accessible to static analysis, and resp
 
 ## A practical example
 
-So, this is fine for the theory but let me show you a simple example where you can use the new first-class callable syntax.
+To understand this in a better way, let me show you a simple example where you can use the new first-class callable syntax.
 
 Imagine the following `array_map` example where we pass in an array that will be iterated over by a `cube` function.
 
@@ -63,7 +63,7 @@ Array
 */
 ```
 
-Now, if you want to write the same example in *PHP 8.1 using first-class callable syntax*, you can do it like so.
+On the other hand, if you want to write the same example in *PHP 8.1 using first-class callable syntax*, you can do it like so.
 
 ```php
 function cube($n)
@@ -86,4 +86,6 @@ Array
 */
 ```
 
-As you can tell, now it has become more readable and on top of it, it's now IDE friendly as well since now you can jump over to the functions directly in supported IDEs!
+As you can tell, now it has become more readable since instead of using a string, we're now calling the function itself. 
+
+And on top of it, it's now IDE friendly as well since now you can jump over to the functions directly in supported IDEs!
