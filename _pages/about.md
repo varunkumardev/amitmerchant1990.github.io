@@ -18,7 +18,7 @@ I'm currently working at [ValueLabs](https://www.valuelabs.com){:target="_blank"
 
 This blog is a place to brain-dump things which I learn on a daily basis. It has been setup using [Jekyll](http://jekyllrb.com){:target="_blank"} and [GitHub Pages](https://pages.github.com){:target="_blank"}. I'm using [Reverie](https://github.com/amitmerchant1990/reverie){:target="_blank"} jekyll theme which I've heavily personalized to suit my need and taste.
 
-I'm also publishing micro-videos on my [YouTube channel](https://youtube.com/AmitMerchant){:target="_blank"} about everything that I can/can't connect on this blog.
+I'm also publishing micro-videos on my [YouTube channel](https://youtube.com/AmitMerchant){:target="_blank"} about everything that I can/can't cover on this blog.
 
 Navigate to [this page](/uses) if you want to learn what all things I am using to get things done.
 
