@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Make any string studly case using `Str::headline()` in Laravel 8.x
+title: Make any string studly case using Str::headline() in Laravel 8.x
 image: /cdn/the-new-str-headline-method-laravel-8x.png
 categories: [Laravel]
 ---
