@@ -87,8 +87,8 @@ paginate: 10
 paginate_path: /page:num/
 
 show_devdojo_ad: false
-show_luumy_ad: true
-show_ad_banner: false
+show_luumy_ad: false
+show_ad_banner: true
 
 # Exclude these files from your production _site
 exclude:
