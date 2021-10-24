@@ -78,3 +78,9 @@ Here's the entire example in action!
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 If you want to change the angle of the shadow further, you can use `top`, `bottom`, `left`, and `right` properties accordingly.
+
+<hr>
+
+Are you a visual learner? I have got you covered there as well!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KQqhnzDuz9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
